@@ -1,0 +1,12 @@
+@import "./../../style/index.scss";
+
+.home {
+  height: $windowHeight;
+  width: $windowWidth;
+  margin: 0;
+  .homeBody {
+    .spaceHeader {
+      @include viewportHeight(10);
+    }
+  }
+}

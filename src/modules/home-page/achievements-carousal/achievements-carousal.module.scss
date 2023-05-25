@@ -1,0 +1,81 @@
+@import "./../../../style/index.scss";
+
+.parent {
+  position: relative;
+  .achievements {
+    width: $windowWidth;
+    @include display-flex(row);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    .display {
+      width: $windowWidth;
+      .slider {
+        @include display-flex(row, space-between, center);
+        width: $windowWidth;
+        scroll-snap-align: start;
+        object-fit: cover;
+        padding-left: $commonPaddingForSides;
+        .displayHeading {
+          color: $greyText;
+          .rank {
+            font-size: 4.5rem;
+            line-height: 0;
+            font-weight: 600;
+          }
+          .company {
+            font-size: 1.5rem;
+            line-height: 1em;
+            font-weight: 600;
+          }
+          .info {
+            font-size: 1.2em;
+            line-height: 1em;
+            font-weight: 500;
+            color: #aea9ba;
+          }
+          .extraText {
+            font-size: 1.1em;
+            line-height: 5em;
+            font-weight: 400;
+          }
+        }
+        .displayImg {
+          width: $windowWidth * 0.42;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  .btnNext,
+  .btnPrev {
+    @include display-flex(row, center, center);
+    cursor: pointer;
+    position: absolute;
+    outline: none;
+    border: none;
+    background: none;
+    z-index: 2;
+    top: 40%;
+    transform: translateY(-50%);
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.25rem;
+    padding: 0.2rem 0.5rem;
+    &:hover,
+    &:focus {
+      color: rgba(0, 0, 0, 0.8);
+    }
+  }
+  .btnNext {
+    right: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    &:hover,
+    &:focus {
+      color: $white;
+    }
+  }
+  .btnPrev {
+    left: 1rem;
+  }
+}

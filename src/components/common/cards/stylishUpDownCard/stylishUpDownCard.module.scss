@@ -1,0 +1,29 @@
+@import "./../../../../style/index.scss";
+
+.card {
+  font-family: "Lato";
+  font-style: normal;
+  @include display-flex(row);
+  @include viewportWidth(35);
+  .left {
+    @include display-flex(row, flex-start, flex-start);
+    width: 42%;
+    .img {
+      width: 100%;
+      max-height: 25rem;
+      object-fit: cover;
+    }
+  }
+  .right {
+    width: 15rem;
+    @include display-flex(row, center, center);
+    white-space: wrap;
+    padding: 0 1em;
+    p {
+      font-weight: 600;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      color: #aea9ba;
+    }
+  }
+}

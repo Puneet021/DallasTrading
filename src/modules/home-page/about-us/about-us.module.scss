@@ -1,0 +1,31 @@
+@import "./../../../style/index.scss";
+
+.aboutUsContainer {
+  background-color: $primaryColor;
+  width: $windowWidth;
+  padding: $lg $commonPaddingForSides;
+  box-sizing: border-box;
+  .aboutData {
+    @include display-flex(row, center);
+    color: $white;
+    .col1,
+    .col2 {
+      width: 40%;
+      .data {
+        @include display-flex(row, space-evenly, center);
+        .numbers {
+          font-size: 6rem;
+          font-weight: 500;
+        }
+        .info {
+          font-size: 2rem;
+          font-weight: 400;
+        }
+      }
+    }
+    .col2 {
+      margin-top: 5rem;
+      margin-left: -$xxxxl;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+@import "./../../style/index.scss";
+
+.header {
+  position: fixed;
+  margin: 0px auto;
+  z-index: 5;
+  width: $windowWidth;
+  // 10 % height of the viewport
+  @include viewportHeight(10);
+  background-color: $backGroundColor;
+  @include display-flex(row, space-between, center);
+  padding: 0 $commonPaddingForSides;
+  .logo {
+    cursor: pointer;
+    height: 4.5em;
+    width: 4.5em;
+  }
+  .rightSection {
+    @include display-flex(row, space-between, center);
+    @include viewportWidth(40);
+    .searchBar {
+      position: relative;
+      width: 65%;
+      height: 1.8em;
+      @include display-flex(row, center, center);
+      .inputSearch {
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        padding: 0.4em 1.5em;
+        background: #ffffff;
+        font-size: 1em;
+      }
+      .searchIcon {
+        position: absolute;
+        right: 1rem;
+        color: $greyText;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+    }
+    .callUsBtn {
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.3s;
+      color: $white;
+      background-color: $black;
+      font-size: 1.2rem;
+      font-weight: 500;
+      padding: 0.4em $xxxl;
+    }
+    .menuButton {
+      cursor: pointer;
+      transition: opacity ease 0.3s;
+      background-color: $secondaryColor;
+      padding: 0.5em $xl;
+      box-sizing: border-box;
+      .menuIcon {
+        font-size: $xxxl;
+        color: $white;
+      }
+      &:hover {
+        opacity: 1.2;
+      }
+    }
+  }
+}

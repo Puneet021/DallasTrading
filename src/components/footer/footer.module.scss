@@ -1,0 +1,45 @@
+@import "./../../style/index.scss";
+
+.footer {
+  background-color: $black;
+  width: $windowWidth;
+  padding: 0 $commonPaddingForSides;
+  box-sizing: border-box;
+  color: $white;
+  margin: 0;
+  @include display-flex(column, space-between);
+  .infoList {
+    @include display-flex(row, space-between, flex-start);
+    flex-wrap: wrap;
+    margin-bottom: $lg;
+    .heading {
+      font-weight: 400;
+      font-size: $xxxxl;
+      line-height: $xl;
+    }
+    .table {
+      .row {
+        @include display-flex(row, flex-start, center);
+        margin-bottom: 0.5em;
+        .icon {
+          margin-right: $lg;
+        }
+        .text {
+          margin-bottom: 0.4em;
+          .link {
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+  .rights {
+    a {
+      color: $white;
+    }
+    margin-bottom: $xxxxxl;
+  }
+}
