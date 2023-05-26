@@ -22,7 +22,6 @@
           position: relative;
           overflow-y: hidden;
           padding-top: 1em;
-          // padding-bottom: 1em;
         }
         .displayHeading {
           color: $greyText;
@@ -70,7 +69,7 @@
               color: #aea9ba;
             }
             .extraText {
-              font-size: 1em;
+              font-size: 0.9em;
               line-height: 1.1em;
               font-weight: 400;
             }
@@ -82,7 +81,7 @@
           box-sizing: border-box;
           @media (max-width: 414px) {
             position: absolute;
-            @include viewportWidth(90);
+            @include viewportWidth(100);
             right: 0;
             z-index: -1;
           }
@@ -93,6 +92,9 @@
 
   .btnNext,
   .btnPrev {
+    @media (max-width: 414px) {
+      display: none;
+    }
     @include display-flex(row, center, center);
     cursor: pointer;
     position: absolute;

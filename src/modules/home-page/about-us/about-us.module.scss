@@ -8,24 +8,53 @@
   .aboutData {
     @include display-flex(row, center);
     color: $white;
+    @media (max-width: 414px) {
+      @include display-flex(column);
+    }
     .col1,
     .col2 {
       width: 40%;
+      box-sizing: border-box;
+      @media (max-width: 414px) {
+        width: 100%;
+      }
       .data {
         @include display-flex(row, space-evenly, center);
+        @media (max-width: 414px) {
+          justify-content: flex-start;
+          margin-top: -4em;
+        }
         .numbers {
           font-size: 6rem;
           font-weight: 500;
+          @media (max-width: 414px) {
+            font-size: 3.5rem;
+            line-height: 1em;
+            font-weight: 400;
+          }
         }
         .info {
           font-size: 2rem;
           font-weight: 400;
+          @media (max-width: 414px) {
+            font-size: 1.2rem;
+            margin-left: 1em;
+          }
         }
+      }
+    }
+    .col1 {
+      @media (max-width: 414px) {
+        margin-top: 4em;
       }
     }
     .col2 {
       margin-top: 5rem;
       margin-left: -$xxxxl;
+      @media (max-width: 414px) {
+        margin-top: 0;
+        margin-left: 0;
+      }
     }
   }
 }
