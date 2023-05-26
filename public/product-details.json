@@ -1,6 +1,6 @@
 [
   {
-    "id": "A1/A2-Cable-Gland",
+    "id": "A1A2_Cable_Gland",
     "productName": "A1/A2 Cable Gland",
     "categoryName": "Industrial Cable Glands",
     "description": {
@@ -9,9 +9,9 @@
       "Application": "Outdoor or Indoor for use with all types of Unarmoured Cable",
       "Function": "Provide Seal on Outer Sheath of the Unarmoured Cable",
       "Material": "Brass BS 2874 CZ121 Pb3",
-      "Optional Threads": "METRIC, NPT, BSP, PG or as specified",
+      "optionalThreads": "METRIC, NPT, BSP, PG or as specified",
       "Finish": "Brass Finish, Nickel Finish, Chrome Finish or as specified",
-      "Operating Temp.": "Standard seals -200 C to +800 C",
+      "operatingTemp": "Standard seals -200 C to +800 C",
       "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tags, Reducers, Adaptors, etc. as per the requirement"
     },
     "productDetailTableData": [
@@ -22,10 +22,64 @@
           "threadSizeC2": "3/4"
         },
         "minimumLengthOfThreadD": 15,
-        "Cable Range": { "maxA": 10.8, "maxB": 8.8 }
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
       }
     ],
     "customerReviews": [
+      {
+        "customerName": "Andrew Schulz",
+        "emailId": "abcd@gmail.com",
+        "stars": 5,
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+      },
+      {
+        "customerName": "Andrew Schulz",
+        "emailId": "abcd@gmail.com",
+        "stars": 5,
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+      },
+      {
+        "customerName": "Andrew Schulz",
+        "emailId": "abcd@gmail.com",
+        "stars": 5,
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+      },
       {
         "customerName": "Andrew Schulz",
         "emailId": "abcd@gmail.com",
@@ -35,7 +89,7 @@
     ]
   },
   {
-    "id": "A1/A2-Cable-Glands",
+    "id": "A1A2_Cable_Glands",
     "productName": "A1/A2 Cable Glands",
     "categoryName": "Industrial Cable Glands",
     "description": {
@@ -44,9 +98,9 @@
       "Application": "Outdoor or Indoor for use with all types of Unarmoured Cable",
       "Function": "Provide Seal on Outer Sheath of the Unarmoured Cable",
       "Material": "Brass BS 2874 CZ121 Pb3",
-      "Optional Threads": "METRIC, NPT, BSP, PG or as specified",
+      "optionalThreads": "METRIC, NPT, BSP, PG or as specified",
       "Finish": "Brass Finish, Nickel Finish, Chrome Finish or as specified",
-      "Operating Temp.": "Standard seals -200 C to +800 C",
+      "operatingTemp": "Standard seals -200 C to +800 C",
       "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tags, Reducers, Adaptors, etc. as per the requirement"
     },
     "productDetailTableData": [
@@ -57,10 +111,64 @@
           "threadSizeC2": "3/4"
         },
         "minimumLengthOfThreadD": 15,
-        "Cable Range": { "maxA": 10.8, "maxB": 8.8 }
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
       }
     ],
     "customerReviews": [
+      {
+        "customerName": "Andrew Schulz",
+        "emailId": "abcd@gmail.com",
+        "stars": 5,
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+      },
+      {
+        "customerName": "Andrew Schulz",
+        "emailId": "abcd@gmail.com",
+        "stars": 5,
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+      },
+      {
+        "customerName": "Andrew Schulz",
+        "emailId": "abcd@gmail.com",
+        "stars": 5,
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+      },
       {
         "customerName": "Andrew Schulz",
         "emailId": "abcd@gmail.com",
@@ -70,7 +178,7 @@
     ]
   },
   {
-    "id": "BW-Cable-Gland",
+    "id": "BW_Cable_Gland",
     "productName": "BW Cable Gland",
     "categoryName": "Industrial Cable Glands",
     "description": {
@@ -79,9 +187,9 @@
       "Application": "Outdoor or Indoor for use with all types of Unarmoured Cable",
       "Function": "Provide Seal on Outer Sheath of the Unarmoured Cable",
       "Material": "Brass BS 2874 CZ121 Pb3",
-      "Optional Threads": "METRIC, NPT, BSP, PG or as specified",
+      "optionalThreads": "METRIC, NPT, BSP, PG or as specified",
       "Finish": "Brass Finish, Nickel Finish, Chrome Finish or as specified",
-      "Operating Temp.": "Standard seals -200 C to +800 C",
+      "operatingTemp": "Standard seals -200 C to +800 C",
       "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tags, Reducers, Adaptors, etc. as per the requirement"
     },
     "productDetailTableData": [
@@ -92,10 +200,64 @@
           "threadSizeC2": "3/4"
         },
         "minimumLengthOfThreadD": 15,
-        "Cable Range": { "maxA": 10.8, "maxB": 8.8 }
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
       }
     ],
     "customerReviews": [
+      {
+        "customerName": "Andrew Schulz",
+        "emailId": "abcd@gmail.com",
+        "stars": 5,
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+      },
+      {
+        "customerName": "Andrew Schulz",
+        "emailId": "abcd@gmail.com",
+        "stars": 5,
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+      },
+      {
+        "customerName": "Andrew Schulz",
+        "emailId": "abcd@gmail.com",
+        "stars": 5,
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+      },
       {
         "customerName": "Andrew Schulz",
         "emailId": "abcd@gmail.com",
@@ -105,7 +267,7 @@
     ]
   },
   {
-    "id": "BW-Cable-Glands",
+    "id": "BW_Cable_Glands",
     "productName": "BW Cable Glands",
     "categoryName": "Industrial Cable Glands",
     "description": {
@@ -114,9 +276,9 @@
       "Application": "Outdoor or Indoor for use with all types of Unarmoured Cable",
       "Function": "Provide Seal on Outer Sheath of the Unarmoured Cable",
       "Material": "Brass BS 2874 CZ121 Pb3",
-      "Optional Threads": "METRIC, NPT, BSP, PG or as specified",
+      "optionalThreads": "METRIC, NPT, BSP, PG or as specified",
       "Finish": "Brass Finish, Nickel Finish, Chrome Finish or as specified",
-      "Operating Temp.": "Standard seals -200 C to +800 C",
+      "operatingTemp": "Standard seals -200 C to +800 C",
       "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tags, Reducers, Adaptors, etc. as per the requirement"
     },
     "productDetailTableData": [
@@ -127,10 +289,64 @@
           "threadSizeC2": "3/4"
         },
         "minimumLengthOfThreadD": 15,
-        "Cable Range": { "maxA": 10.8, "maxB": 8.8 }
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+      },
+      {
+        "size": "A220S",
+        "threadSizeC": {
+          "ThreadSizeC1": 20,
+          "threadSizeC2": "3/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
       }
     ],
     "customerReviews": [
+      {
+        "customerName": "Andrew Schulz",
+        "emailId": "abcd@gmail.com",
+        "stars": 5,
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+      },
+      {
+        "customerName": "Andrew Schulz",
+        "emailId": "abcd@gmail.com",
+        "stars": 5,
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+      },
+      {
+        "customerName": "Andrew Schulz",
+        "emailId": "abcd@gmail.com",
+        "stars": 5,
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+      },
       {
         "customerName": "Andrew Schulz",
         "emailId": "abcd@gmail.com",

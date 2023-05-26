@@ -1,0 +1,38 @@
+@import "./../../../style/index.scss";
+
+.detailsContainer {
+  @include display-flex(row, space-between, flex-start);
+  .leftContainer {
+    box-sizing: border-box;
+    .productImg {
+      object-fit: scale-down;
+      @include viewportHeight(50);
+    }
+  }
+  .rightContainer {
+    box-sizing: border-box;
+    width: 60%;
+    .productName {
+      color: $secondaryColor;
+    }
+    .categoryName {
+      color: $fontColor;
+      text-decoration: underline;
+      font-size: 1.1em;
+      line-height: 0;
+    }
+    .companyImage {
+      transform: scale(0.9);
+      margin-top: -1em;
+    }
+    .description {
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+    .descriptionData {
+      color: $greyText;
+      line-height: 1.7em;
+      font-size: 1.02em;
+    }
+  }
+}

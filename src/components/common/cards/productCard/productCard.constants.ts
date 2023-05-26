@@ -1,6 +1,6 @@
 export interface IProductCardProps {
   data: {
-    id: number;
+    id: number | string;
     title: string;
     info: string;
     image: string;

@@ -1,0 +1,33 @@
+@import "./../../../style/index.scss";
+
+.productDetailTable {
+  box-sizing: border-box;
+  margin-top: 2.5rem;
+  .thead {
+    background-color: #eeeeee;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1em;
+    border: none;
+    border: 1px solid rgba(174,169,186, 0.2);
+    .trow {
+      border: none;
+      .tcell {
+        border: none;
+        font-size: 1.01em;
+      }
+    }
+  }
+  .tbody {
+    .trowd {
+      border: none;
+      border-right: 1px solid rgba(174, 169, 186, 0.2);
+      border-left: 1px solid rgba(174, 169, 186, 0.2);
+      .tcelld {
+        color: $fontColor;
+        border-bottom: 1px solid rgba(174, 169, 186, 0.2);
+        font-size: 1.01em;
+      }
+    }
+  }
+}
