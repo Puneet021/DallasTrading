@@ -13,7 +13,7 @@ class HomePage extends Component<IHomePageProps, IHomePageStates> {
       <div className={styles.homePage}>
         <AchievementCarousal />
         <div
-          style={{ width: "100%", height: "40vh", backgroundColor: "#F4F6FF" }}
+          style={{ width: "100%", height: "40vh", backgroundColor: "#DCF0F7" }}
         ></div>
         <OurProducts />
         <AboutUs />

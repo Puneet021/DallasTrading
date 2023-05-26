@@ -16,9 +16,11 @@ class ShadowHeading extends Component<
           <span className={styles.headingText1}>{this.props.headingText1}</span>{" "}
           <span className={styles.headingText2}>{this.props.headingText2}</span>
         </h1>
-        <h1 className={styles.shadowHeading}>
-          {this.props.headingText1} {this.props.headingText2}
-        </h1>
+        {this.props.backShadowHeading === false ? null : (
+          <h1 className={styles.shadowHeading}>
+            {this.props.headingText1} {this.props.headingText2}
+          </h1>
+        )}
       </div>
     );
   }

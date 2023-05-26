@@ -23,6 +23,7 @@ class ProducCard extends React.Component<
           boxShadow: "0px 0px 23px rgba(0, 0, 0, 0.13)",
           marginTop: "4rem",
         }}
+        onClick={this.props.handleClick}
       >
         <Card
           sx={{

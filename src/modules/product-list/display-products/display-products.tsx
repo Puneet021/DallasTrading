@@ -1,21 +1,21 @@
 import { Component, ReactNode } from "react";
-import styles from "./display-product-categories.module.scss";
+import styles from "./display-products.module.scss";
 import {
-  IDisplayProductCategoriesProps,
-  IDisplayProductCategoriesStates,
-} from "./display-product-categories.constants";
+  IDisplayProductsProps,
+  IDisplayProductsStates,
+} from "./display-products.constants";
+import product_img1 from "./../../../images/product1.png";
+import product_img2 from "./../../../images/product2.png";
+import product_img3 from "./../../../images/product3.png";
+import product_img4 from "./../../../images/product4.png";
 import ProducCard from "../../../components/common/cards/productCard/productCard";
-import category_img1 from "./../../../images/category1.png";
-import category_img2 from "./../../../images/category2.png";
-import category_img3 from "./../../../images/category3.png";
-import category_img4 from "./../../../images/category4.png";
 import withRouter from "../../../components/common/withRouterComponent/withRouter";
 
-class DisplayProductCategories extends Component<
-  IDisplayProductCategoriesProps,
-  IDisplayProductCategoriesStates
+class DisplayProducts extends Component<
+  IDisplayProductsProps,
+  IDisplayProductsStates
 > {
-  productCategoryList: {
+  productList: {
     id: number;
     title: string;
     info: string;
@@ -23,34 +23,34 @@ class DisplayProductCategories extends Component<
   }[] = [
     {
       id: 0,
-      title: "Industrial Fans",
+      title: "A1/A2 Cable Gland",
       info: "As a leading supplier of Industrial and Commercial Grade Air Circulators, BREEZE® is recognized throughout the industry for the superior quality and performance of its products.",
-      image: category_img1,
+      image: product_img1,
     },
     {
       id: 1,
-      title: "PVC Conduits",
+      title: "A1/A2 Cable Glands",
       info: "Decoduct conduits are manufactured from super high impact uPVC compound suitable to withstand harsh environments. Conduits can be bent with the use of a bending spring.",
-      image: category_img2,
+      image: product_img2,
     },
     {
       id: 2,
-      title: "Cables",
+      title: "BW Cable Gland",
       info: "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations, local distribution systems, industrial plants and commercial buildings.",
-      image: category_img3,
+      image: product_img3,
     },
     {
       id: 3,
-      title: "Cable Ties",
+      title: "BW Cable Gland",
       info: "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, come off or slacken.",
-      image: category_img4,
+      image: product_img4,
     },
   ];
   render(): ReactNode {
     return (
       <div className={styles.displayContainer}>
         <div className={styles.displayRow}>
-          {this.productCategoryList.map((item) => (
+          {this.productList.map((item) => (
             <ProducCard
               key={item.id}
               data={item}
@@ -63,4 +63,4 @@ class DisplayProductCategories extends Component<
   }
 }
 
-export default withRouter(DisplayProductCategories);
+export default withRouter(DisplayProducts);

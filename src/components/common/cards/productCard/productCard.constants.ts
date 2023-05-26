@@ -5,5 +5,6 @@ export interface IProductCardProps {
     info: string;
     image: string;
   };
+  handleClick: () => void;
 }
 export interface IProductCardStates {}

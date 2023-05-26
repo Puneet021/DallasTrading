@@ -4,9 +4,12 @@
   height: $windowHeight;
   width: $windowWidth;
   margin: 0;
+  box-sizing: border-box;
   .homeBody {
+    box-sizing: border-box;
     .spaceHeader {
       @include viewportHeight(10);
+      box-sizing: border-box;
     }
   }
 }

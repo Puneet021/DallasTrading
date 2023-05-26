@@ -14,7 +14,11 @@ class ProductsCategoryList extends Component<
   render(): ReactNode {
     return (
       <div className={styles.productsPage}>
-        <ShadowHeading headingText1="Our" headingText2="Products" />
+        <ShadowHeading
+          headingText1="Our"
+          headingText2="Products"
+          backShadowHeading={false}
+        />
         <DisplayProductCategories />
       </div>
     );

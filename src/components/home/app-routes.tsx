@@ -2,6 +2,8 @@ import { Component, ReactNode } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "../../modules/home-page/home-page";
 import ProductsCategoryList from "../../modules/products-category-list/products-category-list";
+import ProductList from "../../modules/product-list/product-list";
+import ProductDetails from "../../modules/product-details/product-details";
 
 interface ICustomRoute {
   id: number;
@@ -16,7 +18,17 @@ class AppRoutes extends Component {
   routeList: Array<ICustomRoute> = [
     { id: 0, path: "", element: <Navigate to="home" replace /> },
     { id: 1, path: "/home", element: <HomePage /> },
-    { id: 2, path: "/product-list", element: <ProductsCategoryList /> },
+    { id: 2, path: "/our-products", element: <ProductsCategoryList /> },
+    {
+      id: 2,
+      path: "/our-products/:productCategoryId",
+      element: <ProductList />,
+    },
+    {
+      id: 2,
+      path: "/our-products/:productCategoryId/:productId",
+      element: <ProductDetails />,
+    },
   ];
   render(): ReactNode {
     return (

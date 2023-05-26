@@ -7,5 +7,7 @@
   box-sizing: border-box;
   .products {
     @include display-flex(row, space-evenly, center);
+    flex-wrap: wrap;
+    margin: 3em 0;
   }
 }
