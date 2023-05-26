@@ -11,6 +11,7 @@ import withRouter from "../common/withRouterComponent/withRouter";
 import { connect } from "react-redux";
 import { IStore } from "../../utils/models/store.model";
 import { getMenuItems } from "../../store/menu/menuActions";
+import CloseIcon from "@mui/icons-material/Close";
 
 class Menu extends React.Component<IMenuProps, IMenuStates> {
   constructor(props: any) {
@@ -26,6 +27,7 @@ class Menu extends React.Component<IMenuProps, IMenuStates> {
         onClose={onClose}
         className={styles.drawerContainer}
       >
+        <CloseIcon className={styles.closeIcon} onClick={() => onClose()} />
         <Box className={styles.drawerBox}>
           <img src={menu_img} alt="menu_img" className={styles.menuImg} />
           <List>
