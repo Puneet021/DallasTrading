@@ -1,5 +1,8 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { IProductDetailData } from "../../utils/models/product-detail.model";
+import {
+  IProductDetailData,
+  IProductDetailReviewsData,
+} from "../../utils/models/product-detail.model";
 
 export const fetchAsyncProductDetailData = createAsyncThunk(
   "productDetail/fetchAsyncProductDetailData",
@@ -17,6 +20,7 @@ export const fetchAsyncProductDetailData = createAsyncThunk(
 const initialState: {
   productDetailData: IProductDetailData;
   loader: boolean;
+  loadReviews: boolean;
 } = {
   productDetailData: {
     id: "",
@@ -37,12 +41,30 @@ const initialState: {
     customerReviews: [],
   },
   loader: false,
+  loadReviews: false,
 };
 
 const productDetailSlice = createSlice({
   name: "productDetail",
   initialState: initialState,
-  reducers: {},
+  reducers: {
+    addComment: (
+      state,
+      { payload }: { payload: IProductDetailReviewsData }
+    ) => {
+      return {
+        ...state,
+        productDetailData: {
+          ...state.productDetailData,
+          customerReviews: [
+            payload,
+            ...state.productDetailData.customerReviews,
+          ],
+        },
+        loadReviews: false,
+      };
+    },
+  },
   extraReducers(builder) {
     builder
       .addCase(fetchAsyncProductDetailData.pending, (state) => {
@@ -54,4 +76,5 @@ const productDetailSlice = createSlice({
   },
 });
 
+export const { addComment } = productDetailSlice.actions;
 export default productDetailSlice.reducer;

@@ -8,5 +8,6 @@ export interface IStore {
   productDetail: {
     productDetailData: IProductDetailData;
     loader: boolean;
+    loadReviews: boolean;
   };
 }
