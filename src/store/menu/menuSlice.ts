@@ -11,7 +11,7 @@ const initialState: { menuItems: IMenuItems[] } = {
     {
       id: 1,
       name: "About Us",
-      path: "./about-us",
+      path: "./about",
     },
     {
       id: 2,

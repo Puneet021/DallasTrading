@@ -1,24 +1,23 @@
 @import "./../../../style/index.scss";
 
 .ourPartners {
-  width: $windowWidth;
+  width: 100%;
   padding: $commonPaddingForSides;
   box-sizing: border-box;
   @include display-flex(row, $align: center);
-  width: $windowWidth;
   @media only screen and (max-width: 768px) {
     @include display-flex(column, $align: flex-start);
     padding: 0 $commonPaddingForSides $lg $commonPaddingForSides;
   }
   .heading {
-    width: $windowWidth * 0.5;
+    width: 50%;
     box-sizing: border-box;
     @media only screen and (max-width: 768px) {
       width: $windowWidth * 0.8;
     }
   }
   .partners {
-    width: $windowWidth * 0.7;
+    width: 70%;
     .row {
       @include display-flex(row, space-evenly, center);
       flex-wrap: wrap;
@@ -31,7 +30,7 @@
       }
     }
     @media only screen and (max-width: 768px) {
-      width: $windowWidth * 0.8;
+      width: 80%;
       box-sizing: border-box;
       .row {
         @include display-flex(row, space-evenly, center);

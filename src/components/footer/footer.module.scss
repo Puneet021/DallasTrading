@@ -12,10 +12,17 @@
     @include display-flex(row, space-between, flex-start);
     flex-wrap: wrap;
     margin-bottom: $lg;
+    @media (max-width: 414px) {
+      @include display-flex(column, space-between, flex-start);
+      flex-wrap: nowrap;
+    }
     .heading {
       font-weight: 400;
       font-size: $xxxxl;
       line-height: $xl;
+      @media (max-width: 414px) {
+        line-height: $md;
+      }
     }
     .table {
       .row {
@@ -41,5 +48,8 @@
       color: $white;
     }
     margin-bottom: $xxxxxl;
+    @media (max-width: 414px) {
+      text-align: center;
+    }
   }
 }

@@ -4,6 +4,7 @@ import HomePage from "../../modules/home-page/home-page";
 import ProductsCategoryList from "../../modules/products-category-list/products-category-list";
 import ProductList from "../../modules/product-list/product-list";
 import ProductDetails from "../../modules/product-details/product-details";
+import AboutPage from "../../modules/about-page/about-page";
 
 interface ICustomRoute {
   id: number;
@@ -28,6 +29,11 @@ class AppRoutes extends Component {
       id: 2,
       path: "/our-products/:productCategoryId/:productId",
       element: <ProductDetails />,
+    },
+    {
+      id: 3,
+      path: "/about",
+      element: <AboutPage />,
     },
   ];
   render(): ReactNode {
