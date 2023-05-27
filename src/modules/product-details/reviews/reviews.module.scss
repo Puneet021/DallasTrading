@@ -8,4 +8,5 @@
 }
 .reviewsContainer {
   @include display-flex(row, space-between, flex-start);
+  flex-wrap: wrap;
 }

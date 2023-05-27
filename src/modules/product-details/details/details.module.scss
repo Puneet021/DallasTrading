@@ -2,16 +2,25 @@
 
 .detailsContainer {
   @include display-flex(row, space-between, flex-start);
+  @media only screen and (max-width: 420px) {
+    @include display-flex(column, flex-start, center);
+  }
   .leftContainer {
     box-sizing: border-box;
     .productImg {
       object-fit: scale-down;
       @include viewportHeight(50);
+      @media only screen and (max-width: 420px) {
+        @include viewportHeight(35);
+      }
     }
   }
   .rightContainer {
     box-sizing: border-box;
     width: 60%;
+    @media only screen and (max-width: 420px) {
+      width: 100%;
+    }
     .productName {
       color: $secondaryColor;
     }
