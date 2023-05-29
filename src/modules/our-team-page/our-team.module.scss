@@ -1,0 +1,8 @@
+@import "./../../style/index.scss";
+
+.ourTeamPageContainer {
+  @include pageCommonCss;
+  .teamDetails {
+    margin-top: $windowHeight * 0.06;
+  }
+}

@@ -5,6 +5,8 @@ import ProductsCategoryList from "../../modules/products-category-list/products-
 import ProductList from "../../modules/product-list/product-list";
 import ProductDetails from "../../modules/product-details/product-details";
 import AboutPage from "../../modules/about-page/about-page";
+import Certificates from "../../modules/certificates/certificates";
+import OurTeam from "../../modules/our-team-page/our-team";
 
 interface ICustomRoute {
   id: number;
@@ -34,6 +36,16 @@ class AppRoutes extends Component {
       id: 3,
       path: "/about",
       element: <AboutPage />,
+    },
+    {
+      id: 4,
+      path: "/certificates",
+      element: <Certificates />,
+    },
+    {
+      id: 5,
+      path: "/management",
+      element: <OurTeam />,
     },
   ];
   render(): ReactNode {

@@ -11,6 +11,9 @@
   box-shadow: 0px -14px 52px rgba(0, 0, 0, 0.25);
   @include display-flex(row, space-between, center);
   padding: 0 $commonPaddingForSides;
+  @media only screen and (max-width: 300px) {
+    @include viewportHeight(7);
+  }
   @media only screen and (max-width: 414px) {
     @include viewportHeight(8);
   }
@@ -19,6 +22,10 @@
     height: 4.5em;
     width: 4.5em;
     object-fit: scale-down;
+    @media only screen and (max-width: 300px) {
+      height: 2em;
+      width: 2em;
+    }
     @media only screen and (max-width: 414px) {
       height: 3em;
       width: 3em;
@@ -27,6 +34,9 @@
   .rightSection {
     @include display-flex(row, space-between, center);
     @include viewportWidth(40);
+    @media only screen and (max-width: 300px) {
+      @include viewportWidth(75);
+    }
     @media only screen and (max-width: 414px) {
       @include viewportWidth(70);
     }
@@ -57,6 +67,10 @@
       width: 60%;
       height: 1.8em;
       @include display-flex(row, center, center);
+      @media only screen and (max-width: 300px) {
+        height: 1.4em;
+        width: 50%;
+      }
       .inputSearchMobile {
         width: 100%;
         height: 100%;
@@ -72,6 +86,9 @@
         color: $greyText;
         cursor: pointer;
         transition: all 0.3s;
+        @media only screen and (max-width: 300px) {
+          font-size: 1.2em;
+        }
       }
     }
     .callUsBtn {
@@ -84,6 +101,9 @@
       font-size: 1.2rem;
       font-weight: 500;
       padding: 0.4em $xxxl;
+      @media only screen and (max-width: 300px) {
+        transform: scale(0.88);
+      }
       @media only screen and (max-width: 414px) {
         @include display-flex(row, center, center);
         padding: 0.3em 0.6em 0.4em 0.6em;
@@ -106,6 +126,9 @@
     .menuIconMobile {
       font-size: $xxxxl;
       color: $primaryColor;
+      @media only screen and (max-width: 300px) {
+        transform: scale(0.8);
+      }
     }
   }
 }

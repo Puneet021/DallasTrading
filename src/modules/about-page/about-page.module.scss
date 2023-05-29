@@ -1,8 +1,7 @@
 @import "./../../style/index.scss";
 
 .aboutPageContainer {
-  width: $windowWidth;
-  box-sizing: border-box;
+  @include pageCommonCss;
   padding-top: $commonPaddingForSides;
   .heading {
     @include display-flex(row, space-between, center);

@@ -1,7 +1,5 @@
 @import "./../../style/index.scss";
 
 .productsPage {
-  width: $windowWidth;
-  padding: $commonPaddingForSides;
-  box-sizing: border-box;
+  @include pageCommonCss;
 }
