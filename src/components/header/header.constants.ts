@@ -11,4 +11,6 @@ export interface IHeaderStates {
   width: number;
   isMobileWidth: boolean;
   openMenu: boolean;
+  toggleSearch: boolean;
+  searchVal: string;
 }

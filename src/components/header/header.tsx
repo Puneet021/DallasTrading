@@ -4,9 +4,10 @@ import styles from "./header.module.scss";
 import headerLogo from "./../../images/Dallas_logo.png";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
-import CallIcon from "@mui/icons-material/Call";
+import CallOutlinedIcon from "@mui/icons-material/CallOutlined";
 import Menu from "../menu/menu";
 import withRouter from "../common/withRouterComponent/withRouter";
+import ClickAwayListener from "@mui/base/ClickAwayListener";
 
 class Header extends Component<IHeaderProps, IHeaderStates> {
   constructor(props: IHeaderProps) {
@@ -15,6 +16,8 @@ class Header extends Component<IHeaderProps, IHeaderStates> {
       width: 0,
       isMobileWidth: window.innerWidth <= 540,
       openMenu: false,
+      toggleSearch: false,
+      searchVal: "",
     };
     this.handleResize = this.handleResize.bind(this);
   }
@@ -53,23 +56,66 @@ class Header extends Component<IHeaderProps, IHeaderStates> {
             onClick={() => this.props.router.navigate("/home")}
           />
           <div className={styles.rightSection}>
-            <div className={styles.searchBar}>
-              <input
-                type="text"
-                placeholder="Search"
-                className={styles.inputSearch}
-              />
-              <SearchIcon className={styles.searchIcon} />
-            </div>
+            {this.state.isMobileWidth ? (
+              <ClickAwayListener
+                onClickAway={() => this.setState({ toggleSearch: false })}
+              >
+                <div className={styles.searchBarMobile}>
+                  {this.state.toggleSearch ? (
+                    <input
+                      type="text"
+                      placeholder="Search"
+                      value={this.state.searchVal}
+                      onChange={(e) =>
+                        this.setState({ searchVal: e.target.value })
+                      }
+                      className={styles.inputSearchMobile}
+                    />
+                  ) : null}
+                  <SearchIcon
+                    className={styles.searchIconMobile}
+                    onClick={() =>
+                      this.setState({ toggleSearch: !this.state.toggleSearch })
+                    }
+                  />
+                </div>
+              </ClickAwayListener>
+            ) : (
+              <div className={styles.searchBar}>
+                <input
+                  type="text"
+                  placeholder="Search"
+                  value={this.state.searchVal}
+                  onChange={(e) => this.setState({ searchVal: e.target.value })}
+                  className={styles.inputSearch}
+                />
+                <SearchIcon className={styles.searchIcon} />
+              </div>
+            )}
             <button className={styles.callUsBtn}>
-              {this.state.isMobileWidth ? <CallIcon /> : "Call Us"}
+              {this.state.isMobileWidth ? (
+                <CallOutlinedIcon fontSize="small" />
+              ) : (
+                "Call Us"
+              )}
             </button>
-            <div
-              className={styles.menuButton}
-              onClick={() => this.setState({ openMenu: !this.state.openMenu })}
-            >
-              <MenuIcon className={styles.menuIcon} />
-            </div>
+            {this.state.isMobileWidth ? (
+              <MenuIcon
+                className={styles.menuIconMobile}
+                onClick={() =>
+                  this.setState({ openMenu: !this.state.openMenu })
+                }
+              />
+            ) : (
+              <div
+                className={styles.menuButton}
+                onClick={() =>
+                  this.setState({ openMenu: !this.state.openMenu })
+                }
+              >
+                <MenuIcon className={styles.menuIcon} />
+              </div>
+            )}
           </div>
         </div>
       </Fragment>
