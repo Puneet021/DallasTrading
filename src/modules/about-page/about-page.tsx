@@ -53,7 +53,7 @@ class AboutPage extends Component<IAboutPageProps, IAboutPageStates> {
           to our product profile. We strongly believe in contributing to
           environment in line with Governments strategy of sustainability.
         </p>
-        <OurPartners />
+        <OurPartners isSidePaddingNeeded={false} />
       </div>
     );
   }

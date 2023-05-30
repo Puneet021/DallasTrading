@@ -5,9 +5,9 @@
   .heading {
     @include display-flex(row, space-between, center);
     padding-top: 0;
-    padding-bottom: 5rem;
-    @media (max-width: 540px) {
-      padding-bottom: 3rem;
+    padding-bottom: $windowHeight * 0.06;
+    @media (max-width: 680px) {
+      padding-bottom: $windowHeight * 0.05;
     }
     .logo {
       max-height: 6rem;

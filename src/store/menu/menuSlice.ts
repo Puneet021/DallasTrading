@@ -35,6 +35,11 @@ const initialState: { menuItems: IMenuItems[] } = {
     },
     {
       id: 6,
+      name: "Career Opportunities",
+      path: "./career-opportunities",
+    },
+    {
+      id: 7,
       name: "Contact Us",
       path: "./contact-us",
     },

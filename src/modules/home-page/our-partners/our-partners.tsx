@@ -39,7 +39,13 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
   ];
   render(): ReactNode {
     return (
-      <div className={styles.ourPartners}>
+      <div
+        className={styles.ourPartners}
+        style={{
+          paddingRight: this.props.isSidePaddingNeeded === false ? "0" : "",
+          paddingLeft: this.props.isSidePaddingNeeded === false ? "0" : "",
+        }}
+      >
         <div className={styles.heading}>
           <ShadowHeading headingText1="Our" headingText2="Partners" />
         </div>
@@ -48,8 +54,12 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
             {this.partnersList.map((list, i) => (
               <tr key={i} className={styles.row}>
                 {list.map((item, j) => (
-                  <td key={j} >
-                    <img className={styles.partnerImg} src={item.image} alt={item.altText} />
+                  <td key={j}>
+                    <img
+                      className={styles.partnerImg}
+                      src={item.image}
+                      alt={item.altText}
+                    />
                   </td>
                 ))}
               </tr>

@@ -7,6 +7,9 @@ import ProductDetails from "../../modules/product-details/product-details";
 import AboutPage from "../../modules/about-page/about-page";
 import Certificates from "../../modules/certificates/certificates";
 import OurTeam from "../../modules/our-team-page/our-team";
+import CareerOpportunities from "../../modules/career-opportunities/career-opportunities";
+import ContactUs from "../../modules/contact-us/contact-us";
+import OurProjects from "../../modules/our-projects/our-projects";
 
 interface ICustomRoute {
   id: number;
@@ -23,29 +26,44 @@ class AppRoutes extends Component {
     { id: 1, path: "/home", element: <HomePage /> },
     { id: 2, path: "/our-products", element: <ProductsCategoryList /> },
     {
-      id: 2,
+      id: 3,
       path: "/our-products/:productCategoryId",
       element: <ProductList />,
     },
     {
-      id: 2,
+      id: 4,
       path: "/our-products/:productCategoryId/:productId",
       element: <ProductDetails />,
     },
     {
-      id: 3,
+      id: 5,
       path: "/about",
       element: <AboutPage />,
     },
     {
-      id: 4,
+      id: 6,
       path: "/certificates",
       element: <Certificates />,
     },
     {
-      id: 5,
+      id: 7,
       path: "/management",
       element: <OurTeam />,
+    },
+    {
+      id: 8,
+      path: "/our-projects",
+      element: <OurProjects />,
+    },
+    {
+      id: 9,
+      path: "/career-opportunities",
+      element: <CareerOpportunities />,
+    },
+    {
+      id: 10,
+      path: "/contact-us",
+      element: <ContactUs />,
     },
   ];
   render(): ReactNode {
