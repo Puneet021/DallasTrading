@@ -2,10 +2,8 @@
 
 .aboutPageContainer {
   @include pageCommonCss;
-  padding-top: $commonPaddingForSides;
   .heading {
     @include display-flex(row, space-between, center);
-    padding: $commonPaddingForSides;
     padding-top: 0;
     padding-bottom: 5rem;
     @media (max-width: 540px) {
@@ -19,7 +17,6 @@
     }
   }
   .aboutText {
-    padding: 0 $commonPaddingForSides;
     color: $greyText;
     font-size: 1.3rem;
     line-height: 200%;

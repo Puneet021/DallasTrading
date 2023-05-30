@@ -8,11 +8,18 @@ import {
   ICertificatesStates,
 } from "./certificates.constants";
 import ShadowHeading from "../../components/common/headings/shadowHeading/shadowHeading";
+import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 
 class Certificates extends Component<ICertificatesProps, ICertificatesStates> {
   render(): ReactNode {
     return (
       <div className={styles.certificatesContainer}>
+        <BreadCrumb
+          items={[
+            { moduleName: "Home", link: "/home" },
+            { moduleName: "Certificates", link: "" },
+          ]}
+        />
         <ShadowHeading
           headingText1="Certificates"
           headingText2=""

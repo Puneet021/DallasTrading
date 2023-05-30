@@ -4,11 +4,18 @@ import { IAboutPageProps, IAboutPageStates } from "./about-page.constants";
 import ShadowHeading from "../../components/common/headings/shadowHeading/shadowHeading";
 import companyLogo from "./../../images/Dallas_logo.png";
 import OurPartners from "../home-page/our-partners/our-partners";
+import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 
 class AboutPage extends Component<IAboutPageProps, IAboutPageStates> {
   render(): ReactNode {
     return (
       <div className={styles.aboutPageContainer}>
+        <BreadCrumb
+          items={[
+            { moduleName: "Home", link: "/home" },
+            { moduleName: "About Us", link: "" },
+          ]}
+        />
         <div className={styles.heading}>
           <ShadowHeading
             headingText1="About"

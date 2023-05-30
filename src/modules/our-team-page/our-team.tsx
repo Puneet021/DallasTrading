@@ -6,11 +6,18 @@ import prakash_ahuja_img from "./images/Prakash_Ahuja.png";
 import ibrahim_somji_img from "./images/Ibrahim_Somji.png";
 import sonu_s_thakur_img from "./images/Sonu_S_Thakur.png";
 import SideImageCard from "../../components/common/cards/sideImageCard/sideImageCard";
+import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 
 class OurTeam extends Component<IOurTeamProps, IOurTeamStates> {
   render(): ReactNode {
     return (
       <div className={styles.ourTeamPageContainer}>
+        <BreadCrumb
+          items={[
+            { moduleName: "Home", link: "/home" },
+            { moduleName: "Our Team", link: "" },
+          ]}
+        />
         <ShadowHeading
           headingText1="Our"
           headingText2="Team"

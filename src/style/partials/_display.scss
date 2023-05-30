@@ -12,4 +12,5 @@
   width: $windowWidth;
   box-sizing: border-box;
   padding: $commonPaddingForSides;
+  padding-top: $windowWidth * 0.05;
 }

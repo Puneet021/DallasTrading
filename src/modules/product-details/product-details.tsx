@@ -13,6 +13,7 @@ import { fetchAsyncProductDetailData } from "../../store/product-detail/productD
 import Details from "./details/details";
 import ProductDetailTable from "./productDetailTable/productDetailTable";
 import Reviews from "./reviews/reviews";
+import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 
 class ProductDetails extends Component<
   IProductDetailsProps,
@@ -25,6 +26,14 @@ class ProductDetails extends Component<
   render(): ReactNode {
     return (
       <div className={styles.productDetailsContainer}>
+        <BreadCrumb
+          items={[
+            { moduleName: "Home", link: "/home" },
+            { moduleName: "Our Products", link: "./../.." },
+            { moduleName: "Cable Management System", link: "./../" },
+            { moduleName: "A1/A2 Cable Gland", link: "" },
+          ]}
+        />
         <LightWeightHeading headingText1="Product " headingText2="Details" />
         {this.props.loader ? null : (
           <Fragment>

@@ -6,11 +6,19 @@ import {
 } from "./product-list.constants";
 import DisplayProducts from "./display-products/display-products";
 import LightWeightHeading from "../../components/common/headings/lightWeightHeading/lightWeightHeading";
+import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 
 class ProductList extends Component<IProductListProps, IProductListStates> {
   render(): ReactNode {
     return (
       <div className={styles.productListContainer}>
+        <BreadCrumb
+          items={[
+            { moduleName: "Home", link: "/home" },
+            { moduleName: "Our Products", link: "./../" },
+            { moduleName: "Cable Management System", link: "" },
+          ]}
+        />
         <LightWeightHeading
           headingText1="Industrial "
           headingText2="Cable Glands"
