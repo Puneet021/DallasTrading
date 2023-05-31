@@ -24,7 +24,7 @@
     @media (max-width: 414px) {
       font-size: 1em;
       padding: $md;
-      @include viewportWidth(60);
+      @include viewportWidth(55);
     }
   }
 }

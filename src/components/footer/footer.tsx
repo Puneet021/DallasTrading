@@ -69,6 +69,14 @@ class Footer extends Component<IFooterProps, IFooterStates> {
           </div>
           <div className={styles.locate}>
             <h3 className={styles.heading}>Locate Us</h3>
+            <iframe
+              title="Office No 1004, Sobha Ivory II, Business Bay P.O. Box 2028, Dubai"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.705946243937!2d55.26928987627525!3d25.17940497772232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6834914eab65%3A0x46526b1478fdeae0!2sSobha%20Ivory%201%20-%2032a%20Marasi%20Dr%20-%20Business%20Bay%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1685506013799!5m2!1sen!2sin"
+              className={styles.gMap}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
         <div className={styles.rights}>

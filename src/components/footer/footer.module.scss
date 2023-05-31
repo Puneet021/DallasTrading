@@ -11,7 +11,7 @@
   .infoList {
     @include display-flex(row, space-between, flex-start);
     flex-wrap: wrap;
-    margin-bottom: $lg;
+    margin-bottom: 3rem;
     @media (max-width: 414px) {
       @include display-flex(column, space-between, flex-start);
       flex-wrap: nowrap;
@@ -42,6 +42,13 @@
         }
       }
     }
+    .locate {
+      .gMap {
+        height: 200;
+        width: 450;
+        border: 0;
+      }
+    }
   }
   .rights {
     a {
@@ -50,6 +57,7 @@
     margin-bottom: $xxxxxl;
     @media (max-width: 414px) {
       text-align: center;
+      font-size: 0.9em;
     }
   }
 }
