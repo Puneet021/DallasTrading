@@ -14,7 +14,7 @@ class Header extends Component<IHeaderProps, IHeaderStates> {
     super(props);
     this.state = {
       width: 0,
-      isMobileWidth: window.innerWidth <= 540,
+      isMobileWidth: window.innerWidth <= 576,
       openMenu: false,
       toggleSearch: false,
       searchVal: "",
@@ -24,7 +24,7 @@ class Header extends Component<IHeaderProps, IHeaderStates> {
   handleResize() {
     this.setState({
       width: window.innerWidth,
-      isMobileWidth: window.innerWidth <= 540,
+      isMobileWidth: window.innerWidth <= 576,
     });
   }
   componentDidMount(): void {
@@ -35,7 +35,7 @@ class Header extends Component<IHeaderProps, IHeaderStates> {
     prevState: Readonly<IHeaderStates>
   ): void {
     if (prevState.width !== this.state.width) {
-      this.setState({ isMobileWidth: this.state.width <= 540 });
+      this.setState({ isMobileWidth: this.state.width <= 576 });
     }
   }
   componentWillUnmount(): void {

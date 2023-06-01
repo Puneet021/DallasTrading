@@ -7,7 +7,7 @@
   @include display-flex(row, space-between, center);
   padding: $xxxxl $commonPaddingForSides;
   @media (max-width: 414px) {
-    padding: $xxxl $commonPaddingForSides;
+    padding: $xxl $commonPaddingForSides;
   }
   .text {
     font-size: 1.8em;
@@ -23,8 +23,8 @@
     padding: $lg;
     @media (max-width: 414px) {
       font-size: 1em;
-      padding: $md;
-      @include viewportWidth(55);
+      padding: $xs;
+      @include viewportWidth(52);
     }
   }
 }

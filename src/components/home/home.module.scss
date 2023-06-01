@@ -8,7 +8,7 @@
   .homeBody {
     box-sizing: border-box;
     .spaceHeader {
-      @include viewportHeight(10);
+      height: 6rem;
       box-sizing: border-box;
     }
   }

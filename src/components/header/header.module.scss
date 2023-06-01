@@ -6,45 +6,65 @@
   z-index: 5;
   width: $windowWidth;
   // 10 % height of the viewport
-  @include viewportHeight(10);
+  height: 6rem;
   background: #ffffff;
   box-shadow: 0px -14px 52px rgba(0, 0, 0, 0.25);
   @include display-flex(row, space-between, center);
   padding: 0 $commonPaddingForSides;
-  @media only screen and (max-width: 300px) {
-    @include viewportHeight(7);
+  @include respond-to(small-mobile) {
+    height: 4.5rem;
   }
-  @media only screen and (max-width: 414px) {
-    @include viewportHeight(8);
+  @include respond-to(mobile) {
+    height: 5rem;
+  }
+  @include respond-to(tablet) {
+    height: 5.5em;
   }
   .logo {
     cursor: pointer;
     height: 4.5em;
     width: 4.5em;
     object-fit: scale-down;
-    @media only screen and (max-width: 300px) {
+    @include respond-to(small-mobile) {
       height: 2em;
       width: 2em;
     }
-    @media only screen and (max-width: 414px) {
+    @include respond-to(mobile) {
       height: 3em;
       width: 3em;
+    }
+    @include respond-to(tablet) {
+      height: 4em;
+      width: 4em;
     }
   }
   .rightSection {
     @include display-flex(row, space-between, center);
-    @include viewportWidth(40);
-    @media only screen and (max-width: 300px) {
+    @include viewportWidth(45);
+    @include respond-to(small-mobile) {
       @include viewportWidth(75);
     }
-    @media only screen and (max-width: 414px) {
+    @include respond-to(mobile) {
       @include viewportWidth(70);
+    }
+    @include respond-to(tablet) {
+      @include viewportWidth(65);
+    }
+    @include respond-to(desktop) {
+      @include viewportWidth(60);
+    }
+    @include respond-to(desktop-lg) {
+      @include viewportWidth(50);
     }
     .searchBar {
       position: relative;
       width: 65%;
       height: 1.8em;
       @include display-flex(row, center, center);
+      @include respond-to(tablet) {
+        width: 50%;
+        height: 1.6em;
+      }
       .inputSearch {
         width: 100%;
         height: 100%;
@@ -67,7 +87,7 @@
       width: 60%;
       height: 1.8em;
       @include display-flex(row, center, center);
-      @media only screen and (max-width: 300px) {
+      @media (max-width: 300px) {
         height: 1.4em;
         width: 50%;
       }
@@ -86,7 +106,7 @@
         color: $greyText;
         cursor: pointer;
         transition: all 0.3s;
-        @media only screen and (max-width: 300px) {
+        @media (max-width: 300px) {
           font-size: 1.2em;
         }
       }
@@ -101,12 +121,18 @@
       font-size: 1.2rem;
       font-weight: 500;
       padding: 0.4em $xxxl;
-      @media only screen and (max-width: 300px) {
-        transform: scale(0.88);
-      }
-      @media only screen and (max-width: 414px) {
+      @include respond-to(small-mobile) {
         @include display-flex(row, center, center);
         padding: 0.3em 0.6em 0.4em 0.6em;
+        transform: scale(0.88);
+      }
+      @include respond-to(mobile) {
+        @include display-flex(row, center, center);
+        padding: 0.3em 0.6em 0.4em 0.6em;
+      }
+      @include respond-to(tablet) {
+        font-size: 1.2rem;
+        padding: 0.45em $xxl;
       }
     }
     .menuButton {
@@ -122,11 +148,17 @@
       &:hover {
         opacity: 1.2;
       }
+      @include respond-to(tablet) {
+        padding: 0.5em $lg;
+        .menuIcon {
+          font-size: $xxl;
+        }
+      }
     }
     .menuIconMobile {
       font-size: $xxxxl;
       color: $primaryColor;
-      @media only screen and (max-width: 300px) {
+      @media (max-width: 300px) {
         transform: scale(0.8);
       }
     }
