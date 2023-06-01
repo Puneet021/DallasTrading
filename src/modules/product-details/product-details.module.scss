@@ -2,4 +2,8 @@
 
 .productDetailsContainer {
   @include pageCommonCss;
+  .loaderDiv {
+    position: relative;
+    height: $windowHeight * 0.4;
+  }
 }

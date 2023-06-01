@@ -28,7 +28,11 @@ const ourTeamSlice = createSlice({
       }))
       .addCase(
         fetchAsyncOurTeamDetailsData.fulfilled,
-        (state, { payload }) => ({ ...state, ourTeamDetailData: payload })
+        (state, { payload }) => ({
+          ...state,
+          ourTeamDetailData: payload,
+          loader: false,
+        })
       );
   },
 });

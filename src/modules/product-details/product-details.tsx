@@ -14,6 +14,7 @@ import Details from "./details/details";
 import ProductDetailTable from "./productDetailTable/productDetailTable";
 import Reviews from "./reviews/reviews";
 import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
+import CustomLoader from "../../components/common/loader/loader";
 
 class ProductDetails extends Component<
   IProductDetailsProps,
@@ -35,7 +36,11 @@ class ProductDetails extends Component<
           ]}
         />
         <LightWeightHeading headingText1="Product " headingText2="Details" />
-        {this.props.loader ? null : (
+        {this.props.loader ? (
+          <div className={styles.loaderDiv}>
+            <CustomLoader />
+          </div>
+        ) : (
           <Fragment>
             <Details />
             <ProductDetailTable />

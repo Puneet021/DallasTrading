@@ -11,6 +11,7 @@ import {
   getOurTeamDetailsLoader,
 } from "../../store/our-team/ourTeamActions";
 import { fetchAsyncOurTeamDetailsData } from "../../store/our-team/ourTeamSlice";
+import CustomLoader from "../../components/common/loader/loader";
 
 class OurTeam extends Component<IOurTeamProps, IOurTeamStates> {
   componentDidMount(): void {
@@ -30,20 +31,24 @@ class OurTeam extends Component<IOurTeamProps, IOurTeamStates> {
           headingText2="Team"
           backShadowHeading={false}
         />
-        <div className={styles.teamDetails}>
-          {this.props.ourTeamDetailsData.map((person) => (
-            <SideImageCard
-              key={person.id}
-              image={person.image}
-              altTextImg={person.altTextForImg}
-              details={{
-                name: person.name,
-                position: person.position,
-                bio: person.bio,
-              }}
-            />
-          ))}
-        </div>
+        {this.props.loader ? (
+          <div className={styles.loaderDiv}><CustomLoader /></div>
+        ) : (
+          <div className={styles.teamDetails}>
+            {this.props.ourTeamDetailsData.map((person) => (
+              <SideImageCard
+                key={person.id}
+                image={person.image}
+                altTextImg={person.altTextForImg}
+                details={{
+                  name: person.name,
+                  position: person.position,
+                  bio: person.bio,
+                }}
+              />
+            ))}
+          </div>
+        )}
       </div>
     );
   }
