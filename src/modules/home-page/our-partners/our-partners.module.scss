@@ -5,15 +5,28 @@
   padding: $commonPaddingForSides;
   box-sizing: border-box;
   @include display-flex(row, $align: center);
-  @media only screen and (max-width: 768px) {
-    @include display-flex(column, $align: flex-start);
-    padding: 0 $commonPaddingForSides $lg $commonPaddingForSides;
+  @include respond-to(tablet) {
+    @include display-flex(column, flex-start, flex-start);
+    padding: $xxxxl $commonPaddingForSides;
+  }
+  @include respond-to(mobile) {
+    @include display-flex(column, flex-start, flex-start);
+    padding: $lg $commonPaddingForSides;
+  }
+  @include respond-to(small-mobile) {
+    padding: $xs $commonPaddingForSides;
   }
   .heading {
     width: 50%;
     box-sizing: border-box;
-    @media only screen and (max-width: 768px) {
-      width: $windowWidth * 0.8;
+    @include respond-to(desktop) {
+      width: $windowWidth * 0.52;
+    }
+    @include respond-to(tablet) {
+      width: $windowWidth * 0.9;
+    }
+    @include respond-to(mobile) {
+      width: $windowWidth * 0.9;
     }
   }
   .partners {
@@ -22,6 +35,8 @@
       @include display-flex(row, space-evenly, center);
       flex-wrap: wrap;
       .partnerImg {
+        object-fit: contain;
+        aspect-ratio: 3/2;
         transition: all ease 0.3s;
         &:hover {
           transform: scale(1.2);
@@ -29,40 +44,84 @@
         }
       }
     }
-    @media only screen and (max-width: 768px) {
-      width: 80%;
-      box-sizing: border-box;
+    @include respond-to(desktop-lg) {
       .row {
-        @include display-flex(row, space-evenly, center);
         .partnerImg {
-          height: 10em;
-          width: 8em;
+          height: 9rem;
+          width: 7.8rem;
         }
       }
     }
-    @media only screen and (max-width: 660px) {
+    @include respond-to(desktop) {
       .row {
         .partnerImg {
-          height: 8em;
-          width: 6em;
+          height: 8rem;
+          width: 7rem;
         }
       }
     }
-    @media only screen and (max-width: 540px) {
+    @include respond-to(tablet) {
+      width: 100%;
       .row {
+        justify-content: space-between;
         .partnerImg {
-          height: 7em;
-          width: 5em;
+          height: 8.5rem;
+          width: 8rem;
         }
       }
     }
-    @media only screen and (max-width: 414px) {
+    @include respond-to(mobile) {
+      width: 100%;
       .row {
+        justify-content: space-between;
         .partnerImg {
-          height: 6em;
-          width: 4em;
+          height: 5rem;
+          width: 4.5rem;
         }
       }
     }
+    @include respond-to(small-mobile) {
+      .row {
+        .partnerImg {
+          height: 4rem;
+          width: 3rem;
+        }
+      }
+    }
+    // @media only screen and (max-width: 768px) {
+    //   width: 80%;
+    //   box-sizing: border-box;
+    //   .row {
+    //     @include display-flex(row, space-evenly, center);
+    //     .partnerImg {
+    //       height: 10em;
+    //       width: 8em;
+    //     }
+    //   }
+    // }
+    // @media only screen and (max-width: 660px) {
+    //   .row {
+    //     .partnerImg {
+    //       height: 8em;
+    //       width: 6em;
+    //     }
+    //   }
+    // }
+    // @media only screen and (max-width: 540px) {
+    //   .row {
+    //     .partnerImg {
+    //       height: 7em;
+    //       width: 5em;
+    //     }
+    //   }
+    // }
+    // @media only screen and (max-width: 414px) {
+    //   .row {
+    //     .partnerImg {
+    //       height: 6em;
+    //       width: 4em;
+    //     }
+    //   }
+    // }
   }
 }

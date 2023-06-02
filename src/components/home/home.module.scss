@@ -10,6 +10,15 @@
     .spaceHeader {
       height: 6rem;
       box-sizing: border-box;
+      @include respond-to(tablet) {
+        height: 5.5em;
+      }
+      @include respond-to(mobile) {
+        height: 5rem;
+      }
+      @include respond-to(small-mobile) {
+        height: 4.5rem;
+      }
     }
   }
 }
