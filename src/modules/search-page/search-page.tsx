@@ -3,7 +3,6 @@ import styles from "./search-page.module.scss";
 import { ISearchPageProps, ISearchPageStates } from "./search-page.constants";
 import LightWeightHeading from "../../components/common/headings/lightWeightHeading/lightWeightHeading";
 import { MenuItem, Select } from "@mui/material";
-import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 
 class SearchPage extends Component<ISearchPageProps, ISearchPageStates> {
   constructor(props: ISearchPageProps) {
@@ -15,12 +14,6 @@ class SearchPage extends Component<ISearchPageProps, ISearchPageStates> {
   render(): ReactNode {
     return (
       <div className={styles.searchPageContainer}>
-        <BreadCrumb
-          items={[
-            { moduleName: "Home", link: "/home" },
-            { moduleName: "Search", link: "" },
-          ]}
-        />
         <div className={styles.headDiv}>
           <div className={styles.leftText}>
             <LightWeightHeading
