@@ -1,2 +1,4 @@
 export interface IProductListProps {}
-export interface IProductListStates {}
+export interface IProductListStates {
+  selectVal: number;
+}
