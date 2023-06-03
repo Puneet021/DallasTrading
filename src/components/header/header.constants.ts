@@ -1,3 +1,4 @@
+import { ActionCreatorWithPayload } from "@reduxjs/toolkit";
 import { NavigateFunction, Params } from "react-router-dom";
 
 export interface IHeaderProps {
@@ -6,6 +7,10 @@ export interface IHeaderProps {
     navigate: NavigateFunction;
     params: Readonly<Params<string>>;
   };
+  handleSearchValueChange: ActionCreatorWithPayload<
+    string,
+    "menu/handleSearchValueChange"
+  >;
 }
 export interface IHeaderStates {
   width: number;

@@ -1,2 +1,4 @@
-export interface IHomeProps {}
+export interface IHomeProps {
+  searchVal: string;
+}
 export interface IHomeStates {}

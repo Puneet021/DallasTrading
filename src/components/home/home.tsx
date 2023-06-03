@@ -5,6 +5,10 @@ import AppRoutes from "./app-routes";
 import styles from "./home.module.scss";
 import Header from "../header/header";
 import Footer from "../footer/footer";
+import { connect } from "react-redux";
+import { IStore } from "../../utils/models/store.model";
+import { getSearchValue } from "../../store/menu/menuActions";
+import SearchPage from "../../modules/search-page/search-page";
 
 class Home extends Component<IHomeProps, IHomeStates> {
   render(): ReactNode {
@@ -19,7 +23,7 @@ class Home extends Component<IHomeProps, IHomeStates> {
             <div className={styles.homeBody}>
               <div className={styles.spaceHeader}></div>
               {/* All your modules goes here this section is dynamic (it change when path changes) */}
-              <AppRoutes />
+              {this.props.searchVal ? <SearchPage /> : <AppRoutes />}
             </div>
             {/* Footer remains same for entire web page */}
             <Footer />
@@ -30,4 +34,6 @@ class Home extends Component<IHomeProps, IHomeStates> {
   }
 }
 
-export default Home;
+export default connect((state: IStore) => ({
+  searchVal: getSearchValue(state),
+}))(Home);

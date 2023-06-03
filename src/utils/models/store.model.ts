@@ -5,6 +5,7 @@ import { IProductDetailData } from "./product-detail.model";
 export interface IStore {
   menu: {
     menuItems: IMenuItems[];
+    searchVal: string;
   };
   productDetail: {
     productDetailData: IProductDetailData;

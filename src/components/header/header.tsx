@@ -4,10 +4,13 @@ import styles from "./header.module.scss";
 import headerLogo from "./../../images/Dallas_logo.png";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
+import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import CallOutlinedIcon from "@mui/icons-material/CallOutlined";
 import Menu from "../menu/menu";
 import withRouter from "../common/withRouterComponent/withRouter";
 import ClickAwayListener from "@mui/base/ClickAwayListener";
+import { connect } from "react-redux";
+import { handleSearchValueChange } from "../../store/menu/menuSlice";
 
 class Header extends Component<IHeaderProps, IHeaderStates> {
   constructor(props: IHeaderProps) {
@@ -66,18 +69,34 @@ class Header extends Component<IHeaderProps, IHeaderStates> {
                       type="text"
                       placeholder="Search"
                       value={this.state.searchVal}
-                      onChange={(e) =>
-                        this.setState({ searchVal: e.target.value })
-                      }
+                      onChange={(e) => {
+                        this.props.handleSearchValueChange(e.target.value);
+                        this.setState({ searchVal: e.target.value });
+                      }}
                       className={styles.inputSearchMobile}
                     />
                   ) : null}
-                  <SearchIcon
-                    className={styles.searchIconMobile}
-                    onClick={() =>
-                      this.setState({ toggleSearch: !this.state.toggleSearch })
-                    }
-                  />
+                  {this.state.searchVal ? (
+                    <HighlightOffIcon
+                      className={styles.searchIconMobile}
+                      onClick={() => {
+                        this.props.handleSearchValueChange("");
+                        this.setState({
+                          toggleSearch: !this.state.toggleSearch,
+                          searchVal: "",
+                        });
+                      }}
+                    />
+                  ) : (
+                    <SearchIcon
+                      className={styles.searchIconMobile}
+                      onClick={() =>
+                        this.setState({
+                          toggleSearch: !this.state.toggleSearch,
+                        })
+                      }
+                    />
+                  )}
                 </div>
               </ClickAwayListener>
             ) : (
@@ -86,10 +105,23 @@ class Header extends Component<IHeaderProps, IHeaderStates> {
                   type="text"
                   placeholder="Search"
                   value={this.state.searchVal}
-                  onChange={(e) => this.setState({ searchVal: e.target.value })}
+                  onChange={(e) => {
+                    this.props.handleSearchValueChange(e.target.value);
+                    this.setState({ searchVal: e.target.value });
+                  }}
                   className={styles.inputSearch}
                 />
-                <SearchIcon className={styles.searchIcon} />
+                {this.state.searchVal ? (
+                  <HighlightOffIcon
+                    className={styles.searchIcon}
+                    onClick={() => {
+                      this.props.handleSearchValueChange("");
+                      this.setState({ searchVal: "" });
+                    }}
+                  />
+                ) : (
+                  <SearchIcon className={styles.searchIcon} />
+                )}
               </div>
             )}
             <button className={styles.callUsBtn}>
@@ -123,4 +155,4 @@ class Header extends Component<IHeaderProps, IHeaderStates> {
   }
 }
 
-export default withRouter(Header);
+export default connect(null, { handleSearchValueChange })(withRouter(Header));
