@@ -28,15 +28,15 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
       { image: Partner4, altText: "partner_4", delay: 300 },
     ],
     [
-      { image: Partner5, altText: "partner_5", delay: 400 },
-      { image: Partner6, altText: "partner_6", delay: 500 },
-      { image: Partner7, altText: "partner_7", delay: 600 },
+      { image: Partner5, altText: "partner_5", delay: 100 },
+      { image: Partner6, altText: "partner_6", delay: 200 },
+      { image: Partner7, altText: "partner_7", delay: 300 },
     ],
     [
-      { image: Partner8, altText: "partner_8", delay: 700 },
-      { image: Partner9, altText: "partner_9", delay: 800 },
-      { image: Partner10, altText: "partner_10", delay: 900 },
-      { image: Partner11, altText: "partner_11", delay: 1000 },
+      { image: Partner8, altText: "partner_8", delay: 200 },
+      { image: Partner9, altText: "partner_9", delay: 300 },
+      { image: Partner10, altText: "partner_10", delay: 400 },
+      { image: Partner11, altText: "partner_11", delay: 500 },
     ],
   ];
   componentDidMount(): void {
@@ -64,7 +64,7 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
                       key={j}
                       data-aos="fade-left"
                       data-aos-delay={item.delay}
-                      data-aos-offset="70"
+                      data-aos-offset="0"
                       data-aos-duration="1500"
                       data-aos-once="true"
                     >
