@@ -11,6 +11,7 @@ class HomePage extends Component<IHomePageProps, IHomePageStates> {
   render(): ReactNode {
     return (
       <div className={styles.homePage}>
+        <button className={styles.downloadBtn}>Download Brochure</button>
         <AchievementCarousal />
         <div
           style={{ width: "100%", height: "40vh", backgroundColor: "#DCF0F7" }}
