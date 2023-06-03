@@ -4,6 +4,8 @@ import {
   IOurPartnersProps,
   IOurPartnersStates,
 } from "./our-partners.constants";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import ShadowHeading from "../../../components/common/headings/shadowHeading/shadowHeading";
 import Partner1 from "./../../../images/partner1.svg";
 import Partner2 from "./../../../images/partner2.svg";
@@ -20,23 +22,26 @@ import Partner11 from "./../../../images/partner11.svg";
 class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
   partnersList = [
     [
-      { image: Partner1, altText: "partner_1" },
-      { image: Partner2, altText: "partner_2" },
-      { image: Partner3, altText: "partner_3" },
-      { image: Partner4, altText: "partner_4" },
+      { image: Partner1, altText: "partner_1", delay: 0 },
+      { image: Partner2, altText: "partner_2", delay: 100 },
+      { image: Partner3, altText: "partner_3", delay: 200 },
+      { image: Partner4, altText: "partner_4", delay: 300 },
     ],
     [
-      { image: Partner5, altText: "partner_5" },
-      { image: Partner6, altText: "partner_6" },
-      { image: Partner7, altText: "partner_7" },
+      { image: Partner5, altText: "partner_5", delay: 400 },
+      { image: Partner6, altText: "partner_6", delay: 500 },
+      { image: Partner7, altText: "partner_7", delay: 600 },
     ],
     [
-      { image: Partner8, altText: "partner_8" },
-      { image: Partner9, altText: "partner_9" },
-      { image: Partner10, altText: "partner_10" },
-      { image: Partner11, altText: "partner_11" },
+      { image: Partner8, altText: "partner_8", delay: 700 },
+      { image: Partner9, altText: "partner_9", delay: 800 },
+      { image: Partner10, altText: "partner_10", delay: 900 },
+      { image: Partner11, altText: "partner_11", delay: 1000 },
     ],
   ];
+  componentDidMount(): void {
+    Aos.init();
+  }
   render(): ReactNode {
     return (
       <div
@@ -53,15 +58,24 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
           <tbody>
             {this.partnersList.map((list, i) => (
               <tr key={i} className={styles.row}>
-                {list.map((item, j) => (
-                  <td key={j}>
-                    <img
-                      className={styles.partnerImg}
-                      src={item.image}
-                      alt={item.altText}
-                    />
-                  </td>
-                ))}
+                {list.map((item, j) => {
+                  return (
+                    <td
+                      key={j}
+                      data-aos="fade-left"
+                      data-aos-delay={item.delay}
+                      data-aos-offset="0"
+                      data-aos-duration="1500"
+                      data-aos-once="true"
+                    >
+                      <img
+                        className={styles.partnerImg}
+                        src={item.image}
+                        alt={item.altText}
+                      />
+                    </td>
+                  );
+                })}
               </tr>
             ))}
           </tbody>
