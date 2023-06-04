@@ -7,5 +7,9 @@
     @include display-flex(row, space-evenly, center);
     flex-wrap: wrap;
     margin: 3em 0;
+    @include respond-to(desktop) {
+      justify-content: space-between;
+      padding: 0 1.5rem;
+    }
   }
 }

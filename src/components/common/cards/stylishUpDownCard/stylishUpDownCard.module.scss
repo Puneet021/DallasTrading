@@ -11,6 +11,12 @@
   &:hover {
     transform: scale(1.03);
   }
+  @include respond-to(desktop-lg) {
+    width: 30rem;
+  }
+  @include respond-to(desktop) {
+    width: 25rem;
+  }
   @media only screen and (max-width: 768px) {
     width: $windowWidth * 0.8;
   }
@@ -20,7 +26,13 @@
     .img {
       width: 100%;
       max-height: 25rem;
-      object-fit: scale-down;
+      object-fit: contain;
+    }
+    @include respond-to(desktop-lg) {
+      width: 45%;
+    }
+    @include respond-to(desktop) {
+      width: 40%;
     }
   }
   .right {
@@ -28,6 +40,12 @@
     @include display-flex(row, center, center);
     white-space: wrap;
     padding: 0 1em;
+    @include respond-to(desktop-lg) {
+      width: 52%;
+    }
+    @include respond-to(desktop) {
+      width: 60%;
+    }
     @media only screen and (max-width: 414px) {
       padding: 0;
       padding-left: 1em;
@@ -38,6 +56,12 @@
       font-size: 1.2rem;
       line-height: 1.5rem;
       color: #aea9ba;
+      @include respond-to(desktop-lg) {
+        font-size: 1.1rem;
+      }
+      @include respond-to(desktop) {
+        font-size: 1rem;
+      }
       @media only screen and (max-width: 414px) {
         font-size: 0.8rem;
       }
