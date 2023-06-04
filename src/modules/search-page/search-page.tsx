@@ -3,6 +3,7 @@ import styles from "./search-page.module.scss";
 import { ISearchPageProps, ISearchPageStates } from "./search-page.constants";
 import LightWeightHeading from "../../components/common/headings/lightWeightHeading/lightWeightHeading";
 import { MenuItem, Select } from "@mui/material";
+import SearchResults from "./search-results/search-results";
 
 class SearchPage extends Component<ISearchPageProps, ISearchPageStates> {
   constructor(props: ISearchPageProps) {
@@ -47,6 +48,7 @@ class SearchPage extends Component<ISearchPageProps, ISearchPageStates> {
             </MenuItem>
           </Select>
         </div>
+        <SearchResults />
       </div>
     );
   }
