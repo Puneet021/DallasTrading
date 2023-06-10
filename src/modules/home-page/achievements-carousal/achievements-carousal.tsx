@@ -7,6 +7,8 @@ import {
 import display_img1 from "./../../../images/display_img1.jpg";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 class AchievementCarousal extends Component<
   IAchievementCarousalProps,
@@ -40,15 +42,35 @@ class AchievementCarousal extends Component<
   ];
   constructor(props: IAchievementCarousalProps) {
     super(props);
-    this.state = { currentSlide: 0 };
+    this.state = { currentSlide: 0, waitAgain: false };
     this.buttonNext = this.buttonNext.bind(this);
     this.buttonPrev = this.buttonPrev.bind(this);
     this.handleClickOnDot = this.handleClickOnDot.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
   }
   componentDidMount(): void {
-    setInterval(() => {
+    Aos.init();
+    setTimeout(() => {
       this.buttonNext();
     }, 6000);
+  }
+  componentDidUpdate(
+    prevProps: Readonly<IAchievementCarousalProps>,
+    prevState: Readonly<IAchievementCarousalStates>
+  ): void {
+    if (
+      prevState.currentSlide !== this.state.currentSlide &&
+      !this.state.waitAgain
+    ) {
+      setTimeout(() => {
+        this.buttonNext();
+      }, 6000);
+    }
+    if (prevState.waitAgain === true && this.state.waitAgain === false) {
+      setTimeout(() => {
+        this.buttonNext();
+      }, 6000);
+    }
   }
   buttonNext() {
     let box = document.getElementById("cont");
@@ -73,7 +95,22 @@ class AchievementCarousal extends Component<
     let box = document.getElementById("cont");
     if (box) {
       box.scrollLeft = box.clientWidth * index;
-      this.setState({ currentSlide: index });
+      this.setState({ currentSlide: index, waitAgain: true });
+      setTimeout(() => {
+        this.setState({ waitAgain: false });
+      }, 1000);
+    }
+  }
+  handleScroll() {
+    let box = document.getElementById("cont");
+    if (box) {
+      this.setState({
+        currentSlide: Math.floor(box.scrollLeft / box.clientWidth),
+        waitAgain: true,
+      });
+      setTimeout(() => {
+        this.setState({ waitAgain: false });
+      }, 1000);
     }
   }
   render(): ReactNode {
@@ -81,7 +118,13 @@ class AchievementCarousal extends Component<
       <div className={styles.parent}>
         <button
           className={styles.btnPrev}
-          onClick={this.buttonPrev}
+          onClick={() => {
+            this.setState({ waitAgain: true });
+            setTimeout(() => {
+              this.setState({ waitAgain: false });
+            }, 1000);
+            this.buttonPrev();
+          }}
           style={{
             pointerEvents: this.state.currentSlide ? "all" : "none",
             opacity: this.state.currentSlide ? 1 : 0.7,
@@ -89,10 +132,23 @@ class AchievementCarousal extends Component<
         >
           <ArrowBackIosIcon style={{ fontSize: "2rem" }} />
         </button>
-        <button className={styles.btnNext} onClick={this.buttonNext}>
+        <button
+          className={styles.btnNext}
+          onClick={() => {
+            this.setState({ waitAgain: true });
+            setTimeout(() => {
+              this.setState({ waitAgain: false });
+            }, 1000);
+            this.buttonNext();
+          }}
+        >
           <ArrowForwardIosIcon style={{ fontSize: "2rem" }} />
         </button>
-        <div id="cont" className={styles.achievements}>
+        <div
+          id="cont"
+          className={styles.achievements}
+          onScroll={() => this.handleScroll()}
+        >
           {this.displaySliders.map((slider, index) => (
             <div key={index} className={styles.display}>
               <div className={styles.slider}>
@@ -103,6 +159,10 @@ class AchievementCarousal extends Component<
                   <h5 className={styles.extraText}>{slider.extraText}</h5>
                 </div>
                 <img
+                  data-aos="zoom-in"
+                  data-aos-delay="50"
+                  data-aos-duration="2000"
+                  // data-aos-once="true"
                   className={styles.displayImg}
                   src={slider.image}
                   alt={slider.img_info}
