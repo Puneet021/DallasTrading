@@ -10,123 +10,7 @@
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    animation-duration: 6s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-    .display {
-      max-width: $windowWidth;
-      box-sizing: border-box;
-      .slider {
-        @include display-flex(row, space-between, center);
-        width: $windowWidth;
-        scroll-snap-align: start;
-        padding-left: $commonPaddingForSides;
-        @include respond-to(mobile) {
-          position: relative;
-          overflow-y: hidden;
-          padding-top: 1em;
-        }
-        .displayHeading {
-          color: $greyText;
-          box-sizing: border-box;
-          .rank {
-            font-size: 4.5rem;
-            line-height: 0;
-            font-weight: 600;
-          }
-          .company {
-            font-size: 1.5rem;
-            line-height: 1em;
-            font-weight: 600;
-          }
-          .info {
-            font-size: 1.2em;
-            line-height: 1em;
-            font-weight: 500;
-            color: #aea9ba;
-          }
-          .extraText {
-            font-size: 1.1em;
-            line-height: 5em;
-            font-weight: 400;
-          }
-          @include respond-to(tablet) {
-            .rank {
-              font-size: 4rem;
-            }
-            .company {
-              font-size: 1.4rem;
-            }
-            .info {
-              font-size: 1.1em;
-              line-height: 1em;
-            }
-            .extraText {
-              font-size: 0.9em;
-              line-height: 3em;
-            }
-          }
-          @include respond-to(mobile) {
-            @include viewportWidth(100);
-            color: $fontColor;
-            .rank {
-              font-size: 3rem;
-              line-height: 0.2em;
-              font-weight: 600;
-            }
-            .company {
-              font-size: 2.2rem;
-              line-height: 1em;
-              font-weight: 600;
-            }
-            .info {
-              font-size: 1em;
-              line-height: 1.1em;
-              font-weight: 600;
-              color: #aea9ba;
-            }
-            .extraText {
-              font-size: 0.9em;
-              line-height: 1.1em;
-              font-weight: 400;
-            }
-          }
-          @include respond-to(small-mobile) {
-            .rank {
-              font-size: 2.5rem;
-            }
-            .company {
-              font-size: 1.2rem;
-            }
-            .info {
-              font-size: 0.8em;
-            }
-            .extraText {
-              font-size: 0.6em;
-            }
-          }
-        }
-        .displayImg {
-          width: 40%;
-          object-fit: contain;
-          box-sizing: border-box;
-          @include respond-to(desktop) {
-            width: 45%;
-          }
-          @include respond-to(tablet) {
-            width: 50%;
-          }
-          @include respond-to(mobile) {
-            position: absolute;
-            width: 90%;
-            right: 0;
-            z-index: -1;
-          }
-        }
-      }
-    }
   }
-
   .btnNext,
   .btnPrev {
     @include respond-to(mobile) {
@@ -175,7 +59,7 @@
       width: 0.8rem;
       z-index: 2;
       opacity: 0.4;
-      transition: all ease-in-out 0.3s;
+      transition: all ease-in-out 0.2s;
     }
     .highlightedDot {
       opacity: 1;

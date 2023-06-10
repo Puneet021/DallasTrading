@@ -5,10 +5,11 @@ import {
   IAchievementCarousalStates,
 } from "./achievements-carousal.constants";
 import display_img1 from "./../../../images/display_img1.jpg";
+import display_img2 from "./../../../images/display_img2.png";
+import display_img3 from "./../../../images/display_img3.png";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import DisplaySlider from "./display-slider/display-slider";
 
 class AchievementCarousal extends Component<
   IAchievementCarousalProps,
@@ -24,20 +25,20 @@ class AchievementCarousal extends Component<
       img_info: "display_img1",
     },
     {
-      rank: "1st",
-      comapny: "Electrical Trading Company",
-      info: "in U.A.E to get ISO 9001:2008 Certification.",
+      rank: "23",
+      comapny: "High caliber",
+      info: "techno-commercial professionals.",
       extraText: "23 Years of Excellence in Electrical Industrial Solutions",
-      image: display_img1,
-      img_info: "display_img1",
+      image: display_img2,
+      img_info: "display_img2",
     },
     {
       rank: "1st",
       comapny: "Electrical Trading Company",
       info: "in U.A.E to get ISO 9001:2008 Certification.",
       extraText: "23 Years of Excellence in Electrical Industrial Solutions",
-      image: display_img1,
-      img_info: "display_img1",
+      image: display_img3,
+      img_info: "display_img3",
     },
   ];
   constructor(props: IAchievementCarousalProps) {
@@ -49,7 +50,6 @@ class AchievementCarousal extends Component<
     this.handleScroll = this.handleScroll.bind(this);
   }
   componentDidMount(): void {
-    Aos.init();
     setInterval(() => {
       if (!this.state.waitAgain) {
         this.buttonNext();
@@ -115,25 +115,11 @@ class AchievementCarousal extends Component<
           onScroll={() => this.handleScroll()}
         >
           {this.displaySliders.map((slider, index) => (
-            <div key={index} className={styles.display}>
-              <div className={styles.slider}>
-                <div className={styles.displayHeading}>
-                  <h1 className={styles.rank}>{slider.rank}</h1>
-                  <h3 className={styles.company}>{slider.comapny}</h3>
-                  <h4 className={styles.info}>{slider.info}</h4>
-                  <h5 className={styles.extraText}>{slider.extraText}</h5>
-                </div>
-                <img
-                  data-aos="zoom-in"
-                  data-aos-delay="50"
-                  data-aos-duration="2000"
-                  // data-aos-once="true"
-                  className={styles.displayImg}
-                  src={slider.image}
-                  alt={slider.img_info}
-                />
-              </div>
-            </div>
+            <DisplaySlider
+              key={index}
+              slider={slider}
+              isActive={this.state.currentSlide === index}
+            />
           ))}
         </div>
         <div className={styles.carouselDots}>
