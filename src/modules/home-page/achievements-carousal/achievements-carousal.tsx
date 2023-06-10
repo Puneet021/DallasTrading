@@ -50,27 +50,13 @@ class AchievementCarousal extends Component<
   }
   componentDidMount(): void {
     Aos.init();
-    setTimeout(() => {
-      this.buttonNext();
+    setInterval(() => {
+      if (!this.state.waitAgain) {
+        this.buttonNext();
+      } else {
+        this.setState({ waitAgain: false });
+      }
     }, 6000);
-  }
-  componentDidUpdate(
-    prevProps: Readonly<IAchievementCarousalProps>,
-    prevState: Readonly<IAchievementCarousalStates>
-  ): void {
-    if (
-      prevState.currentSlide !== this.state.currentSlide &&
-      !this.state.waitAgain
-    ) {
-      setTimeout(() => {
-        this.buttonNext();
-      }, 6000);
-    }
-    if (prevState.waitAgain === true && this.state.waitAgain === false) {
-      setTimeout(() => {
-        this.buttonNext();
-      }, 6000);
-    }
   }
   buttonNext() {
     let box = document.getElementById("cont");
@@ -96,9 +82,6 @@ class AchievementCarousal extends Component<
     if (box) {
       box.scrollLeft = box.clientWidth * index;
       this.setState({ currentSlide: index, waitAgain: true });
-      setTimeout(() => {
-        this.setState({ waitAgain: false });
-      }, 1000);
     }
   }
   handleScroll() {
@@ -108,9 +91,6 @@ class AchievementCarousal extends Component<
         currentSlide: Math.floor(box.scrollLeft / box.clientWidth),
         waitAgain: true,
       });
-      setTimeout(() => {
-        this.setState({ waitAgain: false });
-      }, 1000);
     }
   }
   render(): ReactNode {
@@ -118,13 +98,7 @@ class AchievementCarousal extends Component<
       <div className={styles.parent}>
         <button
           className={styles.btnPrev}
-          onClick={() => {
-            this.setState({ waitAgain: true });
-            setTimeout(() => {
-              this.setState({ waitAgain: false });
-            }, 1000);
-            this.buttonPrev();
-          }}
+          onClick={this.buttonPrev}
           style={{
             pointerEvents: this.state.currentSlide ? "all" : "none",
             opacity: this.state.currentSlide ? 1 : 0.7,
@@ -132,16 +106,7 @@ class AchievementCarousal extends Component<
         >
           <ArrowBackIosIcon style={{ fontSize: "2rem" }} />
         </button>
-        <button
-          className={styles.btnNext}
-          onClick={() => {
-            this.setState({ waitAgain: true });
-            setTimeout(() => {
-              this.setState({ waitAgain: false });
-            }, 1000);
-            this.buttonNext();
-          }}
-        >
+        <button className={styles.btnNext} onClick={this.buttonNext}>
           <ArrowForwardIosIcon style={{ fontSize: "2rem" }} />
         </button>
         <div
