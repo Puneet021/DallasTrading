@@ -62,7 +62,7 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
                   return (
                     <td
                       key={j}
-                      data-aos="fade-left"
+                      data-aos="fade-in" // need fade left here
                       data-aos-delay={item.delay}
                       data-aos-offset="100"
                       data-aos-duration="1500"

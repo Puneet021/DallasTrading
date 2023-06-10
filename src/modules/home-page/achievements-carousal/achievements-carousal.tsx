@@ -43,6 +43,7 @@ class AchievementCarousal extends Component<
     this.state = { currentSlide: 0 };
     this.buttonNext = this.buttonNext.bind(this);
     this.buttonPrev = this.buttonPrev.bind(this);
+    this.handleClickOnDot = this.handleClickOnDot.bind(this);
   }
   componentDidMount(): void {
     setInterval(() => {
@@ -66,6 +67,13 @@ class AchievementCarousal extends Component<
     if (box) {
       box.scrollLeft = box.scrollLeft - box.clientWidth;
       this.setState({ currentSlide: this.state.currentSlide - 1 });
+    }
+  }
+  handleClickOnDot(index: number) {
+    let box = document.getElementById("cont");
+    if (box) {
+      box.scrollLeft = box.clientWidth * index;
+      this.setState({ currentSlide: index });
     }
   }
   render(): ReactNode {
@@ -102,6 +110,19 @@ class AchievementCarousal extends Component<
               </div>
             </div>
           ))}
+        </div>
+        <div className={styles.carouselDots}>
+          {this.displaySliders.map((d, i) =>
+            this.state.currentSlide === i ? (
+              <div key={i} className={styles.highlightedDot}></div>
+            ) : (
+              <div
+                key={i}
+                className={styles.dot}
+                onClick={() => this.handleClickOnDot(i)}
+              ></div>
+            )
+          )}
         </div>
       </div>
     );

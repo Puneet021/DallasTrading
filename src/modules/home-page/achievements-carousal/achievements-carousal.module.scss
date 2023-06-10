@@ -10,6 +10,9 @@
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
     .display {
       max-width: $windowWidth;
       box-sizing: border-box;
@@ -18,7 +21,7 @@
         width: $windowWidth;
         scroll-snap-align: start;
         padding-left: $commonPaddingForSides;
-        @media (max-width: 414px) {
+        @include respond-to(mobile) {
           position: relative;
           overflow-y: hidden;
           padding-top: 1em;
@@ -26,10 +29,6 @@
         .displayHeading {
           color: $greyText;
           box-sizing: border-box;
-          @media (max-width: 414px) {
-            @include viewportWidth(100);
-            color: $fontColor;
-          }
           .rank {
             font-size: 4.5rem;
             line-height: 0;
@@ -51,7 +50,25 @@
             line-height: 5em;
             font-weight: 400;
           }
-          @media (max-width: 414px) {
+          @include respond-to(tablet) {
+            .rank {
+              font-size: 4rem;
+            }
+            .company {
+              font-size: 1.4rem;
+            }
+            .info {
+              font-size: 1.1em;
+              line-height: 1em;
+            }
+            .extraText {
+              font-size: 0.9em;
+              line-height: 3em;
+            }
+          }
+          @include respond-to(mobile) {
+            @include viewportWidth(100);
+            color: $fontColor;
             .rank {
               font-size: 3rem;
               line-height: 0.2em;
@@ -74,14 +91,34 @@
               font-weight: 400;
             }
           }
+          @include respond-to(small-mobile) {
+            .rank {
+              font-size: 2.5rem;
+            }
+            .company {
+              font-size: 1.2rem;
+            }
+            .info {
+              font-size: 0.8em;
+            }
+            .extraText {
+              font-size: 0.6em;
+            }
+          }
         }
         .displayImg {
-          @include viewportWidth(38);
-          object-fit: scale-down;
+          width: 40%;
+          object-fit: contain;
           box-sizing: border-box;
-          @media (max-width: 414px) {
+          @include respond-to(desktop) {
+            width: 45%;
+          }
+          @include respond-to(tablet) {
+            width: 50%;
+          }
+          @include respond-to(mobile) {
             position: absolute;
-            @include viewportWidth(100);
+            width: 90%;
             right: 0;
             z-index: -1;
           }
@@ -92,7 +129,7 @@
 
   .btnNext,
   .btnPrev {
-    @media (max-width: 414px) {
+    @include respond-to(mobile) {
       display: none;
     }
     @include display-flex(row, center, center);
@@ -122,5 +159,52 @@
   }
   .btnPrev {
     left: 1rem;
+  }
+  .carouselDots {
+    position: absolute;
+    @include display-flex(row, space-between, center);
+    @include viewportWidth(4);
+    left: 48%;
+    bottom: 5%;
+    .dot,
+    .highlightedDot {
+      cursor: pointer;
+      background-color: $fontColor;
+      border-radius: 50%;
+      height: 0.8rem;
+      width: 0.8rem;
+      z-index: 2;
+      opacity: 0.4;
+    }
+    .highlightedDot {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    @include respond-to(desktop-lg) {
+      @include viewportWidth(5);
+      left: 47.5%;
+    }
+    @include respond-to(desktop) {
+      @include viewportWidth(6);
+      left: 47%;
+    }
+    @include respond-to(tablet) {
+      @include viewportWidth(8);
+      left: 46%;
+      .dot,
+      .highlightedDot {
+        height: 0.7rem;
+        width: 0.7rem;
+      }
+    }
+    @include respond-to(mobile) {
+      @include viewportWidth(14);
+      left: 43%;
+      .dot,
+      .highlightedDot {
+        height: 0.6rem;
+        width: 0.6rem;
+      }
+    }
   }
 }
