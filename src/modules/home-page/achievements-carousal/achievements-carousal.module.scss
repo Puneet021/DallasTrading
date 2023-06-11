@@ -13,16 +13,13 @@
   }
   .btnNext,
   .btnPrev {
-    @include respond-to(mobile) {
-      display: none;
-    }
     @include display-flex(row, center, center);
     cursor: pointer;
     position: absolute;
     outline: none;
     border: none;
     background: none;
-    z-index: 2;
+    z-index: 10;
     top: 40%;
     transform: translateY(-50%);
     color: rgba(0, 0, 0, 0.5);
@@ -43,6 +40,16 @@
   }
   .btnPrev {
     left: 1rem;
+  }
+  @include respond-to(mobile) {
+    .btnNext,
+    .btnPrev {
+      color: rgba(0, 0, 0, 0.3);
+      &:hover,
+      &:focus {
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
   }
   .carouselDots {
     position: absolute;
