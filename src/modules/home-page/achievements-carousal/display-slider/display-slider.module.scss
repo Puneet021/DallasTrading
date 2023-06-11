@@ -12,6 +12,7 @@
       position: relative;
       overflow-y: hidden;
       padding-top: 1em;
+      @include viewportHeight(30);
     }
     .displayHeading {
       color: $greyText;
@@ -94,7 +95,7 @@
       }
     }
     .displayImg {
-    //   width: 40%;
+      //   width: 40%;
       @include viewportHeight(55);
       object-fit: contain;
       box-sizing: border-box;
@@ -102,11 +103,10 @@
         width: 45%;
       }
       @include respond-to(tablet) {
-        width: 50%;
+        @include viewportHeight(26);
       }
       @include respond-to(mobile) {
         position: absolute;
-        // width: 90%;
         @include viewportHeight(30);
         right: 0;
         z-index: -1;

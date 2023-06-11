@@ -47,7 +47,6 @@ class AchievementCarousal extends Component<
     this.buttonNext = this.buttonNext.bind(this);
     this.buttonPrev = this.buttonPrev.bind(this);
     this.handleClickOnDot = this.handleClickOnDot.bind(this);
-    this.handleScroll = this.handleScroll.bind(this);
   }
   componentDidMount(): void {
     setInterval(() => {
@@ -59,61 +58,37 @@ class AchievementCarousal extends Component<
     }, 6000);
   }
   buttonNext() {
-    let box = document.getElementById("cont");
-    if (box) {
-      if (this.state.currentSlide === this.displaySliders.length - 1) {
-        box.scrollLeft = 0;
-        this.setState({ currentSlide: 0 });
-      } else {
-        box.scrollLeft = box.scrollLeft + box.clientWidth;
-        this.setState({ currentSlide: this.state.currentSlide + 1 });
-      }
+    if (this.state.currentSlide === this.displaySliders.length - 1) {
+      this.setState({ currentSlide: 0 });
+    } else {
+      this.setState({ currentSlide: this.state.currentSlide + 1 });
     }
   }
   buttonPrev() {
-    let box = document.getElementById("cont");
-    if (box) {
-      box.scrollLeft = box.scrollLeft - box.clientWidth;
-      this.setState({ currentSlide: this.state.currentSlide - 1 });
+    if (this.state.currentSlide === 0) {
+      this.setState({ currentSlide: this.displaySliders.length - 1 });
+      return;
     }
+    this.setState({ currentSlide: this.state.currentSlide - 1 });
   }
   handleClickOnDot(index: number) {
-    let box = document.getElementById("cont");
-    if (box) {
-      box.scrollLeft = box.clientWidth * index;
-      this.setState({ currentSlide: index, waitAgain: true });
-    }
-  }
-  handleScroll() {
-    let box = document.getElementById("cont");
-    if (box) {
-      this.setState({
-        currentSlide: Math.floor(box.scrollLeft / box.clientWidth),
-        waitAgain: true,
-      });
-    }
+    this.setState({ currentSlide: index, waitAgain: true });
   }
   render(): ReactNode {
     return (
       <div className={styles.parent}>
-        <button
-          className={styles.btnPrev}
-          onClick={this.buttonPrev}
-          style={{
-            pointerEvents: this.state.currentSlide ? "all" : "none",
-            opacity: this.state.currentSlide ? 1 : 0.7,
-          }}
-        >
+        <button className={styles.btnPrev} onClick={this.buttonPrev}>
           <ArrowBackIosIcon style={{ fontSize: "2rem" }} />
         </button>
         <button className={styles.btnNext} onClick={this.buttonNext}>
-          <ArrowForwardIosIcon style={{ fontSize: "2rem" }} />
+          <ArrowForwardIosIcon
+            style={{
+              fontSize: "2rem",
+              color: this.state.currentSlide === 1 ? "rgba(0, 0, 0, 0.5)" : "",
+            }}
+          />
         </button>
-        <div
-          id="cont"
-          className={styles.achievements}
-          onScroll={() => this.handleScroll()}
-        >
+        <div id="cont" className={styles.achievements}>
           {this.displaySliders.map((slider, index) => (
             <DisplaySlider
               key={index}

@@ -4,6 +4,7 @@
   width: $windowWidth;
   box-sizing: border-box;
   .downloadBtn {
+    overflow: hidden;
     position: fixed;
     top: 50%;
     width: 12rem;

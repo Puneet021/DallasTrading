@@ -2,6 +2,7 @@
 
 .ourPartners {
   width: 100%;
+  overflow: hidden;
   padding: $commonPaddingForSides;
   box-sizing: border-box;
   @include display-flex(row, $align: center);
