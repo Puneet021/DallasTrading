@@ -77,10 +77,22 @@ class AchievementCarousal extends Component<
   render(): ReactNode {
     return (
       <div className={styles.parent}>
-        <button className={styles.btnPrev} onClick={this.buttonPrev}>
+        <button
+          className={styles.btnPrev}
+          onClick={() => {
+            this.setState({ waitAgain: true });
+            this.buttonPrev();
+          }}
+        >
           <ArrowBackIosIcon style={{ fontSize: "2rem" }} />
         </button>
-        <button className={styles.btnNext} onClick={this.buttonNext}>
+        <button
+          className={styles.btnNext}
+          onClick={() => {
+            this.setState({ waitAgain: true });
+            this.buttonNext();
+          }}
+        >
           <ArrowForwardIosIcon
             style={{
               fontSize: "2rem",

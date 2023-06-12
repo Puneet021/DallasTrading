@@ -6,7 +6,7 @@ class CustomLoader extends Component {
   render(): ReactNode {
     return (
       <div className={styles.loader}>
-        <ClipLoader color="#003c75;" size={86} />
+        <ClipLoader color="#003c75" size={86} />
       </div>
     );
   }

@@ -24,6 +24,7 @@ class StylishUpDownCard extends Component<
         data-aos-offset="100"
         data-aos-duration="1000"
         data-aos-once="true"
+        onClick={this.props.handleClick}
       >
         <div className={styles.left}>
           <img className={styles.img} src={image} alt={altText} />
