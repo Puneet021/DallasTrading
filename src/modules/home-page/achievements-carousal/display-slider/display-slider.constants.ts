@@ -9,4 +9,6 @@ export interface IDisplaySliderProps {
   };
   isActive: boolean;
 }
-export interface IDisplaySliderStates {}
+export interface IDisplaySliderStates {
+  imageToShow: number;
+}

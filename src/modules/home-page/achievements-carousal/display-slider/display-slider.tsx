@@ -5,11 +5,32 @@ import {
   IDisplaySliderStates,
 } from "./display-slider.constants";
 import { motion } from "framer-motion";
+import img1 from "./../../../../images/display1.jpg";
+import img2 from "./../../../../images/display2.jpg";
+import img3 from "./../../../../images/display3.jpg";
+import img4 from "./../../../../images/display4.jpg";
+import DisplayImage from "./display-image/display-image";
 
 class DisplaySlider extends Component<
   IDisplaySliderProps,
   IDisplaySliderStates
 > {
+  constructor(props: IDisplaySliderProps) {
+    super(props);
+    this.state = {
+      imageToShow: 0,
+    };
+  }
+  images = [img1, img2, img3, img4];
+  componentDidMount(): void {
+    setInterval(() => {
+      this.setState({
+        imageToShow:
+          this.state.imageToShow !== 3 ? this.state.imageToShow + 1 : 0,
+      });
+    }, 4000);
+  }
+
   render(): ReactNode {
     const { slider, isActive } = this.props;
     return isActive ? (
@@ -26,11 +47,13 @@ class DisplaySlider extends Component<
             <h4 className={styles.info}>{slider.info}</h4>
             <h5 className={styles.extraText}>{slider.extraText}</h5>
           </div>
-          <img
-            className={styles.displayImg}
-            src={slider.image}
-            alt={slider.img_info}
-          />
+          {this.images.map((img, i) => (
+            <DisplayImage
+              key={i}
+              image={img}
+              isActive={this.state.imageToShow === i}
+            />
+          ))}
         </div>
       </motion.div>
     ) : null;

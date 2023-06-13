@@ -55,7 +55,7 @@ class AchievementCarousal extends Component<
       } else {
         this.setState({ waitAgain: false });
       }
-    }, 6000);
+    }, 8000);
   }
   buttonNext() {
     if (this.state.currentSlide === this.displaySliders.length - 1) {
