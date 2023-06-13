@@ -7,6 +7,9 @@ import {
 import display_img1 from "./../../../images/display_img1.jpg";
 import display_img2 from "./../../../images/display_img2.png";
 import display_img3 from "./../../../images/display_img3.png";
+import img1 from "./../../../images/display4.jpg";
+import img2 from "./../../../images/display2.jpg";
+import img3 from "./../../../images/display3.jpg";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import DisplaySlider from "./display-slider/display-slider";
@@ -21,7 +24,7 @@ class AchievementCarousal extends Component<
       comapny: "Electrical Trading Company",
       info: "in U.A.E to get ISO 9001:2008 Certification.",
       extraText: "23 Years of Excellence in Electrical Industrial Solutions",
-      image: display_img1,
+      image: img1,
       img_info: "display_img1",
     },
     {
@@ -29,7 +32,7 @@ class AchievementCarousal extends Component<
       comapny: "High caliber",
       info: "techno-commercial professionals.",
       extraText: "23 Years of Excellence in Electrical Industrial Solutions",
-      image: display_img2,
+      image: img2,
       img_info: "display_img2",
     },
     {
@@ -37,7 +40,7 @@ class AchievementCarousal extends Component<
       comapny: "Electrical Trading Company",
       info: "in U.A.E to get ISO 9001:2008 Certification.",
       extraText: "23 Years of Excellence in Electrical Industrial Solutions",
-      image: display_img3,
+      image: img3,
       img_info: "display_img3",
     },
   ];

@@ -5,10 +5,6 @@ import {
   IDisplaySliderStates,
 } from "./display-slider.constants";
 import { motion } from "framer-motion";
-import img1 from "./../../../../images/display1.jpg";
-import img2 from "./../../../../images/display2.jpg";
-import img3 from "./../../../../images/display3.jpg";
-import img4 from "./../../../../images/display4.jpg";
 import DisplayImage from "./display-image/display-image";
 
 class DisplaySlider extends Component<
@@ -21,7 +17,6 @@ class DisplaySlider extends Component<
       imageToShow: 0,
     };
   }
-  images = [img1, img2, img3, img4];
   componentDidMount(): void {
     setInterval(() => {
       this.setState({
@@ -47,13 +42,7 @@ class DisplaySlider extends Component<
             <h4 className={styles.info}>{slider.info}</h4>
             <h5 className={styles.extraText}>{slider.extraText}</h5>
           </div>
-          {this.images.map((img, i) => (
-            <DisplayImage
-              key={i}
-              image={img}
-              isActive={this.state.imageToShow === i}
-            />
-          ))}
+          <DisplayImage image={slider.image} isActive={isActive} />
         </div>
       </motion.div>
     ) : null;
