@@ -18,7 +18,6 @@
       color: $greyText;
       box-sizing: border-box;
       width: 30%;
-      text-align: right;
       .rank {
         font-size: 4.5rem;
         line-height: 0;
@@ -59,6 +58,7 @@
       @include respond-to(mobile) {
         @include viewportWidth(100);
         color: $fontColor;
+        color: $white;
         .rank {
           font-size: 3rem;
           line-height: 0.2em;

@@ -23,8 +23,8 @@ class DisplayImage extends Component<IDisplayImageProps, IDisplayImageStates> {
     }
   }
   render(): ReactNode {
-    const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 60px, rgba(0,0,0,1) 60px, rgba(0,0,0,1) 60px)`;
-    const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 60px)`;
+    const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 40px, rgba(0,0,0,1) 40px, rgba(0,0,0,1) 40px)`;
+    const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 40px)`;
     const { image, isActive } = this.props;
     return isActive ? (
       <motion.img
