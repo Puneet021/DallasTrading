@@ -4,9 +4,6 @@ import {
   IAchievementCarousalProps,
   IAchievementCarousalStates,
 } from "./achievements-carousal.constants";
-import display_img1 from "./../../../images/display_img1.jpg";
-import display_img2 from "./../../../images/display_img2.png";
-import display_img3 from "./../../../images/display_img3.png";
 import img1 from "./../../../images/display4.jpg";
 import img2 from "./../../../images/display2.jpg";
 import img3 from "./../../../images/display3.jpg";
