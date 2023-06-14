@@ -11,6 +11,7 @@ class DisplayImage extends Component<IDisplayImageProps, IDisplayImageStates> {
     super(props);
     this.state = {
       isInView: false,
+      isLoaded: false,
     };
   }
   componentDidUpdate(
@@ -18,7 +19,7 @@ class DisplayImage extends Component<IDisplayImageProps, IDisplayImageStates> {
     prevState: Readonly<IDisplayImageStates>
   ): void {
     if (prevProps.isActive !== this.props.isActive) {
-      this.setState({ isInView: false });
+      this.setState({ isInView: false, isLoaded: false });
     }
   }
   render(): ReactNode {
@@ -31,13 +32,14 @@ class DisplayImage extends Component<IDisplayImageProps, IDisplayImageStates> {
         src={image}
         initial={false}
         animate={
-          this.state.isInView
+          this.state.isInView && this.state.isLoaded
             ? { WebkitMaskImage: visibleMask, maskImage: visibleMask }
             : { WebkitMaskImage: hiddenMask, maskImage: hiddenMask }
         }
         transition={{ duration: 1 }}
         viewport={{ once: true }}
         onViewportEnter={() => this.setState({ isInView: true })}
+        onLoad={() => this.setState({ isLoaded: true })}
       />
     ) : null;
   }

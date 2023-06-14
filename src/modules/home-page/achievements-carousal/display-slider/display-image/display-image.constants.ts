@@ -4,4 +4,5 @@ export interface IDisplayImageProps {
 }
 export interface IDisplayImageStates {
   isInView: boolean;
+  isLoaded: boolean;
 }
