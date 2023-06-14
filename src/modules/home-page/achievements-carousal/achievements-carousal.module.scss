@@ -32,11 +32,11 @@
   }
   .btnNext {
     right: 1rem;
-    color: rgba(255, 255, 255, 0.5);
-    &:hover,
-    &:focus {
-      color: $white;
-    }
+    // color: rgba(255, 255, 255, 0.5);
+    // &:hover,
+    // &:focus {
+    //   color: $white;
+    // }
   }
   .btnPrev {
     left: 1rem;
@@ -60,7 +60,7 @@
     .dot,
     .highlightedDot {
       cursor: pointer;
-      background-color: $fontColor;
+      background-color: $white;
       border-radius: 50%;
       height: 0.8rem;
       width: 0.8rem;
