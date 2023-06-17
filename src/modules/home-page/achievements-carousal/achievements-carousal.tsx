@@ -1,4 +1,4 @@
-import { Component, ReactNode } from "react";
+import { Component, ReactNode, RefObject, createRef } from "react";
 import styles from "./achievements-carousal.module.scss";
 import {
   IAchievementCarousalProps,
@@ -10,6 +10,10 @@ import img3 from "./../../../images/display3.jpg";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import DisplaySlider from "./display-slider/display-slider";
+
+interface CustomDivElement extends HTMLDivElement {
+  startX?: number;
+}
 
 class AchievementCarousal extends Component<
   IAchievementCarousalProps,
@@ -41,12 +45,17 @@ class AchievementCarousal extends Component<
       img_info: "display_img3",
     },
   ];
+  private containerRef?: RefObject<CustomDivElement>;
   constructor(props: IAchievementCarousalProps) {
     super(props);
-    this.state = { currentSlide: 0, waitAgain: false };
+    this.state = { currentSlide: 0, waitAgain: false, touchStarts: false };
     this.buttonNext = this.buttonNext.bind(this);
     this.buttonPrev = this.buttonPrev.bind(this);
     this.handleClickOnDot = this.handleClickOnDot.bind(this);
+    this.handleTouchStart = this.handleTouchStart.bind(this);
+    this.handleTouchMove = this.handleTouchMove.bind(this);
+    this.handleTouchEnd = this.handleTouchEnd.bind(this);
+    this.containerRef = createRef<HTMLDivElement>();
   }
   componentDidMount(): void {
     setInterval(() => {
@@ -74,6 +83,24 @@ class AchievementCarousal extends Component<
   handleClickOnDot(index: number) {
     this.setState({ currentSlide: index, waitAgain: true });
   }
+  handleTouchStart(event: any) {
+    const touch = event.touches[0];
+    if (this.containerRef?.current) {
+      this.containerRef.current.startX = touch.clientX;
+    }
+    this.setState({ touchStarts: true });
+    console.log("yooo");
+  }
+  handleTouchMove(event: any) {
+    if (!this.state.touchStarts) return;
+    const touch = event.touches[0];
+    const diffX = touch.clientX - (this.containerRef?.current?.startX || 0);
+    console.log("I'm moving woahh..", diffX);
+  }
+  handleTouchEnd() {
+    this.setState({ touchStarts: false });
+    console.log("it ends :(");
+  }
   render(): ReactNode {
     return (
       <div className={styles.parent}>
@@ -84,7 +111,7 @@ class AchievementCarousal extends Component<
             this.buttonPrev();
           }}
         >
-          <ArrowBackIosIcon style={{ fontSize: "2rem" }} />
+          <ArrowBackIosIcon />
         </button>
         <button
           className={styles.btnNext}
@@ -93,14 +120,17 @@ class AchievementCarousal extends Component<
             this.buttonNext();
           }}
         >
-          <ArrowForwardIosIcon
-            style={{
-              fontSize: "2rem",
-              color: this.state.currentSlide === 1 ? "rgba(0, 0, 0, 0.5)" : "",
-            }}
-          />
+          <ArrowForwardIosIcon />
         </button>
-        <div id="cont" className={styles.achievements}>
+        <div
+          id="cont"
+          className={styles.achievements}
+          ref={this.containerRef}
+          onTouchStart={this.handleTouchStart}
+          onTouchMove={this.handleTouchMove}
+          onTouchEnd={this.handleTouchEnd}
+          style={{ cursor: this.state.touchStarts ? "grab" : "default" }}
+        >
           {this.displaySliders.map((slider, index) => (
             <DisplaySlider
               key={index}

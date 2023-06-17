@@ -36,8 +36,13 @@ class DisplayImage extends Component<IDisplayImageProps, IDisplayImageStates> {
             ? { WebkitMaskImage: visibleMask, maskImage: visibleMask }
             : { WebkitMaskImage: hiddenMask, maskImage: hiddenMask }
         }
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.5 }}
         viewport={{ once: true }}
+        exit={
+          this.state.isInView && this.state.isLoaded
+            ? { WebkitMaskImage: visibleMask, maskImage: visibleMask }
+            : { WebkitMaskImage: hiddenMask, maskImage: hiddenMask }
+        }
         onViewportEnter={() => this.setState({ isInView: true })}
         onLoad={() => this.setState({ isLoaded: true })}
       />
