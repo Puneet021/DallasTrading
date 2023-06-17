@@ -7,7 +7,7 @@ import {
 export const fetchAsyncProductDetailData = createAsyncThunk(
   "productDetail/fetchAsyncProductDetailData",
   async (productId: string) => {
-    let response: IProductDetailData = await fetch("/product-details.json")
+    let response: IProductDetailData = await fetch("/data/product-details.json")
       .then((data) => data.json())
       .then(
         (data: IProductDetailData[]) =>

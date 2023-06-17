@@ -8,6 +8,11 @@ import DisplayProducts from "./display-products/display-products";
 import LightWeightHeading from "../../components/common/headings/lightWeightHeading/lightWeightHeading";
 import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 import { Select, MenuItem } from "@mui/material";
+import { connect } from "react-redux";
+import { IStore } from "../../utils/models/store.model";
+import { getProductsLoader } from "../../store/products/productsActions";
+import { fetchAsyncProductsData } from "../../store/products/productsSlice";
+import CustomLoader from "../../components/common/loader/loader";
 
 class ProductList extends Component<IProductListProps, IProductListStates> {
   constructor(props: IProductListProps) {
@@ -15,6 +20,10 @@ class ProductList extends Component<IProductListProps, IProductListStates> {
     this.state = {
       selectVal: 1,
     };
+  }
+  componentDidMount(): void {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    this.props.fetchAsyncProductsData();
   }
   render(): ReactNode {
     return (
@@ -59,10 +68,21 @@ class ProductList extends Component<IProductListProps, IProductListStates> {
             </MenuItem>
           </Select>
         </div>
-        <DisplayProducts />
+        {this.props.loader ? (
+          <div className={styles.loaderDiv}>
+            <CustomLoader />
+          </div>
+        ) : (
+          <DisplayProducts />
+        )}
       </div>
     );
   }
 }
 
-export default ProductList;
+export default connect(
+  (state: IStore) => ({
+    loader: getProductsLoader(state),
+  }),
+  { fetchAsyncProductsData }
+)(ProductList);

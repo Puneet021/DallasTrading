@@ -2,4 +2,7 @@
 
 .productsPage {
   @include pageCommonCss;
+  .loader {
+    height: 15rem;
+  }
 }

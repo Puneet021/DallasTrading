@@ -4,7 +4,7 @@ import { IOurTeamDetails } from "../../utils/models/our-team.model";
 export const fetchAsyncOurTeamDetailsData = createAsyncThunk(
   "ourTeam/fetchAsyncOurTeamDetailsData",
   async () => {
-    const res: IOurTeamDetails[] = await fetch("/our-team.json")
+    const res: IOurTeamDetails[] = await fetch("/data/our-team.json")
       .then((res) => res.json())
       .then((data) => data);
     return res;

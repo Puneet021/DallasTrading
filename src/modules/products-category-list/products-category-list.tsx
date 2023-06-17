@@ -7,11 +7,20 @@ import {
 import ShadowHeading from "../../components/common/headings/shadowHeading/shadowHeading";
 import DisplayProductCategories from "./display-product-categories/display-product-categories";
 import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
+import { connect } from "react-redux";
+import { fetchAsyncProductsCategoryData } from "../../store/products-category/productsCategorySlice";
+import { IStore } from "../../utils/models/store.model";
+import { getProductsCategoryLoader } from "../../store/products-category/productsCategoryActions";
+import CustomLoader from "../../components/common/loader/loader";
 
 class ProductsCategoryList extends Component<
   IProductsCategoryListProps,
   IProductsCategoryListStates
 > {
+  componentDidMount(): void {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    this.props.fetchAsyncProductsCategoryData();
+  }
   render(): ReactNode {
     return (
       <div className={styles.productsPage}>
@@ -26,10 +35,19 @@ class ProductsCategoryList extends Component<
           headingText2="Products"
           backShadowHeading={false}
         />
-        <DisplayProductCategories />
+        {this.props.loader ? (
+          <div className={styles.loader}>
+            <CustomLoader />
+          </div>
+        ) : (
+          <DisplayProductCategories />
+        )}
       </div>
     );
   }
 }
 
-export default ProductsCategoryList;
+export default connect(
+  (state: IStore) => ({ loader: getProductsCategoryLoader(state) }),
+  { fetchAsyncProductsCategoryData }
+)(ProductsCategoryList);

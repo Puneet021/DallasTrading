@@ -1,6 +1,8 @@
 import { IMenuItems } from "./menu.model";
 import { IOurTeamDetails } from "./our-team.model";
 import { IProductDetailData } from "./product-detail.model";
+import { IProductsData } from "./products.model";
+import { IProductsCategoryData } from "./productsCategory.model";
 
 export interface IStore {
   menu: {
@@ -14,6 +16,14 @@ export interface IStore {
   };
   ourTeam: {
     ourTeamDetailData: IOurTeamDetails[];
+    loader: boolean;
+  };
+  productsCategory: {
+    productsCategoryData: IProductsCategoryData[];
+    loader: boolean;
+  };
+  products: {
+    productsData: IProductsData[];
     loader: boolean;
   };
 }

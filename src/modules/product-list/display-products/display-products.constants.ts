@@ -1,4 +1,5 @@
 import { NavigateFunction, Params } from "react-router-dom";
+import { IProductsData } from "../../../utils/models/products.model";
 
 export interface IDisplayProductsProps {
   router: {
@@ -6,5 +7,6 @@ export interface IDisplayProductsProps {
     navigate: NavigateFunction;
     params: Readonly<Params<string>>;
   };
+  productsData: IProductsData[];
 }
 export interface IDisplayProductsStates {}

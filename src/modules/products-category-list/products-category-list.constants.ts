@@ -1,2 +1,5 @@
-export interface IProductsCategoryListProps {}
+export interface IProductsCategoryListProps {
+  fetchAsyncProductsCategoryData: any;
+  loader: boolean;
+}
 export interface IProductsCategoryListStates {}
