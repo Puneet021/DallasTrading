@@ -14,6 +14,14 @@ class DisplayProducts extends Component<
   IDisplayProductsProps,
   IDisplayProductsStates
 > {
+  componentDidUpdate(
+    prevProps: Readonly<IDisplayProductsProps>,
+    prevState: Readonly<IDisplayProductsStates>
+  ): void {
+    if (prevProps.productsData !== this.props.productsData) {
+      this.props.setNoOfItems(this.props.productsData.length);
+    }
+  }
   render(): ReactNode {
     return (
       <div className={styles.displayContainer}>

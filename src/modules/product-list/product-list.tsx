@@ -10,38 +10,48 @@ import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 import { Select, MenuItem } from "@mui/material";
 import { connect } from "react-redux";
 import { IStore } from "../../utils/models/store.model";
-import { getProductsLoader } from "../../store/products/productsActions";
+import {
+  getProductCategoryName,
+  getProductsLoader,
+} from "../../store/products/productsActions";
 import { fetchAsyncProductsData } from "../../store/products/productsSlice";
 import CustomLoader from "../../components/common/loader/loader";
+import withRouter from "../../components/common/withRouterComponent/withRouter";
 
 class ProductList extends Component<IProductListProps, IProductListStates> {
   constructor(props: IProductListProps) {
     super(props);
     this.state = {
       selectVal: 1,
+      noOfItems: 0,
     };
   }
   componentDidMount(): void {
     window.scrollTo({ top: 0, behavior: "smooth" });
-    this.props.fetchAsyncProductsData();
+    const productCategoryId = this.props.router.location.pathname.split("/")[2];
+    this.props.fetchAsyncProductsData(productCategoryId);
   }
   render(): ReactNode {
+    const { productCategoryName } = this.props;
+    const productsCatName = productCategoryName.split(" ");
     return (
       <div className={styles.productListContainer}>
         <BreadCrumb
           items={[
             { moduleName: "Home", link: "/home" },
             { moduleName: "Our Products", link: "./../" },
-            { moduleName: "Cable Management System", link: "" },
+            { moduleName: productCategoryName, link: "" },
           ]}
         />
         <div className={styles.headDiv}>
           <div className={styles.leftText}>
             <LightWeightHeading
-              headingText1="Industrial "
-              headingText2="Cable Glands"
+              headingText1={productsCatName[0]}
+              headingText2={productsCatName.slice(1).join(" ")}
             />
-            <p className={styles.showingRes}>Showing 4 results</p>
+            <p className={styles.showingRes}>
+              Showing {this.state.noOfItems} results
+            </p>
           </div>
           <Select
             className={styles.selectBox}
@@ -73,7 +83,11 @@ class ProductList extends Component<IProductListProps, IProductListStates> {
             <CustomLoader />
           </div>
         ) : (
-          <DisplayProducts />
+          <DisplayProducts
+            setNoOfItems={(noOfItems: number) =>
+              this.setState({ noOfItems: noOfItems })
+            }
+          />
         )}
       </div>
     );
@@ -83,6 +97,7 @@ class ProductList extends Component<IProductListProps, IProductListStates> {
 export default connect(
   (state: IStore) => ({
     loader: getProductsLoader(state),
+    productCategoryName: getProductCategoryName(state),
   }),
   { fetchAsyncProductsData }
-)(ProductList);
+)(withRouter(ProductList));

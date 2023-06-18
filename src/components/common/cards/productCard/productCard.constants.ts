@@ -4,6 +4,7 @@ export interface IProductCardProps {
     title: string;
     info: string;
     image: string;
+    company?: string;
   };
   handleClick: () => void;
 }

@@ -21,6 +21,7 @@ class ProductDetails extends Component<
   IProductDetailsStates
 > {
   componentDidMount(): void {
+    window.scrollTo({ top: 0, behavior: "smooth" });
     const pathArr = this.props.router.location.pathname.split("/");
     this.props.fetchAsyncProductDetailData(pathArr[pathArr.length - 1]);
   }

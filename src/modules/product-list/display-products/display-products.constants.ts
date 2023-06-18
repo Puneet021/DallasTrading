@@ -8,5 +8,6 @@ export interface IDisplayProductsProps {
     params: Readonly<Params<string>>;
   };
   productsData: IProductsData[];
+  setNoOfItems: (noOfItems: number) => void;
 }
 export interface IDisplayProductsStates {}

@@ -1,26 +1,74 @@
 [
   {
     "id": "A1A2_Cable_Gland",
+    "productCategoryId": "industrial_cable_glands",
+    "productCategory": "Industrial Cable Glands",
     "title": "A1/A2 Cable Gland",
     "info": "As a leading supplier of Industrial and Commercial Grade Air Circulators, BREEZE® is recognized throughout the industry for the superior quality and performance of its products.",
-    "image": "A1A2_Cable_Gland"
+    "image": "A1A2_Cable_Gland",
+    "company": "Mesc"
   },
   {
     "id": "A1A2_Cable_Glands",
+    "productCategoryId": "industrial_cable_glands",
+    "productCategory": "Industrial Cable Glands",
     "title": "A1/A2 Cable Glands",
     "info": "Decoduct conduits are manufactured from super high impact uPVC compound suitable to withstand harsh environments. Conduits can be bent with the use of a bending spring.",
-    "image": "A1A2_Cable_Glands"
+    "image": "A1A2_Cable_Glands",
+    "company": "Mesc"
   },
   {
     "id": "BW_Cable_Gland",
+    "productCategoryId": "industrial_cable_glands",
+    "productCategory": "Industrial Cable Glands",
     "title": "BW Cable Gland",
     "info": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations, local distribution systems, industrial plants and commercial buildings.",
-    "image": "BW_Cable_Gland"
+    "image": "BW_Cable_Gland",
+    "company": "Mesc"
   },
   {
     "id": "BW_Cable_Glands",
+    "productCategoryId": "industrial_cable_glands",
+    "productCategory": "Industrial Cable Glands",
     "title": "BW Cable Gland",
     "info": "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, come off or slacken.",
-    "image": "BW_Cable_Glands"
+    "image": "BW_Cable_Glands",
+    "company": "Mesc"
+  },
+  {
+    "id": "armoured_cables",
+    "productCategoryId": "cables",
+    "productCategory": "Cables",
+    "title": "Armoured Cables",
+    "info": "0.6/1 KV XLPE INSULATED, WIRE ARMOURED CABLES",
+    "image": "Armoured_Cables",
+    "company": "Mesc"
+  },
+  {
+    "id": "control_cables",
+    "productCategoryId": "cables",
+    "productCategory": "Cables",
+    "title": "Control Cables",
+    "info": "",
+    "image": "Control_Cables",
+    "company": "Mesc"
+  },
+  {
+    "id": "multi_conductor",
+    "productCategoryId": "cables",
+    "productCategory": "Cables",
+    "title": "Multi Conductor, XLPE, Unshielded",
+    "info": "",
+    "image": "Multi_Conductor",
+    "company": "Mesc"
+  },
+  {
+    "id": "rubber_cable",
+    "productCategoryId": "cables",
+    "productCategory": "Cables",
+    "title": "Rubber Cable Ho7RNF",
+    "info": "",
+    "image": "Rubber_Cable",
+    "company": "Oxford Cavi"
   }
 ]

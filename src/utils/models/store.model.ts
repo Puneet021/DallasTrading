@@ -24,6 +24,7 @@ export interface IStore {
   };
   products: {
     productsData: IProductsData[];
+    productCategory: string;
     loader: boolean;
   };
 }

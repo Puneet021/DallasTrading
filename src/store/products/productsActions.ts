@@ -7,4 +7,7 @@ export const getProductsData = (state: IStore) =>
     image: productsImages[item.image],
   }));
 
+export const getProductCategoryName = (state: IStore) =>
+  state.products.productCategory;
+
 export const getProductsLoader = (state: IStore) => state.products.loader;
