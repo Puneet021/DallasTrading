@@ -2,6 +2,7 @@ export interface IProductDetailData {
   id: string;
   productName: string;
   categoryName: string;
+  // dataToShow: any;
   description: IProductDetailDescription;
   productDetailTableData: IProductDetailTableData[];
   customerReviews: IProductDetailReviewsData[];

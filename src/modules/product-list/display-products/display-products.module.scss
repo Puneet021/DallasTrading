@@ -5,7 +5,8 @@
   margin-top: 1rem;
   flex-wrap: wrap;
   .displayRow {
-    @include display-flex(row, space-between, center);
+    @include display-flex(row, flex-start, center);
     flex-wrap: wrap;
+    column-gap: 5%;
   }
 }

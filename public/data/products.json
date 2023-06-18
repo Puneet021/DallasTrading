@@ -1,41 +1,5 @@
 [
   {
-    "id": "A1A2_Cable_Gland",
-    "productCategoryId": "industrial_cable_glands",
-    "productCategory": "Industrial Cable Glands",
-    "title": "A1/A2 Cable Gland",
-    "info": "As a leading supplier of Industrial and Commercial Grade Air Circulators, BREEZE® is recognized throughout the industry for the superior quality and performance of its products.",
-    "image": "A1A2_Cable_Gland",
-    "company": "Mesc"
-  },
-  {
-    "id": "A1A2_Cable_Glands",
-    "productCategoryId": "industrial_cable_glands",
-    "productCategory": "Industrial Cable Glands",
-    "title": "A1/A2 Cable Glands",
-    "info": "Decoduct conduits are manufactured from super high impact uPVC compound suitable to withstand harsh environments. Conduits can be bent with the use of a bending spring.",
-    "image": "A1A2_Cable_Glands",
-    "company": "Mesc"
-  },
-  {
-    "id": "BW_Cable_Gland",
-    "productCategoryId": "industrial_cable_glands",
-    "productCategory": "Industrial Cable Glands",
-    "title": "BW Cable Gland",
-    "info": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations, local distribution systems, industrial plants and commercial buildings.",
-    "image": "BW_Cable_Gland",
-    "company": "Mesc"
-  },
-  {
-    "id": "BW_Cable_Glands",
-    "productCategoryId": "industrial_cable_glands",
-    "productCategory": "Industrial Cable Glands",
-    "title": "BW Cable Gland",
-    "info": "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, come off or slacken.",
-    "image": "BW_Cable_Glands",
-    "company": "Mesc"
-  },
-  {
     "id": "armoured_cables",
     "productCategoryId": "cables",
     "productCategory": "Cables",
@@ -70,5 +34,176 @@
     "info": "",
     "image": "Rubber_Cable",
     "company": "Oxford Cavi"
+  },
+  {
+    "id": "A1A2_Cable_Gland",
+    "productCategoryId": "industrial_cable_glands",
+    "productCategory": "Industrial Cable Glands",
+    "title": "A1/A2 Cable Gland",
+    "info": "As a leading supplier of Industrial and Commercial Grade Air Circulators, BREEZE® is recognized throughout the industry for the superior quality and performance of its products.",
+    "image": "A1A2_Cable_Gland",
+    "company": "Elite"
+  },
+  {
+    "id": "A1A2_Cable_Glands",
+    "productCategoryId": "industrial_cable_glands",
+    "productCategory": "Industrial Cable Glands",
+    "title": "A1/A2 Cable Glands",
+    "info": "Decoduct conduits are manufactured from super high impact uPVC compound suitable to withstand harsh environments. Conduits can be bent with the use of a bending spring.",
+    "image": "A1A2_Cable_Glands",
+    "company": "Hex"
+  },
+  {
+    "id": "BW_Cable_Gland",
+    "productCategoryId": "industrial_cable_glands",
+    "productCategory": "Industrial Cable Glands",
+    "title": "BW Cable Gland",
+    "info": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations, local distribution systems, industrial plants and commercial buildings.",
+    "image": "BW_Cable_Gland",
+    "company": "Elite"
+  },
+  {
+    "id": "BW_Cable_Glands",
+    "productCategoryId": "industrial_cable_glands",
+    "productCategory": "Industrial Cable Glands",
+    "title": "BW Cable Gland",
+    "info": "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, come off or slacken.",
+    "image": "BW_Cable_Glands",
+    "company": "Hex"
+  },
+  {
+    "id": "CW_Cable_Gland",
+    "productCategoryId": "industrial_cable_glands",
+    "productCategory": "Industrial Cable Glands",
+    "title": "CW Cable Gland",
+    "info": "As a leading supplier of Industrial and Commercial Grade Air Circulators, BREEZE® is recognized throughout the industry for the superior quality and performance of its products.",
+    "image": "CW_Cable_Gland",
+    "company": "Elite"
+  },
+  {
+    "id": "CW_Cable_Glands",
+    "productCategoryId": "industrial_cable_glands",
+    "productCategory": "Industrial Cable Glands",
+    "title": "CW Cable Gland",
+    "info": "As a leading supplier of Industrial and Commercial Grade Air Circulators, BREEZE® is recognized throughout the industry for the superior quality and performance of its products.",
+    "image": "CW_Cable_Glands",
+    "company": "Hex"
+  },
+  {
+    "id": "E1W_Cable_Gland",
+    "productCategoryId": "industrial_cable_glands",
+    "productCategory": "Industrial Cable Glands",
+    "title": "E1W Cable Gland",
+    "info": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations, local distribution systems, industrial plants and commercial buildings.",
+    "image": "E1W_Cable_Gland",
+    "company": "Elite"
+  },
+  {
+    "id": "E1W_Cable_Glands",
+    "productCategoryId": "industrial_cable_glands",
+    "productCategory": "Industrial Cable Glands",
+    "title": "E1W Cable Gland",
+    "info": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations, local distribution systems, industrial plants and commercial buildings.",
+    "image": "E1W_Cable_Glands",
+    "company": "Hex"
+  },
+  {
+    "id": "Panel_Wire",
+    "productCategoryId": "wires",
+    "productCategory": "Wires",
+    "title": "Panel Wire",
+    "info": "",
+    "image": "Panel_Wire",
+    "company": "Mesc"
+  },
+  {
+    "id": "PVC_Flexible_Wire",
+    "productCategoryId": "wires",
+    "productCategory": "Wires",
+    "title": "PVC Flexible Wire",
+    "info": "",
+    "image": "PVC_Flexible_Wire",
+    "company": "Mesc"
+  },
+  {
+    "id": "Building_Wire",
+    "productCategoryId": "wires",
+    "productCategory": "Wires",
+    "title": "Single Core Wire/Building Wire",
+    "info": "",
+    "image": "Building_Wire",
+    "company": "Mesc"
+  },
+  {
+    "id": "3M_LV_Resin_Joint_Kit",
+    "productCategoryId": "cable_jointing_kit",
+    "productCategory": "Cable Jointing Kit / Termination",
+    "title": "3M LV Resin Joint Kit",
+    "info": "",
+    "image": "M_LV_Resin_Joint_Kit",
+    "company": "3M"
+  },
+  {
+    "id": "3M_Wire_Pulling_Lubricant",
+    "productCategoryId": "cable_jointing_kit",
+    "productCategory": "Cable Jointing Kit / Termination",
+    "title": "3M Wire Pulling Lubricant",
+    "info": "",
+    "image": "M_Wire_Pulling_Lubricant",
+    "company": "3M"
+  },
+  {
+    "id": "Cold_Shrink_Termination",
+    "productCategoryId": "cable_jointing_kit",
+    "productCategory": "Cable Jointing Kit / Termination",
+    "title": "Cold Shrink Termination",
+    "info": "",
+    "image": "Cold_Shrink_Termination",
+    "company": "3M"
+  },
+  {
+    "id": "Heat_Shrink_Accessories",
+    "productCategoryId": "cable_jointing_kit",
+    "productCategory": "Cable Jointing Kit / Termination",
+    "title": "Heat Shrink Accessories",
+    "info": "",
+    "image": "Heat_Shrink_Accessories",
+    "company": "3M"
+  },
+  {
+    "id": "Heat_Shrink_Termination",
+    "productCategoryId": "cable_jointing_kit",
+    "productCategory": "Cable Jointing Kit / Termination",
+    "title": "Heat Shrink Termination",
+    "info": "",
+    "image": "Heat_Shrink_Termination",
+    "company": "3M"
+  },
+  {
+    "id": "LV_3M_Cold_Shrink_Straight_Cable_Joint",
+    "productCategoryId": "cable_jointing_kit",
+    "productCategory": "Cable Jointing Kit / Termination",
+    "title": "LV 3M Cold Shrink Straight Cable Joint",
+    "info": "",
+    "image": "LV_3M_Cold_Shrink_Straight_Cable_Joint",
+    "company": "3M"
+  },
+  {
+    "id": "Nylon_Cable_Tie",
+    "productCategoryId": "cable_ties",
+    "productCategory": "Cable Ties",
+    "title": "Nylon Cable Tie",
+    "info": "",
+    "image": "Nylon_Cable_Tie",
+    "company": "3M"
+  },
+  {
+    "id": "Industrial_Plug_And_Socket",
+    "productCategoryId": "industrial_plugs_and_sockets",
+    "productCategory": "Industrial Plugs & Sockets",
+    "title": "Industrial Plug & Socket",
+    "info": "",
+    "image": "Industrial_Plug_And_Socket",
+    "company": "PCE"
   }
 ]

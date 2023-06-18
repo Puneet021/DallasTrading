@@ -6,16 +6,16 @@
     "info": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations, local distribution systems, industrial plants and commercial buildings."
   },
   {
-    "id": "cable_ties",
-    "image": "Cable_Ties",
-    "title": "Cable Ties",
-    "info": "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, come off or slacken."
-  },
-  {
     "id": "wires",
     "image": "Wires",
     "title": "Wires",
     "info": "These cables are used for the purpose of lighting in residential and commercial building in surface mounted or embedded conduits."
+  },
+  {
+    "id": "cable_ties",
+    "image": "Cable_Ties",
+    "title": "Cable Ties",
+    "info": "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, come off or slacken."
   },
   {
     "id": "cable_jointing_kit",
