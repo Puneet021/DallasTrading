@@ -29,11 +29,14 @@ class ProductList extends Component<IProductListProps, IProductListStates> {
   componentDidMount(): void {
     window.scrollTo({ top: 0, behavior: "smooth" });
     const productCategoryId = this.props.router.location.pathname.split("/")[2];
-    this.props.fetchAsyncProductsData(productCategoryId);
+    this.props.fetchAsyncProductsData({
+      productCategoryId: productCategoryId,
+      productCategory: productCategoryId,
+    });
   }
   render(): ReactNode {
     const { productCategoryName } = this.props;
-    const productsCatName = productCategoryName.split(" ");
+    const productsCatName = productCategoryName?.split(" ");
     return (
       <div className={styles.productListContainer}>
         <BreadCrumb

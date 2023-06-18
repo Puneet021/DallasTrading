@@ -3,13 +3,15 @@ import { IProductsData } from "../../utils/models/products.model";
 
 export const fetchAsyncProductsData = createAsyncThunk(
   "products/fetchAsyncProductsData",
-  async (productCategoryId: string) => {
+  async (payload: { productCategoryId: string; productCategory: string }) => {
     let response: IProductsData[] = await fetch("/data/products.json")
       .then((data) => data.json())
       .then((data: IProductsData[]) =>
-        data.filter((item) => item.productCategoryId === productCategoryId)
+        data.filter(
+          (item) => item.productCategoryId === payload.productCategoryId
+        )
       );
-    return response;
+    return { data: response, productCategory: payload.productCategory };
   }
 );
 
@@ -35,9 +37,18 @@ const productsSlice = createSlice({
       .addCase(fetchAsyncProductsData.fulfilled, (state, { payload }) => {
         return {
           ...state,
-          productsData: payload,
+          productsData: payload.data,
           loader: false,
-          productCategory: payload[0].productCategory,
+          productCategory: payload.data.length
+            ? payload.data[0].productCategory
+            : payload.productCategory
+                .split("_")
+                .map((word) => {
+                  const first = word.charAt(0).toUpperCase();
+                  const second = word.slice(1);
+                  return first + second;
+                })
+                .join(" "),
         };
       });
   },

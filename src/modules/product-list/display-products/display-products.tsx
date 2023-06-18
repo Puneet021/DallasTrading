@@ -26,13 +26,17 @@ class DisplayProducts extends Component<
     return (
       <div className={styles.displayContainer}>
         <div className={styles.displayRow}>
-          {this.props.productsData.map((item) => (
-            <ProducCard
-              key={item.id}
-              data={item}
-              handleClick={() => this.props.router.navigate("./" + item.id)}
-            />
-          ))}
+          {this.props.productsData.length ? (
+            this.props.productsData.map((item) => (
+              <ProducCard
+                key={item.id}
+                data={item}
+                handleClick={() => this.props.router.navigate("./" + item.id)}
+              />
+            ))
+          ) : (
+            <div className={styles.noProducts}>No Products were found.</div>
+          )}
         </div>
       </div>
     );
