@@ -12,6 +12,9 @@ class SearchPage extends Component<ISearchPageProps, ISearchPageStates> {
       selectVal: 1,
     };
   }
+  componentDidMount(): void {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
   render(): ReactNode {
     return (
       <div className={styles.searchPageContainer}>

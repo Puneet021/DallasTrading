@@ -7,6 +7,9 @@ import OurPartners from "../home-page/our-partners/our-partners";
 import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 
 class AboutPage extends Component<IAboutPageProps, IAboutPageStates> {
+  componentDidMount(): void {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
   render(): ReactNode {
     return (
       <div className={styles.aboutPageContainer}>

@@ -8,7 +8,10 @@ import LightWeightHeading from "../../components/common/headings/lightWeightHead
 import withRouter from "../../components/common/withRouterComponent/withRouter";
 import { connect } from "react-redux";
 import { IStore } from "../../utils/models/store.model";
-import { getProductDetailLoader } from "../../store/product-detail/productDetailActions";
+import {
+  getProductDetailLoader,
+  getProductDetailName,
+} from "../../store/product-detail/productDetailActions";
 import { fetchAsyncProductDetailData } from "../../store/product-detail/productDetailSlice";
 import Details from "./details/details";
 import ProductDetailTable from "./productDetailTable/productDetailTable";
@@ -32,8 +35,11 @@ class ProductDetails extends Component<
           items={[
             { moduleName: "Home", link: "/home" },
             { moduleName: "Our Products", link: "./../.." },
-            { moduleName: "Cable Management System", link: "./../" },
-            { moduleName: "A1/A2 Cable Gland", link: "" },
+            {
+              moduleName: this.props.product.productCategoryName,
+              link: "./../",
+            },
+            { moduleName: this.props.product.productName, link: "" },
           ]}
         />
         <LightWeightHeading headingText1="Product " headingText2="Details" />
@@ -56,6 +62,7 @@ class ProductDetails extends Component<
 export default connect(
   (state: IStore) => ({
     loader: getProductDetailLoader(state),
+    product: getProductDetailName(state),
   }),
   {
     fetchAsyncProductDetailData,

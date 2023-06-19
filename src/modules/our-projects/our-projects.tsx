@@ -8,6 +8,9 @@ import {
 import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 
 class OurProjects extends Component<IOurProjectsProps, IOurProjectsStates> {
+  componentDidMount(): void {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
   render(): ReactNode {
     return (
       <div className={styles.ourProjectsContainer}>

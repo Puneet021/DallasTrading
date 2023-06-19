@@ -14,6 +14,9 @@ class DisplayProducts extends Component<
   IDisplayProductsProps,
   IDisplayProductsStates
 > {
+  componentDidMount(): void {
+    this.props.setNoOfItems(this.props.productsData.length);
+  }
   componentDidUpdate(
     prevProps: Readonly<IDisplayProductsProps>,
     prevState: Readonly<IDisplayProductsStates>

@@ -8,6 +8,9 @@ import OurPartners from "./our-partners/our-partners";
 import AboutUs from "./about-us/about-us";
 
 class HomePage extends Component<IHomePageProps, IHomePageStates> {
+  componentDidMount(): void {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
   render(): ReactNode {
     return (
       <div className={styles.homePage}>

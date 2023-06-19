@@ -15,6 +15,7 @@ import CustomLoader from "../../components/common/loader/loader";
 
 class OurTeam extends Component<IOurTeamProps, IOurTeamStates> {
   componentDidMount(): void {
+    window.scrollTo({ top: 0, behavior: "smooth" });
     this.props.fetchAsyncOurTeamDetailsData();
   }
   render(): ReactNode {
@@ -32,7 +33,9 @@ class OurTeam extends Component<IOurTeamProps, IOurTeamStates> {
           backShadowHeading={false}
         />
         {this.props.loader ? (
-          <div className={styles.loaderDiv}><CustomLoader /></div>
+          <div className={styles.loaderDiv}>
+            <CustomLoader />
+          </div>
         ) : (
           <div className={styles.teamDetails}>
             {this.props.ourTeamDetailsData.map((person) => (

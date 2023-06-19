@@ -12,6 +12,9 @@ class CareerOpportunities extends Component<
   ICareerOpportunitiesProps,
   ICareerOpportunitiesStates
 > {
+  componentDidMount(): void {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
   render(): ReactNode {
     return (
       <div className={styles.careerOpportunitiesContainer}>

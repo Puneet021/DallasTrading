@@ -11,6 +11,9 @@ import ShadowHeading from "../../components/common/headings/shadowHeading/shadow
 import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 
 class Certificates extends Component<ICertificatesProps, ICertificatesStates> {
+  componentDidMount(): void {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
   render(): ReactNode {
     return (
       <div className={styles.certificatesContainer}>

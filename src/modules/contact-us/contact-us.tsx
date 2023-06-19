@@ -21,6 +21,9 @@ class ContactUs extends Component<IContactUsProps, IContactUsStates> {
     };
     this.handleSubmit = this.handleSubmit.bind(this);
   }
+  componentDidMount(): void {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
   handleSubmit() {}
   render(): ReactNode {
     return (
