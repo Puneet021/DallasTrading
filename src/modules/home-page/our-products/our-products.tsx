@@ -17,8 +17,8 @@ class OurProducts extends Component<IOurProductsProps, IOurProductsStates> {
     super(props);
     this.handleClickOnCard = this.handleClickOnCard.bind(this);
   }
-  handleClickOnCard() {
-    this.props.router.navigate("/our-products/card");
+  handleClickOnCard(id: string) {
+    this.props.router.navigate("/our-products/" + id);
   }
   render(): ReactNode {
     return (
@@ -39,7 +39,7 @@ class OurProducts extends Component<IOurProductsProps, IOurProductsStates> {
             <StylishUpDownCard
               altText="card1"
               image={fan_img}
-              handleClick={this.handleClickOnCard}
+              handleClick={() => this.handleClickOnCard("industrial_fans")}
               info={
                 "As a leading supplier of Industrial and Commercial Grade Air Circulators, BREEZE® is recognized throughout the industry for the superior quality and performance."
               }
@@ -47,7 +47,7 @@ class OurProducts extends Component<IOurProductsProps, IOurProductsStates> {
             <StylishUpDownCard
               altText="card2"
               image={cables_img}
-              handleClick={this.handleClickOnCard}
+              handleClick={() => this.handleClickOnCard("cables")}
               info={
                 "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations."
               }
@@ -57,7 +57,7 @@ class OurProducts extends Component<IOurProductsProps, IOurProductsStates> {
             <StylishUpDownCard
               altText="card3"
               image={pipes_img}
-              handleClick={this.handleClickOnCard}
+              handleClick={() => this.handleClickOnCard("pvc_conduits")}
               info={
                 "Decoduct conduits are manufactured from super high impact uPVC compound suitable to withstand harsh environments. Conduits can be bent with the use of a bending spring."
               }
@@ -65,7 +65,7 @@ class OurProducts extends Component<IOurProductsProps, IOurProductsStates> {
             <StylishUpDownCard
               altText="card2"
               image={wires_img}
-              handleClick={this.handleClickOnCard}
+              handleClick={() => this.handleClickOnCard("cable_ties")}
               info={
                 "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, slacken."
               }
