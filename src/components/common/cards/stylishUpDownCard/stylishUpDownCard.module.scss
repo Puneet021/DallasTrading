@@ -55,6 +55,7 @@
       font-weight: 600;
       font-size: 1.2rem;
       line-height: 1.5rem;
+      letter-spacing: 0.02em;
       color: #aea9ba;
       @include respond-to(desktop-lg) {
         font-size: 1.1rem;

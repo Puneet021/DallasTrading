@@ -15,7 +15,7 @@ class StylishUpDownCard extends Component<
     Aos.init();
   }
   render(): ReactNode {
-    const { altText, image } = this.props;
+    const { altText, image, info } = this.props;
     return (
       <div
         className={styles.card}
@@ -30,10 +30,7 @@ class StylishUpDownCard extends Component<
           <img className={styles.img} src={image} alt={altText} />
         </div>
         <div className={styles.right}>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
-          </p>
+          <p>{info}</p>
         </div>
       </div>
     );

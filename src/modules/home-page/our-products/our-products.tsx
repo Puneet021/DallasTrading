@@ -40,11 +40,17 @@ class OurProducts extends Component<IOurProductsProps, IOurProductsStates> {
               altText="card1"
               image={fan_img}
               handleClick={this.handleClickOnCard}
+              info={
+                "As a leading supplier of Industrial and Commercial Grade Air Circulators, BREEZE® is recognized throughout the industry for the superior quality and performance."
+              }
             />
             <StylishUpDownCard
               altText="card2"
               image={cables_img}
               handleClick={this.handleClickOnCard}
+              info={
+                "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations."
+              }
             />
           </div>
           <div className={styles.col2}>
@@ -52,11 +58,17 @@ class OurProducts extends Component<IOurProductsProps, IOurProductsStates> {
               altText="card3"
               image={pipes_img}
               handleClick={this.handleClickOnCard}
+              info={
+                "Decoduct conduits are manufactured from super high impact uPVC compound suitable to withstand harsh environments. Conduits can be bent with the use of a bending spring."
+              }
             />
             <StylishUpDownCard
               altText="card2"
               image={wires_img}
               handleClick={this.handleClickOnCard}
+              info={
+                "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, slacken."
+              }
             />
           </div>
         </div>
