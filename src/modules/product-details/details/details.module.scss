@@ -32,7 +32,9 @@
     }
     .companyImage {
       transform: scale(0.9);
-      margin-top: -1em;
+      object-fit: contain;
+      max-width: 7rem;
+      margin-bottom: 1em;
     }
     .description {
       font-size: 1.1em;

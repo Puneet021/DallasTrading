@@ -1,6 +1,9 @@
 export interface IProductDetailData {
   id: string;
+  image: string;
   productName: string;
+  company: string[];
+  companyImg: string[];
   categoryName: string;
   description: IProductDetailDescription;
   productDetailTableData: any;

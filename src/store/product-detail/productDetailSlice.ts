@@ -24,7 +24,10 @@ const initialState: {
 } = {
   productDetailData: {
     id: "",
+    image: "",
     productName: "",
+    company: [],
+    companyImg: [],
     categoryName: "",
     description: {
       Size: "",

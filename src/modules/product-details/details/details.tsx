@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 import { IStore } from "../../../utils/models/store.model";
 import { getProductDetails } from "../../../store/product-detail/productDetailActions";
 import { IDetailsProps, IDetailsStates } from "./details.constants";
-import temp from "./../../../images/partner5.svg";
 
 class Details extends Component<IDetailsProps, IDetailsStates> {
   render(): ReactNode {
@@ -21,7 +20,14 @@ class Details extends Component<IDetailsProps, IDetailsStates> {
         <div className={styles.rightContainer}>
           <h2 className={styles.productName}>{details.productName}</h2>
           <h5 className={styles.categoryName}>{details.productCategory}</h5>
-          <img className={styles.companyImage} src={temp} alt="temp" />
+          {details.companyImg.map((img, i) => (
+            <img
+              key={i}
+              className={styles.companyImage}
+              src={img}
+              alt={details.company[i]}
+            />
+          ))}
           <h5 className={styles.description}>Description</h5>
           <ul>
             {Object.entries(details.description).map((entry, i) => (

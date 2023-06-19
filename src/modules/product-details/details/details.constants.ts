@@ -4,6 +4,8 @@ export interface IDetailsProps {
   details: {
     productId: string;
     productName: string;
+    company: string[];
+    companyImg: string[];
     productCategory: string;
     productImage: string;
     description: IProductDetailDescription;

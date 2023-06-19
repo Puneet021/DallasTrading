@@ -1,4 +1,5 @@
 import { IStore } from "../../utils/models/store.model";
+import { ourCompaniesImages } from "../our-companies/ourCompaniesImages/ourCompaniesImages";
 import { productsImages } from "../products/productsImages/productsImages";
 import { productDetailColumns } from "./productDetailColumns/productDetailColumns";
 
@@ -9,8 +10,12 @@ export const getProductDetails = (state: IStore) => {
   return {
     productId: state.productDetail.productDetailData.id,
     productName: state.productDetail.productDetailData.productName,
+    company: state.productDetail.productDetailData.company,
+    companyImg: state.productDetail.productDetailData.company.map(
+      (comp) => ourCompaniesImages[comp]
+    ),
     productCategory: state.productDetail.productDetailData.categoryName,
-    productImage: productsImages[state.productDetail.productDetailData.id],
+    productImage: productsImages[state.productDetail.productDetailData.image],
     description: state.productDetail.productDetailData.description,
   };
 };
