@@ -1,5 +1,37 @@
 [
   {
+    "id": "armoured_cables",
+    "productName": "Armoured Cables",
+    "categoryName": "Cables",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "control_cables",
+    "productName": "Control Cables",
+    "categoryName": "Cables",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "multi_conductor",
+    "productName": "Multi Conductor, XLPE, Unshielded",
+    "categoryName": "Cables",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "rubber_cable",
+    "productName": "Rubber Cable Ho7RNF",
+    "categoryName": "Cables",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
     "id": "A1A2_Cable_Gland",
     "productName": "A1/A2 Cable Gland",
     "categoryName": "Industrial Cable Glands",
@@ -93,196 +125,375 @@
     "productName": "A1/A2 Cable Glands",
     "categoryName": "Industrial Cable Glands",
     "description": {},
-    "productDetailTableData": [
-      {
-        "size": "16S",
-        "overallDiaBMinmm": 3.5,
-        "overallDiaBMaxmm": 7,
-        "isoEntryThreadDia": 16,
-        "isoEntryThreadLength": 10,
-        "approxLengthFromShoulder": 20,
-        "hexagonSizeAcrossFlat": 20,
-        "hexagonSizeAcrossCorners": 23
-      }
-    ],
+    "productDetailTableData": [],
     "customerReviews": []
   },
   {
     "id": "BW_Cable_Gland",
     "productName": "BW Cable Gland",
     "categoryName": "Industrial Cable Glands",
-    "description": {
-      "Size": "20 mm to 90 mm",
-      "Standard": "EN 50262 : 1999",
-      "Application": "Outdoor or Indoor for use with all types of Unarmoured Cable",
-      "Function": "Provide Seal on Outer Sheath of the Unarmoured Cable",
-      "Material": "Brass BS 2874 CZ121 Pb3",
-      "optionalThreads": "METRIC, NPT, BSP, PG or as specified",
-      "Finish": "Brass Finish, Nickel Finish, Chrome Finish or as specified",
-      "operatingTemp": "Standard seals -200 C to +800 C",
-      "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tags, Reducers, Adaptors, etc. as per the requirement"
-    },
-    "productDetailTableData": [
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      },
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      },
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      },
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      },
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      }
-    ],
-    "customerReviews": [
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      },
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      },
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      },
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      }
-    ]
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
   },
   {
     "id": "BW_Cable_Glands",
-    "productName": "BW Cable Glands",
+    "productName": "BW Cable Gland",
     "categoryName": "Industrial Cable Glands",
-    "description": {
-      "Size": "20 mm to 90 mm",
-      "Standard": "EN 50262 : 1999",
-      "Application": "Outdoor or Indoor for use with all types of Unarmoured Cable",
-      "Function": "Provide Seal on Outer Sheath of the Unarmoured Cable",
-      "Material": "Brass BS 2874 CZ121 Pb3",
-      "optionalThreads": "METRIC, NPT, BSP, PG or as specified",
-      "Finish": "Brass Finish, Nickel Finish, Chrome Finish or as specified",
-      "operatingTemp": "Standard seals -200 C to +800 C",
-      "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tags, Reducers, Adaptors, etc. as per the requirement"
-    },
-    "productDetailTableData": [
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      },
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      },
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      },
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      },
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      }
-    ],
-    "customerReviews": [
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      },
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      },
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      },
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      }
-    ]
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "CW_Cable_Gland",
+    "productName": "CW Cable Gland",
+    "categoryName": "Industrial Cable Glands",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "CW_Cable_Glands",
+    "productName": "CW Cable Gland",
+    "categoryName": "Industrial Cable Glands",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "E1W_Cable_Gland",
+    "productName": "E1W Cable Gland",
+    "categoryName": "Industrial Cable Glands",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "E1W_Cable_Glands",
+    "productName": "E1W Cable Gland",
+    "categoryName": "Industrial Cable Glands",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Panel_Wire",
+    "productName": "Panel Wire",
+    "categoryName": "Wires",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "PVC_Flexible_Wire",
+    "productName": "PVC Flexible Wire",
+    "categoryName": "Wires",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Building_Wire",
+    "productName": "Single Core Wire/Building Wire",
+    "categoryName": "Wires",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "3M_LV_Resin_Joint_Kit",
+    "productName": "3M LV Resin Joint Kit",
+    "categoryName": "Cable Jointing Kit / Termination",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "3M_Wire_Pulling_Lubricant",
+    "productName": "3M Wire Pulling Lubricant",
+    "categoryName": "Cable Jointing Kit / Termination",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Cold_Shrink_Termination",
+    "productName": "Cold Shrink Termination",
+    "categoryName": "Cable Jointing Kit / Termination",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Heat_Shrink_Accessories",
+    "productName": "Heat Shrink Accessories",
+    "categoryName": "Cable Jointing Kit / Termination",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Heat_Shrink_Termination",
+    "productName": "Heat Shrink Termination",
+    "categoryName": "Cable Jointing Kit / Termination",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "LV_3M_Cold_Shrink_Straight_Cable_Joint",
+    "productName": "LV 3M Cold Shrink Straight Cable Joint",
+    "categoryName": "Cable Jointing Kit / Termination",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Nylon_Cable_Tie",
+    "productName": "Nylon Cable Tie",
+    "categoryName": "Cable Ties",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Industrial_Plug_And_Socket",
+    "productName": "Industrial Plug & Socket",
+    "categoryName": "Industrial Plugs & Sockets",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "DS4_High_Current_Connectors",
+    "productName": "DS4 High Current Connectors",
+    "categoryName": "High Voltage Connectors",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "DX_Metal_Decontactor",
+    "productName": "DX Metal Decontactor",
+    "categoryName": "High Voltage Connectors",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "PF_High_Current_Plugs_and_Socket_Outlets",
+    "productName": "PF High Current Plugs and Socket Outlets",
+    "categoryName": "High Voltage Connectors",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Single_Pole_Power_Connectors",
+    "productName": "Single Pole Power Connectors",
+    "categoryName": "High Voltage Connectors",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Cable_Ladder",
+    "productName": "Cable Ladder",
+    "categoryName": "Cable Management System",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Cable_Tray",
+    "productName": "Cable Tray",
+    "categoryName": "Cable Management System",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Flexible_Conduit_And_Accessories",
+    "productName": "Flexible Conduit & Accessories",
+    "categoryName": "Flexible/Rigid Conduit & Accessories",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Rigid_Conduit_And_Accessories",
+    "productName": "Rigid Conduit & Accessories",
+    "categoryName": "Flexible/Rigid Conduit & Accessories",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "PVC_Conduits",
+    "productName": "PVC Conduits",
+    "categoryName": "PVC Conduits",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Switchgear_Accessories",
+    "productName": "Switchgear Accessories",
+    "categoryName": "Switchgear Accessories",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Switchgear_Accessories1",
+    "productName": "Switchgear Accessories",
+    "categoryName": "Switchgear Accessories",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Switchgear_Assembly",
+    "productName": "Switchgear Assembly",
+    "categoryName": "Switchgear Accessories",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Industrial_Fans",
+    "productName": "Industrial Fans",
+    "categoryName": "Industrial Fans",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Laser_Marking_Machine",
+    "productName": "Laser Marking Machine",
+    "categoryName": "Laser Marking Machine",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Arteor",
+    "productName": "Arteor",
+    "categoryName": "Wiring Devices",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Belanko",
+    "productName": "Belanko",
+    "categoryName": "Wiring Devices",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Ceiling_Rose",
+    "productName": "Ceiling Rose",
+    "categoryName": "Wiring Devices",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Mallia",
+    "productName": "Mallia",
+    "categoryName": "Wiring Devices",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Plexo",
+    "productName": "Plexo",
+    "categoryName": "Wiring Devices",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Synergy",
+    "productName": "Synergy",
+    "categoryName": "Wiring Devices",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Wiring_Devices",
+    "productName": "Wiring Devices",
+    "categoryName": "Wiring Devices",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "PCS_Phase_Identification_Tape",
+    "productName": "PCS Phase Identification Tape",
+    "categoryName": "Scotch Tapes & Mastics",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Scotch_22_Heavy_Duty_Tape",
+    "productName": "Scotch 22 Heavy Duty Tape",
+    "categoryName": "Scotch Tapes & Mastics",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Scotch_33_Tape",
+    "productName": "Scotch 33 Tape",
+    "categoryName": "Scotch Tapes & Mastics",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Scotch_35_Tape",
+    "productName": "Scotch 35 Tape",
+    "categoryName": "Scotch Tapes & Mastics",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Scotch_Super_88_All_Weather_Tape",
+    "productName": "Scotch Super 88 All Weather Tape",
+    "categoryName": "Scotch Tapes & Mastics",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Scotch_T2228_Rubber_Mastic_Tape",
+    "productName": "Scotch T2228 Rubber Mastic Tape",
+    "categoryName": "Scotch Tapes & Mastics",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Scotch_Vinyl_Mastic_Tape",
+    "productName": "Scotch Vinyl Mastic Tape",
+    "categoryName": "Scotch Tapes & Mastics",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
+  },
+  {
+    "id": "Scotchfil_Insulation_Putty",
+    "productName": "Scotchfil Insulation Putty",
+    "categoryName": "Scotch Tapes & Mastics",
+    "description": {},
+    "productDetailTableData": [],
+    "customerReviews": []
   }
 ]
