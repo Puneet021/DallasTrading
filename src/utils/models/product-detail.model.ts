@@ -2,9 +2,8 @@ export interface IProductDetailData {
   id: string;
   productName: string;
   categoryName: string;
-  // dataToShow: any;
   description: IProductDetailDescription;
-  productDetailTableData: IProductDetailTableData[];
+  productDetailTableData: any;
   customerReviews: IProductDetailReviewsData[];
 }
 
@@ -18,16 +17,6 @@ export interface IProductDetailDescription {
   Finish: string;
   operatingTemp: string;
   Accessories: string;
-}
-
-export interface IProductDetailTableData {
-  size: string;
-  threadSizeC: {
-    ThreadSizeC1: number;
-    threadSizeC2: string;
-  };
-  minimumLengthOfThreadD: number;
-  cableRange: { maxA: number; maxB: number };
 }
 
 export interface IProductDetailReviewsData {

@@ -92,90 +92,20 @@
     "id": "A1A2_Cable_Glands",
     "productName": "A1/A2 Cable Glands",
     "categoryName": "Industrial Cable Glands",
-    "description": {
-      "Size": "20 mm to 90 mm",
-      "Standard": "EN 50262 : 1999",
-      "Application": "Outdoor or Indoor for use with all types of Unarmoured Cable",
-      "Function": "Provide Seal on Outer Sheath of the Unarmoured Cable",
-      "Material": "Brass BS 2874 CZ121 Pb3",
-      "optionalThreads": "METRIC, NPT, BSP, PG or as specified",
-      "Finish": "Brass Finish, Nickel Finish, Chrome Finish or as specified",
-      "operatingTemp": "Standard seals -200 C to +800 C",
-      "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tags, Reducers, Adaptors, etc. as per the requirement"
-    },
+    "description": {},
     "productDetailTableData": [
       {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      },
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      },
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      },
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
-      },
-      {
-        "size": "A220S",
-        "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
-        },
-        "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+        "size": "16S",
+        "overallDiaBMinmm": 3.5,
+        "overallDiaBMaxmm": 7,
+        "isoEntryThreadDia": 16,
+        "isoEntryThreadLength": 10,
+        "approxLengthFromShoulder": 20,
+        "hexagonSizeAcrossFlat": 20,
+        "hexagonSizeAcrossCorners": 23
       }
     ],
-    "customerReviews": [
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      },
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      },
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      },
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      }
-    ]
+    "customerReviews": []
   },
   {
     "id": "BW_Cable_Gland",
