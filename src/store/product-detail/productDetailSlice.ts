@@ -26,6 +26,8 @@ const initialState: {
     id: "",
     image: "",
     productName: "",
+    Specification: [],
+    detail: [],
     company: [],
     companyImg: [],
     categoryName: "",

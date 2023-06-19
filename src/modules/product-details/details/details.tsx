@@ -13,20 +13,52 @@ class Details extends Component<IDetailsProps, IDetailsStates> {
         <div className={styles.leftContainer}>
           <img
             className={styles.productImg}
-            src={details.productImage}
-            alt={details.productId + "_image"}
+            src={details?.productImage}
+            alt={details?.productId + "_image"}
           />
         </div>
         <div className={styles.rightContainer}>
-          <h2 className={styles.productName}>{details.productName}</h2>
-          <h5 className={styles.categoryName}>{details.productCategory}</h5>
-          {details.companyImg.map((img, i) => (
+          <h2 className={styles.productName}>{details?.productName}</h2>
+          {details?.Specification?.map((specification, index) => (
+            <div key={index} className={styles.specificationCont}>
+              {specification?.extraSpecTitle ? (
+                <h5
+                  className={styles.specification}
+                  style={{ fontWeight: "500" }}
+                >
+                  {specification?.extraSpecTitle}
+                </h5>
+              ) : null}
+              {specification?.extraSpec?.map((spec, i) => (
+                <p key={i} className={styles.spec}>
+                  {spec}
+                </p>
+              ))}
+              {specification?.specification?.length ? (
+                <h5 className={styles.specification}>Specification :</h5>
+              ) : null}
+              {specification?.specification?.map((spec, i) => (
+                <p key={i} className={styles.spec}>
+                  {spec}
+                </p>
+              ))}
+            </div>
+          ))}
+          <h5 className={styles.categoryName}>{details?.productCategory}</h5>
+          {details?.companyImg?.map((img, i) => (
             <img
               key={i}
               className={styles.companyImage}
               src={img}
               alt={details.company[i]}
             />
+          ))}
+          {details?.detail?.map((det, i) => (
+            <p
+              key={i}
+              className={styles.details}
+              dangerouslySetInnerHTML={{ __html: det }}
+            ></p>
           ))}
           <h5 className={styles.description}>Description</h5>
           <ul>

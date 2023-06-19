@@ -10,6 +10,8 @@ export const getProductDetails = (state: IStore) => {
   return {
     productId: state.productDetail.productDetailData.id,
     productName: state.productDetail.productDetailData.productName,
+    detail: state.productDetail.productDetailData.detail,
+    Specification: state.productDetail.productDetailData.Specification,
     company: state.productDetail.productDetailData.company,
     companyImg: state.productDetail.productDetailData.company.map(
       (comp) => ourCompaniesImages[comp]

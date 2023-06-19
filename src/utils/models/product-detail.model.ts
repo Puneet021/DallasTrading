@@ -2,6 +2,12 @@ export interface IProductDetailData {
   id: string;
   image: string;
   productName: string;
+  Specification: {
+    extraSpecTitle: string;
+    extraSpec: string[];
+    specification: string[];
+  }[];
+  detail: string[];
   company: string[];
   companyImg: string[];
   categoryName: string;

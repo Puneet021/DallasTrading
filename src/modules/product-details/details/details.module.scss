@@ -24,6 +24,22 @@
     .productName {
       color: $secondaryColor;
     }
+    .specificationCont {
+      margin-bottom: 3em;
+      .specification {
+        font-size: 1.1em;
+        line-height: 0.1em;
+        color: $greyText;
+      }
+      .spec {
+        color: $fontColor;
+        line-height: 0;
+      }
+    }
+    .details {
+      color: $greyText;
+      font-size: 1.1em;
+    }
     .categoryName {
       color: $fontColor;
       text-decoration: underline;

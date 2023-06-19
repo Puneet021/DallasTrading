@@ -3,6 +3,16 @@
     "id": "armoured_cables",
     "image": "Armoured_Cables",
     "productName": "Armoured Cables",
+    "Specification": [
+      {
+        "extraSpec": ["0.6/1 KV XLPE INSULATED, WIRE ARMOURED CABLES"],
+        "specification": [
+          "IEC 60502, BS – 5467",
+          "CU/XLPE/SWA/PVC 3CX4MM2 600/1000 V MESC 2005"
+        ]
+      }
+    ],
+    "detail": [],
     "company": ["Mesc"],
     "categoryName": "Cables",
     "description": {},
@@ -13,6 +23,16 @@
     "id": "control_cables",
     "image": "Control_Cables",
     "productName": "Control Cables",
+    "Specification": [
+      {
+        "extraSpec": ["0.6/1 KV XLPE INSULATED, SCREENED CABLES (N2XCY)"],
+        "specification": [
+          "IEC 60502 – 1",
+          "ELECTRIC CABLE (N2XCY) CU/XLPE/PVC SHIELDED 3X2.5/2.5 600/1000V MESC 2005"
+        ]
+      }
+    ],
+    "detail": [],
     "company": ["Mesc"],
     "categoryName": "Cables",
     "description": {},
@@ -23,6 +43,19 @@
     "id": "multi_conductor",
     "image": "Multi_Conductor",
     "productName": "Multi Conductor, XLPE, Unshielded",
+    "Specification": [
+      {
+        "extraSpecTitle": "THW",
+        "extraSpec": ["75ûC 600 Volts UL83"],
+        "specification": ["UL83", "THW # 4/0 AWG 600 V MESC 2000"]
+      },
+      {
+        "extraSpecTitle": "XHHW",
+        "extraSpec": ["90 ûC Dry /75ûC Wet 600 Volts UL 44"],
+        "specification": ["UL44", "XHHW # 4/0 AWG 600 V MESC 2005"]
+      }
+    ],
+    "detail": [],
     "company": ["Mesc"],
     "categoryName": "Cables",
     "description": {},
@@ -33,6 +66,14 @@
     "id": "rubber_cable",
     "image": "Rubber_Cable",
     "productName": "Rubber Cable Ho7RNF",
+    "Specification": [
+      {
+        "extraSpec": [
+          "Stabilimento Argenta Via Leanando, Da Vinei 6/z, 68977, Abrota"
+        ]
+      }
+    ],
+    "detail": [],
     "company": ["Oxford Cavi"],
     "categoryName": "Cables",
     "description": {},
@@ -43,6 +84,8 @@
     "id": "A1A2_Cable_Gland",
     "image": "A1A2_Cable_Gland",
     "productName": "A1/A2 Cable Gland",
+    "Specification": [],
+    "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
     "description": {
@@ -134,6 +177,8 @@
     "id": "A1A2_Cable_Glands",
     "image": "A1A2_Cable_Glands",
     "productName": "A1/A2 Cable Glands",
+    "Specification": [],
+    "detail": [],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
     "description": {},
@@ -144,6 +189,8 @@
     "id": "BW_Cable_Gland",
     "image": "BW_Cable_Gland",
     "productName": "BW Cable Gland",
+    "Specification": [],
+    "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
     "description": {},
@@ -154,6 +201,8 @@
     "id": "BW_Cable_Glands",
     "image": "BW_Cable_Glands",
     "productName": "BW Cable Gland",
+    "Specification": [],
+    "detail": [],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
     "description": {},
@@ -164,6 +213,8 @@
     "id": "CW_Cable_Gland",
     "image": "CW_Cable_Gland",
     "productName": "CW Cable Gland",
+    "Specification": [],
+    "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
     "description": {},
@@ -174,6 +225,8 @@
     "id": "CW_Cable_Glands",
     "image": "CW_Cable_Glands",
     "productName": "CW Cable Gland",
+    "Specification": [],
+    "detail": [],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
     "description": {},
@@ -184,6 +237,8 @@
     "id": "E1W_Cable_Gland",
     "image": "E1W_Cable_Gland",
     "productName": "E1W Cable Gland",
+    "Specification": [],
+    "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
     "description": {},
@@ -194,6 +249,8 @@
     "id": "E1W_Cable_Glands",
     "image": "E1W_Cable_Glands",
     "productName": "E1W Cable Gland",
+    "Specification": [],
+    "detail": [],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
     "description": {},
@@ -204,6 +261,18 @@
     "id": "Panel_Wire",
     "image": "Panel_Wire",
     "productName": "Panel Wire",
+    "Specification": [
+      {
+        "extraSpecTitle": "PVC Insulated Non Sheathed Single Core Cable",
+        "extraSpec": ["HO5V-K, HO7V-K(70ûC) NYAF IEC-60227-2 HO7V2-K(90ûC)"],
+        "specification": [
+          "BS-6500, BS-6004 & IEC-60227-3",
+          "CU/PVC (NYAF) 50 MM2 450/750 V MESC 2005",
+          "H07V2-K 2.5 MESC 2005"
+        ]
+      }
+    ],
+    "detail": [],
     "company": ["Mesc"],
     "categoryName": "Wires",
     "description": {},
@@ -214,6 +283,19 @@
     "id": "PVC_Flexible_Wire",
     "image": "PVC_Flexible_Wire",
     "productName": "PVC Flexible Wire",
+    "Specification": [
+      {
+        "extraSpecTitle": "Types Cu And Cr Pvc Insulated Cables Bs 6231",
+        "extraSpec": [],
+        "specification": ["TYPE CR 1.5 HEAT RSISTING 90 600/1000V MESC 2005"]
+      },
+      {
+        "extraSpecTitle": "Types Bk And Br Pvc Insulated Cables Bs 6231",
+        "extraSpec": [],
+        "specification": ["TYPE BK 1.5 600/1000V MESC 2005"]
+      }
+    ],
+    "detail": [],
     "company": ["Mesc"],
     "categoryName": "Wires",
     "description": {},
@@ -224,6 +306,18 @@
     "id": "Building_Wire",
     "image": "Building_Wire",
     "productName": "Single Core Wire/Building Wire",
+    "Specification": [
+      {
+        "extraSpecTitle": "Pvc Insulated Non Sheathed Single Core Cable",
+        "extraSpec": ["NYA IEC-60227-1 HO7V2-U, HO7V2-R(90ûC)"],
+        "specification": [
+          "BS-6004, IEC-60227-3",
+          "CU/PVC (NYA) 120 MM2 450/750 V MESC 2005",
+          "H07V2-R 2.5 MESC 2005"
+        ]
+      }
+    ],
+    "detail": [],
     "company": ["Mesc"],
     "categoryName": "Wires",
     "description": {},
@@ -234,6 +328,12 @@
     "id": "3M_LV_Resin_Joint_Kit",
     "image": "M_LV_Resin_Joint_Kit",
     "productName": "3M LV Resin Joint Kit",
+    "Specification": [],
+    "detail": [
+      "3M produce a full range of quality Jointing Systems suitable for a variety of diverse applications. Designed for PVC, XLPE, Paper, Armoured and Unarmoured Cables up to 3.3kV (up to 6.6kV for unscreened cables) using Scotchcast™ Resins, Heatshrink, and Coldshrink Options.",
+      "Resin Joints include the unique 3M Advanced Resin Delivery System – totally enclosed mixing and pouring system with no spillage (up to size 4).",
+      "Armour continuity is included where applicable using constant force springs, and connectors are available separately for all applications."
+    ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
     "description": {},
@@ -244,6 +344,10 @@
     "id": "3M_Wire_Pulling_Lubricant",
     "image": "M_Wire_Pulling_Lubricant",
     "productName": "3M Wire Pulling Lubricant",
+    "Specification": [],
+    "detail": [
+      "3M™ Wire Pulling Lubricants are designed for specific applications such as cable pulling, moisture and corrosion protection, and preventing build up of glues, wax, inks, and paint. They're available in a variety of sprays and containers."
+    ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
     "description": {},
@@ -254,6 +358,12 @@
     "id": "Cold_Shrink_Termination",
     "image": "Cold_Shrink_Termination",
     "productName": "Cold Shrink Termination",
+    "Specification": [],
+    "detail": [
+      "QTIII terminations offer easy installation and reliable performance when terminating indoor and outdoor medium voltage cables. QTIII is a one-piece silicone rubber termination, which is expanded and loaded onto a removable supporting core, which allows the termination to be installed without the need for tools or heat. The core is stepped to allow a greater application range for armoured cables. QTIII consists of a tubular silicone insulator, with a built in refractive stress control tube and compound, and a built in top seal. Due to this unique design the QTIII termination is installed in one operation without the need for any additional components.",
+      "QTIII terminations are suitable for use on polymeric cables medium voltage up to 52kV.",
+      "Both indoor and outdoor terminations are available for single core and three core cables. QTIII terminations have been tested in accordance with IEEE Std 48-1990, VDE 0278 Part 4 and IEC/CENELEC. Details of type tests are available upon request"
+    ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
     "description": {},
@@ -264,6 +374,10 @@
     "id": "Heat_Shrink_Accessories",
     "image": "Heat_Shrink_Accessories",
     "productName": "Heat Shrink Accessories",
+    "Specification": [],
+    "detail": [
+      "The 3M™ Heat Shrink Heavy-Wall Flame-Retardant Cable Sleeves HDT are designed to provide reliable performance for electrical splices, connections and terminations, as well as mechanical and environmental protection."
+    ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
     "description": {},
@@ -274,6 +388,10 @@
     "id": "Heat_Shrink_Termination",
     "image": "Heat_Shrink_Termination",
     "productName": "Heat Shrink Termination",
+    "Specification": [],
+    "detail": [
+      "<ul><li>Ease of installation</li><li>Simplified cable preparation</li><li>Outstanding long term reliability</li><li>Effective and reliable stress control</li><li>Excellent mechanical, thermal and electrical characteristics</li><li>Excellent Antitracking outer surface</li><li>Superior resistance to weathering and UV radiation</li><li>Resistant to water and corrosion</li><li>Immediate energization</li><li>Suitable for all conductor shapes and materials</li></ul>"
+    ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
     "description": {},
@@ -284,6 +402,13 @@
     "id": "LV_3M_Cold_Shrink_Straight_Cable_Joint",
     "image": "LV_3M_Cold_Shrink_Straight_Cable_Joint",
     "productName": "LV 3M Cold Shrink Straight Cable Joint",
+    "Specification": [],
+    "detail": [
+      "3M™ Cold Shrink LC Series Joints have been designed for multi core Low Voltage Power Cables up to and including 1.9/3.3kV.",
+      "Designed for flexible or trailing cables, Cable Tray applications, and Indoor applications.",
+      "Suitable for Cable Type XLPE/PVC Insulated, Steel Wire Armoured, PVC Sheathed Cables, with or without a lead sheath.",
+      "Not suitable for direct burial, additional mechanical protection may be required."
+    ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
     "description": {},
@@ -294,6 +419,10 @@
     "id": "Nylon_Cable_Tie",
     "image": "Nylon_Cable_Tie",
     "productName": "Nylon Cable Tie",
+    "Specification": [],
+    "detail": [
+      "3M™ Cable Ties are designed to secure wire bundles and harness components quickly, without slipping. Featuring a self-locking head and a locking mechanism, they are designed to handle temperatures from -40°F (-40°C) to 185°F (85°C). USA made."
+    ],
     "company": ["3M"],
     "categoryName": "Cable Ties",
     "description": {},
@@ -304,6 +433,12 @@
     "id": "Industrial_Plug_And_Socket",
     "image": "Industrial_Plug_And_Socket",
     "productName": "Industrial Plug & Socket",
+    "Specification": [],
+    "detail": [
+      "Dallas is the sole UAE agent for the PCE range of industrial plugs & sockets, Inverters, adaptors, distribution boxes, switched interlock and RCD sockets",
+      "All of Dallas branches supply a comprehensive range extending from 16A to 125A, from 24V to 750V and is generally available in splash proof (IP44) and watertight (IP67) configurations",
+      "PCE is specialized in the production of industrial plugs, sockets and power distribution boxes. During the past few years, the company has gone through a phase of rapid development and is now one of the world’s leading manufacturers of CEE IEC60309 plugs, sockets and accessories."
+    ],
     "company": ["PCE"],
     "categoryName": "Industrial Plugs & Sockets",
     "description": {},
@@ -314,6 +449,11 @@
     "id": "DS4_High_Current_Connectors",
     "image": "DS4_High_Current_Connectors",
     "productName": "DS4 High Current Connectors",
+    "Specification": [],
+    "detail": [
+      "The DS4 socket-outlets offer a compact solution for connections up to 400 A / 1000 V. The silver butt-contact system offers perfect current conductivity. The robust metal enclosure ensures a safe and reliable operation, even under harsh conditions. The DS4 is equipped, in standard version, with an easy inlet closing device made of stainless steel.",
+      "The DS4 socket outlets are especially suitable for the following applications: connection of drilling equipments and tunnel boring machines, cranes (e.g. in harbours), generators, quarries, large switchracks and switchboards."
+    ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
     "description": {},
@@ -324,6 +464,10 @@
     "id": "DX_Metal_Decontactor",
     "image": "DX_Metal_Decontactor",
     "productName": "DX Metal Decontactor",
+    "Specification": [],
+    "detail": [
+      "DX decontactors are designed for hazardous areas, with ‘de’ protection mode. They comply with the ATEX 94/9/CE Directive. They can be used in zones 1 & 2 (Gas) and zones 21 & 22 (Dust). They are certified according to IECEx standards."
+    ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
     "description": {},
@@ -334,6 +478,10 @@
     "id": "PF_High_Current_Plugs_and_Socket_Outlets",
     "image": "PF_High_Current_Plugs_and_Socket_Outlets",
     "productName": "PF High Current Plugs and Socket Outlets",
+    "Specification": [],
+    "detail": [
+      "Big equipment and gensets power supply: in quarries, tunnel boring machines, port cranes, mining equipment."
+    ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
     "description": {},
@@ -344,6 +492,10 @@
     "id": "Single_Pole_Power_Connectors",
     "image": "Single_Pole_Power_Connectors",
     "productName": "Single Pole Power Connectors",
+    "Specification": [],
+    "detail": [
+      "The single pole power connectors CS1000 and SP have been designed to ensure a perfect safety and prevent disconnection by accident. Aimed at all industries, the connection is easy and provides high performances tested and complying with standards.    "
+    ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
     "description": {},
@@ -354,6 +506,11 @@
     "id": "Cable_Ladder",
     "image": "Cable_Ladder",
     "productName": "Cable Ladder",
+    "Specification": [],
+    "detail": [
+      "An established favourite in the UK and abroad, this comprehensive system of slotted rail cable ladders enables the coupling of lengths and fittings without the need for drilling.<br/><ul><li>Integral couplers on all fittings</li><li>Number of required fastener sets halved</li><li>Two part quick-fit fasteners – 50% fewer fixing components</li></ul>",
+      "The integral couplers on all ladder fittings used together with our quick-fit fasteners, more than halves the number of required fixings and dramatically cuts installation time and cost. Supplied as standard on all Topaz, Sapphire and Emerald fittings, this coupling technique benefits every installation type, from medium duty right through to extra heavy duty."
+    ],
     "company": ["Legrand Swift"],
     "categoryName": "Cable Management System",
     "description": {},
@@ -364,6 +521,10 @@
     "id": "Cable_Tray",
     "image": "Cable_Tray",
     "productName": "Cable Tray",
+    "Specification": [],
+    "detail": [
+      "The distinctive slot pattern on Swifts cable tray provides installers with total flexibility. Available in four types, this strong, durable system has been designed with fast-fit features. Each system is supported by a fully integrated range of time saving fixings and fittings that make it quick and easy to install, both internally and externally."
+    ],
     "company": ["Legrand Swift"],
     "categoryName": "Cable Management System",
     "description": {},
@@ -374,6 +535,11 @@
     "id": "Flexible_Conduit_And_Accessories",
     "image": "Flexible_Conduit_And_Accessories",
     "productName": "Flexible Conduit & Accessories",
+    "Specification": [],
+    "detail": [
+      "Flexible conduits are available in 20mm, 25mm, 32mm, 40mm (1½”), 50mm (2”) and 63mm (2½”) sizes and the range includes:",
+      "<ul><li>Lightweight, strong, portable and versatile design to provide maximum stability</li><li>Standard Flexible Metallic Conduit Tube</li><li>PVC Covered Flexible Metallic Conduit Tube</li><li>PVC Covered Liquid Tight Flexible Metallic Conduit Tube</li><li>Low Smoke Zero Halogen (LSZH) Covered Flexible Metallic Conduit TubeLow Smoke Zero Halogen Liquid Tight Flexible Conduit Tube</li></ul>"
+    ],
     "company": ["Barton"],
     "categoryName": "Flexible/Rigid Conduit & Accessories",
     "description": {},
@@ -384,6 +550,11 @@
     "id": "Rigid_Conduit_And_Accessories",
     "image": "Rigid_Conduit_And_Accessories",
     "productName": "Rigid Conduit & Accessories",
+    "Specification": [],
+    "detail": [
+      "All products satisfy a uniform standard of quality and safety are that:",
+      "<ul><li>Manufactured in accordance with BS31 – BS4568 – BS6053 – BS6099 (I.E.C 614) where applicable.</li><li>Each 3.75mtr length of conduit is screwed both ends and complete with one solid coupling.</li><li>The conduit finishes include Hot Dipped Galvanised inside and outside, Pre-Galvanised inside and outside, Black enameled inside and outside.</li></ul>"
+    ],
     "company": ["Barton"],
     "categoryName": "Flexible/Rigid Conduit & Accessories",
     "description": {},
@@ -394,6 +565,8 @@
     "id": "PVC_Conduits",
     "image": "PVC_Conduits",
     "productName": "PVC Conduits",
+    "Specification": [],
+    "detail": [],
     "company": ["Decoduct"],
     "categoryName": "PVC Conduits",
     "description": {},
@@ -404,6 +577,10 @@
     "id": "Switchgear_Accessories",
     "image": "Switchgear_Accessories",
     "productName": "Switchgear Accessories",
+    "Specification": [],
+    "detail": [
+      "Dallas is an official distributor of ABB electrical components, including contactors, overload relays, starters, circuit breakers, programmable controllers, switch fuses, fuse switches, load break switches, enclosed switches, fuse bases, fuse links, drives, railmounted terminal blocks and interface modules, flexible I/Os, rotary cam switches, safety relays, measuring and monitoring relays, timers and contactors."
+    ],
     "company": ["ABB"],
     "categoryName": "Switchgear Accessories",
     "description": {},
@@ -414,6 +591,10 @@
     "id": "Switchgear_Accessories1",
     "image": "Switchgear_Accessories1",
     "productName": "Switchgear Accessories",
+    "Specification": [],
+    "detail": [
+      "Dallas Trading Co. LLC is also professional in Designing, Assembling of Switchgear and control Panels for various type of Industries, Construction, Power distribution and Automation systems. In the hi-tech field of Industrial control and Automation, we are involved in Electrical & Electronic Controls, Automation and related areas."
+    ],
     "company": ["Hager"],
     "categoryName": "Switchgear Accessories",
     "description": {},
@@ -424,6 +605,11 @@
     "id": "Switchgear_Assembly",
     "image": "Switchgear_Assembly",
     "productName": "Switchgear Assembly",
+    "Specification": [],
+    "detail": [
+      "A special team of qualified and experienced engineers, are leading the operations. They are dedicated to achieving clients project goals and operational objectives.",
+      "We have successfully supplied to challenging projects in reputable organizations like DEWA, ADDC, MEDC (DCRP) ,PDO, MOD, KAHRAMAA, QEWC & Refinery projects."
+    ],
     "company": [
       "ABB",
       "Eaton (Moeller)",
@@ -441,6 +627,10 @@
     "id": "Industrial_Fans",
     "image": "Industrial_Fans",
     "productName": "Industrial Fans",
+    "Specification": [],
+    "detail": [
+      "As a leading supplier of Industrial and Commercial Grade Air Circulators, BREEZE® is recognized throughout the industry for the superior quality and performance of its products. Our manufacturing facilities ensure every BREEZE® fan is precision-designed, engineered, and tested to meet the high standards our customers have come to expect. We strive every day to exceed our customers’ expectations for Value, Service and Quality. Our product design team is constantly working to develop new products to meet the changing needs of today’s market place while also keeping our existing products the leader’s in the industry. In this way BREEZE®ensures that our customers are always offered the right product at the right price."
+    ],
     "company": ["Breeze"],
     "categoryName": "Industrial Fans",
     "description": {},
@@ -451,6 +641,13 @@
     "id": "Laser_Marking_Machine",
     "image": "Laser_Marking_Machine",
     "productName": "Laser Marking Machine",
+    "Specification": [
+      {
+        "extraSpecTitle": "Fiber Laser Marking System:",
+        "extraSpec": ["Gross Power 800W", "Optional laser tube 10W/20W/30W"]
+      }
+    ],
+    "detail": [],
     "company": ["Rayon"],
     "categoryName": "Laser Marking Machine",
     "description": {},
@@ -461,6 +658,10 @@
     "id": "Arteor",
     "image": "Arteor",
     "productName": "Arteor",
+    "Specification": [],
+    "detail": [
+      "Versatility, style and functionality make Arteor the innovative answer to the increasingly complex demands of modern buildings. Much more than just a wiring accessory, Arteor is the ideal choice for any residential or commercial project."
+    ],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
     "description": {},
@@ -471,6 +672,8 @@
     "id": "Belanko",
     "image": "Belanko",
     "productName": "Belanko",
+    "Specification": [],
+    "detail": [],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
     "description": {},
@@ -481,6 +684,8 @@
     "id": "Ceiling_Rose",
     "image": "Ceiling_Rose",
     "productName": "Ceiling Rose",
+    "Specification": [],
+    "detail": [],
     "company": ["MK Logic Plus"],
     "categoryName": "Wiring Devices",
     "description": {},
@@ -491,6 +696,8 @@
     "id": "Mallia",
     "image": "Mallia",
     "productName": "Mallia",
+    "Specification": [],
+    "detail": [],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
     "description": {},
@@ -501,6 +708,8 @@
     "id": "Plexo",
     "image": "Plexo",
     "productName": "Plexo",
+    "Specification": [],
+    "detail": [],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
     "description": {},
@@ -511,6 +720,12 @@
     "id": "Synergy",
     "image": "Synergy",
     "productName": "Synergy",
+    "Specification": [],
+    "detail": [
+      "<h3>Synergy wiring accessories</h3>",
+      "Whatever the application, residential or commercial, Synergy offers a great blend of style, choice and functionality, together with countless features designed to make the installer’s life easier. Form and function in perfect harmony.",
+      "Synergy’s quality is reflected in everything from its components and design through to its ease of installation including a complete range of compatible surface mounting boxes, compact mechanisms that maximize wiring space, large angled terminal entries with backed off screws and clear laser marking."
+    ],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
     "description": {},
@@ -521,6 +736,10 @@
     "id": "Wiring_Devices",
     "image": "Wiring_Devices",
     "productName": "Wiring Devices",
+    "Specification": [],
+    "detail": [
+      "<ul><li>Logic PlusTM wiring devices from MK Electric have been designed to perfectly complement modern interiors, offering an unobtrusive and sophisticated look totally in keeping with today’s design.</li><li>Technically, they exceed British Standard requirements with patented features that make these products the most advanced and safest available.</li><li>Logic PlusTM products are made from a high grade thermoset material which has an inherent antimicrobial property. In independent tests, the Logic PlusTM products were equal to, or exceeded, competitor 'Anti-Bac' products when tested for resistance to MRSA, E.Coli, Salmonella and Klebsiella pneumoniae.</li><li>They are easy to install and available through our extensive distributor network. The range is backed by MK’s quality and reliability and provides the largest selection of wiring devices in any single range.</li></ul>"
+    ],
     "company": ["MK Logic Plus"],
     "categoryName": "Wiring Devices",
     "description": {},
@@ -531,6 +750,11 @@
     "id": "PCS_Phase_Identification_Tape",
     "image": "PCS_Phase_Identification_Tape",
     "productName": "PCS Phase Identification Tape",
+    "Specification": [],
+    "detail": [
+      "Scotch® Vinyl Electrical Tape 35 is a 7-mil thick polyvinyl chloride (PVC) color-coding tape. It operates over a wide range of temperatures – between 32–220°F (0–105°C). Outstanding electrical and mechanical properties make this tape excellent for use in phase identification, color coding of motor leads and piping systems, and for marking safety areas.",
+      "<ul> <li>1/2 in x 20 ft, Red</li> <li>7-mil thick polyvinyl chloride (PVC) color-coding tape</li> <li>Operates over a wide range of temperatures – between 32–220°F (0–105°C)</li><li>Excellent for use in phase identification, color coding of motor leads and piping systems, and for marking safety areas </li> <li>Abrasion- and weather-resistant</li> <li>Flame-retardant; resists UV rays, abrasion, moisture, alkalies, solvents, many acids </li> <li>Stretches to conform to virtually any shape</li> <li>UL Listed and CSA Certified</li></ul>"
+    ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
     "description": {},
@@ -541,6 +765,10 @@
     "id": "Scotch_22_Heavy_Duty_Tape",
     "image": "Scotch_22_Heavy_Duty_Tape",
     "productName": "Scotch 22 Heavy Duty Tape",
+    "Specification": [],
+    "detail": [
+      "Scotch® Vinyl Insulation Tape 22 is a 10-mil vinyl electrical tape. Designed for insulation applications that require greater mechanical strength and abrasion resistance. Provides moisture-resistant electrical and mechanical protection."
+    ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
     "description": {},
@@ -551,6 +779,10 @@
     "id": "Scotch_33_Tape",
     "image": "Scotch_33_Tape",
     "productName": "Scotch 33 Tape",
+    "Specification": [],
+    "detail": [
+      "America's #1 professional grade vinyl electrical tape, Scotch® Super 33+™ Vinyl Electrical Tape is a premium grade, 7 mil thick, all-weather vinyl-insulating tape. It is designed to perform continuously between a temperature range of 0–220°F (-18–105°C)."
+    ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
     "description": {},
@@ -561,6 +793,10 @@
     "id": "Scotch_35_Tape",
     "image": "Scotch_35_Tape",
     "productName": "Scotch 35 Tape",
+    "Specification": [],
+    "detail": [
+      "Scotch® Vinyl Electrical Tape 35 is a 7-mil thick polyvinyl chloride (PVC) color-coding tape. Outstanding electrical and mechanical properties make this tape excellent for use in phase identification, color coding of motor leads and piping systems."
+    ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
     "description": {},
@@ -571,6 +807,11 @@
     "id": "Scotch_Super_88_All_Weather_Tape",
     "image": "Scotch_Super_88_All_Weather_Tape",
     "productName": "Scotch Super 88 All Weather Tape",
+    "Specification": [],
+    "detail": [
+      "Scotch® Vinyl Electrical Tape Super 88 is a premium grade, 8.5-mil thick, all-weather vinyl insulating tape. It is designed to perform continuously between a temperature range of 0–220°F (-18–105°C). It has an excellent resistance to UV rays, abrasion, moisture, alkalies, acids, corrosion and varying weather conditions.",
+      "<ul><li>2 in x 36 yds, Black</li><li>Premium grade, 8.5-mil thick, all-weather vinyl insulating tape</li><li>Temperature range of 0–220°F (-18–105°C).</li><li>Excellent resistance to UV rays, abrasion, moisture, alkalies, acids, corrosion and varying weather conditions</li><li>Provides primary electrical insulation for splices up to 600V</li><li>UL Listed and CSA Certified</li></ul>"
+    ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
     "description": {},
@@ -581,6 +822,10 @@
     "id": "Scotch_T2228_Rubber_Mastic_Tape",
     "image": "Scotch_T2228_Rubber_Mastic_Tape",
     "productName": "Scotch T2228 Rubber Mastic Tape",
+    "Specification": [],
+    "detail": [
+      "Self-fusing rubber based compound bonded to a moisture sealing mastic; all weather. Insulate, pad and seal bus bar and splice connections."
+    ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
     "description": {},
@@ -591,6 +836,10 @@
     "id": "Scotch_Vinyl_Mastic_Tape",
     "image": "Scotch_Vinyl_Mastic_Tape",
     "productName": "Scotch Vinyl Mastic Tape",
+    "Specification": [],
+    "detail": [
+      "Excellent moisture sealant; tough vinyl backing; electrical insulating. Insulate moisture-seal and pad connections up to 600V."
+    ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
     "description": {},
@@ -601,6 +850,10 @@
     "id": "Scotchfil_Insulation_Putty",
     "image": "Scotchfil_Insulation_Putty",
     "productName": "Scotchfil Insulation Putty",
+    "Specification": [],
+    "detail": [
+      "This black electrical grade, rubber-based, self-fusing insulating putty is supplied in tape form. The inner unit pack is 4 rolls with 12 rolls per case."
+    ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
     "description": {},
