@@ -35,7 +35,17 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Cables",
-    "description": {},
+    "description": {
+      "Application": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground in power and switching stations, local distribution systems, industrial plants and commercial buildings.",
+      "Construction": {
+        "Conductor*:": "Annealed plain copper conductor, stranded as per class 2 of IEC-60228.",
+        "Insulation:": "Solid extruded XLPE as per IEC-60502-1.",
+        "Core Colours**:": "<ul><li>2 Core: Blue & Brown.</li><li>3 Core: Blue, Black & Brown.</li><li>4 Core: Blue, Black, Brown & Black.</li><li>5 Core: White cores with Number printing.</li></ul>"
+      },
+      "Technical Data": {
+        "Conductor resistance:": "As per class 1 & 2 of IEC- 60228."
+      }
+    },
     "productDetailTableData": [],
     "customerReviews": []
   },

@@ -19,6 +19,10 @@
     @media (min-width: 1201px) and (max-width: 1440px) {
       @content;
     }
+  } @else if $breakpoint == desktop-xxlg {
+    @media (min-width: 2000px) {
+      @content;
+    }
   } @else {
     @error "Invalid breakpoint: #{$breakpoint}.";
   }
