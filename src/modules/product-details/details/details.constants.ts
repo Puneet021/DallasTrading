@@ -1,5 +1,3 @@
-import { IProductDetailDescription } from "../../../utils/models/product-detail.model";
-
 export interface IDetailsProps {
   details: {
     productId: string;
@@ -14,7 +12,7 @@ export interface IDetailsProps {
     companyImg: string[];
     productCategory: string;
     productImage: string;
-    description: IProductDetailDescription;
+    description: any[];
   };
 }
 export interface IDetailsStates {}

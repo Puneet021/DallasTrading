@@ -15,7 +15,29 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Cables",
-    "description": {},
+    "description": [
+      {
+        "*Application": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations, local distribution systems, industrial plants and commercial buildings.",
+        "*Construction": {
+          "Conductor": "Annealed plain copper conductor solid as per class 1 and stranded as per class 2 of IEC-60228.",
+          "Insulation": "Solid extruded XLPE as per IEC- 60502-1.",
+          "Core Colours": "<ul><li>2 Core: Red &amp Black.</li><li>3 Core: Red, Yellow & Blue.</li><li>4 Core: Red, Yellow, Blue & Black.</li><li>5 Core & above: Black cores with Number printing.</li></ul>",
+          "Inner covering": "Extruded PVC compatible with the operating temperature of the conductor",
+          "Steel Wire Armour": "Galvanized Steel wire as per IEC- 60502-1.",
+          "Outer Sheath": "Extruded PVC Type ST-2 as per IEC-60502-1, passes flame retardance test as per IEC-60332-1. Also passes flame test as per IEC-60332-3 Cat C."
+        },
+        "*TechnicalData": {
+          "Conductor resistance": "As per class 1 & 2 of IEC- 60228.",
+          "Working Voltage": "600 / 1000 Volts.",
+          "Test Voltage": "3.5 kV. RMS or 8.4 kV. DC for 5 minutes.",
+          "Temperature": "-25µC to +90µC.",
+          "Bending Radius": "6 X Cable Ø.",
+          "Maximum short ciruit temperature": "250µC ( 5 Seconds Max.).",
+          "For current ratings of these cables": "Refer to Technical Section of the catalogue."
+        }
+      }
+    ],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -35,17 +57,29 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Cables",
-    "description": {
-      "Application": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground in power and switching stations, local distribution systems, industrial plants and commercial buildings.",
-      "Construction": {
-        "Conductor*:": "Annealed plain copper conductor, stranded as per class 2 of IEC-60228.",
-        "Insulation:": "Solid extruded XLPE as per IEC-60502-1.",
-        "Core Colours**:": "<ul><li>2 Core: Blue & Brown.</li><li>3 Core: Blue, Black & Brown.</li><li>4 Core: Blue, Black, Brown & Black.</li><li>5 Core: White cores with Number printing.</li></ul>"
-      },
-      "Technical Data": {
-        "Conductor resistance:": "As per class 1 & 2 of IEC- 60228."
+    "description": [
+      {
+        "*Application": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground in power and switching stations, local distribution systems, industrial plants and commercial buildings.",
+        "*Construction": {
+          "Conductor": "Annealed plain copper conductor, stranded as per class 2 of IEC-60228.",
+          "Insulation": "Solid extruded XLPE as per IEC-60502-1.",
+          "Core Colours": "<ul><li>2 Core: Blue & Brown.</li><li>3 Core: Blue, Black & Brown.</li><li>4 Core: Blue, Black, Brown & Black.</li><li>5 Core: White cores with Number printing.</li></ul>",
+          "Inner covering": "Extruded PVC compatible with the operating temperature of the conductor",
+          "Screening": "The screen shall consist of copper wires laid over the inner covering with a transverse helix of copper tape. The screen area shall be as follows :<br /><ul><li>No. of Cores : Screen Cross Sectional Area</li><li>Under 12 : Equivalent to conductor cross section</li><li>12 & under 19 : not less than 2.5 sq. mm</li><li>19 & over : not less than 4 sq. mm</li></ul>",
+          "Outer Sheath": "Extruded PVC Type ST-2 as per IEC-60502-1, passes flame retardance test as per IEC-60332-1. Also passes flame test as per IEC-60332-3 Cat C."
+        },
+        "*TechnicalData": {
+          "Conductor resistance": "As per class 1 & 2 of IEC- 60228.",
+          "Working Voltage": "600 / 1000 Volts.",
+          "Test Voltage": "3.5 kV. RMS or 8.4 kV. DC for 5 minutes.",
+          "Temperature": "-25µC to +90µC.",
+          "Bending Radius": "6 X Cable Ø.",
+          "Maximum short ciruit temperature": "250µC ( 5 Seconds Max.).",
+          "For current ratings of these cables": "Refer to Technical Section of the catalogue."
+        }
       }
-    },
+    ],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -68,7 +102,8 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Cables",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -86,7 +121,33 @@
     "detail": [],
     "company": ["Oxford Cavi"],
     "categoryName": "Cables",
-    "description": {},
+    "description": [
+      {
+        "*Construction": {
+          "Conductor": "Bare flexible copper, Class 5 according to IEC 60228, (HD 383, CEI 20-29).",
+          "Insulation": "E14 quality rubber accordingly to CEI EN 50363 (CEI 20-11).",
+          "Inner Sheath": "EM3 quality rubber compound* accordingly to CEI EN 50363 (CEI 20-11).",
+          "Sheath": "EM2 quality or equivalent rubber compound according to CEI EN 50363 (CEI 20-11).",
+          "": "The cable is designed in accordance with HD 22.4 (CEI 20-19/4)."
+        },
+        "*Characteristics": {
+          "Improved flexibility": "The use of extra flexible class 6 flexible copper conductors in greater cables (from 185mm2 onwards) allow the HO7RNF cable to have optimum flexibility.",
+          "Special wind torsion test": "The HO7RNF cable pass the special 2000 cycle Torsion test required for wind generators (for single core cables)",
+          "Improved working temperature": "The HO7RNF can operate at work temperatures up to 80° , improving the HD 22 standard rated temperature, due to insulation with high thermal grade.",
+          "Related voltage up to 1000v": "Possible thanks to high dielectric properties of the insulation material for fixed protected installations (according to HD 516)",
+          "Weather resistance:": "The properties of the thermosetting vulcanised rubber outer sheath on the HO7RNF cable allows permanent use for outdoors",
+          "Immersion resistance:": "Exceeds the established test for type HO7RNF,suitable for functioning permanently submerged (AD8)"
+        },
+        "*Design": {
+          "Conductor": "Flexible electrolytic annealed copper conductor, class 4 according to IEC 60228.",
+          "Insulation": "Thermosetting rubber insulation, type E14 according to HD 22. The standard identification according to HD 308 OR en 50334, is the following. Up to 5 conductors: by colours, 6 or more conductors: black numbered + green/ yellow.",
+          "Outer Sheath": "Thermosetting rubber outer sheath, black color, type EM2 according to HD 22.",
+          "Working Data": "<ul><li>Rated Voltage: 450/750v</li><li>Test Voltage: 2,5 kv</li><li>Max Operation temp: 80° (Mobile conditions), up on request special version with Max conductor temperature of 90°C</li><li>Short circuit temp: 250°</li><li>Min. Laying temp: -25°C</li></ul>",
+          "Application": "Rubber – insulated flexible cable with polychloroprene sheathing resistant to mechanical stress, oils, chemical corrosion and weathering. For installation in dry, damp or wet environments, in the open air, in workshop with explosive atmospheres. For connections liable to moderatemechanical stress, e.g. industrial or agricultural workshop apparatus, large boilers, heater plates, portable lamps, electric tools such as drills and dick saws, electric appliances, portable motors and generators on building sites or farms, etc; also for fixed installations along floors or shelving on temporary job sites and in cabin accommodation; for connecting structural elements in lifting apparatus,machinery, etc. Suitable for applications up to 1000v for adequately protected fixed installation (i.e inside pipes or equipment) as well as for rotor connection to lifting apparatus motors."
+        }
+      }
+    ],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -98,17 +159,20 @@
     "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
-    "description": {
-      "Size": "20 mm to 90 mm",
-      "Standard": "EN 50262 : 1999",
-      "Application": "Outdoor or Indoor for use with all types of Unarmoured Cable",
-      "Function": "Provide Seal on Outer Sheath of the Unarmoured Cable",
-      "Material": "Brass BS 2874 CZ121 Pb3",
-      "optionalThreads": "METRIC, NPT, BSP, PG or as specified",
-      "Finish": "Brass Finish, Nickel Finish, Chrome Finish or as specified",
-      "operatingTemp": "Standard seals -200 C to +800 C",
-      "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tags, Reducers, Adaptors, etc. as per the requirement"
-    },
+    "description": [
+      {
+        "Size": "20 mm to 90 mm",
+        "Standard": "EN 50262 : 1999",
+        "Application": "Outdoor or Indoor for use with all types of Unarmoured Cable",
+        "Function": "Provide Seal on Outer Sheath of the Unarmoured Cable",
+        "Material": "Brass BS 2874 CZ121 Pb3",
+        "optionalThreads": "METRIC, NPT, BSP, PG or as specified",
+        "Finish": "Brass Finish, Nickel Finish, Chrome Finish or as specified",
+        "operatingTemp": "Standard seals -200 C to +800 C",
+        "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tags, Reducers, Adaptors, etc. as per the requirement"
+      }
+    ],
+    "detailDescription": [],
     "productDetailTableData": [
       {
         "size": "A220S",
@@ -191,7 +255,8 @@
     "detail": [],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -203,7 +268,8 @@
     "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -215,7 +281,8 @@
     "detail": [],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -227,7 +294,8 @@
     "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -239,7 +307,8 @@
     "detail": [],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -251,7 +320,8 @@
     "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -263,7 +333,8 @@
     "detail": [],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -285,7 +356,8 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Wires",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -308,7 +380,8 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Wires",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -330,7 +403,8 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Wires",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -346,7 +420,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -360,7 +435,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -376,7 +452,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -390,7 +467,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -404,7 +482,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -421,7 +500,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -435,7 +515,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Ties",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -451,7 +532,8 @@
     ],
     "company": ["PCE"],
     "categoryName": "Industrial Plugs & Sockets",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -466,7 +548,8 @@
     ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -480,7 +563,8 @@
     ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -494,7 +578,8 @@
     ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -508,7 +593,8 @@
     ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -523,7 +609,8 @@
     ],
     "company": ["Legrand Swift"],
     "categoryName": "Cable Management System",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -537,7 +624,8 @@
     ],
     "company": ["Legrand Swift"],
     "categoryName": "Cable Management System",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -552,7 +640,8 @@
     ],
     "company": ["Barton"],
     "categoryName": "Flexible/Rigid Conduit & Accessories",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -567,7 +656,8 @@
     ],
     "company": ["Barton"],
     "categoryName": "Flexible/Rigid Conduit & Accessories",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -579,7 +669,8 @@
     "detail": [],
     "company": ["Decoduct"],
     "categoryName": "PVC Conduits",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -593,7 +684,8 @@
     ],
     "company": ["ABB"],
     "categoryName": "Switchgear Accessories",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -607,7 +699,8 @@
     ],
     "company": ["Hager"],
     "categoryName": "Switchgear Accessories",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -629,7 +722,8 @@
       "Seimens"
     ],
     "categoryName": "Switchgear Assembly",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -643,7 +737,8 @@
     ],
     "company": ["Breeze"],
     "categoryName": "Industrial Fans",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -660,7 +755,8 @@
     "detail": [],
     "company": ["Rayon"],
     "categoryName": "Laser Marking Machine",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -674,7 +770,8 @@
     ],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -686,7 +783,8 @@
     "detail": [],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -698,7 +796,8 @@
     "detail": [],
     "company": ["MK Logic Plus"],
     "categoryName": "Wiring Devices",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -710,7 +809,8 @@
     "detail": [],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -722,7 +822,8 @@
     "detail": [],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -738,7 +839,8 @@
     ],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -752,7 +854,8 @@
     ],
     "company": ["MK Logic Plus"],
     "categoryName": "Wiring Devices",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -767,7 +870,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -781,7 +885,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -795,7 +900,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -809,7 +915,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -824,7 +931,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -838,7 +946,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -852,7 +961,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -866,7 +976,8 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
-    "description": {},
+    "description": [],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   }

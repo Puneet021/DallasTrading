@@ -11,21 +11,19 @@ export interface IProductDetailData {
   company: string[];
   companyImg: string[];
   categoryName: string;
-  description: IProductDetailDescription;
+  description: Array<any>;
+  detailDescription: IDetailDescription[];
   productDetailTableData: any;
   customerReviews: IProductDetailReviewsData[];
 }
 
-export interface IProductDetailDescription {
-  Size: string;
-  Standard: string;
-  Application: string;
-  Function: string;
-  Material: string;
-  optionalThreads: string;
-  Finish: string;
-  operatingTemp: string;
-  Accessories: string;
+export interface IDetailDescription {
+  title: string;
+  content: string[];
+  images1: string[];
+  table: any;
+  DataAfterTable: string[];
+  images2: string[];
 }
 
 export interface IProductDetailReviewsData {

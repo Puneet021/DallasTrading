@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { IStore } from "../../../utils/models/store.model";
 import { getProductDetails } from "../../../store/product-detail/productDetailActions";
 import { IDetailsProps, IDetailsStates } from "./details.constants";
+import CustomAccordian from "./accordian/accordian";
 
 class Details extends Component<IDetailsProps, IDetailsStates> {
   render(): ReactNode {
@@ -60,14 +61,31 @@ class Details extends Component<IDetailsProps, IDetailsStates> {
               dangerouslySetInnerHTML={{ __html: det }}
             ></p>
           ))}
-          <h5 className={styles.description}>Description</h5>
-          <ul>
-            {Object.entries(details.description).map((entry, i) => (
-              <li key={i} className={styles.descriptionData}>
-                {entry[0]} : {entry[1]}
-              </li>
-            ))}
-          </ul>
+          <h5 className={styles.description}>Description :</h5>
+          {details?.description?.map((desc: any, i: number) => (
+            <>
+              <ul key={i}>
+                {Object.entries(desc).map((entry: any, j: number) => {
+                  if (entry[0].charAt(0) === "*") {
+                    return null;
+                  }
+                  return (
+                    <li key={j} className={styles.descriptionData}>
+                      {entry[0]} : {entry[1]}
+                    </li>
+                  );
+                })}
+              </ul>
+              <CustomAccordian
+                application={desc["*Application"]}
+                construction={desc["*Construction"]}
+                technicalData={desc["*TechnicalData"]}
+                characteristics={desc["*Characteristics"]}
+                design={desc["*Design"]}
+              />
+            </>
+          ))}
+          <ul></ul>
         </div>
       </div>
     );
