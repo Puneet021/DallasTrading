@@ -252,12 +252,86 @@
     "image": "A1A2_Cable_Glands",
     "productName": "A1/A2 Cable Glands",
     "Specification": [],
-    "detail": [],
+    "detail": [
+      "We are engaged in manufacturing & supplying a broad range of A1/A2 cable glands which is designed with outer displacement seals. These are very effective in performance and can sustain all kinds of weather. We offer these products at standard as well as customized forms to meet the varied requirements of the clients.",
+      "The range of A1/A2 cable glands which we offer is designed with outer displacement seals. Fabricated form raw quality proven raw materials these are widely used for armored cables with rubber outer sheath. These cables can tolerate all kinds of weather and are known for their sustainability against water."
+    ],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
     "description": [],
     "detailDescription": [],
-    "productDetailTableData": [],
+    "productDetailTableData": [
+      {
+        "size": "16S",
+        "overallDiaBMinmm": 3.5,
+        "overallDiaBMaxmm": 7,
+        "isoEntryThreadDia": 16,
+        "isoEntryThreadLength": 10,
+        "approxLengthFromShoulder": 20,
+        "hexagonSizeAcrossFlat": 20,
+        "hexagonSizeAcrossCorners": 23
+      },
+      {
+        "size": "16",
+        "overallDiaBMinmm": 4.5,
+        "overallDiaBMaxmm": 8.5,
+        "isoEntryThreadDia": 16,
+        "isoEntryThreadLength": 10,
+        "approxLengthFromShoulder": 20,
+        "hexagonSizeAcrossFlat": 20,
+        "hexagonSizeAcrossCorners": 23
+      },
+      {
+        "size": "20S",
+        "overallDiaBMinmm": 8,
+        "overallDiaBMaxmm": 11.5,
+        "isoEntryThreadDia": 20,
+        "isoEntryThreadLength": 10,
+        "approxLengthFromShoulder": 22,
+        "hexagonSizeAcrossFlat": 22,
+        "hexagonSizeAcrossCorners": 25
+      },
+      {
+        "size": "20",
+        "overallDiaBMinmm": 11,
+        "overallDiaBMaxmm": 14,
+        "isoEntryThreadDia": 20,
+        "isoEntryThreadLength": 10,
+        "approxLengthFromShoulder": 22,
+        "hexagonSizeAcrossFlat": 22,
+        "hexagonSizeAcrossCorners": 25
+      },
+      {
+        "size": "25S",
+        "overallDiaBMinmm": 14,
+        "overallDiaBMaxmm": 17.5,
+        "isoEntryThreadDia": 25,
+        "isoEntryThreadLength": 10,
+        "approxLengthFromShoulder": 25,
+        "hexagonSizeAcrossFlat": 30,
+        "hexagonSizeAcrossCorners": 34
+      },
+      {
+        "size": "25",
+        "overallDiaBMinmm": 17,
+        "overallDiaBMaxmm": 20.4,
+        "isoEntryThreadDia": 25,
+        "isoEntryThreadLength": 10,
+        "approxLengthFromShoulder": 26,
+        "hexagonSizeAcrossFlat": 30,
+        "hexagonSizeAcrossCorners": 34
+      },
+      {
+        "size": "32",
+        "overallDiaBMinmm": 20,
+        "overallDiaBMaxmm": 26,
+        "isoEntryThreadDia": 32,
+        "isoEntryThreadLength": 10,
+        "approxLengthFromShoulder": 30,
+        "hexagonSizeAcrossFlat": 36,
+        "hexagonSizeAcrossCorners": 40
+      }
+    ],
     "customerReviews": []
   },
   {
@@ -268,7 +342,19 @@
     "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
-    "description": [],
+    "description": [
+      {
+        "Size": "20 mm to 90 mm",
+        "Standard": "BS 6121",
+        "Application": "Dry Indoor, for use with all types of SWA Cable",
+        "Function": "Provide mechanical Cable Retention & Electrical Wire continuity via Armoured Wire.",
+        "Material": "Brass BS 2874 CZ121 Pb3",
+        "Optional Threads": "METRIC, NPT, BSP, PG or as specified",
+        "Finish": "Brass Finish, Nickel Finish, Chrome Finish or as specified",
+        "Operating Temp.": "-80 C to +300 C",
+        "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tag, Reducers, Adaptors, etc. as per the requirement"
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -278,10 +364,18 @@
     "image": "BW_Cable_Glands",
     "productName": "BW Cable Gland",
     "Specification": [],
-    "detail": [],
+    "detail": [
+      "We are involved in manufacturing & offering a broad range of BW cable glands which is made of superior quality raw materials and used with amour or braided cable. These glands secure electrical continuity between amour and gland entry. Further, these glands can be excessively used in both indoor and outdoor applications.",
+      "The range of aluminum cable glands which we offer is manufactured from top quality aluminum materials and is highly known for its electrical continuity and high conduction power. These are highly used in amour or braided cables which secures armoring and provides electrical continuity between amour & gland entry component."
+    ],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
-    "description": [],
+    "description": [
+      {
+        "*Design Features": "2 part armour lack, Knurled armor lack produces a low resistance earth clip.",
+        "*Application": "For use with armour or braided cable, secures armouring & provides electrical continuity between armour & gland entry component made used it dry and indoor condition."
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -294,7 +388,19 @@
     "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
-    "description": [],
+    "description": [
+      {
+        "Size": "20 mm to 90 mm S & L",
+        "Standard": "EN 50262 : 1999",
+        "Application": "For indoor or outdoor use with all types of SWA Cable",
+        "Function": "Provide for Environmental Seal in the Cable Outer Sheath,. Also provide mechanical cable retention & electrical continuity.",
+        "Material": "Brass BS 2874 CZ121 Pb3",
+        "Optional Threads": "METRIC, NPT, BSP, PG or as specified",
+        "Finish": "Brass Finish, Nickel Finish, Chrome Finish or as specified",
+        "Operating Temp.": "Standard seals -20 to +80 C",
+        "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tags, REducers, Adaptors, etc. as per the requirement"
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -304,10 +410,18 @@
     "image": "CW_Cable_Glands",
     "productName": "CW Cable Gland",
     "Specification": [],
-    "detail": [],
+    "detail": [
+      "This range of CW cable glands is manufactured from high graded raw materials and are used in both indoor and outdoor applications. further, these can sustain in heavy to normal weather thus ensuring optimum performance. These cable glands secure electrical continuity between amour and gland entry component.",
+      "We have an offer of an exclusive range of BW cable glands which is used in both indoor and outdoor applications. These are specially designed to sustain in all kinds of climatic condition and can resist water and heavy storm. Our range is further provided with a wire that is used instead of a knurled cone."
+    ],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
-    "description": [],
+    "description": [
+      {
+        "*Design Features": "<ul><li>2 part Armour/Earth Lock, Knurled Armour Lock produces a low resistance earth clip</li><li>Also available in CIEL(cast integral earth lug) for orders add” C ” to prod. code.</li></ul>",
+        "*Application": "<ul><li>For use with armored cable</li><li>Secures armoring and provides electrical continuity between amour and gland entry component</li><li>Also provides a seal on the outer sheath of the cable thus ensuring no damage to cable sheathing</li></ul>"
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -320,7 +434,19 @@
     "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
-    "description": [],
+    "description": [
+      {
+        "Size": "20 mm to 90 mm S & L",
+        "Standard": "EN 50262 : 1999",
+        "Application": "For indoor or outdoor use with all types of SWA Cable",
+        "Function": "Provide for Environmental Seal in the Cable Outer sheath. Also, provide mechanical cable retention & electrical continuity",
+        "Material": "Brass BS 2874 CZ121 Pb3",
+        "Optional Threads": "METRIC, NPT, BSP, PG or as specified",
+        "Finish": "Brass Finish, Nickel Finish, Chrome Finish or as specified",
+        "Operating Temp.": "Standard seals -20 C to +80 C",
+        "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tag, Reducers, Adaptors, etc. as per the requirement"
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -330,10 +456,17 @@
     "image": "E1W_Cable_Glands",
     "productName": "E1W Cable Gland",
     "Specification": [],
-    "detail": [],
+    "detail": [
+      "We have expertise in manufacturing & exporting a broad array of E1W cable glands which is designed with 2 part amour or earth lock. Further, these are also enabled with inner and outer displacement and provide seals on to both inner sheath and outer sheath of the cable. We offer these cables at most affordable price.",
+      "The range of EIW cable glands which we derive is used with all types of SWA extruded bedding cable where it is essential to produce IP 66 seal on to the outer sheath. These equipment also help us in producing an IP 66 or explosion proof seal on inner sheath. It provides seals on to both inner sheath and outer sheath of the cable. These are also applied to all kinds of SWA extruded bedding cables."
+    ],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
-    "description": [],
+    "description": [
+      {
+        "*Design Features": "<ul><li>2 part Armour/Earth Lock</li><li>Knurled Armour Lock produces a low resistance earth clip</li><li>Inner and outer displacement</li><li>Rated at IP 66 in conjunction with entry thread seal.</li></ul>"
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -356,7 +489,21 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Wires",
-    "description": [],
+    "description": [
+      {
+        "*Application": "These cables are used for the purpose of lighting in residential and commercial building in surface mounted or embedded conduits. Suitable for voltages upto 1000 AC or upto 750 to to earth DC when used for fixed installation inside applicances, switchgear and controlgear.",
+        "*Construction": {
+          "Conductor": "Plain annealed flexible copper stranded as per class 5 of IEC-60228.",
+          "Insulation": "PVC type TI 1 as per BS-7655 (H05V-K,H07V-K)<br/>PVC type TI 3 as per BS-7655 (H07V2-K)"
+        },
+        "*TechnicalData": {
+          "Temperature range": "H05V-K, H07V-K(70¼C). H07V2-K.(90¼C)",
+          "Working voltage": "300/500 V. upto 1.0 mm2, 450/750 V. for 1.5 mm and above.",
+          "Conductor resistance": "As per class 5 of IEC-60228.",
+          "Flame retardance": "IEC-6033. 2-1"
+        }
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -380,7 +527,37 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Wires",
-    "description": [],
+    "description": [
+      {
+        "Types Cu And Cr Pvc Insulated Cables Bs 6231": "",
+        "*Application": "These cables are used for wiring of switch, control, metering, relay and instrument panels of power switchgear and for internal connections in rectifier equipment, motor starters and controllers.",
+        "*Construction": {
+          "Conductor": "Plain annealed copper solid as per class 1 of BS 6360 (Type CU) or stranded as per class 2 of BS 6360 (Type CR).",
+          "Insulation": "PVC type T13 as per BS 7655. Black, blue, brown, gray, red, white, yellow & green/yellow colours can be manufactured."
+        },
+        "*TechnicalData": {
+          "Temperature range": "-25¼C to+90¼C",
+          "Working voltage": "600 / 1000 Volts.",
+          "Conductor resistance": "As per class 1 or 2 of BS 6360",
+          "Flame retardance": "IEC 60332-1"
+        }
+      },
+      {
+        "Types Bk And Br Pvc Insulated Cables Bs 6231": "",
+        "*Application": "These cables are used for wiring of switch, control, metering, relay and instrument panels of power switchgear and for internal connections in rectifier equipment, motor starters and controllers.",
+        "*Construction": {
+          "Conductor": "Plain annealed copper solid as per class 5 of BS 6360.",
+          "Insulation": "PVC type T11 as per BS 7655. Black, blue, brown, gray, red, white, yellow & green/yellow colours can be manufactured."
+        },
+        "*TechnicalData": {
+          "Temperature range": "-25¼C to+70¼C",
+          "Working voltage": "600 / 1000 Volts.",
+          "Conductor resistance": "As per class 1 or 2 of BS 6360",
+          "Flame retardance": "IEC 60332-1",
+          "Printing Legend Example": "TYPE BK 1.5 600 / 1000V MESC 2005"
+        }
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -403,7 +580,21 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Wires",
-    "description": [],
+    "description": [
+      {
+        "*Application": "These cables are used for the purpose of lighting in residential and commercial building in surface mounted or embedded conduits. Suitable for voltages upto 1000 AC or up to 750 to earth DC when used for fixed installation inside appliances,switchgear and controlgear",
+        "*Construction": {
+          "Conductor": "Plain annealed copper solid as per class 1 of IEC-60228 or stranded as per class 2 of IEC-60228. HO5V-U and HO7V-U correspond to solid conductor. HO7V-R corresponds to stranded conductor.",
+          "Insulation": "PVC type TI 1 as per BS-7655 (H05V-U,H07V,H07V2-R) PVC type TI 3 as per BS-7655 (H07V2,H07V2-R)"
+        },
+        "*TechnicalData": {
+          "Temperature range": "H05V-U, H07V-R(70¼C). H07V2-U,H07V2-R(90¼C)",
+          "Working voltage": "300/500 V. upto 1.0 mm 2 , 450 /750 V. for 1.5 mm2and above.",
+          "Conductor resistance": "As per class 1 or 2 of IEC-6022. 8",
+          "Flame retardance": "IEC 60332-1"
+        }
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -435,7 +626,18 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
-    "description": [],
+    "description": [
+      {
+        "*Specifications": {
+          "Applications": "Lubricant",
+          "Brand": "3M",
+          "Color": "White, Translucent White, Clear, Gray, Translucent Green",
+          "Lubricant Type": "Gel, Wax, Wintergrade, Spray, Liquid Spray",
+          "Operating Temperature (Celsius)": "-5 to 43 Degree Celsius, 12 to 43 Degree Celsius, -6.7 to 43.3 Degree Celsius, -5 to 49 Degree Celsius, 12 to 90 Degree Celsius",
+          "Size": "5 Gallons, 1 Gallon, 1 Quart"
+        }
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -515,7 +717,16 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Ties",
-    "description": [],
+    "description": [
+      {
+        "*Specifications": {
+          "Description": "3M™ Cable Ties are molded from 6/6 nylon and are available in a variety of sizes and styles, including weather resistant black for outdoor use.",
+          "Agency Approvals & Self Certifications": "Products which are UL Listed as noted in the Typical Data section meet UL Standard 62275 for Cable Management Systems, Type 21, and are suitable for use in Air Handling Spaces (plenums) in accordance with Section 300.22 of the National Electric Code. (Exception: 48 inch Heavy Duty not Listed for use in Air Handling Spaces)<br />Products which are identified as UL Listed and manufactured with a black, UV resistant material are Listed as suitable for use outdoors.<br />The Heavy Duty(175 lb.) cable ties are UL Listed 181B-C mechanical fasteners for use with flexible air ducts.<br />U.L. File # E116841",
+          "Applications": "3M™ Cable Ties are used to secure wire bundles and harness components quickly. The flexible design allows the user to slip ties easily under and around cables and harnesses. These ties can be used with most standard tensioning/cutoff tools for fast production line fastening.",
+          "Specifications": "<strong>Open Specifications</strong><br/>All ties must be U.L. Listed, Type 21, and tested to U.L. Standard 62275 for Cable Management Systems.<br/><strong>Closed Specifications</strong><br/>Product must be 3M brand cable ties, U.L. Listed, Type 21, and tested to U.L. Standard 62275 for Cable Management Systems.<br/><strong>Cable Tie Mounting Bases</strong><br/>3M™ Cable Tie Bases are molded from 6/6 nylon or ABS and available in natural, weather resistant black or ivory material. They are also available in different sizes and mounting abilities. The self-adhesive style is for simple lightweight mounting of wire bundles while the saddle design screw mount is designed for maximum weight and stability."
+        }
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -870,7 +1081,42 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
-    "description": [],
+    "description": [
+      {
+        "*Specifications": {
+          "Adhesive Material": "Rubber Resin",
+          "Agency Approvals": "CSA Certified, UL Listed",
+          "Backing Material": "Polyvinyl Chloride",
+          "Brand": "Scotch",
+          "Breaking Strength": "17 lb/in",
+          "Color": "Red",
+          "Dielectric Strength": "1250 V/mil",
+          "Length": "20 Linear Foot",
+          "Length (Metric)": "6.1 m",
+          "Material": "PVC",
+          "Operating Temperature Range (Celsius)": "0 to 105 Degree Celsius",
+          "Operating Temperature Range (Fahrenheit)": "32 to 220 Degree Fahrenheit",
+          "RoHS 2011/65/EU Compliant": "Yes",
+          "RoHS EU Comments": "RoHS 2011/65/EU compliant without exemption",
+          "Rolls per Carton": "10",
+          "Rolls per Case": "100",
+          "Self-Extinguishing": "No",
+          "Self Sticking/Amalgamating": "No",
+          "Specifications": "VDE 0340-TEIL1",
+          "Suitable for High Voltage": "Yes",
+          "Tape Grade": "Premium",
+          "Tape Type": "Vinyl",
+          "Thickness": "7 mil",
+          "Thickness (Metric)": "0.177 mm",
+          "Trademark": "Scotch",
+          "UV Resistant": "Yes",
+          "Voltage Application": "Low Voltage",
+          "Vulcanizing": "No",
+          "Width": "0.5 Inch",
+          "Width (Metric)": "12 mm"
+        }
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []

@@ -15,9 +15,31 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
       technicalData,
       characteristics,
       design,
+      specification,
+      designFeatures,
     } = this.props;
     return (
       <div>
+        {designFeatures ? (
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+              className={styles.AccordionSummary}
+            >
+              <Typography className={styles.Typography}>
+                Design Features
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <div
+                className={styles.text}
+                dangerouslySetInnerHTML={{ __html: designFeatures }}
+              ></div>
+            </AccordionDetails>
+          </Accordion>
+        ) : null}
         {application ? (
           <Accordion>
             <AccordionSummary
@@ -29,7 +51,10 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
               <Typography className={styles.Typography}>Application</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography className={styles.text}>{application}</Typography>
+              <div
+                className={styles.text}
+                dangerouslySetInnerHTML={{ __html: application }}
+              ></div>
             </AccordionDetails>
           </Accordion>
         ) : null}
@@ -45,23 +70,19 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                <table className={styles.table}>
-                  <tbody>
-                    {Object.entries(construction).map(
-                      (entry: any, i: number) => (
-                        <tr key={i} className={styles.trow}>
-                          <td className={styles.th}>{entry[0]}</td>
-                          <td
-                            className={styles.td}
-                            dangerouslySetInnerHTML={{ __html: entry[1] }}
-                          ></td>
-                        </tr>
-                      )
-                    )}
-                  </tbody>
-                </table>
-              </Typography>
+              <table className={styles.table}>
+                <tbody>
+                  {Object.entries(construction).map((entry: any, i: number) => (
+                    <tr key={i} className={styles.trow}>
+                      <td className={styles.th}>{entry[0]}</td>
+                      <td
+                        className={styles.td}
+                        dangerouslySetInnerHTML={{ __html: entry[1] }}
+                      ></td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </AccordionDetails>
           </Accordion>
         ) : null}
@@ -77,23 +98,21 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                <table className={styles.table}>
-                  <tbody>
-                    {Object.entries(technicalData).map(
-                      (entry: any, i: number) => (
-                        <tr key={i} className={styles.trow}>
-                          <td className={styles.th}>{entry[0]}</td>
-                          <td
-                            className={styles.td}
-                            dangerouslySetInnerHTML={{ __html: entry[1] }}
-                          ></td>
-                        </tr>
-                      )
-                    )}
-                  </tbody>
-                </table>
-              </Typography>
+              <table className={styles.table}>
+                <tbody>
+                  {Object.entries(technicalData).map(
+                    (entry: any, i: number) => (
+                      <tr key={i} className={styles.trow}>
+                        <td className={styles.th}>{entry[0]}</td>
+                        <td
+                          className={styles.td}
+                          dangerouslySetInnerHTML={{ __html: entry[1] }}
+                        ></td>
+                      </tr>
+                    )
+                  )}
+                </tbody>
+              </table>
             </AccordionDetails>
           </Accordion>
         ) : null}
@@ -109,23 +128,21 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                <table className={styles.table}>
-                  <tbody>
-                    {Object.entries(characteristics).map(
-                      (entry: any, i: number) => (
-                        <tr key={i} className={styles.trow}>
-                          <td className={styles.th}>{entry[0]}</td>
-                          <td
-                            className={styles.td}
-                            dangerouslySetInnerHTML={{ __html: entry[1] }}
-                          ></td>
-                        </tr>
-                      )
-                    )}
-                  </tbody>
-                </table>
-              </Typography>
+              <table className={styles.table}>
+                <tbody>
+                  {Object.entries(characteristics).map(
+                    (entry: any, i: number) => (
+                      <tr key={i} className={styles.trow}>
+                        <td className={styles.th}>{entry[0]}</td>
+                        <td
+                          className={styles.td}
+                          dangerouslySetInnerHTML={{ __html: entry[1] }}
+                        ></td>
+                      </tr>
+                    )
+                  )}
+                </tbody>
+              </table>
             </AccordionDetails>
           </Accordion>
         ) : null}
@@ -139,10 +156,38 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
               <Typography className={styles.Typography}>Design</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                <table className={styles.table}>
-                  <tbody>
-                    {Object.entries(design).map((entry: any, i: number) => (
+              <table className={styles.table}>
+                <tbody>
+                  {Object.entries(design).map((entry: any, i: number) => (
+                    <tr key={i} className={styles.trow}>
+                      <td className={styles.th}>{entry[0]}</td>
+                      <td
+                        className={styles.td}
+                        dangerouslySetInnerHTML={{ __html: entry[1] }}
+                      ></td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </AccordionDetails>
+          </Accordion>
+        ) : null}
+        {specification && Object.entries(specification).length ? (
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel3a-content"
+              id="panel3a-header"
+            >
+              <Typography className={styles.Typography}>
+                Specification
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <table className={styles.table}>
+                <tbody>
+                  {Object.entries(specification).map(
+                    (entry: any, i: number) => (
                       <tr key={i} className={styles.trow}>
                         <td className={styles.th}>{entry[0]}</td>
                         <td
@@ -150,10 +195,10 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
                           dangerouslySetInnerHTML={{ __html: entry[1] }}
                         ></td>
                       </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </Typography>
+                    )
+                  )}
+                </tbody>
+              </table>
             </AccordionDetails>
           </Accordion>
         ) : null}

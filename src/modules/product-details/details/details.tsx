@@ -61,14 +61,16 @@ class Details extends Component<IDetailsProps, IDetailsStates> {
               dangerouslySetInnerHTML={{ __html: det }}
             ></p>
           ))}
-          <h5 className={styles.description}>Description :</h5>
+          {details?.description?.length ? (
+            <h5 className={styles.description}>Description :</h5>
+          ) : null}
           {details?.description?.map((desc: any, i: number) => (
             <>
               <ul key={i}>
                 {Object.entries(desc).map((entry: any, j: number) => {
-                  if (entry[0].charAt(0) === "*") {
-                    return null;
-                  }
+                  if (entry[0].charAt(0) === "*") return null;
+                  if (entry[1] === "")
+                    return <h4 className={styles.onlyTitle}>{entry[0]}</h4>;
                   return (
                     <li key={j} className={styles.descriptionData}>
                       {entry[0]} : {entry[1]}
@@ -77,15 +79,17 @@ class Details extends Component<IDetailsProps, IDetailsStates> {
                 })}
               </ul>
               <CustomAccordian
+                key={`key_${i}`}
                 application={desc["*Application"]}
                 construction={desc["*Construction"]}
                 technicalData={desc["*TechnicalData"]}
                 characteristics={desc["*Characteristics"]}
                 design={desc["*Design"]}
+                specification={desc["*Specifications"]}
+                designFeatures={desc["*Design Features"]}
               />
             </>
           ))}
-          <ul></ul>
         </div>
       </div>
     );

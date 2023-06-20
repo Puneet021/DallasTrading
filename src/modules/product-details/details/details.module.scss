@@ -30,10 +30,20 @@
         font-size: 1.1em;
         line-height: 0.1em;
         color: $greyText;
+        @include respond-to(mobile) {
+          line-height: 1em;
+        }
       }
       .spec {
         color: $fontColor;
         line-height: 0;
+        @include respond-to(mobile) {
+          line-height: 1em;
+          margin-top: -1em;
+        }
+      }
+      @include respond-to(mobile) {
+        margin-bottom: -1em;
       }
     }
     .details {
@@ -56,6 +66,12 @@
       color: $greyText;
       font-size: 1.2em;
       margin-top: -0.1em;
+    }
+    .onlyTitle {
+      color: $greyText;
+      font-size: 1.4em;
+      font-weight: 500;
+      margin-left: -1.4em;
     }
     .descriptionData {
       color: $greyText;

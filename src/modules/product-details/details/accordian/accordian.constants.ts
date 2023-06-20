@@ -4,5 +4,7 @@ export interface IAccordianProps {
   technicalData: any;
   characteristics: any;
   design: any;
+  specification: any;
+  designFeatures: any;
 }
 export interface IAccordianStates {}
