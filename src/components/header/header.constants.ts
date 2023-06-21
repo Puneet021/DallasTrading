@@ -9,7 +9,7 @@ export interface IHeaderProps {
   };
   handleSearchValueChange: ActionCreatorWithPayload<
     string,
-    "menu/handleSearchValueChange"
+    "searchResults/handleSearchValueChange"
   >;
 }
 export interface IHeaderStates {

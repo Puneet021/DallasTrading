@@ -4,6 +4,11 @@ import { ISearchPageProps, ISearchPageStates } from "./search-page.constants";
 import LightWeightHeading from "../../components/common/headings/lightWeightHeading/lightWeightHeading";
 import { MenuItem, Select } from "@mui/material";
 import SearchResults from "./search-results/search-results";
+import { connect } from "react-redux";
+import { IStore } from "../../utils/models/store.model";
+import { getSearchResultsLoader } from "../../store/searchResults/searchResultsActions";
+import { fetchAsyncSearchResultsData } from "../../store/searchResults/searchResultsSlice";
+import CustomLoader from "../../components/common/loader/loader";
 
 class SearchPage extends Component<ISearchPageProps, ISearchPageStates> {
   constructor(props: ISearchPageProps) {
@@ -14,8 +19,10 @@ class SearchPage extends Component<ISearchPageProps, ISearchPageStates> {
   }
   componentDidMount(): void {
     window.scrollTo({ top: 0, behavior: "smooth" });
+    this.props.fetchAsyncSearchResultsData();
   }
   render(): ReactNode {
+    const { loader } = this.props;
     return (
       <div className={styles.searchPageContainer}>
         <div className={styles.headDiv}>
@@ -51,10 +58,21 @@ class SearchPage extends Component<ISearchPageProps, ISearchPageStates> {
             </MenuItem>
           </Select>
         </div>
-        <SearchResults />
+        {loader ? (
+          <div className={styles.loader}>
+            <CustomLoader />{" "}
+          </div>
+        ) : (
+          <SearchResults />
+        )}
       </div>
     );
   }
 }
 
-export default SearchPage;
+export default connect(
+  (state: IStore) => ({
+    loader: getSearchResultsLoader(state),
+  }),
+  { fetchAsyncSearchResultsData }
+)(SearchPage);

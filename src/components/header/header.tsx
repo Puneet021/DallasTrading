@@ -10,7 +10,7 @@ import Menu from "../menu/menu";
 import withRouter from "../common/withRouterComponent/withRouter";
 import ClickAwayListener from "@mui/base/ClickAwayListener";
 import { connect } from "react-redux";
-import { handleSearchValueChange } from "../../store/menu/menuSlice";
+import { handleSearchValueChange } from "../../store/searchResults/searchResultsSlice";
 
 class Header extends Component<IHeaderProps, IHeaderStates> {
   constructor(props: IHeaderProps) {

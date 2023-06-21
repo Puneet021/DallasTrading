@@ -3,7 +3,12 @@
 .productListContainer {
   @include pageCommonCss;
   .loaderDiv {
-    height: 15rem;
+    position: relative;
+    height: $windowHeight * 0.4;
+    width: 100%;
+    @include respond-to(mobile) {
+      width: 80%;
+    }
   }
   .headDiv {
     @include display-flex(row, space-between, flex-start);

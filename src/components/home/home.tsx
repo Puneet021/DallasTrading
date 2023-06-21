@@ -7,7 +7,7 @@ import Header from "../header/header";
 import Footer from "../footer/footer";
 import { connect } from "react-redux";
 import { IStore } from "../../utils/models/store.model";
-import { getSearchValue } from "../../store/menu/menuActions";
+import { getSearchValue } from "../../store/searchResults/searchResultsActions";
 import SearchPage from "../../modules/search-page/search-page";
 
 class Home extends Component<IHomeProps, IHomeStates> {

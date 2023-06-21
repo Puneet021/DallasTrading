@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { IMenuItems } from "../../utils/models/menu.model";
 
-const initialState: { menuItems: IMenuItems[]; searchVal: string } = {
+const initialState: { menuItems: IMenuItems[] } = {
   menuItems: [
     {
       id: 0,
@@ -44,19 +44,12 @@ const initialState: { menuItems: IMenuItems[]; searchVal: string } = {
       path: "./contact-us",
     },
   ],
-  searchVal: "",
 };
 
 const menuSlice = createSlice({
   name: "menu",
   initialState: initialState,
-  reducers: {
-    handleSearchValueChange: (state, { payload }) => {
-      return { ...state, searchVal: payload };
-    },
-  },
+  reducers: {},
 });
-
-export const { handleSearchValueChange } = menuSlice.actions;
 
 export default menuSlice.reducer;

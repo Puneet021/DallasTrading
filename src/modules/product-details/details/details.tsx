@@ -1,4 +1,4 @@
-import { Component, ReactNode } from "react";
+import { Component, Fragment, ReactNode } from "react";
 import styles from "./details.module.scss";
 import { connect } from "react-redux";
 import { IStore } from "../../../utils/models/store.model";
@@ -65,8 +65,8 @@ class Details extends Component<IDetailsProps, IDetailsStates> {
             <h5 className={styles.description}>Description :</h5>
           ) : null}
           {details?.description?.map((desc: any, i: number) => (
-            <>
-              <ul key={i}>
+            <Fragment key={i}>
+              <ul>
                 {Object.entries(desc).map((entry: any, j: number) => {
                   if (entry[0].charAt(0) === "*") return null;
                   if (entry[1] === "")
@@ -88,7 +88,7 @@ class Details extends Component<IDetailsProps, IDetailsStates> {
                 specification={desc["*Specifications"]}
                 designFeatures={desc["*Design Features"]}
               />
-            </>
+            </Fragment>
           ))}
         </div>
       </div>

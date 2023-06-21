@@ -3,11 +3,11 @@ import { IOurTeamDetails } from "./our-team.model";
 import { IProductDetailData } from "./product-detail.model";
 import { IProductsData } from "./products.model";
 import { IProductsCategoryData } from "./productsCategory.model";
+import { ISearchResultsData } from "./search-results.model";
 
 export interface IStore {
   menu: {
     menuItems: IMenuItems[];
-    searchVal: string;
   };
   productDetail: {
     productDetailData: IProductDetailData;
@@ -26,5 +26,11 @@ export interface IStore {
     productsData: IProductsData[];
     productCategory: string;
     loader: boolean;
+  };
+  searchResults: {
+    searchResultsData: ISearchResultsData[];
+    searchResultsFilterData: ISearchResultsData[];
+    loader: boolean;
+    searchVal: string;
   };
 }

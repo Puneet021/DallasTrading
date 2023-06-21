@@ -5,5 +5,9 @@
   .loaderDiv {
     position: relative;
     height: $windowHeight * 0.4;
+    width: 100%;
+    @include respond-to(mobile) {
+      width: 80%;
+    }
   }
 }

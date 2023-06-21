@@ -6,9 +6,9 @@ import {
 } from "./search-results.constants";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import anyImage from "./../../../images/category1.png";
-import anyImage2 from "./../../../images/category2.png";
-import anyImage3 from "./../../../images/category3.png";
+import { connect } from "react-redux";
+import { IStore } from "../../../utils/models/store.model";
+import { getSearchResultsFilterData } from "../../../store/searchResults/searchResultsActions";
 
 class SearchResults extends Component<
   ISearchResultsProps,
@@ -27,33 +27,22 @@ class SearchResults extends Component<
         data-aos-duration="1000"
         data-aos-once="true"
       >
-        <div className={styles.resultItem}>
-          <img
-            className={styles.itemImage}
-            src={anyImage}
-            alt="will implement later"
-          />
-          <h4 className={styles.itemText}>A1/A2 Cable Gland</h4>
-        </div>
-        <div className={styles.resultItem}>
-          <img
-            className={styles.itemImage}
-            src={anyImage2}
-            alt="will implement later"
-          />
-          <h4 className={styles.itemText}>A1/A2 Cable Gland</h4>
-        </div>
-        <div className={styles.resultItem}>
-          <img
-            className={styles.itemImage}
-            src={anyImage3}
-            alt="will implement later"
-          />
-          <h4 className={styles.itemText}>A1/A2 Cable Gland</h4>
-        </div>
+        {this.props.data?.map((item, i) => (
+          <div key={i} className={styles.resultItem}>
+            <img className={styles.itemImage} src={item.image} alt={item.id} />
+            <div>
+              <h4 className={styles.itemText}>{item.title}</h4>
+              <h5 className={styles.itemCat}>
+                <span>{item.productCategory}</span>, {item.company}
+              </h5>
+            </div>
+          </div>
+        ))}
       </div>
     );
   }
 }
 
-export default SearchResults;
+export default connect((state: IStore) => ({
+  data: getSearchResultsFilterData(state),
+}))(SearchResults);
