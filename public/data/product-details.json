@@ -823,7 +823,411 @@
         }
       }
     ],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "title": "Current carrying capacity at 30ûC in free air.",
+        "table": [
+          {
+            "Area(mm2)": "Area(mm2)",
+            "One Phase(A)": "One Phase(A)",
+            "Three Phase(A)": "Three Phase(A)"
+          },
+          {
+            "Area(mm2)": "1.0",
+            "One Phase(A)": "17",
+            "Three Phase(A)": "16"
+          },
+          {
+            "Area(mm2)": "1.5",
+            "One Phase(A)": "21",
+            "Three Phase(A)": "20"
+          },
+          {
+            "Area(mm2)": "2.5",
+            "One Phase(A)": "30",
+            "Three Phase(A)": "26"
+          },
+          {
+            "Area(mm2)": "4",
+            "One Phase(A)": "40",
+            "Three Phase(A)": "36"
+          },
+          {
+            "Area(mm2)": "6",
+            "One Phase(A)": "50",
+            "Three Phase(A)": "45"
+          },
+          {
+            "Area(mm2)": "10",
+            "One Phase(A)": "68",
+            "Three Phase(A)": "61"
+          },
+          {
+            "Area(mm2)": "16",
+            "One Phase(A)": "90",
+            "Three Phase(A)": "81"
+          },
+          {
+            "Area(mm2)": "25",
+            "One Phase(A)": "118",
+            "Three Phase(A)": "106"
+          },
+          {
+            "Area(mm2)": "35",
+            "One Phase(A)": "145",
+            "Three Phase(A)": "130"
+          },
+          {
+            "Area(mm2)": "50",
+            "One Phase(A)": "175",
+            "Three Phase(A)": "160"
+          },
+          {
+            "Area(mm2)": "70",
+            "One Phase(A)": "220",
+            "Three Phase(A)": "200"
+          },
+          {
+            "Area(mm2)": "95",
+            "One Phase(A)": "270",
+            "Three Phase(A)": "240"
+          },
+          {
+            "Area(mm2)": "120",
+            "One Phase(A)": "310",
+            "Three Phase(A)": "280"
+          },
+          {
+            "Area(mm2)": "150",
+            "One Phase(A)": "355",
+            "Three Phase(A)": "320"
+          },
+          {
+            "Area(mm2)": "185",
+            "One Phase(A)": "405",
+            "Three Phase(A)": "365"
+          }
+        ],
+        "DataAfterTable": [
+          "<strong>Ambient temperature : </strong>35, 40, 45, 50, 55, 60, 65",
+          "<strong>ACorrection factor : </strong>0.94, 0.87, 0.79, 0.71, 0.61, 0.50, 0.35",
+          "<strong>Packing : </strong>Upto sizes 35mm2 shrinked wrapped coils of 100 yards. For 50mm2 and above 500/1000 Meter on Wooden drums."
+        ]
+      },
+      {
+        "title": "HO5V-K, HO7V-K NYAF IEC-60227-2",
+        "table": [
+          {
+            "orderNo": "Order No.",
+            "mescCode": "MESC CODE.",
+            "Size AWG/MCM": "Size AWG/MCM",
+            "Strand X Dia. No. x mm": "Strand X Dia. No. x mm",
+            "Insulation Thickness mm": "Insulation Thickness mm",
+            "Approx. O.D. mm.": "Approx. O.D. mm.",
+            "Approx weight kg/km": "Approx. Weight Kg/Km"
+          },
+          {
+            "orderNo": "51001",
+            "mescCode": "5181-01C00050-U0BK1-00",
+            "Size AWG/MCM": "0.5",
+            "Strand X Dia. No. x mm": "16 X 0.2",
+            "Insulation Thickness mm": "0.6",
+            "Approx. O.D. mm.": "2.2",
+            "Approx weight kg/km": "9"
+          },
+          {
+            "orderNo": "51002",
+            "mescCode": "5181-01C00075-U0BK1-00",
+            "Size AWG/MCM": "0.75",
+            "Strand X Dia. No. x mm": "24 X 0.2",
+            "Insulation Thickness mm": "0.6",
+            "Approx. O.D. mm.": "2.4",
+            "Approx weight kg/km": "12"
+          },
+          {
+            "orderNo": "51003",
+            "mescCode": "5181-01C00100-U0BK1-00",
+            "Size AWG/MCM": "1.0",
+            "Strand X Dia. No. x mm": "32 X 0.2",
+            "Insulation Thickness mm": "0.6",
+            "Approx. O.D. mm.": "2.6",
+            "Approx weight kg/km": "15"
+          },
+          {
+            "orderNo": "51004",
+            "mescCode": "5181-01C00150-U0BK1-00",
+            "Size AWG/MCM": "1.5",
+            "Strand X Dia. No. x mm": "30 X 0.25",
+            "Insulation Thickness mm": "0.7",
+            "Approx. O.D. mm.": "3.0",
+            "Approx weight kg/km": "21"
+          },
+          {
+            "orderNo": "51005",
+            "mescCode": "5181-01C00250-U0BK1-00",
+            "Size AWG/MCM": "2.5",
+            "Strand X Dia. No. x mm": "50 X 0.25",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.6",
+            "Approx weight kg/km": "33"
+          },
+          {
+            "orderNo": "51006",
+            "mescCode": "5181-01C00400-U0BK1-00",
+            "Size AWG/MCM": "4",
+            "Strand X Dia. No. x mm": "56 X 0.3",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.2",
+            "Approx weight kg/km": "49"
+          },
+          {
+            "orderNo": "51007",
+            "mescCode": "5181-01C00600-U0BK1-00",
+            "Size AWG/MCM": "6",
+            "Strand X Dia. No. x mm": "84 X 0.3",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.8",
+            "Approx weight kg/km": "69"
+          },
+          {
+            "orderNo": "51008",
+            "mescCode": "5181-01C01000-U0BK1-00",
+            "Size AWG/MCM": "10",
+            "Strand X Dia. No. x mm": "80 X 0.4",
+            "Insulation Thickness mm": "1.0",
+            "Approx. O.D. mm.": "6.1",
+            "Approx weight kg/km": "116"
+          },
+          {
+            "orderNo": "51009",
+            "mescCode": "5181-01C01600-U0BK1-00",
+            "Size AWG/MCM": "16",
+            "Strand X Dia. No. x mm": "126 X 0.4",
+            "Insulation Thickness mm": "1.0",
+            "Approx. O.D. mm.": "7.1",
+            "Approx weight kg/km": "173"
+          },
+          {
+            "orderNo": "51010",
+            "mescCode": "5181-01C02500-U0BK1-00",
+            "Size AWG/MCM": "25",
+            "Strand X Dia. No. x mm": "196 X 0.4",
+            "Insulation Thickness mm": "1.2",
+            "Approx. O.D. mm.": "8.8",
+            "Approx weight kg/km": "266"
+          },
+          {
+            "orderNo": "51011",
+            "mescCode": "5181-01C03500-U0BK1-00",
+            "Size AWG/MCM": "35",
+            "Strand X Dia. No. x mm": "276 X 0.4",
+            "Insulation Thickness mm": "1.2",
+            "Approx. O.D. mm.": "10.0",
+            "Approx weight kg/km": "364"
+          },
+          {
+            "orderNo": "51012",
+            "mescCode": "5181-01C05000-U0BK8-00",
+            "Size AWG/MCM": "50",
+            "Strand X Dia. No. x mm": "396 X 0.4",
+            "Insulation Thickness mm": "1.4",
+            "Approx. O.D. mm.": "11.9",
+            "Approx weight kg/km": "520"
+          },
+          {
+            "orderNo": "51013",
+            "mescCode": "5181-01C07000-U0BK8-00",
+            "Size AWG/MCM": "70",
+            "Strand X Dia. No. x mm": "360 X 0.5",
+            "Insulation Thickness mm": "1.4",
+            "Approx. O.D. mm.": "13.9",
+            "Approx weight kg/km": "756"
+          },
+          {
+            "orderNo": "51014",
+            "mescCode": "5181-01C09500-U0BK8-00",
+            "Size AWG/MCM": "95",
+            "Strand X Dia. No. x mm": "475 X 0.5",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "15.9",
+            "Approx weight kg/km": "996"
+          },
+          {
+            "orderNo": "51015",
+            "mescCode": "5181-01C12000-U0BK8-00",
+            "Size AWG/MCM": "120",
+            "Strand X Dia. No. x mm": "608 X 0.5",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "17.6",
+            "Approx weight kg/km": "1257"
+          },
+          {
+            "orderNo": "51016",
+            "mescCode": "5181-01C15000-U0BK8-00",
+            "Size AWG/MCM": "150",
+            "Strand X Dia. No. x mm": "760 X 0.5",
+            "Insulation Thickness mm": "1.8",
+            "Approx. O.D. mm.": "19.7",
+            "Approx weight kg/km": "1572"
+          },
+          {
+            "orderNo": "51017",
+            "mescCode": "5181-01C18500-U0BK8-00",
+            "Size AWG/MCM": "185",
+            "Strand X Dia. No. x mm": "950 X 0.5",
+            "Insulation Thickness mm": "2.0",
+            "Approx. O.D. mm.": "21.9",
+            "Approx weight kg/km": "1964"
+          }
+        ],
+        "DataAfterTable": [
+          "For colours other than Black, please replace BK in the code by “BL” for Blue, “BN” for brown, “GN” for Green, “GY” Packing: upto Sizes 35mm2 Shrinked wrapped coils of 100 yards. for 50m2 and above 500/1000 meter on wooden drums. for Grey, “OR” for Orange, “PK” for Pink, “RD” for Red, “TR” for Turquoise, “VT” for Violet, “WT” for White, “YG” for Yellow/green and “YL” for Yellow."
+        ]
+      },
+      {
+        "title": "HO7V2-K (90¼C)",
+        "table": [
+          {
+            "orderNo": "Order No.",
+            "mescCode": "MESC CODE.",
+            "Size AWG/MCM": "Size AWG/MCM",
+            "Strand X Dia. No. x mm": "Strand X Dia. No. x mm",
+            "Insulation Thickness mm": "Insulation Thickness mm",
+            "Approx. O.D. mm.": "Approx. O.D. mm.",
+            "Approx weight kg/km": "Approx. Weight Kg/Km"
+          },
+          {
+            "orderNo": "51018",
+            "mescCode": "5C81-01C00150-U0BK1-00",
+            "Size AWG/MCM": "1.5",
+            "Strand X Dia. No. x mm": "30×0.25",
+            "Insulation Thickness mm": "0.7",
+            "Approx. O.D. mm.": "3.0",
+            "Approx weight kg/km": "21"
+          },
+          {
+            "orderNo": "51019",
+            "mescCode": "5C81-01C00250-U0BK1-00",
+            "Size AWG/MCM": "2.5",
+            "Strand X Dia. No. x mm": "50×0.25",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.6",
+            "Approx weight kg/km": "33"
+          },
+          {
+            "orderNo": "51020",
+            "mescCode": "5C81-01C00400-U0BK1-00",
+            "Size AWG/MCM": "4",
+            "Strand X Dia. No. x mm": "56×0.3",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.2",
+            "Approx weight kg/km": "49"
+          },
+          {
+            "orderNo": "51021",
+            "mescCode": "5C81-01C00600-U0BK1-00",
+            "Size AWG/MCM": "6",
+            "Strand X Dia. No. x mm": "84×0.3",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.8",
+            "Approx weight kg/km": "69"
+          },
+          {
+            "orderNo": "51022",
+            "mescCode": "5C81-01C01000-U0BK1-00",
+            "Size AWG/MCM": "10",
+            "Strand X Dia. No. x mm": "80×0.4",
+            "Insulation Thickness mm": "1.0",
+            "Approx. O.D. mm.": "6.1",
+            "Approx weight kg/km": "116"
+          },
+          {
+            "orderNo": "51023",
+            "mescCode": "5C81-01C01600-U0BK1-00",
+            "Size AWG/MCM": "16",
+            "Strand X Dia. No. x mm": "126×0.4",
+            "Insulation Thickness mm": "1.0",
+            "Approx. O.D. mm.": "7.1",
+            "Approx weight kg/km": "173"
+          },
+          {
+            "orderNo": "51024",
+            "mescCode": "5C81-01C02500-U0BK1-00",
+            "Size AWG/MCM": "25",
+            "Strand X Dia. No. x mm": "196×0.4",
+            "Insulation Thickness mm": "1.2",
+            "Approx. O.D. mm.": "8.8",
+            "Approx weight kg/km": "266"
+          },
+          {
+            "orderNo": "51025",
+            "mescCode": "5C81-01C03500-U0BK1-00",
+            "Size AWG/MCM": "35",
+            "Strand X Dia. No. x mm": "276×0.4",
+            "Insulation Thickness mm": "1.2",
+            "Approx. O.D. mm.": "10.0",
+            "Approx weight kg/km": "364"
+          },
+          {
+            "orderNo": "51026",
+            "mescCode": "5C81-01C05000-U0BK8-00",
+            "Size AWG/MCM": "50",
+            "Strand X Dia. No. x mm": "396×0.4",
+            "Insulation Thickness mm": "1.4",
+            "Approx. O.D. mm.": "11.9",
+            "Approx weight kg/km": "520"
+          },
+          {
+            "orderNo": "51027",
+            "mescCode": "5C81-01C07000-U0BK8-00",
+            "Size AWG/MCM": "70",
+            "Strand X Dia. No. x mm": "360×0.5",
+            "Insulation Thickness mm": "1.4",
+            "Approx. O.D. mm.": "13.9",
+            "Approx weight kg/km": "756"
+          },
+          {
+            "orderNo": "51028",
+            "mescCode": "5C81-01C09500-U0BK8-00",
+            "Size AWG/MCM": "95",
+            "Strand X Dia. No. x mm": "475×0.5",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "15.9",
+            "Approx weight kg/km": "996"
+          },
+          {
+            "orderNo": "51029",
+            "mescCode": "5C81-01C12000-U0BK8-00",
+            "Size AWG/MCM": "120",
+            "Strand X Dia. No. x mm": "608×0.5",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "17.6",
+            "Approx weight kg/km": "1257"
+          },
+          {
+            "orderNo": "51030",
+            "mescCode": "5C81-01C15000-U0BK8-00",
+            "Size AWG/MCM": "150",
+            "Strand X Dia. No. x mm": "760×0.5",
+            "Insulation Thickness mm": "1.8",
+            "Approx. O.D. mm.": "19.7",
+            "Approx weight kg/km": "1572"
+          },
+          {
+            "orderNo": "51031",
+            "mescCode": "5C81-01C18500-U0BK8-00",
+            "Size AWG/MCM": "185",
+            "Strand X Dia. No. x mm": "950×0.5",
+            "Insulation Thickness mm": "2.0",
+            "Approx. O.D. mm.": "21.9",
+            "Approx weight kg/km": "1964"
+          }
+        ],
+        "DataAfterTable": [
+          "<strong>Packing : </strong>upto Sizes 35mm2 Shrinked wrapped coils of 100 yards. for 50m2 and above 500/1000 meter on wooden drums."
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },

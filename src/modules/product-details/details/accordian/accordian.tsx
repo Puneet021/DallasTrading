@@ -6,6 +6,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import char_img from "./../../../../images/characteristicsRubberCable.png";
 
 class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
   render(): ReactNode {
@@ -19,9 +20,9 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
       designFeatures,
     } = this.props;
     return (
-      <div>
+      <div className={styles.accordianCont}>
         {designFeatures ? (
-          <Accordion>
+          <Accordion sx={{ width: "100%" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -32,7 +33,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
                 Design Features
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails sx={{ maxWidth: "100%" }}>
               <div
                 className={styles.text}
                 dangerouslySetInnerHTML={{ __html: designFeatures }}
@@ -41,7 +42,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
           </Accordion>
         ) : null}
         {application ? (
-          <Accordion>
+          <Accordion sx={{ width: "100%" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -50,7 +51,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
             >
               <Typography className={styles.Typography}>Application</Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails sx={{ maxWidth: "100%" }}>
               <div
                 className={styles.text}
                 dangerouslySetInnerHTML={{ __html: application }}
@@ -59,7 +60,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
           </Accordion>
         ) : null}
         {construction && Object.entries(construction).length ? (
-          <Accordion>
+          <Accordion sx={{ width: "100%" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
@@ -69,7 +70,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
                 Construction
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails sx={{ maxWidth: "100%" }}>
               <table className={styles.table}>
                 <tbody>
                   {Object.entries(construction).map((entry: any, i: number) => (
@@ -87,7 +88,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
           </Accordion>
         ) : null}
         {technicalData && Object.entries(technicalData).length ? (
-          <Accordion>
+          <Accordion sx={{ width: "100%" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel3a-content"
@@ -97,7 +98,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
                 Technical Data
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails sx={{ maxWidth: "100%" }}>
               <table className={styles.table}>
                 <tbody>
                   {Object.entries(technicalData).map(
@@ -117,7 +118,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
           </Accordion>
         ) : null}
         {characteristics && Object.entries(characteristics).length ? (
-          <Accordion>
+          <Accordion sx={{ width: "100%" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel3a-content"
@@ -127,7 +128,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
                 Characteristics
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails sx={{ maxWidth: "100%" }}>
               <table className={styles.table}>
                 <tbody>
                   {Object.entries(characteristics).map(
@@ -143,11 +144,12 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
                   )}
                 </tbody>
               </table>
+              <img className={styles.charImg} src={char_img} alt="char_img" />
             </AccordionDetails>
           </Accordion>
         ) : null}
         {design && Object.entries(design).length ? (
-          <Accordion>
+          <Accordion sx={{ width: "100%" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel3a-content"
@@ -155,7 +157,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
             >
               <Typography className={styles.Typography}>Design</Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails sx={{ maxWidth: "100%" }}>
               <table className={styles.table}>
                 <tbody>
                   {Object.entries(design).map((entry: any, i: number) => (
@@ -173,7 +175,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
           </Accordion>
         ) : null}
         {specification && Object.entries(specification).length ? (
-          <Accordion>
+          <Accordion sx={{ width: "100%" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel3a-content"
@@ -183,7 +185,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
                 Specification
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails sx={{ maxWidth: "100%" }}>
               <table className={styles.table}>
                 <tbody>
                   {Object.entries(specification).map(
