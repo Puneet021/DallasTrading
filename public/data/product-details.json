@@ -1281,7 +1281,341 @@
         }
       }
     ],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "title": "Dimensional Details of Types Cu And Cr Pvc Insulated Cables Bs 6231 : ",
+        "table": [
+          {
+            "orderNo": "Order No.",
+            "mescCode": "MESC CODE.",
+            "Size AWG/MCM": "Size AWG/MCM",
+            "Strand X Dia. No. x mm": "Strand X Dia. No. x mm",
+            "Insulation Thickness mm": "Insulation Thickness mm",
+            "Approx. O.D. mm.": "Approx. O.D. mm.",
+            "Approx weight kg/km": "Approx. Weight Kg/Km"
+          },
+          {
+            "orderNo": "71059",
+            "mescCode": "7B61-01C00100-U0BK1-00",
+            "Size AWG/MCM": "1.0",
+            "Strand X Dia. No. x mm": "1X1.13",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "2.8",
+            "Approx weight kg/km": "17"
+          },
+          {
+            "orderNo": "71060",
+            "mescCode": "7B61-01C00150-U0BK1-00",
+            "Size AWG/MCM": "1.5",
+            "Strand X Dia. No. x mm": "1X1.38",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.0",
+            "Approx weight kg/km": "22"
+          },
+          {
+            "orderNo": "71061",
+            "mescCode": "7B61-01C00250-U0BK1-00",
+            "Size AWG/MCM": "CU2.5",
+            "Strand X Dia. No. x mm": "1X1.78",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.5",
+            "Approx weight kg/km": "33"
+          },
+          {
+            "orderNo": "71062",
+            "mescCode": "7B11-01C00100-U0BK1-00",
+            "Size AWG/MCM": "1.0",
+            "Strand X Dia. No. x mm": "7X0.43",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.0",
+            "Approx weight kg/km": "18"
+          },
+          {
+            "orderNo": "71063",
+            "mescCode": "7B11-01C00150-U0BK1-00",
+            "Size AWG/MCM": "1.5",
+            "Strand X Dia. No. x mm": "7X0.53",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.3",
+            "Approx weight kg/km": "24"
+          },
+          {
+            "orderNo": "71064",
+            "mescCode": "7B11-01C00250-U0BK1-00",
+            "Size AWG/MCM": "2.5",
+            "Strand X Dia. No. x mm": "7X0.67",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.7",
+            "Approx weight kg/km": "35"
+          },
+          {
+            "orderNo": "71065",
+            "mescCode": "7B11-01C00400-U0BK1-00",
+            "Size AWG/MCM": "4",
+            "Strand X Dia. No. x mm": "7X0.85",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.2",
+            "Approx weight kg/km": "51"
+          },
+          {
+            "orderNo": "71066",
+            "mescCode": "7B11-01C00600-U0BK1-00",
+            "Size AWG/MCM": "6",
+            "Strand X Dia. No. x mm": "7X1.04",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.8",
+            "Approx weight kg/km": "72"
+          },
+          {
+            "orderNo": "71067",
+            "mescCode": "7B11-01C01000-U0BK1-00",
+            "Size AWG/MCM": "10",
+            "Strand X Dia. No. x mm": "7X1.35",
+            "Insulation Thickness mm": "1.0",
+            "Approx. O.D. mm.": "6.2",
+            "Approx weight kg/km": "120"
+          },
+          {
+            "orderNo": "71068",
+            "mescCode": "7B11-01C01600-U0BK1-00",
+            "Size AWG/MCM": "CR16",
+            "Strand X Dia. No. x mm": "7X1.7",
+            "Insulation Thickness mm": "1.0",
+            "Approx. O.D. mm.": "7.2",
+            "Approx weight kg/km": "180"
+          },
+          {
+            "orderNo": "71069",
+            "mescCode": "7B11-01C02500-U0BK1-00",
+            "Size AWG/MCM": "25",
+            "Strand X Dia. No. x mm": "7X2.14",
+            "Insulation Thickness mm": "1.2",
+            "Approx. O.D. mm.": "8.9",
+            "Approx weight kg/km": "283"
+          },
+          {
+            "orderNo": "71070",
+            "mescCode": "7B11-01C03500-U0BK1-00",
+            "Size AWG/MCM": "35",
+            "Strand X Dia. No. x mm": "7X2.52",
+            "Insulation Thickness mm": "1.2",
+            "Approx. O.D. mm.": "10.1",
+            "Approx weight kg/km": "382"
+          },
+          {
+            "orderNo": "71071",
+            "mescCode": "7B11-01C05000-U0BK1-00",
+            "Size AWG/MCM": "50",
+            "Strand X Dia. No. x mm": "19X1.78",
+            "Insulation Thickness mm": "1.4",
+            "Approx. O.D. mm.": "11.8",
+            "Approx weight kg/km": "514"
+          },
+          {
+            "orderNo": "71072",
+            "mescCode": "7B11-01C07000-U0BK8-00",
+            "Size AWG/MCM": "70",
+            "Strand X Dia. No. x mm": "19X2.14",
+            "Insulation Thickness mm": "1.4",
+            "Approx. O.D. mm.": "13.8",
+            "Approx weight kg/km": "723"
+          },
+          {
+            "orderNo": "71073",
+            "mescCode": "7B11-01C09500-U0BK8-00",
+            "Size AWG/MCM": "95",
+            "Strand X Dia. No. x mm": "19X2.52",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "16.0",
+            "Approx weight kg/km": "999"
+          },
+          {
+            "orderNo": "71074",
+            "mescCode": "7B11-01C12000-U0BK8-00",
+            "Size AWG/MCM": "120",
+            "Strand X Dia. No. x mm": "37X2.03",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "17.6",
+            "Approx weight kg/km": "1238"
+          },
+          {
+            "orderNo": "71075",
+            "mescCode": "7B11-01C15000-U0BK8-00",
+            "Size AWG/MCM": "150",
+            "Strand X Dia. No. x mm": "37X2.25",
+            "Insulation Thickness mm": "1.8",
+            "Approx. O.D. mm.": "19.5",
+            "Approx weight kg/km": "1523"
+          }
+        ],
+        "DataAfterTable": [
+          "<strong>Packing :</strong> Upto sizes 35 Sq.mm-shrinked wrapped coils of 100Yards. For 50mm2 and above 500/1000 Meter on wooden drums.",
+          "<strong>Colors :</strong> For other colours than black, please replace “BK” in the MESC code by “BL” for blue “BN” for brown, “GY” for Gray, “RD” for red. “WT” for white “YL” for Yellow and “OR” for orange,”PK” for pink,”VT” for violet,”TR” for Turquoise, “GN” for Green and “YG”."
+        ]
+      },
+      {
+        "title": "Dimensional Details of Types Bk And Br Pvc Insulated Cables Bs 6231 : ",
+        "table": [
+          {
+            "orderNo": "Order No.",
+            "mescCode": "MESC CODE.",
+            "Size AWG/MCM": "Size AWG/MCM",
+            "Strand X Dia. No. x mm": "Strand X Dia. No. x mm",
+            "Insulation Thickness mm": "Insulation Thickness mm",
+            "Approx. O.D. mm.": "Approx. O.D. mm.",
+            "Approx weight kg/km": "Approx. Weight Kg/Km"
+          },
+          {
+            "orderNo": "51035",
+            "mescCode": "5B81-01C00050-U0BK1-00",
+            "Size AWG/MCM": "0.5",
+            "Strand X Dia. No. x mm": "16X0.2",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "2.6",
+            "Approx weight kg/km": "13"
+          },
+          {
+            "orderNo": "51036",
+            "mescCode": "5B81-01C00075-U0BK1-00",
+            "Size AWG/MCM": "0.75",
+            "Strand X Dia. No. x mm": "24X0.2",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "2.8",
+            "Approx weight kg/km": "17"
+          },
+          {
+            "orderNo": "51037",
+            "mescCode": "5B81-01C00100-U0BK1-00",
+            "Size AWG/MCM": "1.0",
+            "Strand X Dia. No. x mm": "32X0.2",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.0",
+            "Approx weight kg/km": "20"
+          },
+          {
+            "orderNo": "51038",
+            "mescCode": "5B81-01C00150-U0BK1-00",
+            "Size AWG/MCM": "1.5",
+            "Strand X Dia. No. x mm": "30X0.25",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.2",
+            "Approx weight kg/km": "24"
+          },
+          {
+            "orderNo": "51039",
+            "mescCode": "5B81-01C00250-U0BK1-00",
+            "Size AWG/MCM": "2.5",
+            "Strand X Dia. No. x mm": "20X0.25",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.7",
+            "Approx weight kg/km": "35"
+          },
+          {
+            "orderNo": "51040",
+            "mescCode": "5B81-01C00400-U0BK1-00",
+            "Size AWG/MCM": "4",
+            "Strand X Dia. No. x mm": "56X0.3",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.2",
+            "Approx weight kg/km": "51"
+          },
+          {
+            "orderNo": "51041",
+            "mescCode": "5B81-01C00600-U0BK1-00",
+            "Size AWG/MCM": "6",
+            "Strand X Dia. No. x mm": "84X0.3",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.8",
+            "Approx weight kg/km": "71"
+          },
+          {
+            "orderNo": "51042",
+            "mescCode": "5B81-01C01000-U0BK1-00",
+            "Size AWG/MCM": "10",
+            "Strand X Dia. No. x mm": "80X0.4",
+            "Insulation Thickness mm": "1.0",
+            "Approx. O.D. mm.": "6.2",
+            "Approx weight kg/km": "119"
+          },
+          {
+            "orderNo": "51043",
+            "mescCode": "5B81-01C01600-U0BK1-00",
+            "Size AWG/MCM": "16",
+            "Strand X Dia. No. x mm": "126X0.4",
+            "Insulation Thickness mm": "1.0",
+            "Approx. O.D. mm.": "7.9",
+            "Approx weight kg/km": "179"
+          },
+          {
+            "orderNo": "51044",
+            "mescCode": "5B81-01C02500-U0BK1-00",
+            "Size AWG/MCM": "25",
+            "Strand X Dia. No. x mm": "196X0.4",
+            "Insulation Thickness mm": "1.2",
+            "Approx. O.D. mm.": "9.7",
+            "Approx weight kg/km": "277"
+          },
+          {
+            "orderNo": "51045",
+            "mescCode": "5B81-01C03500-U0BK1-00",
+            "Size AWG/MCM": "35",
+            "Strand X Dia. No. x mm": "276X0.4",
+            "Insulation Thickness mm": "1.2",
+            "Approx. O.D. mm.": "11.1",
+            "Approx weight kg/km": "375"
+          },
+          {
+            "orderNo": "51046",
+            "mescCode": "5B81-01C05000-U0BK8-00",
+            "Size AWG/MCM": "50",
+            "Strand X Dia. No. x mm": "396X0.4",
+            "Insulation Thickness mm": "1.4",
+            "Approx. O.D. mm.": "13.1",
+            "Approx weight kg/km": "535"
+          },
+          {
+            "orderNo": "51047",
+            "mescCode": "5B81-01C07000-U0BK8-00",
+            "Size AWG/MCM": "70",
+            "Strand X Dia. No. x mm": "360X0.5",
+            "Insulation Thickness mm": "1.4",
+            "Approx. O.D. mm.": "15.7",
+            "Approx weight kg/km": "774"
+          },
+          {
+            "orderNo": "51048",
+            "mescCode": "5B81-01C09500-U0BK8-00",
+            "Size AWG/MCM": "95",
+            "Strand X Dia. No. x mm": "475X0.5",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "17.9",
+            "Approx weight kg/km": "1022"
+          },
+          {
+            "orderNo": "51049",
+            "mescCode": "5B81-01C12000-U0BK8-00",
+            "Size AWG/MCM": "120",
+            "Strand X Dia. No. x mm": "608X0.5",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "19.8",
+            "Approx weight kg/km": "1284"
+          },
+          {
+            "orderNo": "51050",
+            "mescCode": "5B81-01C15000-U0BK8-00",
+            "Size AWG/MCM": "150",
+            "Strand X Dia. No. x mm": "760X0.5",
+            "Insulation Thickness mm": "1.8",
+            "Approx. O.D. mm.": "22.1",
+            "Approx weight kg/km": "1604"
+          }
+        ],
+        "DataAfterTable": [
+          "<strong>Packing :</strong> Upto sizes 35 Sq.mm-shrinked wrapped coils of 100Yards. For 50mm2 and above 500/1000 Meter on wooden drums.",
+          "<strong>Colors :</strong> For other colours than black, please replace “BK” in the MESC code by “BL” for blue “BN” for brown, “GY” for Gray, “RD” for red. “WT” for white “YL” for Yellow and “YG” for Green/Yellow."
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -1318,7 +1652,465 @@
         }
       }
     ],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "title": "Current carrying capacity at 30ûC in free air.",
+        "table": [
+          {
+            "Area(mm2)": "Area(mm2)",
+            "One Phase(A)": "One Phase(A)",
+            "Three Phase (A)": "Three Phase (A)"
+          },
+          {
+            "Area(mm2)": "1.0",
+            "One Phase(A)": "17",
+            "Three Phase (A)": "16"
+          },
+          {
+            "Area(mm2)": "1.5",
+            "One Phase(A)": "21",
+            "Three Phase (A)": "20"
+          },
+          {
+            "Area(mm2)": "2.5",
+            "One Phase(A)": "30",
+            "Three Phase (A)": "26"
+          },
+          {
+            "Area(mm2)": "4",
+            "One Phase(A)": "40",
+            "Three Phase (A)": "36"
+          },
+          {
+            "Area(mm2)": "6",
+            "One Phase(A)": "50",
+            "Three Phase (A)": "45"
+          },
+          {
+            "Area(mm2)": "10",
+            "One Phase(A)": "68",
+            "Three Phase (A)": "61"
+          },
+          {
+            "Area(mm2)": "16",
+            "One Phase(A)": "90",
+            "Three Phase (A)": "81"
+          },
+          {
+            "Area(mm2)": "25",
+            "One Phase(A)": "118",
+            "Three Phase (A)": "106"
+          },
+          {
+            "Area(mm2)": "35",
+            "One Phase(A)": "145",
+            "Three Phase (A)": "130"
+          },
+          {
+            "Area(mm2)": "50",
+            "One Phase(A)": "175",
+            "Three Phase (A)": "160"
+          },
+          {
+            "Area(mm2)": "70",
+            "One Phase(A)": "220",
+            "Three Phase (A)": "200"
+          },
+          {
+            "Area(mm2)": "95",
+            "One Phase(A)": "270",
+            "Three Phase (A)": "240"
+          },
+          {
+            "Area(mm2)": "120",
+            "One Phase(A)": "310",
+            "Three Phase (A)": "280"
+          },
+          {
+            "Area(mm2)": "150",
+            "One Phase(A)": "355",
+            "Three Phase (A)": "320"
+          },
+          {
+            "Area(mm2)": "185",
+            "One Phase(A)": "405",
+            "Three Phase (A)": "365"
+          }
+        ]
+      },
+      {
+        "title": "Correction factors for ambient temperature.",
+        "DataAfterTable": [
+          "<strong>Ambient temperature :</strong> 35, 40, 45, 50, 55, 60, 65",
+          "<strong>A Correction factor :</strong> 0.94, 0.87, 0.79, 0.71, 0.61, 0.50, 0.35",
+          "<strong>Packing : </strong>Upto sizes 35 mm2 shrinked wrapped coils of 100 yards. For 50 mm2 and above 500/1000 Meter on Wooden drums."
+        ]
+      },
+      {
+        "title": "HO5V-U,HO7V-U,H07V-R(70¼C) NYA IEC-60227-01",
+        "table": [
+          {
+            "orderNo": "Order No.",
+            "mescCode": "MESC CODE.",
+            "Size AWG/MCM": "Size AWG/MCM",
+            "Strand X Dia. No. x mm": "Strand X Dia. No. x mm",
+            "Insulation Thickness mm": "Insulation Thickness mm",
+            "Approx. O.D. mm.": "Approx. O.D. mm.",
+            "Approx weight kg/km": "Approx. Weight Kg/Km"
+          },
+          {
+            "orderNo": "71001",
+            "mescCode": "7161-01C00050-U0BK1-00",
+            "Size AWG/MCM": "0.5",
+            "Strand X Dia. No. x mm": "1 X 0.8",
+            "Insulation Thickness mm": "0.6",
+            "Approx. O.D. mm.": "2.1",
+            "Approx weight kg/km": "9"
+          },
+          {
+            "orderNo": "71002",
+            "mescCode": "7161-01C00075-U0BK1-00",
+            "Size AWG/MCM": "0.75",
+            "Strand X Dia. No. x mm": "1 X 0.98",
+            "Insulation Thickness mm": "0.6",
+            "Approx. O.D. mm.": "2.2",
+            "Approx weight kg/km": "11"
+          },
+          {
+            "orderNo": "71003",
+            "mescCode": "7161-01C00100-U0BK1-00",
+            "Size AWG/MCM": "1",
+            "Strand X Dia. No. x mm": "1 X 1.13",
+            "Insulation Thickness mm": "0.6",
+            "Approx. O.D. mm.": "2.4",
+            "Approx weight kg/km": "14"
+          },
+          {
+            "orderNo": "71004",
+            "mescCode": "7161-01C00150-U0BK1-00",
+            "Size AWG/MCM": "1.5",
+            "Strand X Dia. No. x mm": "1 X 1.38",
+            "Insulation Thickness mm": "0.7",
+            "Approx. O.D. mm.": "2.9",
+            "Approx weight kg/km": "21"
+          },
+          {
+            "orderNo": "71005",
+            "mescCode": "7111-01C00150-U0BK1-00",
+            "Size AWG/MCM": "1.5",
+            "Strand X Dia. No. x mm": "7 X 0.53",
+            "Insulation Thickness mm": "0.7",
+            "Approx. O.D. mm.": "3.1",
+            "Approx weight kg/km": "22"
+          },
+          {
+            "orderNo": "71006",
+            "mescCode": "7161-01C00250-U0BK1-00",
+            "Size AWG/MCM": "2.5",
+            "Strand X Dia. No. x mm": "1 X 1.78",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.5",
+            "Approx weight kg/km": "33"
+          },
+          {
+            "orderNo": "71006",
+            "mescCode": "7161-01C00250-U0BK1-00",
+            "Size AWG/MCM": "2.5",
+            "Strand X Dia. No. x mm": "1 X 1.78",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.5",
+            "Approx weight kg/km": "33"
+          },
+          {
+            "orderNo": "71007",
+            "mescCode": "7111-01C00250-U0BK1-00",
+            "Size AWG/MCM": "2.5",
+            "Strand X Dia. No. x mm": "7 X 0.67",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.7",
+            "Approx weight kg/km": "34"
+          },
+          {
+            "orderNo": "71008",
+            "mescCode": "7161-01C00400-U0BK1-00",
+            "Size AWG/MCM": "4",
+            "Strand X Dia. No. x mm": "1 X 2.25",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.9",
+            "Approx weight kg/km": "48"
+          },
+          {
+            "orderNo": "71009",
+            "mescCode": "7111-01C00400-U0BK1-00",
+            "Size AWG/MCM": "4",
+            "Strand X Dia. No. x mm": "7 X 0.85",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.2",
+            "Approx weight kg/km": "51"
+          },
+          {
+            "orderNo": "71010",
+            "mescCode": "77161-01C00600-U0BK1-00",
+            "Size AWG/MCM": "6",
+            "Strand X Dia. No. x mm": "1 X 2.76",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.4",
+            "Approx weight kg/km": "67"
+          },
+          {
+            "orderNo": "71011",
+            "mescCode": "7111-01C00600-U0BK1-00",
+            "Size AWG/MCM": "6",
+            "Strand X Dia. No. x mm": "7 X 1.04",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.8",
+            "Approx weight kg/km": "71"
+          },
+          {
+            "orderNo": "71012",
+            "mescCode": "7111-01C01000-U0BK1-00",
+            "Size AWG/MCM": "10",
+            "Strand X Dia. No. x mm": "7 X 1.35",
+            "Insulation Thickness mm": "1.0",
+            "Approx. O.D. mm.": "6.2",
+            "Approx weight kg/km": "119"
+          },
+          {
+            "orderNo": "71013",
+            "mescCode": "7111-01C01600-U0BK1-00",
+            "Size AWG/MCM": "16",
+            "Strand X Dia. No. x mm": "7 X 1.7",
+            "Insulation Thickness mm": "1.0",
+            "Approx. O.D. mm.": "7.2",
+            "Approx weight kg/km": "179"
+          },
+          {
+            "orderNo": "71014",
+            "mescCode": "77111-01C02500-U0BK1-00",
+            "Size AWG/MCM": "25",
+            "Strand X Dia. No. x mm": "7 X 2.14",
+            "Insulation Thickness mm": "1.2",
+            "Approx. O.D. mm.": "8.9",
+            "Approx weight kg/km": "281"
+          },
+          {
+            "orderNo": "71015",
+            "mescCode": "7111-01C03500-U0BK1-00",
+            "Size AWG/MCM": "35",
+            "Strand X Dia. No. x mm": "7 X 2.52",
+            "Insulation Thickness mm": "1.2",
+            "Approx. O.D. mm.": "10.1",
+            "Approx weight kg/km": "379"
+          },
+          {
+            "orderNo": "71016",
+            "mescCode": "7111-01C05000-U0BK8-00",
+            "Size AWG/MCM": "50",
+            "Strand X Dia. No. x mm": "19 X 1.78",
+            "Insulation Thickness mm": "1.4",
+            "Approx. O.D. mm.": "11.8",
+            "Approx weight kg/km": "509"
+          },
+          {
+            "orderNo": "71017",
+            "mescCode": "7111-01C07000-U0BK8-00",
+            "Size AWG/MCM": "70",
+            "Strand X Dia. No. x mm": "19 X 2.14",
+            "Insulation Thickness mm": "1.4",
+            "Approx. O.D. mm.": "13.6",
+            "Approx weight kg/km": "717"
+          },
+          {
+            "orderNo": "71018",
+            "mescCode": "7111-01C09500-U0BK8-00",
+            "Size AWG/MCM": "95",
+            "Strand X Dia. No. x mm": "19 X 2.52",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "16.0",
+            "Approx weight kg/km": "990"
+          },
+          {
+            "orderNo": "71019",
+            "mescCode": "7111-01C12000-U0BK8-00",
+            "Size AWG/MCM": "120",
+            "Strand X Dia. No. x mm": "37 X 2.03",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "17.6",
+            "Approx weight kg/km": "1227"
+          },
+          {
+            "orderNo": "71020",
+            "mescCode": "7111-01C15000-U0BK8-00",
+            "Size AWG/MCM": "150",
+            "Strand X Dia. No. x mm": "37 X 2.25",
+            "Insulation Thickness mm": "1.8",
+            "Approx. O.D. mm.": "19.5",
+            "Approx weight kg/km": "1510"
+          },
+          {
+            "orderNo": "71021",
+            "mescCode": "7111-01C18500-U0BK8-00",
+            "Size AWG/MCM": "185",
+            "Strand X Dia. No. x mm": "37 X 2.52",
+            "Insulation Thickness mm": "2.0",
+            "Approx. O.D. mm.": "21.8",
+            "Approx weight kg/km": "1892"
+          }
+        ],
+        "DataAfterTable": [
+          "For colours other than Black, please replace BK in the code by “BL” for Blue, “BN” for brown, “GN” for Green, “GY” for Grey, “OR” for Orange, “PK” for Pink, “RD” for Red, “TR” for Turquoise, “VT” for Violet, “WT” for White, “YG” for Yellow/green and “YL” for Yellow."
+        ]
+      },
+      {
+        "title": "HO5V-U,HO7V-U,H07V2-R(90¼C)",
+        "table": [
+          {
+            "orderNo": "Order No.",
+            "mescCode": "MESC CODE.",
+            "Size AWG/MCM": "Size AWG/MCM",
+            "Strand X Dia. No. x mm": "Strand X Dia. No. x mm",
+            "Insulation Thickness mm": "Insulation Thickness mm",
+            "Approx. O.D. mm.": "Approx. O.D. mm.",
+            "Approx weight kg/km": "Approx. Weight Kg/Km"
+          },
+          {
+            "orderNo": "71022",
+            "mescCode": "7C61-01C00150-U0BK1-00",
+            "Size AWG/MCM": "1.5",
+            "Strand X Dia. No. x mm": "1×1.38",
+            "Insulation Thickness mm": "0.7",
+            "Approx. O.D. mm.": "2.9",
+            "Approx weight kg/km": "21"
+          },
+          {
+            "orderNo": "71023",
+            "mescCode": "7C11-01C00150-U0BK1-00",
+            "Size AWG/MCM": "1.5",
+            "Strand X Dia. No. x mm": "7×0.53",
+            "Insulation Thickness mm": "0.7",
+            "Approx. O.D. mm.": "3.1",
+            "Approx weight kg/km": "22"
+          },
+          {
+            "orderNo": "71024",
+            "mescCode": "7C61-01C00250-U0BK1-00",
+            "Size AWG/MCM": "2.5",
+            "Strand X Dia. No. x mm": "1×1.78",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.5",
+            "Approx weight kg/km": "33"
+          },
+          {
+            "orderNo": "71025",
+            "mescCode": "7C11-01C00150-U0BK1-00",
+            "Size AWG/MCM": "2.5",
+            "Strand X Dia. No. x mm": "7×0.67",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "3.7",
+            "Approx weight kg/km": "34"
+          },
+          {
+            "orderNo": "71026",
+            "mescCode": "7C11-01C00400-U0BK1-00",
+            "Size AWG/MCM": "4",
+            "Strand X Dia. No. x mm": "7×0.85",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.2",
+            "Approx weight kg/km": "51"
+          },
+          {
+            "orderNo": "71027",
+            "mescCode": "7C11-01C00600-U0BK1-00",
+            "Size AWG/MCM": "6",
+            "Strand X Dia. No. x mm": "7×1.04",
+            "Insulation Thickness mm": "0.8",
+            "Approx. O.D. mm.": "4.8",
+            "Approx weight kg/km": "71"
+          },
+          {
+            "orderNo": "71028",
+            "mescCode": "77C11-01C01000-U0BK1-00",
+            "Size AWG/MCM": "10",
+            "Strand X Dia. No. x mm": "7×1.35",
+            "Insulation Thickness mm": "1.0",
+            "Approx. O.D. mm.": "6.2",
+            "Approx weight kg/km": "119"
+          },
+          {
+            "orderNo": "71029",
+            "mescCode": "7C11-01C01600-U0BK1-00",
+            "Size AWG/MCM": "16",
+            "Strand X Dia. No. x mm": "7×1.7",
+            "Insulation Thickness mm": "1.0",
+            "Approx. O.D. mm.": "7.2",
+            "Approx weight kg/km": "179"
+          },
+          {
+            "orderNo": "71030",
+            "mescCode": "7C11-01C02500-U0BK1-00",
+            "Size AWG/MCM": "25",
+            "Strand X Dia. No. x mm": "7×2.14",
+            "Insulation Thickness mm": "1.2",
+            "Approx. O.D. mm.": "8.9",
+            "Approx weight kg/km": "281"
+          },
+          {
+            "orderNo": "71031",
+            "mescCode": "7C11-01C03500-U0BK1-00",
+            "Size AWG/MCM": "35",
+            "Strand X Dia. No. x mm": "7×2.52",
+            "Insulation Thickness mm": "1.2",
+            "Approx. O.D. mm.": "10.1",
+            "Approx weight kg/km": "379"
+          },
+          {
+            "orderNo": "71032",
+            "mescCode": "7C11-01C05000-U0BK8-00",
+            "Size AWG/MCM": "50",
+            "Strand X Dia. No. x mm": "19×1.78",
+            "Insulation Thickness mm": "1.4",
+            "Approx. O.D. mm.": "11.8",
+            "Approx weight kg/km": "509"
+          },
+          {
+            "orderNo": "71033",
+            "mescCode": "7C11-01C07000-U0BK8-00",
+            "Size AWG/MCM": "70",
+            "Strand X Dia. No. x mm": "19×2.14",
+            "Insulation Thickness mm": "1.4",
+            "Approx. O.D. mm.": "13.6",
+            "Approx weight kg/km": "717"
+          },
+          {
+            "orderNo": "71034",
+            "mescCode": "7C11-01C09500-U0BK8-00",
+            "Size AWG/MCM": "95",
+            "Strand X Dia. No. x mm": "19×2.52",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "16.0",
+            "Approx weight kg/km": "990"
+          },
+          {
+            "orderNo": "71035",
+            "mescCode": "7C11-01C12000-U0BK8-00",
+            "Size AWG/MCM": "120",
+            "Strand X Dia. No. x mm": "37×2.03",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "17.6",
+            "Approx weight kg/km": "1227"
+          },
+          {
+            "orderNo": "71036",
+            "mescCode": "7C11-01C15000-U0BK8-00",
+            "Size AWG/MCM": "150",
+            "Strand X Dia. No. x mm": "37×2.25",
+            "Insulation Thickness mm": "1.6",
+            "Approx. O.D. mm.": "19.5",
+            "Approx weight kg/km": "1510"
+          }
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -1544,7 +2336,29 @@
     "company": ["Legrand Swift"],
     "categoryName": "Cable Management System",
     "description": [],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "title": "Product ranges"
+      },
+      {
+        "title": "Topaz – Medium Duty",
+        "DataAfterTable": [
+          "<ul><li>Generally suitable for spans up to 3m</li><li>Side rail height: 100mm</li><li>Available cabling space: 69mm</li><li>Supplied as standard in 3m lengths</li><li>Finishes: G (hot dip galvanised), D (deep galvanised) and S (stainless steel)</li></ul>"
+        ]
+      },
+      {
+        "title": "Sapphire – Heavy Duty",
+        "DataAfterTable": [
+          "<ul><li>Generally suitable for spans up to 3.5m</li><li>Side rail height: 125mm</li><li>Available cabling space: 94mm</li><li>Supplied as standard in 3m lengths (lengths up to 6m available on request)</li><li>Finishes: G (hot dip galvanised), D (deep galvanised), S (stainless steel) and E (powder coated)</li></ul>"
+        ]
+      },
+      {
+        "title": "Emerald – Extra Heavy Duty",
+        "DataAfterTable": [
+          "<ul><li>Generally suitable for spans up to 4m</li><li>Side rail height: 150mm</li><li>Available cabling space: 119m</li><li>Supplied as standard in 3m lengths (lengths up to 6m available on request)</li><li>Finishes: G (hot dip galvanised), D (deep galvanised) and S (stainless steel)</li></ul>"
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -1559,7 +2373,66 @@
     "company": ["Legrand Swift"],
     "categoryName": "Cable Management System",
     "description": [],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "title": "Product ranges"
+      },
+      {
+        "title": "S5 – Light Duty"
+      },
+      {
+        "title": "Tray depth:",
+        "DataAfterTable": [
+          "12mm (for 50 – 225mm widths) 18mm (for 300mm width and above)"
+        ]
+      },
+      {
+        "title": "Finishes:",
+        "DataAfterTable": [
+          "<ul><li>G (hot dip galvanised)</li><li>PG (pre-galvanised)</li><li>S (stainless steel)</li></ul>"
+        ]
+      },
+      {
+        "title": "SRF – Heavy Duty"
+      },
+      {
+        "title": "Tray depth:",
+        "DataAfterTable": ["50mm"]
+      },
+      {
+        "title": "Finishes:",
+        "DataAfterTable": [
+          "<ul><li>G (hot dip galvanised)</li><li>D (deep galvanised)</li><li>PG (pre-galvanised)</li><li>S (stainless steel)</li><li>E (powder coated)</li></ul>"
+        ]
+      },
+      {
+        "title": "XRF – EXTRA HEAVY DUTY"
+      },
+      {
+        "title": "Tray depth:",
+        "DataAfterTable": ["80mm"]
+      },
+      {
+        "title": "Finishes:",
+        "DataAfterTable": [
+          "<ul><li>G (hot dip galvanised)</li><li>D (deep galvanised)</li><li>PG (pre-galvanised)</li><li>S (stainless steel)</li></ul>"
+        ]
+      },
+      {
+        "title": "Swiftclip",
+        "DataAfterTable": [
+          "Legrand’s cable management innovation Swiftclip, is the new, fast-fit alternative to conventional nuts and bolts that seamlessly connects lengths and fittings up to four times faster on medium and heavy duty Swifts cable trays.<ul><li>At least four times faster to fit*</li><li>Cuts total installed cost</li><li>Strength tested to British Standards</li><li>Compatible with the existing Swifts cable tray system</li><li>Available for external and internal applications</li><li>No tools needed</li></ul>*When fitting length to length or length to fitting. Full report available on request from Legrand."
+        ],
+        "images1": ["swiftclip-thumbnail.jpg"]
+      },
+      {
+        "title": "Universal Bracket",
+        "DataAfterTable": [
+          "Overcome obstacles and challenges on site with the universal bracket which can be hand folded, bent, split or hinged to offer a multitude of functions. Designed for use with a medium or heavy duty cable tray, the universal bracket is a must-have for any toolkit."
+        ],
+        "images1": ["swifts-universal-brackets-thumbnail.jpg"]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -1575,7 +2448,194 @@
     "company": ["Barton"],
     "categoryName": "Flexible/Rigid Conduit & Accessories",
     "description": [],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "title": "PVC Brass Adaptor",
+        "DataAfterTable": [
+          "<ul><li>Part Code F543BRSNOD</li><li>Description Conduit fittings for flame retardant PVC coated flexible</li><li>Material Brass</li><li>Finish Nickel plated</li></ul>"
+        ]
+      },
+      {
+        "title": "Product Features",
+        "DataAfterTable": [
+          "<ul><li>No hazardous sharp edges or burrs</li><li>Smooth Inside for easier wire pulling</li><li>Conforms to bs en 61386-23</li><li>General purpose application, IP 54 rating</li><li>Corrosion, Abrasion, Oil and water resistant</li></ul>"
+        ],
+        "table": [
+          {
+            "Ordering Code": "F543BRSNOD2020",
+            "Conduit Size (BS)": "20",
+            "Thread Size": "20.0",
+            "Thread Diameter": "20.0",
+            "Minimum Bore": "14.8"
+          },
+          {
+            "Ordering Code": "F543BRSNOD2525",
+            "Conduit Size (BS)": "25",
+            "Thread Size": "25.0",
+            "Thread Diameter": "25.0",
+            "Minimum Bore": "18.8"
+          },
+          {
+            "Ordering Code": "F543BRSNOD3232",
+            "Conduit Size (BS)": "32",
+            "Thread Size": "32.0",
+            "Thread Diameter": "32.0",
+            "Minimum Bore": "25.8"
+          },
+          {
+            "Ordering Code": "F543BRSNOD4040",
+            "Conduit Size (BS)": "40",
+            "Thread Size": "40.0",
+            "Thread Diameter": "40.0",
+            "Minimum Bore": "33.8"
+          },
+          {
+            "Ordering Code": "F543BRSNOD5050",
+            "Conduit Size (BS)": "50",
+            "Thread Size": "50.0",
+            "Thread Diameter": "50.0",
+            "Minimum Bore": "41.8"
+          }
+        ],
+        "images2": [
+          "flexible-conduit.jpg",
+          "brass-fittins.jpg",
+          "brass-fittins.jpg"
+        ]
+      },
+      {
+        "DataAfterTable": [
+          "<ul><li>IP Rating with recommended conduit IP 54</li><li>Operating temperature – 25 TO + 90º C</li><li>Proven products</li><li>Premium quality</li><li>Industry standard specification</li><li>Worldwide customer support</li></ul>"
+        ],
+        "images1": ["bsi-registered.jpg"]
+      },
+      {
+        "title": "PVC Brass Female Adaptor",
+        "DataAfterTable": [
+          "<ul><li>Part Code F543FNOD</li><li>Description Female conduit fittings for flame retardant pvc coated flexible</li><li>Material Brass</li><li>Finish Nickel plated</li></ul>"
+        ]
+      },
+      {
+        "title": "Product Features",
+        "DataAfterTable": [
+          "<ul><li>No hazardous sharp edges or burrs</li><li>Smooth inside for easier wire pulling</li><li>Conforms to bs en 61386-23</li><li>General purpose application, IP 54 rating</li><li>Corrosion, Abrasion, Oil and water resistant</li></ul>"
+        ],
+        "table": [
+          {
+            "Ordering Code": "F543BRSNOD2020",
+            "Conduit Size (BS)": "20",
+            "Thread Size": "20.0",
+            "Thread Diameter": "20.0",
+            "Minimum Bore": "14.8"
+          },
+          {
+            "Ordering Code": "F543BRSNOD2525",
+            "Conduit Size (BS)": "25",
+            "Thread Size": "25.0",
+            "Thread Diameter": "25.0",
+            "Minimum Bore": "18.8"
+          },
+          {
+            "Ordering Code": "F543BRSNOD3232",
+            "Conduit Size (BS)": "32",
+            "Thread Size": "32.0",
+            "Thread Diameter": "32.0",
+            "Minimum Bore": "25.8"
+          },
+          {
+            "Ordering Code": "F543BRSNOD4040",
+            "Conduit Size (BS)": "40",
+            "Thread Size": "40.0",
+            "Thread Diameter": "40.0",
+            "Minimum Bore": "33.8"
+          },
+          {
+            "Ordering Code": "F543BRSNOD5050",
+            "Conduit Size (BS)": "50",
+            "Thread Size": "50.0",
+            "Thread Diameter": "50.0",
+            "Minimum Bore": "41.8"
+          }
+        ],
+        "images2": ["pvc-female-adaptor.jpg", "pvc-female-adaptor.jpg"]
+      },
+      {
+        "title": "",
+        "DataAfterTable": [
+          "<ul><li>IP Rating with recommended conduit IP 54</li><li>Operating temperature – 25 TO + 90º C</li><li>Proven products</li><li>Premium quality</li><li>Industry standard specification</li><li>Worldwide customer support</li></ul>"
+        ],
+        "images1": ["bsi-registered.jpg"]
+      },
+      {
+        "title": "PVC Zinc Adaptor",
+        "DataAfterTable": [
+          "<ul><li>Part Code F543ZNCNOD</li><li>Description Conduit fittings for retardant PVC coated flexible</li><li>Material Zinc</li><li>Finish Nickel Plated</li></ul>"
+        ]
+      },
+      {
+        "title": "Product Features",
+        "DataAfterTable": [
+          "<ul><li>No hazardous sharp edges or burrs</li><li>Smooth inside for easier wire pulling</li><li>Conforms to bs en 61386-23</li><li>General purpose application, IP 54 rating</li><li>Corrosion, Abrasion, Oil and water resistant</li></ul>"
+        ],
+        "table": [
+          {
+            "Ordering Code": "F582PVCOD2030",
+            "Conduit Size (BS)": "20",
+            "Thread Size": "21.2",
+            "Thread Diameter": "17.0",
+            "Minimum Bore": "40"
+          },
+          {
+            "Ordering Code": "F543ZNCNOD2020",
+            "Conduit Size (BS)": "20",
+            "Thread Size": "20.0",
+            "Thread Diameter": "20.0",
+            "Minimum Bore": "14.8"
+          },
+          {
+            "Ordering Code": "F543ZNCNOD2525",
+            "Conduit Size (BS)": "25",
+            "Thread Size": "25.0",
+            "Thread Diameter": "25.0",
+            "Minimum Bore": "18.8"
+          },
+          {
+            "Ordering Code": "F543ZNCNOD3232",
+            "Conduit Size (BS)": "32",
+            "Thread Size": "32.0",
+            "Thread Diameter": "32.0",
+            "Minimum Bore": "25.8"
+          },
+          {
+            "Ordering Code": "F543ZNCNOD4040",
+            "Conduit Size (BS)": "40",
+            "Thread Size": "40.0",
+            "Thread Diameter": "40.0",
+            "Minimum Bore": "33.8"
+          },
+          {
+            "Ordering Code": "F543ZNCNOD2525",
+            "Conduit Size (BS)": "50",
+            "Thread Size": "50.0",
+            "Thread Diameter": "50.0",
+            "Minimum Bore": "41.8"
+          }
+        ],
+        "images2": [
+          "zinc-fitting.jpg",
+          "pvc-zinc.jpg",
+          "pvc-zinc.jpg",
+          "pvc-zinc.jpg"
+        ]
+      },
+      {
+        "title": "",
+        "DataAfterTable": [
+          "<ul><li>IP Rating with recommended conduit IP 54</li><li>Operating temperature – 25 TO + 90º C</li><li>Proven products</li><li>Premium quality</li><li>Industry standard specification</li><li>Worldwide customer support</li></ul>"
+        ],
+        "images1": ["bsi-registered.jpg"]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },
