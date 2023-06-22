@@ -102,8 +102,327 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Cables",
-    "description": [],
-    "detailDescription": [],
+    "description": [
+      {
+        "THW Product Description :": "",
+        "*Application": "Used for Lighting and Power in Residential, Commercial or Industrial Buildings for Circuits not exceeding 600 Volts.",
+        "*Construction": {
+          "Conductor": "Plain Copper as per ASTM B3, stranded to Class B as per ASTM B8.",
+          "Insulation": "Polyvinyl Chloride meets the performance requirement of UL83."
+        }
+      },
+      {
+        "XHHW Product Description :": "",
+        "*Application": "Widely used for Control, Switch Boards, Lighting and Power Circuits in residential and commercial buildings. Also used for industrial plants and utility substations.",
+        "*Construction": {
+          "Conductor": "Plain copper to ASTM B 3 stranded to class B of ASTM B 8.",
+          "Insulation": "XLPE as per ICEA S -66-524. UL Type XHHW conductors. Any required colour can be provided."
+        }
+      }
+    ],
+    "detailDescription": [
+      {
+        "title": "THW :",
+        "table": [
+          {
+            "orderNo": "Order No.",
+            "mescCode": "MESC CODE.",
+            "Size AWG/MCM": "Size AWG/MCM",
+            "Strand X Dia. No. x mm": "Strand X Dia. No. x mm",
+            "Insulation Thickness mm": "Insulation Thickness mm",
+            "Approx. O.D. mm.": "Approx. O.D. mm.",
+            "Approx weight kg/km": "Approx. Weight Kg/Km",
+            "Ampacity Conductor": "Ampacity* Conductor"
+          },
+          {
+            "orderNo": "67001",
+            "mescCode": "6711-01C14AWG-U0BK1-00",
+            "Size AWG/MCM": "14",
+            "Strand X Dia. No. x mm": "7X0.615",
+            "Insulation Thickness mm": "1.14",
+            "Approx. O.D. mm.": "4.2",
+            "Approx weight kg/km": "37",
+            "Ampacity Conductor": "20**"
+          },
+          {
+            "orderNo": "67002",
+            "mescCode": "6711-01C12AWG-U0BK1-00",
+            "Size AWG/MCM": "12",
+            "Strand X Dia. No. x mm": "7X0.775",
+            "Insulation Thickness mm": "1.14",
+            "Approx. O.D. mm.": "4.7",
+            "Approx weight kg/km": "51",
+            "Ampacity Conductor": "25**"
+          },
+          {
+            "orderNo": "67003",
+            "mescCode": "6711-01C10AWG-U0BK1-00",
+            "Size AWG/MCM": "10",
+            "Strand X Dia. No. x mm": "7X0.978",
+            "Insulation Thickness mm": "1.14",
+            "Approx. O.D. mm.": "5.3",
+            "Approx weight kg/km": "73",
+            "Ampacity Conductor": "35**"
+          },
+          {
+            "orderNo": "67004",
+            "mescCode": "6711-01C08AWG-U0BK1-00",
+            "Size AWG/MCM": "8",
+            "Strand X Dia. No. x mm": "7X1.23",
+            "Insulation Thickness mm": "1.52",
+            "Approx. O.D. mm.": "6.9",
+            "Approx weight kg/km": "118",
+            "Ampacity Conductor": "50"
+          },
+          {
+            "orderNo": "67005",
+            "mescCode": "6711-01C06AWG-U0BK1-00",
+            "Size AWG/MCM": "6",
+            "Strand X Dia. No. x mm": "7X1.56",
+            "Insulation Thickness mm": "1.52",
+            "Approx. O.D. mm.": "7.9",
+            "Approx weight kg/km": "174",
+            "Ampacity Conductor": "65"
+          },
+          {
+            "orderNo": "67006",
+            "mescCode": "6711-01C04AWG-U0BK1-00",
+            "Size AWG/MCM": "4",
+            "Strand X Dia. No. x mm": "7X1.96",
+            "Insulation Thickness mm": "1.52",
+            "Approx. O.D. mm.": "9.1",
+            "Approx weight kg/km": "256",
+            "Ampacity Conductor": "85"
+          },
+          {
+            "orderNo": "67007",
+            "mescCode": "6711-01C02AWG-U0BK1-00",
+            "Size AWG/MCM": "2",
+            "Strand X Dia. No. x mm": "7X2.47",
+            "Insulation Thickness mm": "1.52",
+            "Approx. O.D. mm.": "10.6",
+            "Approx weight kg/km": "384",
+            "Ampacity Conductor": "115"
+          },
+          {
+            "orderNo": "67008",
+            "mescCode": "6711-01C01AWG-U0BK8-00",
+            "Size AWG/MCM": "1",
+            "Strand X Dia. No. x mm": "19X1.69",
+            "Insulation Thickness mm": "2.03",
+            "Approx. O.D. mm.": "12.7",
+            "Approx weight kg/km": "505",
+            "Ampacity Conductor": "130"
+          },
+          {
+            "orderNo": "67009",
+            "mescCode": "6711-01C1/0AW-U0BK8-00",
+            "Size AWG/MCM": "1/0",
+            "Strand X Dia. No. x mm": "19X1.89",
+            "Insulation Thickness mm": "2.03",
+            "Approx. O.D. mm.": "13.7",
+            "Approx weight kg/km": "614",
+            "Ampacity Conductor": "150"
+          },
+          {
+            "orderNo": "67010",
+            "mescCode": "6711-01C2/0AW-U0BK8-00",
+            "Size AWG/MCM": "2/0",
+            "Strand X Dia. No. x mm": "19X2.13",
+            "Insulation Thickness mm": "2.03",
+            "Approx. O.D. mm.": "14.9",
+            "Approx weight kg/km": "761",
+            "Ampacity Conductor": "175"
+          },
+          {
+            "orderNo": "67011",
+            "mescCode": "6711-01C4/0AW-U0BK8-00",
+            "Size AWG/MCM": "4/0",
+            "Strand X Dia. No. x mm": "19X2.68",
+            "Insulation Thickness mm": "2.03",
+            "Approx. O.D. mm.": "17.7",
+            "Approx weight kg/km": "1158",
+            "Ampacity Conductor": "230"
+          },
+          {
+            "orderNo": "67012",
+            "mescCode": "6711-01C250MC-U0BK8-00",
+            "Size AWG/MCM": "250",
+            "Strand X Dia. No. x mm": "37X2.09",
+            "Insulation Thickness mm": "2.41",
+            "Approx. O.D. mm.": "19.7",
+            "Approx weight kg/km": "1383",
+            "Ampacity Conductor": "255"
+          },
+          {
+            "orderNo": "67013",
+            "mescCode": "6711-01C300MC-U0BK8-00",
+            "Size AWG/MCM": "300",
+            "Strand X Dia. No. x mm": "37X2.29",
+            "Insulation Thickness mm": "2.41",
+            "Approx. O.D. mm.": "21.1",
+            "Approx weight kg/km": "1636",
+            "Ampacity Conductor": "285"
+          }
+        ],
+        "DataAfterTable": [
+          "* Based on not more than three conductors in raceway or cable or earth (Directly Buried).",
+          "** Unless otherwise specifically permitted in the NEC, the overcurrent protection for conductor shall not exceed 15 ampere for 14 AWG, 20 ampere for 12 AWG and 30 ampere for 10 AWG after correction factors for ambient temperature and number of conductors have been applied.",
+          "<strong>Packing</strong>: Upto 2 A WG shrinked wrapped coils of 100 yards. For 1 AWG and above wooden drums of 500/1000 meter. For colours other than Black, please replace BK in the code by “BL” for Blue, “BN” for brown, “GN” for Green, “GY” for Grey, “OR” for Orange, “PK” for Pink, “RD” for Red “TR” for Turquoise, “VT” for Violet, “WT” for White, “YG” for Yellow/green and “YL” for Yellow."
+        ]
+      },
+      {
+        "title": "XHHW :",
+        "table": [
+          {
+            "orderNo": "Order No.",
+            "mescCode": "MESC CODE.",
+            "Size AWG/MCM": "Size AWG/MCM",
+            "Strand X Dia. No. x mm": "Strand X Dia. No. x mm",
+            "Insulation Thickness mm": "Insulation Thickness mm",
+            "Approx. O.D. mm.": "Approx. O.D. mm.",
+            "Approx weight kg/km": "Approx. Weight Kg/Km",
+            "Ampacity Conductor": "Ampacity* Conductor"
+          },
+          {
+            "orderNo": "66001",
+            "mescCode": "6614-01C14AWG-U0BK1-00",
+            "Size AWG/MCM": "14",
+            "Strand X Dia. No. x mm": "7X0.615",
+            "Insulation Thickness mm": "0.76",
+            "Approx. O.D. mm.": "3.4",
+            "Approx weight kg/km": "26",
+            "Ampacity Conductor": "20**"
+          },
+          {
+            "orderNo": "66002",
+            "mescCode": "6614-01C12AWG-U0BK1-00",
+            "Size AWG/MCM": "12",
+            "Strand X Dia. No. x mm": "7X0.775",
+            "Insulation Thickness mm": "0.76",
+            "Approx. O.D. mm.": "3.9",
+            "Approx weight kg/km": "38",
+            "Ampacity Conductor": "25**"
+          },
+          {
+            "orderNo": "66003",
+            "mescCode": "6614-01C10AWG-U0BK1-00",
+            "Size AWG/MCM": "10",
+            "Strand X Dia. No. x mm": "7X0.978",
+            "Insulation Thickness mm": "0.76",
+            "Approx. O.D. mm.": "4.5",
+            "Approx weight kg/km": "58",
+            "Ampacity Conductor": "40**"
+          },
+          {
+            "orderNo": "66004",
+            "mescCode": "6614-01C08AWG-U0BK1-00",
+            "Size AWG/MCM": "8",
+            "Strand X Dia. No. x mm": "7X1.23",
+            "Insulation Thickness mm": "1.14",
+            "Approx. O.D. mm.": "6.1",
+            "Approx weight kg/km": "95",
+            "Ampacity Conductor": "55"
+          },
+          {
+            "orderNo": "66005",
+            "mescCode": "6614-01C06AWG-U0BK1-00",
+            "Size AWG/MCM": "6",
+            "Strand X Dia. No. x mm": "7X1.56",
+            "Insulation Thickness mm": "1.14",
+            "Approx. O.D. mm.": "7.1",
+            "Approx weight kg/km": "146",
+            "Ampacity Conductor": "75"
+          },
+          {
+            "orderNo": "66006",
+            "mescCode": "6614-01C04AWG-U0BK1-00",
+            "Size AWG/MCM": "4",
+            "Strand X Dia. No. x mm": "7X1.96",
+            "Insulation Thickness mm": "1.14",
+            "Approx. O.D. mm.": "8.3",
+            "Approx weight kg/km": "222",
+            "Ampacity Conductor": "95"
+          },
+          {
+            "orderNo": "66007",
+            "mescCode": "6614-01C02AWG-U0BK1-00",
+            "Size AWG/MCM": "2",
+            "Strand X Dia. No. x mm": "7X2.47",
+            "Insulation Thickness mm": "1.14",
+            "Approx. O.D. mm.": "9.8",
+            "Approx weight kg/km": "343",
+            "Ampacity Conductor": "130"
+          },
+          {
+            "orderNo": "66008",
+            "mescCode": "6614-01C01AWG-U0BK8-00",
+            "Size AWG/MCM": "1",
+            "Strand X Dia. No. x mm": "19X1.69",
+            "Insulation Thickness mm": "1.40",
+            "Approx. O.D. mm.": "11.4",
+            "Approx weight kg/km": "438",
+            "Ampacity Conductor": "150"
+          },
+          {
+            "orderNo": "66009",
+            "mescCode": "6614-01C1/0AW-U0BK8-00",
+            "Size AWG/MCM": "1/0",
+            "Strand X Dia. No. x mm": "19X1.89",
+            "Insulation Thickness mm": "1.40",
+            "Approx. O.D. mm.": "12.4",
+            "Approx weight kg/km": "541",
+            "Ampacity Conductor": "170"
+          },
+          {
+            "orderNo": "66010",
+            "mescCode": "6614-01C2/0AW-U0BK8-00",
+            "Size AWG/MCM": "2/0",
+            "Strand X Dia. No. x mm": "19X2.13",
+            "Insulation Thickness mm": "1.40",
+            "Approx. O.D. mm.": "13.6",
+            "Approx weight kg/km": "679",
+            "Ampacity Conductor": "195"
+          },
+          {
+            "orderNo": "66011",
+            "mescCode": "6614-01C4/0AW-U0BK8-00",
+            "Size AWG/MCM": "4/0",
+            "Strand X Dia. No. x mm": "19X2.68",
+            "Insulation Thickness mm": "1.40",
+            "Approx. O.D. mm.": "16.3",
+            "Approx weight kg/km": "1056",
+            "Ampacity Conductor": "260"
+          },
+          {
+            "orderNo": "66012",
+            "mescCode": "6614-01C250MC-U0BK8-00",
+            "Size AWG/MCM": "250",
+            "Strand X Dia. No. x mm": "37X2.09",
+            "Insulation Thickness mm": "1.65",
+            "Approx. O.D. mm.": "18.1",
+            "Approx weight kg/km": "1253",
+            "Ampacity Conductor": "290"
+          },
+          {
+            "orderNo": "66013",
+            "mescCode": "6614-01C300MC-U0BK8-00",
+            "Size AWG/MCM": "300",
+            "Strand X Dia. No. x mm": "37X2.29",
+            "Insulation Thickness mm": "1.65",
+            "Approx. O.D. mm.": "19.5",
+            "Approx weight kg/km": "1495",
+            "Ampacity Conductor": "320"
+          }
+        ],
+        "DataAfterTable": [
+          "* Based on not more than three conductors in raceway or cable or earth (Directly Buried)",
+          "* Unless otherwise specifically permitted in the NEC, the overcurrent protection for conductor shall not exceed 15 ampere for 14 AWG, 20 ampere for 12 AWG and 30 ampere for 10 AWG after correction factors for ambient temperature and number of conductors have been applied.",
+          "<strong>Packing</strong>: Upto 2 AWG shrinked wrapped coils of 100 yards. For 1 AWG and above wooden drums of 500/1000 meter. For colours other than Black, please replace BK in the code by “BL” for Blue, “BN” for brown, “GN” for Green, “GY” for Grey, “OR” for Orange, “PK” for Pink, “RD” for Red,”TR” for Turquoise, “VT” for Violet, “WT” for White, “YG” for Yellow/green and “YL” for Yellow.",
+          "<strong>Color</strong>: Black, Red, Blue, Orange, Yellow, Black with number printing"
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },

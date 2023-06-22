@@ -34,5 +34,8 @@ export const getProductDetailTableData = (state: IStore) => ({
     productDetailColumns[state.productDetail.productDetailData.id],
 });
 
+export const getProductDetailDescription = (state: IStore) =>
+  state.productDetail.productDetailData.detailDescription;
+
 export const getProductDetailReviews = (state: IStore) =>
   state.productDetail.productDetailData.customerReviews;

@@ -21,7 +21,7 @@ export interface IDetailDescription {
   title: string;
   content: string[];
   images1: string[];
-  table: any;
+  table: Array<any>;
   DataAfterTable: string[];
   images2: string[];
 }
