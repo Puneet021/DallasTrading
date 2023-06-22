@@ -2258,7 +2258,48 @@
     ],
     "company": ["PCE"],
     "categoryName": "Industrial Plugs & Sockets",
-    "description": [],
+    "description": [
+      {
+        "Manufactured by PCE in Austria.": "",
+        "": "Double nickel plated steel terminals screws",
+        "-": "Nickel plated brass pins for long durability",
+        "--": "Constructed from engineering plastic with high thermal stability and mechanical strength",
+        "---": "6mm minimum terminal size / 16mm maximum terminal size",
+        "----": "Min diameter cable size accepted by the cable clamp 17mm, Max cable size 36mm",
+        "-----": "IP44/67 both have the excellent watertight rated tulip cable clamping system",
+        "------": "63amp BS-EN60309 approved plugs & connectors also have a smaller pilot pin as standard",
+        "-------": "EN60309-1 and EN60309-2 approved"
+      },
+      {
+        "IP(Ingress protection) – ratings Industrial": "",
+        "^": "CEE-plugs and sockets with rated currents 16A and 32A must meet the system of protection IP44 or IP67; 63A and 125A protection degree IP66/67 according to EN 60529.",
+        "^^": "The degree of protection is tested:",
+        "": "On sockets and connectors, with and without inserted plug or appliance plug",
+        "-": "On plugs and appliance plugs, when fully inserted into the socket or connector"
+      },
+      {
+        "Plastic Material": "",
+        "^": "PCE plugs and sockets are produced from POLYAMIDE 6. The main characteristics of this material are:",
+        "": "Excellent impact resistance combined with high rigidity and solidity",
+        "-": "High thermal stability (self-extinguishing)",
+        "--": "Very good insulating qualities",
+        "---": "High disruptive strength",
+        "----": "High abrasion resistance",
+        "-----": "High weathering resistance",
+        "------": "Very good chemical resistance to various chemicals",
+        "-------": "Free from cadmium and halogen (fluorine, chlorine, bromine, jodine, astatine)",
+        "--------": "Conform to RoHS-directiv 2011/65/EU"
+      },
+      {
+        "Contacts": "",
+        "^": "The contacts are made of a copper-zinc alloy. The most important features are:",
+        "": "High electric conducting capacity 15m/(Ohm mm2)",
+        "-": "High resistance to extension up to 103 kN/mm2)",
+        "--": "High corrosion resistance in areas of: industrial atmosphere, agriculture.",
+        "---": "With nickel-plated contacts increased corrosion resistance in areas of: seawater, steam, Sulphur hydrides, agriculture, dairies.",
+        "----": "Conform to RoHS-directly 2002/95/EG"
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -2274,8 +2315,43 @@
     ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
-    "description": [],
-    "detailDescription": [],
+    "description": [
+      {
+        "^": "Waterproof electrical connectors IP66/IP67 as an option",
+        "Main Advantages of High Current Connectors": "",
+        "": "Electrical connections from 75 to 700 A",
+        "-": "Waterproof electrical sockets IP66/IP67",
+        "--": "Power outlets resistant to shocks",
+        "---": "GRP or metal casing"
+      }
+    ],
+    "detailDescription": [
+      {
+        "title": "Main Features",
+        "table": [
+          {
+            "": "",
+            "Maximum voltage": "Maximum voltage",
+            "Rated current": "Rated current",
+            "Pilot contacts for electrical interlock": "Pilot contacts for electrical interlock",
+            "Performance": "Performance",
+            "Shock resistance": "Shock resistance",
+            "Ambient temperature": "Ambient temperature",
+            "IP protection": "IP protection"
+          },
+          {
+            "": "DS4",
+            "Maximum voltage": "1000V max",
+            "Rated current": "400 A",
+            "Pilot contacts for electrical interlock": "2",
+            "Performance": "Metal",
+            "Shock resistance": "IK09",
+            "Ambient temperature": "-40°C to +60°C",
+            "IP protection": "IP54"
+          }
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },

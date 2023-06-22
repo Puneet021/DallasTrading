@@ -62,34 +62,52 @@ class Details extends Component<IDetailsProps, IDetailsStates> {
             ></p>
           ))}
           {details?.description?.length ? (
-            <h5 className={styles.description}>Description :</h5>
+            <>
+              <h5 className={styles.description}>Description :</h5>
+              {details?.description?.map((desc: any, i: number) => (
+                <Fragment key={i}>
+                  <ul>
+                    {Object.entries(desc).map((entry: any, j: number) => {
+                      if (entry[0].charAt(0) === "*") return null;
+                      if (entry[1] === "")
+                        return <h4 className={styles.onlyTitle}>{entry[0]}</h4>;
+                      if (entry[0] === "" || entry[0].charAt(0) === "-")
+                        return (
+                          <li key={j} className={styles.descriptionData}>
+                            {entry[1]}
+                          </li>
+                        );
+                      if (entry[0].charAt(0) === "^")
+                        return (
+                          <p
+                            key={j}
+                            className={styles.descriptionData}
+                            style={{ listStyle: "none", margin: 0 }}
+                          >
+                            {entry[1]}
+                          </p>
+                        );
+                      return (
+                        <li key={j} className={styles.descriptionData}>
+                          {entry[0]} : {entry[1]}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                  <CustomAccordian
+                    key={`key_${i}`}
+                    application={desc["*Application"]}
+                    construction={desc["*Construction"]}
+                    technicalData={desc["*TechnicalData"]}
+                    characteristics={desc["*Characteristics"]}
+                    design={desc["*Design"]}
+                    specification={desc["*Specifications"]}
+                    designFeatures={desc["*Design Features"]}
+                  />
+                </Fragment>
+              ))}
+            </>
           ) : null}
-          {details?.description?.map((desc: any, i: number) => (
-            <Fragment key={i}>
-              <ul>
-                {Object.entries(desc).map((entry: any, j: number) => {
-                  if (entry[0].charAt(0) === "*") return null;
-                  if (entry[1] === "")
-                    return <h4 className={styles.onlyTitle}>{entry[0]}</h4>;
-                  return (
-                    <li key={j} className={styles.descriptionData}>
-                      {entry[0]} : {entry[1]}
-                    </li>
-                  );
-                })}
-              </ul>
-              <CustomAccordian
-                key={`key_${i}`}
-                application={desc["*Application"]}
-                construction={desc["*Construction"]}
-                technicalData={desc["*TechnicalData"]}
-                characteristics={desc["*Characteristics"]}
-                design={desc["*Design"]}
-                specification={desc["*Specifications"]}
-                designFeatures={desc["*Design Features"]}
-              />
-            </Fragment>
-          ))}
         </div>
       </div>
     );
