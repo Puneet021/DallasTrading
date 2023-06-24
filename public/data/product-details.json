@@ -721,7 +721,96 @@
       }
     ],
     "detailDescription": [],
-    "productDetailTableData": [],
+    "productDetailTableData": [
+      {
+        "Size": "CW 20S",
+        "Thread_Size_MM": "20",
+        "Thread_Size_INCH": "3/4",
+        "Minimum_Length_of_Thread": "10",
+        "Cable_Range_A": "11.80",
+        "Cable_Range_B": "17.80"
+      },
+      {
+        "Size": "CW20L",
+        "Thread_Size_MM": "20",
+        "Thread_Size_INCH": "3/4",
+        "Minimum_Length_of_Thread": "10",
+        "Cable_Range_A": "14.00",
+        "Cable_Range_B": "20.80"
+      },
+      {
+        "Size": "CW25S",
+        "Thread_Size_MM": "25",
+        "Thread_Size_INCH": "1",
+        "Minimum_Length_of_Thread": "10",
+        "Cable_Range_A": "18.00",
+        "Cable_Range_B": "24.00"
+      },
+      {
+        "Size": "CW25L",
+        "Thread_Size_MM": "25",
+        "Thread_Size_INCH": "1",
+        "Minimum_Length_of_Thread": "10",
+        "Cable_Range_A": "20.30",
+        "Cable_Range_B": "27.40"
+      },
+      {
+        "Size": "CW32S",
+        "Thread_Size_MM": "32",
+        "Thread_Size_INCH": "1.1/4",
+        "Minimum_Length_of_Thread": "10",
+        "Cable_Range_A": "24.50",
+        "Cable_Range_B": "31.00"
+      },
+      {
+        "Size": "CW32L",
+        "Thread_Size_MM": "32",
+        "Thread_Size_INCH": "1.1/4",
+        "Minimum_Length_of_Thread": "10",
+        "Cable_Range_A": "26.50",
+        "Cable_Range_B": "34.20"
+      },
+      {
+        "Size": "CW40S",
+        "Thread_Size_MM": "40",
+        "Thread_Size_INCH": "1.1/2",
+        "Minimum_Length_of_Thread": "13",
+        "Cable_Range_A": "30.40",
+        "Cable_Range_B": "38.50"
+      },
+      {
+        "Size": "CW40L",
+        "Thread_Size_MM": "40",
+        "Thread_Size_INCH": "1.1/2",
+        "Minimum_Length_of_Thread": "13",
+        "Cable_Range_A": "33.20",
+        "Cable_Range_B": "41.00"
+      },
+      {
+        "Size": "CW50S",
+        "Thread_Size_MM": "50",
+        "Thread_Size_INCH": "2",
+        "Minimum_Length_of_Thread": "13",
+        "Cable_Range_A": "40.00",
+        "Cable_Range_B": "47.00"
+      },
+      {
+        "Size": "CW50L",
+        "Thread_Size_MM": "50",
+        "Thread_Size_INCH": "2",
+        "Minimum_Length_of_Thread": "13",
+        "Cable_Range_A": "44.00",
+        "Cable_Range_B": "53.50"
+      },
+      {
+        "Size": "CW63S",
+        "Thread_Size_MM": "63",
+        "Thread_Size_INCH": "2.1/2",
+        "Minimum_Length_of_Thread": "14",
+        "Cable_Range_A": "50.00",
+        "Cable_Range_B": "59.50"
+      }
+    ],
     "customerReviews": []
   },
   {
@@ -767,7 +856,152 @@
       }
     ],
     "detailDescription": [],
-    "productDetailTableData": [],
+    "productDetailTableData": [
+      {
+        "Size": "20S",
+        "Thread": "M20",
+        "Length": 15,
+        "A": 12,
+        "B": 16,
+        "A/F": 22.2,
+        "A/C": 24.2
+      },
+      {
+        "Size": "20L",
+        "Thread": "M20",
+        "Length": 15,
+        "A": 14,
+        "B": 20.5,
+        "A/F": 27,
+        "A/C": 29.5
+      },
+      {
+        "Size": "20/16",
+        "Thread": "M20",
+        "Length": 15,
+        "A": 9,
+        "B": 14,
+        "A/F": 22.2,
+        "A/C": 24.2
+      },
+      {
+        "Size": "25S",
+        "Thread": "M25",
+        "Length": 15,
+        "A": 18.5,
+        "B": 24.5,
+        "A/F": 33.5,
+        "A/C": 37.5
+      },
+      {
+        "Size": "25L",
+        "Thread": "M25",
+        "Length": 15,
+        "A": 20.5,
+        "B": 27.5,
+        "A/F": 36,
+        "A/C": 40
+      },
+      {
+        "Size": "32S",
+        "Thread": "M32",
+        "Length": 10.4,
+        "A": 24.3,
+        "B": 34,
+        "A/F": 43,
+        "A/C": 48.5
+      },
+      {
+        "Size": "32L",
+        "Thread": "M32",
+        "Length": 15,
+        "A": 26.27,
+        "B": 34.2,
+        "A/F": 43.5,
+        "A/C": 48.5
+      },
+      {
+        "Size": "40S",
+        "Thread": "M40",
+        "Length": 15,
+        "A": 29.5,
+        "B": 41.5,
+        "A/F": 52,
+        "A/C": 58
+      },
+      {
+        "Size": "40L",
+        "Thread": "M40",
+        "Length": 15,
+        "A": 33,
+        "B": 41.5,
+        "A/F": 52,
+        "A/C": 58
+      },
+      {
+        "Size": "50S",
+        "Thread": "M50",
+        "Length": 15,
+        "A": 38.5,
+        "B": 47,
+        "A/F": 59,
+        "A/C": 65.5
+      },
+      {
+        "Size": "50L",
+        "Thread": "M50",
+        "Length": 15,
+        "A": 44.3,
+        "B": 53.2,
+        "A/F": 64.2,
+        "A/C": 71.5
+      },
+      {
+        "Size": "63S",
+        "Thread": "M63",
+        "Length": 20,
+        "A": 50.2,
+        "B": 62.5,
+        "A/F": 73.5,
+        "A/C": 81.5
+      },
+      {
+        "Size": "63L",
+        "Thread": "M63",
+        "Length": 20,
+        "A": 56.2,
+        "B": 65.5,
+        "A/F": 79.5,
+        "A/C": 89
+      },
+      {
+        "Size": "75S",
+        "Thread": "M75",
+        "Length": 20,
+        "A": 62,
+        "B": 74,
+        "A/F": 87,
+        "A/C": 97
+      },
+      {
+        "Size": "75L",
+        "Thread": "M75",
+        "Length": 20,
+        "A": 68,
+        "B": 78.2,
+        "A/F": 97,
+        "A/C": 108
+      },
+      {
+        "Size": "90L",
+        "Thread": "M90",
+        "Length": 18.5,
+        "A": 80,
+        "B": 91,
+        "A/F": 103.5,
+        "A/C": 114.5
+      }
+    ],
     "customerReviews": []
   },
   {
@@ -3351,8 +3585,148 @@
     "detail": [],
     "company": ["Decoduct"],
     "categoryName": "PVC Conduits",
-    "description": [],
-    "detailDescription": [],
+    "description": [
+      {
+        "Conduit System": "",
+        "^": "Decoduct conduits are manufactured from super high impact uPVC compound suitable to withstand harsh environments. Conduits can be bent with the use of a bending spring."
+      }
+    ],
+    "detailDescription": [
+      {
+        "images1": ["pvc_conduit1"],
+        "content": ["Heavy grade round conduit-1250N compression force"],
+        "images2": ["conduit_table1"]
+      },
+      {
+        "images1": ["pvc_conduit2"],
+        "content": ["Medium grade round conduit -750N compression force"],
+        "images2": ["conduit_table2"]
+      },
+      {
+        "images1": ["pvc_conduit3"],
+        "content": ["Light grade round conduit-320N compression force"],
+        "images2": ["conduit_table3"]
+      },
+      {
+        "images1": ["pvc_conduit4"],
+        "content": ["US Schedule 40 conduit"],
+        "images2": ["conduit_table4"]
+      },
+      {
+        "images1": ["pvc_conduit4"],
+        "content": ["US Schedule 80 conduit"],
+        "images2": ["conduit_table5"]
+      },
+      {
+        "images1": ["pvc_conduit5"],
+        "content": ["Oval conduit"],
+        "images2": ["conduit_table6"]
+      },
+      {
+        "images1": ["pvc_conduit6"],
+        "content": ["Pliable Conduit-Corrugrated"],
+        "images2": ["conduit_table7"]
+      },
+      {
+        "images1": ["pvc_conduit7"],
+        "content": ["Rectangular Channels"],
+        "images2": ["conduit_table8"],
+        "DataAfterTable": [
+          "<strong>Options</strong>",
+          "<ul><li>Decoduct rigid conduit is availble in black or white. Please state colour preference.<li></li>Decoduct rigid conduit is supplied in standard lengths of 2.9 metres. Alternative lengths can be supplied to order.<li></li>Rigid conduits can be offered with belled ends for socket joining. Please specify when this option is required.</li></ul>"
+        ]
+      },
+      {
+        "title": "Round Conduit Fittings",
+        "content": [
+          "Decoduct conduit fittings are manufactured from super high impact uPVC compound suitable to withstand harsh environments"
+        ]
+      },
+      {
+        "images1": ["pvc_conduit8"],
+        "content": ["Straight Couplers"],
+        "images2": ["conduit_table9"]
+      },
+      {
+        "images1": ["pvc_conduit9"],
+        "content": ["Expansion Couplers"],
+        "images2": ["conduit_table10"]
+      },
+      {
+        "images1": ["pvc_conduit10"],
+        "content": ["Normal Bends-Slip Type"],
+        "images2": ["conduit_table11"]
+      },
+      {
+        "images1": ["pvc_conduit11"],
+        "content": ["Normal Bends-Heavy Gauge"],
+        "images2": ["conduit_table12"]
+      },
+      {
+        "images1": ["pvc_conduit12"],
+        "content": ["Inspection Elbows"],
+        "images2": ["conduit_table13"]
+      },
+      {
+        "images1": ["pvc_conduit13"],
+        "content": ["Inspection Bends"],
+        "images2": ["conduit_table14"]
+      },
+      {
+        "images1": ["pvc_conduit14"],
+        "content": ["Inspection Tees"],
+        "images2": ["conduit_table15"]
+      },
+      {
+        "images1": ["pvc_conduit15"],
+        "content": ["Strap Saddles"],
+        "images2": ["conduit_table16"]
+      },
+      {
+        "images1": ["pvc_conduit16"],
+        "content": ["Spacer Bar Saddles"],
+        "images2": ["conduit_table17"]
+      },
+      {
+        "images1": ["pvc_conduit17"],
+        "content": ["Round Spring Clips"],
+        "images2": ["conduit_table18"]
+      },
+      {
+        "images1": ["pvc_conduit18"],
+        "content": ["Female Adaptors"],
+        "images2": ["conduit_table19"]
+      },
+      {
+        "images1": ["pvc_conduit19"],
+        "content": ["male Adaptors"],
+        "images2": ["conduit_table20"]
+      },
+      {
+        "images1": ["pvc_conduit20"],
+        "content": ["Male Threaded Bush"],
+        "images2": ["conduit_table21"]
+      },
+      {
+        "images1": ["pvc_conduit21"],
+        "content": ["Female Threaded Lockrings"],
+        "images2": ["conduit_table22"]
+      },
+      {
+        "images1": ["pvc_conduit22"],
+        "content": ["Reducers"],
+        "images2": ["conduit_table23"]
+      },
+      {
+        "images1": ["pvc_conduit23"],
+        "content": ["Pliable Conduit Adaptors"],
+        "images2": ["conduit_table24"],
+        "DataAfterTable": [
+          "<strong>Options</strong>",
+          "<ul><li>Available in black or white.</li></ul>"
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },

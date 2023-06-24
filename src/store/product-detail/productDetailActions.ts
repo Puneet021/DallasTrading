@@ -2,6 +2,7 @@ import { IStore } from "../../utils/models/store.model";
 import { ourCompaniesImages } from "../our-companies/ourCompaniesImages/ourCompaniesImages";
 import { productsImages } from "../products/productsImages/productsImages";
 import { productDetailColumns } from "./productDetailColumns/productDetailColumns";
+import { productDetailImages } from "./productDetailImages/productDetailImages";
 
 export const getProductDetailLoader = (state: IStore) =>
   state.productDetail.loader;
@@ -35,7 +36,11 @@ export const getProductDetailTableData = (state: IStore) => ({
 });
 
 export const getProductDetailDescription = (state: IStore) =>
-  state.productDetail.productDetailData.detailDescription;
+  state.productDetail.productDetailData.detailDescription.map((item) => ({
+    ...item,
+    images1: item?.images1?.map((img) => productDetailImages[img]),
+    images2: item?.images2?.map((img) => productDetailImages[img]),
+  }));
 
 export const getProductDetailReviews = (state: IStore) =>
   state.productDetail.productDetailData.customerReviews;

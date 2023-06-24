@@ -45,6 +45,21 @@
     font-weight: 600;
     margin: 1em 0;
   }
+  .images {
+    margin-top: 2em;
+    .image {
+      object-fit: contain;
+      max-width: 25rem;
+    }
+  }
+  .images2 {
+    width: 100%;
+    margin: 1em 0;
+    .image2 {
+      object-fit: contain;
+      max-width: 100%;
+    }
+  }
   .dataAfterTable {
     color: rgb(110, 110, 110);
     margin-top: 0.5rem;

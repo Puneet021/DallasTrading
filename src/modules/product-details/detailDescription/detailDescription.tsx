@@ -28,6 +28,21 @@ class DetailDescription extends Component<
           ? detailDescriptionData?.map((data, jindex: number) => (
               <Fragment key={jindex}>
                 <h2 className={styles.title}>{data.title}</h2>
+                <div className={styles.images}>
+                  {data?.images1?.map((img, f) => (
+                    <img
+                      key={f}
+                      className={styles.image}
+                      src={img}
+                      alt={`image_detail${f}`}
+                    />
+                  ))}
+                </div>
+                <div className={styles.dataAfterTable}>
+                  {data?.content?.map((d, k) => (
+                    <p key={k} dangerouslySetInnerHTML={{ __html: d }}></p>
+                  ))}
+                </div>
                 {data?.table?.length ? (
                   <TableContainer className={styles.productDetailTable}>
                     <Table sx={{ minWidth: 650 }} aria-label="simple table">
@@ -89,6 +104,16 @@ class DetailDescription extends Component<
                     </Table>
                   </TableContainer>
                 ) : null}
+                <div className={styles.images2}>
+                  {data?.images2?.map((img, f) => (
+                    <img
+                      key={f}
+                      className={styles.image2}
+                      src={img}
+                      alt={`image_detail2${f}`}
+                    />
+                  ))}
+                </div>
                 <div className={styles.dataAfterTable}>
                   {data?.DataAfterTable?.map((d, k) => (
                     <p key={k} dangerouslySetInnerHTML={{ __html: d }}></p>
