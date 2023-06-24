@@ -41,6 +41,9 @@ const searchResultsSlice = createSlice({
         ),
       };
     },
+    setSearchResultsDataToInitial: (state) => {
+      return { ...state, searchResultsFilterData: [], searchVal: "" };
+    },
   },
   extraReducers(builder) {
     builder
@@ -56,6 +59,7 @@ const searchResultsSlice = createSlice({
   },
 });
 
-export const { handleSearchValueChange } = searchResultsSlice.actions;
+export const { handleSearchValueChange, setSearchResultsDataToInitial } =
+  searchResultsSlice.actions;
 
 export default searchResultsSlice.reducer;

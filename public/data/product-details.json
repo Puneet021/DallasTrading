@@ -2126,9 +2126,510 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
-    "description": [],
-    "detailDescription": [],
-    "productDetailTableData": [],
+    "description": [
+      {
+        "3M 90-A Joints for Street Lighting without Earth – Up to 1kV": "",
+        "^": "<strong>Inline joint for PVC/XLPE Cables</strong>",
+        "^^": "Each kit includes two-part mould, polyetherurethane Resin No. 47, tape, and full instructions"
+      }
+    ],
+    "detailDescription": [
+      {
+        "title": "Current carrying capacity at 30ûC in free air."
+      }
+    ],
+    "productDetailTableData": [
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "2",
+        "kitRef": "90-A1",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "1.5",
+        "nbrOfCores": "3",
+        "kitRef": "90-A1",
+        "minMM": "8",
+        "maxMM": "26"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A1",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "2",
+        "kitRef": "90-A1",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "2.5",
+        "nbrOfCores": "3",
+        "kitRef": "90-A1",
+        "minMM": "8",
+        "maxMM": "26"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A1",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "2",
+        "kitRef": "90-A1",
+        "minMM": "8",
+        "maxMM": "26"
+      },
+      {
+        "nominalConductor": "4",
+        "nbrOfCores": "3",
+        "kitRef": "90-A1",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A2",
+        "minMM": "14",
+        "maxMM": "32"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "2",
+        "kitRef": "90-A2",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "6",
+        "nbrOfCores": "3",
+        "kitRef": "90-A2",
+        "minMM": "14",
+        "maxMM": "32"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A2",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "2",
+        "kitRef": "90-A2",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "10",
+        "nbrOfCores": "3",
+        "kitRef": "90-A2",
+        "minMM": "14",
+        "maxMM": "32"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A2",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "1",
+        "kitRef": "90-A2",
+        "minMM": "14",
+        "maxMM": "32"
+      },
+      {
+        "nominalConductor": "16",
+        "nbrOfCores": "2",
+        "kitRef": "90-A2",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A3",
+        "minMM": "23",
+        "maxMM": "37"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A3",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "1",
+        "kitRef": "90-A2",
+        "minMM": "14",
+        "maxMM": "32"
+      },
+      {
+        "nominalConductor": "25",
+        "nbrOfCores": "2",
+        "kitRef": "90-A2",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A3",
+        "minMM": "23",
+        "maxMM": "37"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A3",
+        "minMM": "28",
+        "maxMM": "51"
+      },
+      {
+        "nominalConductor": "35",
+        "nbrOfCores": "1",
+        "kitRef": "90-A2",
+        "minMM": "14",
+        "maxMM": "32"
+      },
+      {
+        "nominalConductor": "35",
+        "nbrOfCores": "2",
+        "kitRef": "90-A3",
+        "minMM": "23",
+        "maxMM": "37"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A4",
+        "minMM": "28",
+        "maxMM": "51"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A4",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "1",
+        "kitRef": "90-A2",
+        "minMM": "14",
+        "maxMM": "32"
+      },
+      {
+        "nominalConductor": "35",
+        "nbrOfCores": "2",
+        "kitRef": "90-A3",
+        "minMM": "23",
+        "maxMM": "37"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A4",
+        "minMM": "28",
+        "maxMM": "51"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A4",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "1",
+        "kitRef": "90-A2",
+        "minMM": "14",
+        "maxMM": "32"
+      },
+      {
+        "nominalConductor": "50",
+        "nbrOfCores": "2",
+        "kitRef": "90-A3",
+        "minMM": "23",
+        "maxMM": "37"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A4",
+        "minMM": "28",
+        "maxMM": "51"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A4",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "1",
+        "kitRef": "90-A2",
+        "minMM": "14",
+        "maxMM": "32"
+      },
+      {
+        "nominalConductor": "70",
+        "nbrOfCores": "2",
+        "kitRef": "90-A4",
+        "minMM": "28",
+        "maxMM": "51"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A5",
+        "minMM": "33",
+        "maxMM": "60"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A5",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "1",
+        "kitRef": "90-A2",
+        "minMM": "14",
+        "maxMM": "32"
+      },
+      {
+        "nominalConductor": "95",
+        "nbrOfCores": "2",
+        "kitRef": "90-A4",
+        "minMM": "28",
+        "maxMM": "51"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A5",
+        "minMM": "33",
+        "maxMM": "60"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A5",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "1",
+        "kitRef": "90-A3",
+        "minMM": "23",
+        "maxMM": "37"
+      },
+      {
+        "nominalConductor": "120",
+        "nbrOfCores": "2",
+        "kitRef": "90-A5",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A5",
+        "minMM": "33",
+        "maxMM": "60"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A5",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "1",
+        "kitRef": "90-A3",
+        "minMM": "23",
+        "maxMM": "37"
+      },
+      {
+        "nominalConductor": "150",
+        "nbrOfCores": "2",
+        "kitRef": "90-A5",
+        "minMM": "33",
+        "maxMM": "60"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A6",
+        "minMM": "48",
+        "maxMM": "80"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A6",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "1",
+        "kitRef": "90-A3",
+        "minMM": "23",
+        "maxMM": "37"
+      },
+      {
+        "nominalConductor": "185",
+        "nbrOfCores": "2",
+        "kitRef": "90-A5",
+        "minMM": "33",
+        "maxMM": "60"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A6",
+        "minMM": "48",
+        "maxMM": "80"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A6",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "1",
+        "kitRef": "90-A4",
+        "minMM": "28",
+        "maxMM": "51"
+      },
+      {
+        "nominalConductor": "240",
+        "nbrOfCores": "2",
+        "kitRef": "90-A6",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A6",
+        "minMM": "48",
+        "maxMM": "80"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A6",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "1",
+        "kitRef": "90-A4",
+        "minMM": "28",
+        "maxMM": "51"
+      },
+      {
+        "nominalConductor": "300",
+        "nbrOfCores": "2",
+        "kitRef": "90-A6",
+        "minMM": "48",
+        "maxMM": "80"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A7",
+        "minMM": "45",
+        "maxMM": "90"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "4",
+        "kitRef": "90-A7",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "1",
+        "kitRef": "90-A4",
+        "minMM": "28",
+        "maxMM": "51"
+      },
+      {
+        "nominalConductor": "400",
+        "nbrOfCores": "2",
+        "kitRef": "90-A7",
+        "minMM": "45",
+        "maxMM": "90"
+      },
+      {
+        "nominalConductor": "",
+        "nbrOfCores": "3",
+        "kitRef": "90-A7",
+        "minMM": "",
+        "maxMM": ""
+      },
+      {
+        "nominalConductor": "500",
+        "nbrOfCores": "1",
+        "kitRef": "90-A5",
+        "minMM": "33",
+        "maxMM": "60"
+      },
+      {
+        "nominalConductor": "630",
+        "nbrOfCores": "1",
+        "kitRef": "90-A5",
+        "minMM": "33",
+        "maxMM": "60"
+      },
+      {
+        "nominalConductor": "800",
+        "nbrOfCores": "1",
+        "kitRef": "90-A6",
+        "minMM": "48",
+        "maxMM": "80"
+      },
+      {
+        "nominalConductor": "1000",
+        "nbrOfCores": "1",
+        "kitRef": "90-A6",
+        "minMM": "48",
+        "maxMM": "80"
+      }
+    ],
     "customerReviews": []
   },
   {
@@ -2153,7 +2654,118 @@
         }
       }
     ],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "title": "Products and Purchase Options:",
+        "table": [
+          {
+            "Part Number": "Part Number",
+            "Lubricant Type": "Lubricant Type",
+            "Color": "Color",
+            "Operating Temperature (Fahrenheit)": "Operating Temperature (Fahrenheit)",
+            "Size": "Size"
+          },
+          {
+            "Part Number": "WL-5",
+            "Lubricant Type": "Gel",
+            "Color": "Translucent White",
+            "Operating Temperature (Fahrenheit)": "20 to 110 Degree Fahrenheit",
+            "Size": "5 Gallons"
+          },
+          {
+            "Part Number": "WL-QT",
+            "Lubricant Type": "Gel",
+            "Color": "Translucent White",
+            "Operating Temperature (Fahrenheit)": "20 to 110 Degree Fahrenheit",
+            "Size": "1 Gallons"
+          },
+          {
+            "Part Number": "WL-1",
+            "Lubricant Type": "Gel",
+            "Color": "Translucent White",
+            "Operating Temperature (Fahrenheit)": "20 to 110 Degree Fahrenheit",
+            "Size": "1 Gallon"
+          },
+          {
+            "Part Number": "WLX-5",
+            "Lubricant Type": "Wax",
+            "Color": "Gray",
+            "Operating Temperature (Fahrenheit)": "10 to 194 Degree Fahrenheit",
+            "Size": "5 Gallons"
+          },
+          {
+            "Part Number": "WLX-1",
+            "Lubricant Type": "Wax",
+            "Color": "Gray",
+            "Operating Temperature (Fahrenheit)": "10 to 194 Degree Fahrenheit",
+            "Size": "1 Gallons"
+          },
+          {
+            "Part Number": "WLX-QT",
+            "Lubricant Type": "Wax",
+            "Color": "Gray",
+            "Operating Temperature (Fahrenheit)": "10 to 194 Degree Fahrenheit",
+            "Size": "1 Quart"
+          },
+          {
+            "Part Number": "WLC-QT",
+            "Lubricant Type": "Gel",
+            "Color": "Clear",
+            "Operating Temperature (Fahrenheit)": "20 to 120 Degree Fahrenheit",
+            "Size": "1 Quart"
+          },
+          {
+            "Part Number": "WLC-1",
+            "Lubricant Type": "Gel",
+            "Color": "Clear",
+            "Operating Temperature (Fahrenheit)": "20 to 120 Degree Fahrenheit",
+            "Size": "1 Gallon"
+          },
+          {
+            "Part Number": "WLW-5",
+            "Lubricant Type": "Wintergrade",
+            "Color": "Translucent Green",
+            "Operating Temperature (Fahrenheit)": "10 to 110 Degree Fahrenheit",
+            "Size": "5 Gallons"
+          },
+          {
+            "Part Number": "WLS-5",
+            "Lubricant Type": "Spray",
+            "Color": "Clear",
+            "Operating Temperature (Fahrenheit)": "20 to 120 Degree Fahrenheit",
+            "Size": "5 Gallons"
+          },
+          {
+            "Part Number": "WLW-QT",
+            "Lubricant Type": "Wintergrade",
+            "Color": "Translucent Green",
+            "Operating Temperature (Fahrenheit)": "10 to 110 Degree Fahrenheit",
+            "Size": "1 Quart"
+          },
+          {
+            "Part Number": "WLW-1",
+            "Lubricant Type": "Wintergrade",
+            "Color": "Translucent Green",
+            "Operating Temperature (Fahrenheit)": "10 to 110 Degree Fahrenheit",
+            "Size": "1 Gallon"
+          },
+          {
+            "Part Number": "WLS-QT",
+            "Lubricant Type": "Liquid Spray",
+            "Color": "White",
+            "Operating Temperature (Fahrenheit)": "20 to 120 Degree Fahrenheit",
+            "Size": "1 Quart"
+          },
+          {
+            "Part Number": "WLC-5",
+            "Lubricant Type": "Gel",
+            "Color": "Clear",
+            "Operating Temperature (Fahrenheit)": "20 to 120 Degree Fahrenheit",
+            "Size": "5 Gallons"
+          }
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -2840,7 +3452,14 @@
     ],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
-    "description": [],
+    "description": [
+      {
+        "Perfectly Finished Installations… Every Time": "",
+        "^": "From the simplicity of white moulded plastic to the sophisticated style of woven metal, Arteor offers an array of stylish finishes that flow from its modular wiring accessories range through to automation devices.",
+        "Arteor Functionality": "",
+        "^^": "With a complete range of functions and the choice of round or square rockers and modules in white or magnesium, Arteor offers designers and end users endless options in terms of style and functionality."
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -2853,7 +3472,11 @@
     "detail": [],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
-    "description": [],
+    "description": [
+      {
+        "^": "With Belanko, switches perform exactly the way you expect them to. Beyond performance, we give you a choice between large rocker and the conventional small one."
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -2879,7 +3502,11 @@
     "detail": [],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
-    "description": [],
+    "description": [
+      {
+        "^": "Let the plateful of new Mallia colours delight your visual senses. With our enhanced selection of classic matt white, contemporary silver, lustrous pearl, supple copper, muscular bronze, mysterious dark sliver, melodic brass, sexy matt black, there is a colour for every style."
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -2892,7 +3519,12 @@
     "detail": [],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
-    "description": [],
+    "description": [
+      {
+        "Plexo IP 55 and IP 66 weatherproof wiring accessories": "",
+        "^": "Together, Plexo’s IP55 and IP66 ranges provide a complete weatherproof solution. Additional functionality is also available with a selection of modular housings that accommodate Arteor modular devices."
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -2909,7 +3541,19 @@
     ],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
-    "description": [],
+    "description": [
+      {
+        "Styles and Finishes": "",
+        "^": "Synergy was designed around two main style concepts, traditional and modern, each of which offers a selection of finishes to blend perfectly with warm and cool colour schemes.",
+        "*TechnicalSpecifications": {
+          "Synergy White": "slim faceplates with optional screw covers and triple LEDs",
+          "Synergy Modern": "silver and nickel – slim contoured faceplates with no visible screws and matching rockers",
+          "Synergy Traditional": "brushed or polished stainless steel – raised faceplates with visible screws and white rockers",
+          "Synergy Metalclad": "unique clam-type fit",
+          "Synergy Grid": "build your own system with a multitude of finishes and functions."
+        }
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -2924,7 +3568,21 @@
     ],
     "company": ["MK Logic Plus"],
     "categoryName": "Wiring Devices",
-    "description": [],
+    "description": [
+      {
+        "Features & Benefits": "",
+        "^": "<strong>Total Safety</strong>",
+        "^^": "3-pin operated ‘child resistant shutter system’, which is designed to inhibit access to the electricity supply, unless all 3 pins of a standard British 13A plug are in position. Logic PlusTMproducts include an inherent antimicrobial property as a result of the high grade thermoset material used to manufacture.",
+        "^^^": "<strong>Unrivalled Quality And Reliability</strong>",
+        "^^^^": "Products are made from the very best materials and production processes. All products are 100% tested.",
+        "^^^^^": "<strong>Quick And Easy To Install</strong>",
+        "^^^^^^": "Features to ensure a quick and easy installation come as standard across the range, including in-line terminals, funnel entrances to terminals, backed out and captive screws and clear terminal markings.",
+        "^^^^^^^": "<strong>Extensive Range</strong>",
+        "^^^^^^^^": "Outstanding selection of wiring devices providing a total solution.",
+        "^^^^^^^^^": "<strong>20 Year Guarantee</strong>",
+        "^^^^^^^^^^": "Gives total peace of mind to you and your customers. (Up to 10 year guarantee on electronic products)"
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []

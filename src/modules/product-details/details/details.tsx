@@ -82,10 +82,13 @@ class Details extends Component<IDetailsProps, IDetailsStates> {
                           <p
                             key={j}
                             className={styles.descriptionData}
-                            style={{ listStyle: "none", margin: 0 }}
-                          >
-                            {entry[1]}
-                          </p>
+                            style={{
+                              listStyle: "none",
+                              margin: 0,
+                              marginLeft: "-1.8em",
+                            }}
+                            dangerouslySetInnerHTML={{ __html: entry[1] }}
+                          ></p>
                         );
                       return (
                         <li key={j} className={styles.descriptionData}>
@@ -103,6 +106,7 @@ class Details extends Component<IDetailsProps, IDetailsStates> {
                     design={desc["*Design"]}
                     specification={desc["*Specifications"]}
                     designFeatures={desc["*Design Features"]}
+                    technicalSpecifications={desc["*TechnicalSpecifications"]}
                   />
                 </Fragment>
               ))}

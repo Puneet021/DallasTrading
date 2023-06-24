@@ -11,11 +11,11 @@ export interface IHeaderProps {
     string,
     "searchResults/handleSearchValueChange"
   >;
+  searchVal: string;
 }
 export interface IHeaderStates {
   width: number;
   isMobileWidth: boolean;
   openMenu: boolean;
   toggleSearch: boolean;
-  searchVal: string;
 }

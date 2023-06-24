@@ -6,5 +6,6 @@ export interface IAccordianProps {
   design: any;
   specification: any;
   designFeatures: any;
+  technicalSpecifications: any;
 }
 export interface IAccordianStates {}

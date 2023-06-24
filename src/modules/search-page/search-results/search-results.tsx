@@ -9,6 +9,8 @@ import "aos/dist/aos.css";
 import { connect } from "react-redux";
 import { IStore } from "../../../utils/models/store.model";
 import { getSearchResultsFilterData } from "../../../store/searchResults/searchResultsActions";
+import withRouter from "../../../components/common/withRouterComponent/withRouter";
+import { setSearchResultsDataToInitial } from "../../../store/searchResults/searchResultsSlice";
 
 class SearchResults extends Component<
   ISearchResultsProps,
@@ -28,7 +30,16 @@ class SearchResults extends Component<
         data-aos-once="true"
       >
         {this.props.data?.map((item, i) => (
-          <div key={i} className={styles.resultItem}>
+          <div
+            key={i}
+            className={styles.resultItem}
+            onClick={() => {
+              this.props.router.navigate(
+                "/our-products/" + item.productCategoryId + "/" + item.id
+              );
+              this.props.setSearchResultsDataToInitial();
+            }}
+          >
             <img className={styles.itemImage} src={item.image} alt={item.id} />
             <div>
               <h4 className={styles.itemText}>{item.title}</h4>
@@ -43,6 +54,9 @@ class SearchResults extends Component<
   }
 }
 
-export default connect((state: IStore) => ({
-  data: getSearchResultsFilterData(state),
-}))(SearchResults);
+export default connect(
+  (state: IStore) => ({
+    data: getSearchResultsFilterData(state),
+  }),
+  { setSearchResultsDataToInitial }
+)(withRouter(SearchResults));

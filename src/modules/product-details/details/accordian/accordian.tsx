@@ -18,6 +18,7 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
       design,
       specification,
       designFeatures,
+      technicalSpecifications,
     } = this.props;
     return (
       <div className={styles.accordianCont}>
@@ -189,6 +190,36 @@ class CustomAccordian extends Component<IAccordianProps, IAccordianStates> {
               <table className={styles.table}>
                 <tbody>
                   {Object.entries(specification).map(
+                    (entry: any, i: number) => (
+                      <tr key={i} className={styles.trow}>
+                        <td className={styles.th}>{entry[0]}</td>
+                        <td
+                          className={styles.td}
+                          dangerouslySetInnerHTML={{ __html: entry[1] }}
+                        ></td>
+                      </tr>
+                    )
+                  )}
+                </tbody>
+              </table>
+            </AccordionDetails>
+          </Accordion>
+        ) : null}
+        {technicalSpecifications &&
+        Object.entries(technicalSpecifications).length ? (
+          <Accordion sx={{ width: "100%" }} expanded={true}>
+            <AccordionSummary
+              aria-controls="panel3a-content"
+              id="panel3a-header"
+            >
+              <Typography className={styles.Typography}>
+                Technical Specifications
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails sx={{ maxWidth: "100%" }}>
+              <table className={styles.table}>
+                <tbody>
+                  {Object.entries(technicalSpecifications).map(
                     (entry: any, i: number) => (
                       <tr key={i} className={styles.trow}>
                         <td className={styles.th}>{entry[0]}</td>

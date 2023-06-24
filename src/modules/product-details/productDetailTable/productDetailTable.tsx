@@ -34,6 +34,9 @@ class ProductDetailTable extends Component<
                       align="center"
                       key={col?.id}
                       colSpan={col?.colSpan}
+                      style={{
+                        width: col?.customeWidth ? col?.customeWidth : "100",
+                      }}
                     >
                       {col?.name}
                     </TableCell>
