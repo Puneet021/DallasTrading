@@ -7,6 +7,10 @@ import { Select, MenuItem, TextField } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import { connect } from "react-redux";
+import { IStore } from "../../utils/models/store.model";
+import { getContactUsData } from "../../store/contact-us/contactUsSlice";
+import CustomLoader from "../../components/common/loader/loader";
 
 class ContactUs extends Component<IContactUsProps, IContactUsStates> {
   constructor(props: IContactUsProps) {
@@ -18,14 +22,27 @@ class ContactUs extends Component<IContactUsProps, IContactUsStates> {
       phone: "",
       message: "",
       answer: "",
+      loader: false,
     };
     this.handleSubmit = this.handleSubmit.bind(this);
   }
   componentDidMount(): void {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
+  componentDidUpdate(
+    prevProps: Readonly<IContactUsProps>,
+    prevState: Readonly<IContactUsStates>
+  ): void {
+    if (prevState.selectVal !== this.state.selectVal) {
+      this.setState({ loader: true });
+      setTimeout(() => {
+        this.setState({ loader: false });
+      }, 500);
+    }
+  }
   handleSubmit() {}
   render(): ReactNode {
+    const { contactUsData } = this.props;
     return (
       <div className={styles.contactUsContainer}>
         <BreadCrumb
@@ -61,31 +78,42 @@ class ContactUs extends Component<IContactUsProps, IContactUsStates> {
                 Oman (Muscat Office)
               </MenuItem>
             </Select>
-            <div className={styles.table}>
-              <div className={styles.trow}>
-                <LocationOnIcon className={styles.tdIcon} />
-                <p className={styles.tdText}>
-                  Office No 1004, Sobha Ivory II, Business Bay P.O. Box 2028,
-                  Dubai
-                </p>
+            {this.state.loader ? (
+              <div className={styles.emptyBox}>
+                <CustomLoader />
               </div>
-              <div className={styles.trow}>
-                <LocalPhoneIcon className={styles.tdIcon} />
-                <p className={styles.tdText}>+971 4 363 5500</p>
-              </div>
-              <div className={styles.trow}>
-                <MailOutlineIcon className={styles.tdIcon} />
-                <p className={styles.tdText}>info@dallastrading.net</p>
-              </div>
-            </div>
-            <iframe
-              title="dubai"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.705946243937!2d55.26928987627525!3d25.17940497772232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6834914eab65%3A0x46526b1478fdeae0!2sSobha%20Ivory%201%20-%2032a%20Marasi%20Dr%20-%20Business%20Bay%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1685506013799!5m2!1sen!2sin"
-              className={styles.gMap}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            ) : (
+              <>
+                <div className={styles.table}>
+                  <div className={styles.trow}>
+                    <LocationOnIcon className={styles.tdIcon} />
+                    <p className={styles.tdText}>
+                      {contactUsData[this.state.selectVal - 1]?.address}
+                    </p>
+                  </div>
+                  <div className={styles.trow}>
+                    <LocalPhoneIcon className={styles.tdIcon} />
+                    <p className={styles.tdText}>
+                      {contactUsData[this.state.selectVal - 1]?.mobileNo}
+                    </p>
+                  </div>
+                  <div className={styles.trow}>
+                    <MailOutlineIcon className={styles.tdIcon} />
+                    <p className={styles.tdText}>
+                      {contactUsData[this.state.selectVal - 1]?.email}
+                    </p>
+                  </div>
+                </div>
+                <iframe
+                  title={contactUsData[this.state.selectVal - 1].name}
+                  src={contactUsData[this.state.selectVal - 1].location}
+                  className={styles.gMap}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </>
+            )}
           </div>
           <div className={styles.sendAMessage}>
             <h2 className={styles.heading}>Send us a message</h2>
@@ -165,4 +193,6 @@ class ContactUs extends Component<IContactUsProps, IContactUsStates> {
   }
 }
 
-export default ContactUs;
+export default connect((state: IStore) => ({
+  contactUsData: getContactUsData(state),
+}))(ContactUs);

@@ -7,8 +7,6 @@ import {
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { connect } from "react-redux";
-import { IStore } from "../../../utils/models/store.model";
-import { getSearchResultsFilterData } from "../../../store/searchResults/searchResultsActions";
 import withRouter from "../../../components/common/withRouterComponent/withRouter";
 import { setSearchResultsDataToInitial } from "../../../store/searchResults/searchResultsSlice";
 
@@ -54,9 +52,6 @@ class SearchResults extends Component<
   }
 }
 
-export default connect(
-  (state: IStore) => ({
-    data: getSearchResultsFilterData(state),
-  }),
-  { setSearchResultsDataToInitial }
-)(withRouter(SearchResults));
+export default connect(null, { setSearchResultsDataToInitial })(
+  withRouter(SearchResults)
+);

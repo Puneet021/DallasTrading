@@ -1,4 +1,8 @@
-export interface IContactUsProps {}
+import { IContactUsData } from "../../utils/models/contact-us.model";
+
+export interface IContactUsProps {
+  contactUsData: IContactUsData[];
+}
 export interface IContactUsStates {
   selectVal: number;
   name: string;
@@ -6,4 +10,5 @@ export interface IContactUsStates {
   phone: string;
   message: string;
   answer: number | string;
+  loader: boolean;
 }

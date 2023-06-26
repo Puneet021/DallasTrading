@@ -1,8 +1,8 @@
 import { Component, ReactNode } from "react";
 import styles from "./centificates.module.scss";
-import certificate_img1 from "./images/certificate1.png";
-import certificate_img2 from "./images/certificate2.png";
-import certificate_img3 from "./images/certificate3.png";
+import certificate_img1 from "./images/Dallas-trading-UAE.jpg";
+import certificate_img2 from "./images/Dallas-trading-Oman.jpg";
+import certificate_img3 from "./images/Dallas-trading-Qatar.jpg";
 import {
   ICertificatesProps,
   ICertificatesStates,
@@ -48,7 +48,7 @@ class Certificates extends Component<ICertificatesProps, ICertificatesStates> {
             />
             <p className={styles.pTag}>
               ISO 9001:2008 <br />
-              UAE
+              OMAN
             </p>
           </div>
           <div>
@@ -59,7 +59,7 @@ class Certificates extends Component<ICertificatesProps, ICertificatesStates> {
             />
             <p className={styles.pTag}>
               ISO 9001:2008 <br />
-              UAE
+              QATAR
             </p>
           </div>
         </div>

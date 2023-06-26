@@ -6,7 +6,10 @@ import { MenuItem, Select } from "@mui/material";
 import SearchResults from "./search-results/search-results";
 import { connect } from "react-redux";
 import { IStore } from "../../utils/models/store.model";
-import { getSearchResultsLoader } from "../../store/searchResults/searchResultsActions";
+import {
+  getSearchResultsFilterData,
+  getSearchResultsLoader,
+} from "../../store/searchResults/searchResultsActions";
 import { fetchAsyncSearchResultsData } from "../../store/searchResults/searchResultsSlice";
 import CustomLoader from "../../components/common/loader/loader";
 
@@ -22,7 +25,7 @@ class SearchPage extends Component<ISearchPageProps, ISearchPageStates> {
     this.props.fetchAsyncSearchResultsData();
   }
   render(): ReactNode {
-    const { loader } = this.props;
+    const { loader, data } = this.props;
     return (
       <div className={styles.searchPageContainer}>
         <div className={styles.headDiv}>
@@ -31,7 +34,7 @@ class SearchPage extends Component<ISearchPageProps, ISearchPageStates> {
               headingText1="Search Results "
               headingText2=""
             />
-            <p className={styles.showingRes}>Showing 4 results</p>
+            <p className={styles.showingRes}>Showing {data.length} results</p>
           </div>
           <Select
             className={styles.selectBox}
@@ -63,7 +66,7 @@ class SearchPage extends Component<ISearchPageProps, ISearchPageStates> {
             <CustomLoader />{" "}
           </div>
         ) : (
-          <SearchResults />
+          <SearchResults data={data} />
         )}
       </div>
     );
@@ -73,6 +76,7 @@ class SearchPage extends Component<ISearchPageProps, ISearchPageStates> {
 export default connect(
   (state: IStore) => ({
     loader: getSearchResultsLoader(state),
+    data: getSearchResultsFilterData(state),
   }),
   { fetchAsyncSearchResultsData }
 )(SearchPage);
