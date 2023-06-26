@@ -3228,7 +3228,72 @@
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
     "description": [],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "table": [
+          {
+            "Part Number:": "Part Number",
+            "Cable Size Range": "Cable Size Range",
+            "Color:": "Color",
+            "Recovered Inner Diameter": "Recovered Inner Diameter"
+          },
+          {
+            "Part Number:": "HDT-1500-48″-Black-20 Pcs",
+            "Cable Size Range": "3/0 AWG-400 kcmil",
+            "Color:": "Black",
+            "Recovered Inner Diameter": "0.5 Inch"
+          },
+          {
+            "Part Number:": "HDT-2000-48″-Black-10 Pcs",
+            "Cable Size Range": "250-750 kcmil",
+            "Color:": "Black",
+            "Recovered Inner Diameter": "0.65 Inch"
+          },
+          {
+            "Part Number:": "HDT-1100-48″-Black-20 Pcs",
+            "Cable Size Range": "2-4/0 AWG",
+            "Color:": "Black",
+            "Recovered Inner Diameter": "0.37 Inch"
+          },
+          {
+            "Part Number:": "HDT-0800-48″-Black-20 Pcs",
+            "Cable Size Range": "8-1/0 AWG",
+            "Color:": "Black",
+            "Recovered Inner Diameter": "0.2 Inch"
+          },
+          {
+            "Part Number:": "HDT-3000-48″-Black-10 Pcs",
+            "Cable Size Range": "600-1250 kcmil",
+            "Color:": "Black",
+            "Recovered Inner Diameter": "1 Inch"
+          },
+          {
+            "Part Number:": "HDT-4500-48″-Black-5 Pcs",
+            "Cable Size Range": "1000-2500 kcmil",
+            "Color:": "Black",
+            "Recovered Inner Diameter": "1.5 Inch"
+          },
+          {
+            "Part Number:": "HDT-6000-48″-Black-5 Pcs",
+            "Cable Size Range": "2.1-4.8 in",
+            "Color:": "Black",
+            "Recovered Inner Diameter": "1.8 Inch"
+          },
+          {
+            "Part Number:": "HDT-7000-48″-Black-5 Pcs",
+            "Cable Size Range": "2.5-5.6 in",
+            "Color:": "Black",
+            "Recovered Inner Diameter": "2 Inch"
+          },
+          {
+            "Part Number:": "HDT-0400-48″-Black-20 Pcs",
+            "Cable Size Range": "12-6 AWG",
+            "Color:": "Black",
+            "Recovered Inner Diameter": "0.15 Inch"
+          }
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "downloadFile": "3m-HDT.pdf",
     "customerReviews": []
@@ -3412,9 +3477,84 @@
     ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
-    "description": [],
-    "detailDescription": [],
+    "description": [
+      {
+        "Main Advantages": "",
+        "-": "Compliance with standards and directives",
+        "--": "Automatic watertightness",
+        "---": "Electrical plugs with integrated breaking capacity",
+        "----": "Impact resistance and insensitive to thermal shocks."
+      }
+    ],
+    "detailDescription": [
+      {
+        "title": "Main Features",
+        "table": [
+          {
+            "a": " ",
+            "Ex": "Ex",
+            "Maximum voltage": "Maximum voltage",
+            "Rated current": "Rated current",
+            "Performance": "Performance",
+            "Shock resistance": "Shock resistance",
+            "Ambient temperature": "Ambient temperature",
+            "IP protection": "IP protection"
+          },
+          {
+            "a": "DXN1",
+            "Ex": "II2 G D Ex de IIC",
+            "Maximum voltage": "750 V max",
+            "Rated current": "20 A",
+            "Performance": "Metal casing",
+            "Shock resistance": "IK10",
+            "Ambient temperature": "-25°C to +60°C",
+            "IP protection": "IP65"
+          },
+          {
+            "a": "DXN3",
+            "Ex": "II2 G D Ex de IIC",
+            "Maximum voltage": "750 V max",
+            "Rated current": "32 A",
+            "Performance": "Metal casing",
+            "Shock resistance": "IK10",
+            "Ambient temperature": "-25°C to +60°C",
+            "IP protection": "IP65"
+          },
+          {
+            "a": "DXN6",
+            "Ex": "II2 G D Ex de IIC",
+            "Maximum voltage": "750 V max",
+            "Rated current": "63 A",
+            "Performance": "Metal casing",
+            "Shock resistance": "IK10",
+            "Ambient temperature": "-40°C to +60°C",
+            "IP protection": "IP65/IP66"
+          },
+          {
+            "a": "DX9",
+            "Ex": "II2 G D Ex de IIC",
+            "Maximum voltage": "750 V max",
+            "Rated current": "125 A",
+            "Performance": "Metal casing",
+            "Shock resistance": "IK10",
+            "Ambient temperature": "-40°C to +60°C",
+            "IP protection": "IP65/IP66"
+          },
+          {
+            "a": "DX2",
+            "Ex": "II2 G D Ex de IIC",
+            "Maximum voltage": "750 V max",
+            "Rated current": "200 A",
+            "Performance": "Metal casing",
+            "Shock resistance": "IK10",
+            "Ambient temperature": "-40°C to +60°C",
+            "IP protection": "IP65/IP66"
+          }
+        ]
+      }
+    ],
     "productDetailTableData": [],
+    "downloadFile": "Dx-Metal-Decontactor.pdf",
     "customerReviews": []
   },
   {
@@ -3430,7 +3570,6 @@
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
-    "downloadFile": "Dx-Metal-Decontactor.pdf",
     "customerReviews": []
   },
   {
