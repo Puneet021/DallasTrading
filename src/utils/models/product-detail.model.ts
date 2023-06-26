@@ -13,6 +13,9 @@ export interface IProductDetailData {
   categoryName: string;
   description: Array<any>;
   detailDescription: IDetailDescription[];
+  downloadFile: string;
+  viewManufacturersCatalogue: string;
+  downloadFiles: any;
   productDetailTableData: any;
   customerReviews: IProductDetailReviewsData[];
 }
@@ -24,6 +27,7 @@ export interface IDetailDescription {
   table: Array<any>;
   DataAfterTable: string[];
   images2: string[];
+  downloadFile: string;
 }
 
 export interface IProductDetailReviewsData {

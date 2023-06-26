@@ -20,6 +20,10 @@ export const getProductDetails = (state: IStore) => {
     productCategory: state.productDetail.productDetailData.categoryName,
     productImage: productsImages[state.productDetail.productDetailData.image],
     description: state.productDetail.productDetailData.description,
+    downloadFile: state.productDetail.productDetailData.downloadFile,
+    downloadFiles: state.productDetail.productDetailData.downloadFiles,
+    viewManufacturersCatalogue:
+      state.productDetail.productDetailData.viewManufacturersCatalogue,
   };
 };
 

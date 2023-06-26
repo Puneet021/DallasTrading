@@ -45,6 +45,14 @@ import conduit_table21 from "./conduit_table21.png";
 import conduit_table22 from "./conduit_table22.png";
 import conduit_table23 from "./conduit_table23.png";
 import conduit_table24 from "./conduit_table24.png";
+import swiftclip_thumbnail from "./swiftclip-thumbnail.jpg";
+import swifts_universal_brackets_thumbnail from "./swifts-universal-brackets-thumbnail.jpg";
+import flexible_conduit from "./flexible-conduit.jpg";
+import brass_fittins from "./brass-fittins.jpg";
+import bsi_registered from "./bsi-registered.jpg";
+import zinc_fitting from "./zinc-fitting.jpg";
+import pvc_zinc from "./pvc-zinc.jpg";
+import pvc_female_adaptor from "./pvc-female-adaptor.jpg";
 
 export const productDetailImages: { [id: string]: string } = {
   pvc_conduit1: pvc_conduit1,
@@ -94,4 +102,12 @@ export const productDetailImages: { [id: string]: string } = {
   conduit_table22: conduit_table22,
   conduit_table23: conduit_table23,
   conduit_table24: conduit_table24,
+  swiftclip_thumbnail: swiftclip_thumbnail,
+  swifts_universal_brackets_thumbnail: swifts_universal_brackets_thumbnail,
+  flexible_conduit: flexible_conduit,
+  brass_fittins: brass_fittins,
+  bsi_registered: bsi_registered,
+  zinc_fitting: zinc_fitting,
+  pvc_zinc: pvc_zinc,
+  pvc_female_adaptor: pvc_female_adaptor,
 };

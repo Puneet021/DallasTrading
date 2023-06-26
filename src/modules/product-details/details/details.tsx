@@ -112,6 +112,48 @@ class Details extends Component<IDetailsProps, IDetailsStates> {
               ))}
             </>
           ) : null}
+          {details?.downloadFile && details?.downloadFile !== "" ? (
+            <div className={styles.downloadDatasheet}>
+              <button
+                className={styles.downloadBtn}
+                onClick={() => {
+                  window.open("/uploads/" + details?.downloadFile, "_blank");
+                }}
+              >
+                Download Datasheet
+              </button>
+            </div>
+          ) : null}
+          {details?.downloadFiles ? (
+            <div className={styles.downloadDatasheet}>
+              {Object.entries(details?.downloadFiles).map(
+                (entry: any, b: number) => (
+                  <button
+                    key={b}
+                    className={styles.downloadBtn}
+                    onClick={() => {
+                      window.open("/uploads/" + entry[1], "_blank");
+                    }}
+                  >
+                    {entry[0]}
+                  </button>
+                )
+              )}
+            </div>
+          ) : null}
+          {details?.viewManufacturersCatalogue &&
+          details?.viewManufacturersCatalogue !== "" ? (
+            <div className={styles.downloadDatasheet}>
+              <button
+                className={styles.downloadBtn}
+                onClick={() => {
+                  window.open(details?.viewManufacturersCatalogue, "_blank");
+                }}
+              >
+                View Manufacturers Catalogue
+              </button>
+            </div>
+          ) : null}
         </div>
       </div>
     );

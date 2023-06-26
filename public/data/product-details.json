@@ -38,6 +38,7 @@
       }
     ],
     "detailDescription": [],
+    "downloadFile": "MESC-Armoured-Cable-Power-catalogue.pdf",
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -80,6 +81,7 @@
       }
     ],
     "detailDescription": [],
+    "downloadFile": "MESC-Control-Cable-Power-catalogue.pdf",
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -467,6 +469,7 @@
       }
     ],
     "detailDescription": [],
+    "downloadFile": "Oxford-rubber-flexible-cables-catalogue-2016.pdf",
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -491,7 +494,13 @@
         "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tags, Reducers, Adaptors, etc. as per the requirement"
       }
     ],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "DataAfterTable": [
+          "<strong>Also available in Kit Packaging and also as per the specification</strong>"
+        ]
+      }
+    ],
     "productDetailTableData": [
       {
         "size": "A220S",
@@ -503,68 +512,124 @@
         "cableRange": { "maxA": 10.8, "maxB": 8.8 }
       },
       {
-        "size": "A220S",
+        "size": "A220L",
         "threadSizeC": {
           "ThreadSizeC1": 20,
           "threadSizeC2": "3/4"
         },
         "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+        "cableRange": { "maxA": 14.7, "maxB": 11.4 }
       },
       {
-        "size": "A220S",
+        "size": "A225S",
         "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
+          "ThreadSizeC1": 25,
+          "threadSizeC2": "1"
         },
         "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+        "cableRange": { "maxA": 16.0, "maxB": 13.0 }
       },
       {
-        "size": "A220S",
+        "size": "A225L",
         "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
+          "ThreadSizeC1": 25,
+          "threadSizeC2": "1"
         },
         "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+        "cableRange": { "maxA": 20.3, "maxB": 17.3 }
       },
       {
-        "size": "A220S",
+        "size": "A232S",
         "threadSizeC": {
-          "ThreadSizeC1": 20,
-          "threadSizeC2": "3/4"
+          "ThreadSizeC1": 32,
+          "threadSizeC2": "1.1/4"
         },
         "minimumLengthOfThreadD": 15,
-        "cableRange": { "maxA": 10.8, "maxB": 8.8 }
+        "cableRange": { "maxA": 23.0, "maxB": 20.0 }
+      },
+      {
+        "size": "A232L",
+        "threadSizeC": {
+          "ThreadSizeC1": 32,
+          "threadSizeC2": "1.1/4"
+        },
+        "minimumLengthOfThreadD": 15,
+        "cableRange": { "maxA": 26.2, "maxB": 24.2 }
+      },
+      {
+        "size": "A240S",
+        "threadSizeC": {
+          "ThreadSizeC1": 40,
+          "threadSizeC2": "1.1/2"
+        },
+        "minimumLengthOfThreadD": 20,
+        "cableRange": { "maxA": 29.0, "maxB": 26.0 }
+      },
+      {
+        "size": "A240L",
+        "threadSizeC": {
+          "ThreadSizeC1": 40,
+          "threadSizeC2": "1.1/2"
+        },
+        "minimumLengthOfThreadD": 20,
+        "cableRange": { "maxA": 34.0, "maxB": 29.5 }
+      },
+      {
+        "size": "A250S",
+        "threadSizeC": {
+          "ThreadSizeC1": 50,
+          "threadSizeC2": "2"
+        },
+        "minimumLengthOfThreadD": 20,
+        "cableRange": { "maxA": 41.0, "maxB": 33.0 }
+      },
+      {
+        "size": "A250L",
+        "threadSizeC": {
+          "ThreadSizeC1": 50,
+          "threadSizeC2": "2"
+        },
+        "minimumLengthOfThreadD": 20,
+        "cableRange": { "maxA": 45.0, "maxB": 38.0 }
+      },
+      {
+        "size": "A263S",
+        "threadSizeC": {
+          "ThreadSizeC1": 63,
+          "threadSizeC2": "2.1/2"
+        },
+        "minimumLengthOfThreadD": 20,
+        "cableRange": { "maxA": 51.5, "maxB": 44.0 }
+      },
+      {
+        "size": "A263L",
+        "threadSizeC": {
+          "ThreadSizeC1": 63,
+          "threadSizeC2": "2.1/2"
+        },
+        "minimumLengthOfThreadD": 20,
+        "cableRange": { "maxA": 56.5, "maxB": 50.0 }
+      },
+      {
+        "size": "A275S",
+        "threadSizeC": {
+          "ThreadSizeC1": 75,
+          "threadSizeC2": "3"
+        },
+        "minimumLengthOfThreadD": 20,
+        "cableRange": { "maxA": 63.2, "maxB": 56.0 }
+      },
+      {
+        "size": "A275L",
+        "threadSizeC": {
+          "ThreadSizeC1": 75,
+          "threadSizeC2": "3"
+        },
+        "minimumLengthOfThreadD": 20,
+        "cableRange": { "maxA": 68.5, "maxB": 62.0 }
       }
     ],
-    "customerReviews": [
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      },
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      },
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      },
-      {
-        "customerName": "Andrew Schulz",
-        "emailId": "abcd@gmail.com",
-        "stars": 5,
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      }
-    ]
+    "customerReviews": []
   },
   {
     "id": "A1A2_Cable_Glands",
@@ -675,7 +740,104 @@
       }
     ],
     "detailDescription": [],
-    "productDetailTableData": [],
+    "productDetailTableData": [
+      {
+        "size": "BW20S",
+        "threadSizemm": 20,
+        "threadSizeinch": "3/4",
+        "minimumLengthOfThreadD": 10,
+        "maxA": 13,
+        "maxB": 15.5
+      },
+      {
+        "size": "BW20L",
+        "threadSizemm": 20,
+        "threadSizeinch": "3/4",
+        "minimumLengthOfThreadD": 10,
+        "maxA": 14,
+        "maxB": 18.5
+      },
+      {
+        "size": "BW25L",
+        "threadSizemm": 25,
+        "threadSizeinch": 1,
+        "minimumLengthOfThreadD": 10,
+        "maxA": 20.5,
+        "maxB": 26
+      },
+      {
+        "size": "BW32L",
+        "threadSizemm": 32,
+        "threadSizeinch": "1.1/4",
+        "minimumLengthOfThreadD": 10,
+        "maxA": 27,
+        "maxB": 33.9
+      },
+      {
+        "size": "BW40L",
+        "threadSizemm": 40,
+        "threadSizeinch": "1.1/2",
+        "minimumLengthOfThreadD": 15,
+        "maxA": 33,
+        "maxB": 41.5
+      },
+      {
+        "size": "BW50S",
+        "threadSizemm": 50,
+        "threadSizeinch": 2,
+        "minimumLengthOfThreadD": 15,
+        "maxA": 38.5,
+        "maxB": 47
+      },
+      {
+        "size": "BW50L",
+        "threadSizemm": 50,
+        "threadSizeinch": 2,
+        "minimumLengthOfThreadD": 15,
+        "maxA": 44,
+        "maxB": 52
+      },
+      {
+        "size": "BW63S",
+        "threadSizemm": 63,
+        "threadSizeinch": "2.1/2",
+        "minimumLengthOfThreadD": 15,
+        "maxA": 51,
+        "maxB": 59.2
+      },
+      {
+        "size": "BW63L",
+        "threadSizemm": 63,
+        "threadSizeinch": "2.1/2",
+        "minimumLengthOfThreadD": 15,
+        "maxA": 56.5,
+        "maxB": 65.5
+      },
+      {
+        "size": "BW75S",
+        "threadSizemm": 75,
+        "threadSizeinch": 3,
+        "minimumLengthOfThreadD": 15,
+        "maxA": 63,
+        "maxB": 74
+      },
+      {
+        "size": "BW75L",
+        "threadSizemm": 75,
+        "threadSizeinch": 3,
+        "minimumLengthOfThreadD": 15,
+        "maxA": 68.5,
+        "maxB": 79.5
+      },
+      {
+        "size": "BW90L",
+        "threadSizemm": 90,
+        "threadSizeinch": "3.1/2",
+        "minimumLengthOfThreadD": 20,
+        "maxA": 80.5,
+        "maxB": 91
+      }
+    ],
     "customerReviews": []
   },
   {
@@ -809,6 +971,30 @@
         "Minimum_Length_of_Thread": "14",
         "Cable_Range_A": "50.00",
         "Cable_Range_B": "59.50"
+      },
+      {
+        "Size": "CW63L",
+        "Thread_Size_MM": "63",
+        "Thread_Size_INCH": "2.1/2",
+        "Minimum_Length_of_Thread": "13.50",
+        "Cable_Range_A": "56.00",
+        "Cable_Range_B": "66.00"
+      },
+      {
+        "Size": "CW75S",
+        "Thread_Size_MM": "75",
+        "Thread_Size_INCH": "3",
+        "Minimum_Length_of_Thread": "15",
+        "Cable_Range_A": "63.50",
+        "Cable_Range_B": "73.00"
+      },
+      {
+        "Size": "CW75L",
+        "Thread_Size_MM": "75",
+        "Thread_Size_INCH": "3",
+        "Minimum_Length_of_Thread": "15",
+        "Cable_Range_A": "69.00",
+        "Cable_Range_B": "79.00"
       }
     ],
     "customerReviews": []
@@ -855,7 +1041,13 @@
         "Accessories": "Matching Accessories available like PVC Shrouds, Lock Nuts, Earth Tag, Reducers, Adaptors, etc. as per the requirement"
       }
     ],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "DataAfterTable": [
+          "<strong>Also available in Kit Packaging and also as per the specification.</strong>"
+        ]
+      }
+    ],
     "productDetailTableData": [
       {
         "Size": "20S",
@@ -1462,6 +1654,7 @@
         ]
       }
     ],
+    "downloadFile": "MESC-Panel-Wire-Power-catalogue.pdf",
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -1850,6 +2043,7 @@
         ]
       }
     ],
+    "downloadFile": "PVC-Flexible-Wire.pdf",
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -2345,6 +2539,7 @@
         ]
       }
     ],
+    "downloadFile": "Single-Core-Wire.pdf",
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -2372,6 +2567,7 @@
         "title": "Current carrying capacity at 30ûC in free air."
       }
     ],
+    "downloadFile": "3M-LV-RESIN-Joint.pdf",
     "productDetailTableData": [
       {
         "nominalConductor": "",
@@ -3018,6 +3214,7 @@
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFile": "Cold-Shrink-Termination.pdf",
     "customerReviews": []
   },
   {
@@ -3033,6 +3230,7 @@
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFile": "3m-HDT.pdf",
     "customerReviews": []
   },
   {
@@ -3048,6 +3246,7 @@
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFile": "Heat-Shrink-Termination.pdf",
     "customerReviews": []
   },
   {
@@ -3090,6 +3289,7 @@
     ],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFile": "Scotchflex-Cable-Ties-Data-Sheet.pdf",
     "customerReviews": []
   },
   {
@@ -3097,6 +3297,7 @@
     "image": "Industrial_Plug_And_Socket",
     "productName": "Industrial Plug & Socket",
     "Specification": [],
+    "downloadFile": "PCE_overview_2015_EN.pdf",
     "detail": [
       "Dallas is the sole UAE agent for the PCE range of industrial plugs & sockets, Inverters, adaptors, distribution boxes, switched interlock and RCD sockets",
       "All of Dallas branches supply a comprehensive range extending from 16A to 125A, from 24V to 750V and is generally available in splash proof (IP44) and watertight (IP67) configurations",
@@ -3229,6 +3430,7 @@
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFile": "Dx-Metal-Decontactor.pdf",
     "customerReviews": []
   },
   {
@@ -3257,30 +3459,24 @@
     ],
     "company": ["Legrand Swift"],
     "categoryName": "Cable Management System",
-    "description": [],
-    "detailDescription": [
+    "description": [
       {
-        "title": "Product ranges"
-      },
-      {
-        "title": "Topaz – Medium Duty",
-        "DataAfterTable": [
+        "Product ranges": "",
+        "Topaz – Medium Duty": "",
+        "^": [
           "<ul><li>Generally suitable for spans up to 3m</li><li>Side rail height: 100mm</li><li>Available cabling space: 69mm</li><li>Supplied as standard in 3m lengths</li><li>Finishes: G (hot dip galvanised), D (deep galvanised) and S (stainless steel)</li></ul>"
-        ]
-      },
-      {
-        "title": "Sapphire – Heavy Duty",
-        "DataAfterTable": [
+        ],
+        "Sapphire – Heavy Duty": "",
+        "^^": [
           "<ul><li>Generally suitable for spans up to 3.5m</li><li>Side rail height: 125mm</li><li>Available cabling space: 94mm</li><li>Supplied as standard in 3m lengths (lengths up to 6m available on request)</li><li>Finishes: G (hot dip galvanised), D (deep galvanised), S (stainless steel) and E (powder coated)</li></ul>"
-        ]
-      },
-      {
-        "title": "Emerald – Extra Heavy Duty",
-        "DataAfterTable": [
+        ],
+        "Emerald – Extra Heavy Duty": "",
+        "^^^": [
           "<ul><li>Generally suitable for spans up to 4m</li><li>Side rail height: 150mm</li><li>Available cabling space: 119m</li><li>Supplied as standard in 3m lengths (lengths up to 6m available on request)</li><li>Finishes: G (hot dip galvanised), D (deep galvanised) and S (stainless steel)</li></ul>"
         ]
       }
     ],
+    "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -3294,65 +3490,46 @@
     ],
     "company": ["Legrand Swift"],
     "categoryName": "Cable Management System",
-    "description": [],
-    "detailDescription": [
+    "description": [
       {
-        "title": "Product ranges"
-      },
-      {
-        "title": "S5 – Light Duty"
-      },
-      {
-        "title": "Tray depth:",
-        "DataAfterTable": [
-          "12mm (for 50 – 225mm widths) 18mm (for 300mm width and above)"
-        ]
-      },
-      {
-        "title": "Finishes:",
-        "DataAfterTable": [
+        "Product ranges": "",
+        "S5 – Light Duty": "",
+        "^^^^^^^": "<strong>Tray depth:</strong>",
+        "^": ["12mm (for 50 – 225mm widths) 18mm (for 300mm width and above)"],
+        "^^^^^^^^^^:": "<strong>Finishes:</strong>",
+        "^^": [
           "<ul><li>G (hot dip galvanised)</li><li>PG (pre-galvanised)</li><li>S (stainless steel)</li></ul>"
-        ]
-      },
-      {
-        "title": "SRF – Heavy Duty"
-      },
-      {
-        "title": "Tray depth:",
-        "DataAfterTable": ["50mm"]
-      },
-      {
-        "title": "Finishes:",
-        "DataAfterTable": [
+        ],
+        "SRF – Heavy Duty": "",
+        "^^^^^^^^": "<strong>Tray depth:</strong>",
+        "^^^": ["50mm"],
+        "^^^^^^^^^^^:": "<strong>Finishes:</strong>",
+        "^^^^": [
           "<ul><li>G (hot dip galvanised)</li><li>D (deep galvanised)</li><li>PG (pre-galvanised)</li><li>S (stainless steel)</li><li>E (powder coated)</li></ul>"
-        ]
-      },
-      {
-        "title": "XRF – EXTRA HEAVY DUTY"
-      },
-      {
-        "title": "Tray depth:",
-        "DataAfterTable": ["80mm"]
-      },
-      {
-        "title": "Finishes:",
-        "DataAfterTable": [
+        ],
+        "XRF – EXTRA HEAVY DUTY": "",
+        "^^^^^^^^^": "<strong>Tray depth:</strong>",
+        "^^^^^": ["80mm"],
+        "^^^^^^^^^^^^:": "<strong>Finishes:</strong>",
+        "^^^^^^": [
           "<ul><li>G (hot dip galvanised)</li><li>D (deep galvanised)</li><li>PG (pre-galvanised)</li><li>S (stainless steel)</li></ul>"
         ]
-      },
+      }
+    ],
+    "detailDescription": [
       {
         "title": "Swiftclip",
         "DataAfterTable": [
           "Legrand’s cable management innovation Swiftclip, is the new, fast-fit alternative to conventional nuts and bolts that seamlessly connects lengths and fittings up to four times faster on medium and heavy duty Swifts cable trays.<ul><li>At least four times faster to fit*</li><li>Cuts total installed cost</li><li>Strength tested to British Standards</li><li>Compatible with the existing Swifts cable tray system</li><li>Available for external and internal applications</li><li>No tools needed</li></ul>*When fitting length to length or length to fitting. Full report available on request from Legrand."
         ],
-        "images1": ["swiftclip-thumbnail.jpg"]
+        "images1": ["swiftclip_thumbnail"]
       },
       {
         "title": "Universal Bracket",
         "DataAfterTable": [
           "Overcome obstacles and challenges on site with the universal bracket which can be hand folded, bent, split or hinged to offer a multitude of functions. Designed for use with a medium or heavy duty cable tray, the universal bracket is a must-have for any toolkit."
         ],
-        "images1": ["swifts-universal-brackets-thumbnail.jpg"]
+        "images1": ["swifts_universal_brackets_thumbnail"]
       }
     ],
     "productDetailTableData": [],
@@ -3379,7 +3556,7 @@
       },
       {
         "title": "Product Features",
-        "DataAfterTable": [
+        "content": [
           "<ul><li>No hazardous sharp edges or burrs</li><li>Smooth Inside for easier wire pulling</li><li>Conforms to bs en 61386-23</li><li>General purpose application, IP 54 rating</li><li>Corrosion, Abrasion, Oil and water resistant</li></ul>"
         ],
         "table": [
@@ -3419,17 +3596,14 @@
             "Minimum Bore": "41.8"
           }
         ],
-        "images2": [
-          "flexible-conduit.jpg",
-          "brass-fittins.jpg",
-          "brass-fittins.jpg"
-        ]
+        "images2": ["flexible_conduit", "brass_fittins"]
       },
       {
-        "DataAfterTable": [
+        "content": [
           "<ul><li>IP Rating with recommended conduit IP 54</li><li>Operating temperature – 25 TO + 90º C</li><li>Proven products</li><li>Premium quality</li><li>Industry standard specification</li><li>Worldwide customer support</li></ul>"
         ],
-        "images1": ["bsi-registered.jpg"]
+        "images2": ["bsi_registered"],
+        "downloadFile": "PVC-Brass-Adaptor-Data-Sheet.pdf"
       },
       {
         "title": "PVC Brass Female Adaptor",
@@ -3439,7 +3613,7 @@
       },
       {
         "title": "Product Features",
-        "DataAfterTable": [
+        "content": [
           "<ul><li>No hazardous sharp edges or burrs</li><li>Smooth inside for easier wire pulling</li><li>Conforms to bs en 61386-23</li><li>General purpose application, IP 54 rating</li><li>Corrosion, Abrasion, Oil and water resistant</li></ul>"
         ],
         "table": [
@@ -3479,14 +3653,15 @@
             "Minimum Bore": "41.8"
           }
         ],
-        "images2": ["pvc-female-adaptor.jpg", "pvc-female-adaptor.jpg"]
+        "images2": ["pvc_female_adaptor"]
       },
       {
         "title": "",
-        "DataAfterTable": [
+        "content": [
           "<ul><li>IP Rating with recommended conduit IP 54</li><li>Operating temperature – 25 TO + 90º C</li><li>Proven products</li><li>Premium quality</li><li>Industry standard specification</li><li>Worldwide customer support</li></ul>"
         ],
-        "images1": ["bsi-registered.jpg"]
+        "images2": ["bsi_registered"],
+        "downloadFile": "PVC-Brass-Female-Adaptor-Data-Sheet.pdf"
       },
       {
         "title": "PVC Zinc Adaptor",
@@ -3496,7 +3671,7 @@
       },
       {
         "title": "Product Features",
-        "DataAfterTable": [
+        "content": [
           "<ul><li>No hazardous sharp edges or burrs</li><li>Smooth inside for easier wire pulling</li><li>Conforms to bs en 61386-23</li><li>General purpose application, IP 54 rating</li><li>Corrosion, Abrasion, Oil and water resistant</li></ul>"
         ],
         "table": [
@@ -3543,19 +3718,15 @@
             "Minimum Bore": "41.8"
           }
         ],
-        "images2": [
-          "zinc-fitting.jpg",
-          "pvc-zinc.jpg",
-          "pvc-zinc.jpg",
-          "pvc-zinc.jpg"
-        ]
+        "images2": ["zinc_fitting", "pvc_zinc"]
       },
       {
         "title": "",
-        "DataAfterTable": [
+        "content": [
           "<ul><li>IP Rating with recommended conduit IP 54</li><li>Operating temperature – 25 TO + 90º C</li><li>Proven products</li><li>Premium quality</li><li>Industry standard specification</li><li>Worldwide customer support</li></ul>"
         ],
-        "images1": ["bsi-registered.jpg"]
+        "images2": ["bsi_registered"],
+        "downloadFile": "PVC-Zinc-Adaptor-Data-Sheet.pdf"
       }
     ],
     "productDetailTableData": [],
@@ -3575,6 +3746,7 @@
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFile": "Barton-Catalogue-LBS.pdf",
     "customerReviews": []
   },
   {
@@ -3585,6 +3757,7 @@
     "detail": [],
     "company": ["Decoduct"],
     "categoryName": "PVC Conduits",
+    "downloadFile": "Decoduct_Conduit-Systems.pdf",
     "description": [
       {
         "Conduit System": "",
@@ -3740,8 +3913,18 @@
     ],
     "company": ["ABB"],
     "categoryName": "Switchgear Accessories",
-    "description": [],
+    "description": [
+      {
+        "About the ABB Group": "",
+        "^": "ABB is one of the world’s largest engineering companies, employing over 150,000 people in around 100 countries, specializing in robotics and power & automation technology.",
+        "": "",
+        "^^": "The UK division of the company is based in Warrington, Cheshire. ABB UK supplies around £1bn worth of power and automation solutions, products and services to clients around the country in a wide range of sectors.",
+        " ": "",
+        "^^^": " ABB stands as the largest supplier of industrial motors and drives, the largest provider of generators to the wind industry, and the largest supplier of power grids worldwide."
+      }
+    ],
     "detailDescription": [],
+    "viewManufacturersCatalogue": "https://new.abb.com/low-voltage",
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -3755,7 +3938,12 @@
     ],
     "company": ["Hager"],
     "categoryName": "Switchgear Accessories",
-    "description": [],
+    "description": [
+      {
+        "Switchgear Components": "",
+        "^": "<ul><li>ACB’s /MCCB’s/ELCB’s/MCB’s</li><li>Isolators</li><li>DB Enclosures (IP 55 & IP65)</li><li>Changeover Switches</li><li>Distribution Boards</li><li>Contactors & Relays</li><li>Panel Meters</li><li>Current Transformers</ul>"
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "customerReviews": []
@@ -3796,6 +3984,7 @@
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFile": "Breeze-fan-Catalogue-Main.pdf",
     "customerReviews": []
   },
   {
@@ -3814,6 +4003,7 @@
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFile": "RAYON-Brochure-Final.pdf",
     "customerReviews": []
   },
   {
@@ -3866,6 +4056,10 @@
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFiles": {
+      "Download Catalogue": "MK-CEILING-ROSE.pdf",
+      "Download Aceessories Catalogue": "MK-CEILING-ACCESSORIES-Tech.pdf"
+    },
     "customerReviews": []
   },
   {
@@ -3959,6 +4153,9 @@
     ],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFiles": {
+      "Download Catalogue": "Logic-Plus.pdf"
+    },
     "customerReviews": []
   },
   {
@@ -4010,6 +4207,7 @@
     ],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFile": "PCS-Phase-Identification-Tape.pdf",
     "customerReviews": []
   },
   {
@@ -4021,6 +4219,7 @@
       "Scotch® Vinyl Insulation Tape 22 is a 10-mil vinyl electrical tape. Designed for insulation applications that require greater mechanical strength and abrasion resistance. Provides moisture-resistant electrical and mechanical protection."
     ],
     "company": ["3M"],
+    "downloadFile": "Scotch-22-Heavy-Duty-Tape.pdf",
     "categoryName": "Scotch Tapes & Mastics",
     "description": [
       {
@@ -4081,6 +4280,7 @@
       "America's #1 professional grade vinyl electrical tape, Scotch® Super 33+™ Vinyl Electrical Tape is a premium grade, 7 mil thick, all-weather vinyl-insulating tape. It is designed to perform continuously between a temperature range of 0–220°F (-18–105°C)."
     ],
     "company": ["3M"],
+    "downloadFile": "PCS-Phase-Identification-Tape.pdf",
     "categoryName": "Scotch Tapes & Mastics",
     "description": [
       {
@@ -4146,6 +4346,7 @@
       "Scotch® Vinyl Electrical Tape 35 is a 7-mil thick polyvinyl chloride (PVC) color-coding tape. Outstanding electrical and mechanical properties make this tape excellent for use in phase identification, color coding of motor leads and piping systems."
     ],
     "company": ["3M"],
+    "downloadFile": "PCS-Phase-Identification-Tape.pdf",
     "categoryName": "Scotch Tapes & Mastics",
     "description": [
       {
@@ -4263,6 +4464,7 @@
       }
     ],
     "detailDescription": [],
+    "downloadFile": "PCS-Phase-Identification-Tape.pdf",
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -4331,6 +4533,7 @@
     ],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFile": "Scotchfil-Insulation-Putty.pdf",
     "customerReviews": []
   },
   {
@@ -4396,6 +4599,7 @@
     ],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFile": "Scotch-22-Heavy-Duty-Tape.pdf",
     "customerReviews": []
   },
   {
@@ -4450,6 +4654,7 @@
     ],
     "detailDescription": [],
     "productDetailTableData": [],
+    "downloadFile": "Scotchfil-Insulation-Putty.pdf",
     "customerReviews": []
   }
 ]

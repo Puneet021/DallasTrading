@@ -78,5 +78,21 @@
       line-height: 1.7em;
       font-size: 1.02em;
     }
+    .downloadDatasheet {
+      margin-top: 1.5em;
+      .downloadBtn {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: $secondaryColor;
+        font-size: 1.2rem;
+        transition: 0.2s;
+        text-decoration: underline;
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
   }
 }

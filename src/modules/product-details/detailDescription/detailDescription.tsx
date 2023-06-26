@@ -119,6 +119,18 @@ class DetailDescription extends Component<
                     <p key={k} dangerouslySetInnerHTML={{ __html: d }}></p>
                   ))}
                 </div>
+                {data?.downloadFile && data?.downloadFile !== "" ? (
+                  <div className={styles.downloadDatasheet}>
+                    <button
+                      className={styles.downloadBtn}
+                      onClick={() => {
+                        window.open("/uploads/" + data?.downloadFile, "_blank");
+                      }}
+                    >
+                      Download Datasheet
+                    </button>
+                  </div>
+                ) : null}
               </Fragment>
             ))
           : null}

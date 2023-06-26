@@ -13,6 +13,9 @@ export interface IDetailsProps {
     productCategory: string;
     productImage: string;
     description: any[];
+    downloadFile: string;
+    downloadFiles: any;
+    viewManufacturersCatalogue: string;
   };
 }
 export interface IDetailsStates {}
