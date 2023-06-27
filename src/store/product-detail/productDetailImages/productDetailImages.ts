@@ -53,6 +53,8 @@ import bsi_registered from "./bsi-registered.jpg";
 import zinc_fitting from "./zinc-fitting.jpg";
 import pvc_zinc from "./pvc-zinc.jpg";
 import pvc_female_adaptor from "./pvc-female-adaptor.jpg";
+import cable_terminal_outdoor from "./cable-terminal-outdoor.jpg";
+import plexo_options3 from "./plexo-options3.jpg";
 
 export const productDetailImages: { [id: string]: string } = {
   pvc_conduit1: pvc_conduit1,
@@ -110,4 +112,6 @@ export const productDetailImages: { [id: string]: string } = {
   zinc_fitting: zinc_fitting,
   pvc_zinc: pvc_zinc,
   pvc_female_adaptor: pvc_female_adaptor,
+  cable_terminal_outdoor: cable_terminal_outdoor,
+  plexo_options3: plexo_options3,
 };

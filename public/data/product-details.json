@@ -3212,7 +3212,342 @@
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
     "description": [],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "title": "Medium Voltage – Cold Shrink Terminations",
+        "content": [
+          "QTIII terminations are manufactured from silicone rubber, which has been specially formulated to enhance the properties required for MV terminations.",
+          "<h3 style={{fontWeight: '400'}}>Advantages of 3M Silicone as an insulator are:</h3>",
+          "<ul><li>Excellent insulating properties</li><li>Hydrophobic properties</li><li>Hydrophobic recovery</li><li>UV stable</li><li>Non-flammable</li><li>Fungus resistant</li><li>Excellent high and low temperature properties</li><li>Superior track and erosion resistance</li></ul>",
+          "<h3 style={{fontWeight: '400'}}>QTIII Features</h3>",
+          "<ul><li>One-piece termination</li><li>Built in stress control compound</li><li>Built in top seal</li><li>Moulded rain sheds on outdoor terminations</li><li>Optimum High-K stress control</li><li>Compact design</li><li>High reliability, over 20 years of proven field experience</li><li>Continuous operating temperature of 90°C, overload rating 130°C</li></ul>"
+        ]
+      },
+      {
+        "title": "6.6/11/(12) kV",
+        "content": [
+          "3M™ QTIII Indoor Single Core Polymeric Copper Tape Screened, Lead Sheath and/or Aluminium wire Armoured."
+        ],
+        "table": [
+          {
+            "Kit Ref": "Kit Ref",
+            "Application Range CSA (mm2)": "Application Range CSA (mm2)",
+            "Diameter over Primary Insulation (mm)": "Diameter over Primary Insulation (mm)"
+          },
+          {
+            "Kit Ref": "92-EP623-1",
+            "Application Range CSA (mm2)": "50-95",
+            "Diameter over Primary Insulation (mm)": "16.3-27.4"
+          },
+          {
+            "Kit Ref": "92-EP633-1",
+            "Application Range CSA (mm2)": "120-150",
+            "Diameter over Primary Insulation (mm)": "20.5-38.9"
+          },
+          {
+            "Kit Ref": "92-EP643-1",
+            "Application Range CSA (mm2)": "185-400",
+            "Diameter over Primary Insulation (mm)": "20.5-38.9"
+          },
+          {
+            "Kit Ref": "92-EP653-1",
+            "Application Range CSA (mm2)": "500-630",
+            "Diameter over Primary Insulation (mm)": "26.7-45.7"
+          }
+        ]
+      },
+      {
+        "content": [
+          "3M™ QTIII Outdoor Single Core Polymeric Copper Tape Screened, Lead Sheath and/or Aluminium wire Armoured."
+        ],
+        "table": [
+          {
+            "Kit Ref": "Kit Ref",
+            "Application Range CSA (mm2)": "Application Range CSA (mm2)",
+            "Diameter over Primary Insulation (mm)": "Diameter over Primary Insulation (mm)"
+          },
+          {
+            "Kit Ref": "92-EP623-2",
+            "Application Range CSA (mm2)": "50-95",
+            "Diameter over Primary Insulation (mm)": "16.3-27.4"
+          },
+          {
+            "Kit Ref": "92-EP633-2",
+            "Application Range CSA (mm2)": "120-150",
+            "Diameter over Primary Insulation (mm)": "20.5-38.9"
+          },
+          {
+            "Kit Ref": "92-EP643-2",
+            "Application Range CSA (mm2)": "185-400",
+            "Diameter over Primary Insulation (mm)": "20.5-38.9"
+          },
+          {
+            "Kit Ref": "92-EP653-2",
+            "Application Range CSA (mm2)": "500-630",
+            "Diameter over Primary Insulation (mm)": "26.7-45.7"
+          }
+        ]
+      },
+      {
+        "title": "3M™ QTIII Three Core Polymeric Copper Tape Screened / Armoured",
+        "content": ["<strong>Indoor</strong>"],
+        "table": [
+          {
+            "Kit Ref": "Kit Ref",
+            "Application Range CSA (mm2)": "Application Range CSA (mm2)",
+            "Diameter over Primary Insulation (mm)": "Diameter over Primary Insulation (mm)"
+          },
+          {
+            "Kit Ref": "7621-T95-3W",
+            "Application Range CSA (mm2)": "16-50",
+            "Diameter over Primary Insulation (mm)": "12.7-17.8"
+          },
+          {
+            "Kit Ref": "7623-T95-3W",
+            "Application Range CSA (mm2)": "70-120",
+            "Diameter over Primary Insulation (mm)": "17.8-23.4"
+          },
+          {
+            "Kit Ref": "7624-T95-3W",
+            "Application Range CSA (mm2)": "150-300",
+            "Diameter over Primary Insulation (mm)": "23.4-30.0"
+          }
+        ]
+      },
+      {
+        "content": ["<strong>Outdoor</strong>"],
+        "table": [
+          {
+            "Kit Ref": "Kit Ref",
+            "Application Range CSA (mm2)": "Application Range CSA (mm2)",
+            "Diameter over Primary Insulation (mm)": "Diameter over Primary Insulation (mm)"
+          },
+          {
+            "Kit Ref": "7691-S4-3W",
+            "Application Range CSA (mm2)": "16-50",
+            "Diameter over Primary Insulation (mm)": "12.7-17.8"
+          },
+          {
+            "Kit Ref": "7692-S4-3W",
+            "Application Range CSA (mm2)": "70-120",
+            "Diameter over Primary Insulation (mm)": "17.8-23.4"
+          },
+          {
+            "Kit Ref": "7693-S4-3W",
+            "Application Range CSA (mm2)": "150-300",
+            "Diameter over Primary Insulation (mm)": "23.4-30.0"
+          }
+        ]
+      },
+      {
+        "title": "6.6/11/(12) kV",
+        "content": [
+          "3M™ QTIII Indoor 11kV Single Core Polymeric Copper Wire Screened."
+        ],
+        "table": [
+          {
+            "Kit Ref": "Kit Ref",
+            "Application Range CSA (mm2)": "Application Range CSA (mm2)",
+            "Diameter over Primary Insulation (mm)": "Diameter over Primary Insulation (mm)"
+          },
+          {
+            "Kit Ref": "92-EP621-1",
+            "Application Range CSA (mm2)": "50-95",
+            "Diameter over Primary Insulation (mm)": "16.3-27.4"
+          },
+          {
+            "Kit Ref": "92-EP631-1",
+            "Application Range CSA (mm2)": "120-400",
+            "Diameter over Primary Insulation (mm)": "20.5-38.9"
+          },
+          {
+            "Kit Ref": "92-EP641-1",
+            "Application Range CSA (mm2)": "500-630",
+            "Diameter over Primary Insulation (mm)": "26.7-45.7"
+          },
+          {
+            "Kit Ref": "92-EP656-1",
+            "Application Range CSA (mm2)": "630-1000",
+            "Diameter over Primary Insulation (mm)": "35.9-55.9"
+          }
+        ]
+      },
+      {
+        "content": [
+          "3M™ QTIII Outdoor 11kV Single Core Polymeric Copper Wire Screened."
+        ],
+        "table": [
+          {
+            "Kit Ref": "Kit Ref",
+            "Application Range CSA (mm2)": "Application Range CSA (mm2)",
+            "Diameter over Primary Insulation (mm)": "Diameter over Primary Insulation (mm)"
+          },
+          {
+            "Kit Ref": "92-EP621-2",
+            "Application Range CSA (mm2)": "50-95",
+            "Diameter over Primary Insulation (mm)": "16.3-27.4"
+          },
+          {
+            "Kit Ref": "92-EP631-2",
+            "Application Range CSA (mm2)": "120-400",
+            "Diameter over Primary Insulation (mm)": "20.5-38.9"
+          },
+          {
+            "Kit Ref": "92-EP641-2",
+            "Application Range CSA (mm2)": "500-630",
+            "Diameter over Primary Insulation (mm)": "26.7-45.7"
+          }
+        ],
+        "DataAfterTable": [
+          "3M™ 11kV Three Core Termination for Belted PILC / PICAS Cables (Paper Insulated Lead Covered/Paper Insulation Corrugated Aluminium Sheath)",
+          "<ul><li>Inorganic cold shrink silicone insulation</li><li>Coldshrink EPDM moisture sealing tubes</li><li>Track resistant surface</li><li>Moulded rain sheds for outdoor version</li><li>No tools, easy install, ultra lightweight assembly</li><li>Cold pour 2130 resin to fill and insulate crotch area</li></ul>",
+          "3M™ QTIII Three Core Polymeric Copper Tape Screened Armoured Outdoor"
+        ]
+      },
+      {
+        "table": [
+          {
+            "Kit Ref": "Kit Ref",
+            "Application Range CSA (mm2)": "Application Range CSA (mm2)",
+            "Diameter over Primary Insulation (mm)": "Diameter over Primary Insulation (mm)"
+          },
+          {
+            "Kit Ref": "MT16",
+            "Application Range CSA (mm2)": "70-300",
+            "Diameter over Primary Insulation (mm)": "Indoor"
+          },
+          {
+            "Kit Ref": "MO16",
+            "Application Range CSA (mm2)": "70-300",
+            "Diameter over Primary Insulation (mm)": "Outdoor"
+          }
+        ]
+      },
+      {
+        "title": "12/20/(24) kV",
+        "content": [
+          "3M™ QTIII Indoor Single Core Terminations – Polymeric / Copper Wire Screened / Non Armoured."
+        ],
+        "table": [
+          {
+            "Kit Ref": "Kit Ref",
+            "Application Range CSA (mm2)": "Application Range CSA (mm2)",
+            "Diameter over Primary Insulation (mm)": "Diameter over Primary Insulation (mm)"
+          },
+          {
+            "Kit Ref": "93-EP610-1",
+            "Application Range CSA (mm2)": "25-120",
+            "Diameter over Primary Insulation (mm)": "16.3-27.4"
+          },
+          {
+            "Kit Ref": "93-EP620-1",
+            "Application Range CSA (mm2)": "95-240",
+            "Diameter over Primary Insulation (mm)": "21.1-38.9"
+          }
+        ]
+      },
+      {
+        "content": [
+          "3M™ QTIII Outdoor Single Core Terminations – Polymeric / Copper Wire Screened / Non Armoured."
+        ],
+        "table": [
+          {
+            "Kit Ref": "Kit Ref",
+            "Application Range CSA (mm2)": "Application Range CSA (mm2)",
+            "Diameter over Primary Insulation (mm)": "Diameter over Primary Insulation (mm)"
+          },
+          {
+            "Kit Ref": "92-EP621-2",
+            "Application Range CSA (mm2)": "50-95",
+            "Diameter over Primary Insulation (mm)": "16.3-27.4"
+          },
+          {
+            "Kit Ref": "92-EP631-2",
+            "Application Range CSA (mm2)": "120-400",
+            "Diameter over Primary Insulation (mm)": "20.5-38.9"
+          },
+          {
+            "Kit Ref": "92-EP641-2",
+            "Application Range CSA (mm2)": "500-630",
+            "Diameter over Primary Insulation (mm)": "26.7-45.7"
+          }
+        ]
+      },
+      {
+        "title": "19/33/(36) kV",
+        "content": [
+          "3M™ QTIII Indoor / Outdoor 33kV Single Core Polymeric / Copper Wire Screened"
+        ],
+        "table": [
+          {
+            "Kit Ref": "Kit Ref",
+            "Application Range CSA (mm2)": "Application Range CSA (mm2)",
+            "Diameter over Primary Insulation (mm)": "Diameter over Primary Insulation (mm)"
+          },
+          {
+            "Kit Ref": "94-EP610-2",
+            "Application Range CSA (mm2)": "35-120",
+            "Diameter over Primary Insulation (mm)": "18.3-32.8"
+          },
+          {
+            "Kit Ref": "94-EP620-2",
+            "Application Range CSA (mm2)": "50-150",
+            "Diameter over Primary Insulation (mm)": "21.1-38.9"
+          },
+          {
+            "Kit Ref": "94-EP630-2",
+            "Application Range CSA (mm2)": "120-300",
+            "Diameter over Primary Insulation (mm)": "26.7-45.7"
+          },
+          {
+            "Kit Ref": "94-EP640-2",
+            "Application Range CSA (mm2)": "240-630",
+            "Diameter over Primary Insulation (mm)": "38.9-58.9"
+          }
+        ],
+        "images2": ["cable_terminal_outdoor"]
+      },
+      {
+        "title": "25/46/(52) kV",
+        "content": [
+          "3M™ QTIII Indoor Single Core Terminations – Polymeric / Copper Wire Screened"
+        ],
+        "table": [
+          {
+            "Kit Ref": "Kit Ref",
+            "Application Range CSA (mm2)": "Application Range CSA (mm2)",
+            "Diameter over Primary Insulation (mm)": "Diameter over Primary Insulation (mm)"
+          },
+          {
+            "Kit Ref": "95-EP 631-2",
+            "Application Range CSA (mm2)": "240-500",
+            "Diameter over Primary Insulation (mm)": "38.6-51.0"
+          }
+        ]
+      },
+      {
+        "content": [
+          "3M™ QTII Indoor/Outdoor Termination Single Core Polymeric Copper Wire Screened."
+        ],
+        "table": [
+          {
+            "Kit Ref": "Kit Ref",
+            "Application Range CSA (mm2)": "Application Range CSA (mm2)",
+            "Diameter over Primary Insulation (mm)": "Diameter over Primary Insulation (mm)"
+          },
+          {
+            "Kit Ref": "95-EB 62-2",
+            "Application Range CSA (mm2)": "70-400",
+            "Diameter over Primary Insulation (mm)": "33-53"
+          },
+          {
+            "Kit Ref": "95-EB 63-2",
+            "Application Range CSA (mm2)": "400-1000",
+            "Diameter over Primary Insulation (mm)": "46-66"
+          }
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "downloadFile": "Cold-Shrink-Termination.pdf",
     "customerReviews": []
@@ -4232,7 +4567,9 @@
         "^": "Together, Plexo’s IP55 and IP66 ranges provide a complete weatherproof solution. Additional functionality is also available with a selection of modular housings that accommodate Arteor modular devices."
       }
     ],
-    "detailDescription": [],
+    "detailDescription": [{
+      "images1": ["plexo_options3"]
+    }],
     "productDetailTableData": [],
     "customerReviews": []
   },
