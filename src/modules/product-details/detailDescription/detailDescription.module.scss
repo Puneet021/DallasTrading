@@ -47,6 +47,10 @@
   }
   .images {
     margin-top: 2em;
+    margin-left: 1em;
+    @include display-flex(row, flex-start, flex-start);
+    flex-wrap: wrap;
+    column-gap: 1em;
     .image {
       object-fit: contain;
       max-width: 25rem;
@@ -55,6 +59,9 @@
   .images2 {
     width: 100%;
     margin: 1em 0;
+    @include display-flex(row, flex-start, flex-start);
+    flex-wrap: wrap;
+    column-gap: 1em;
     .image2 {
       object-fit: contain;
       max-width: 100%;

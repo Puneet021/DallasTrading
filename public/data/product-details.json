@@ -4456,7 +4456,62 @@
     "company": ["Breeze"],
     "categoryName": "Industrial Fans",
     "description": [],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "title": "DFP Series Powerful Industrial Pedestal Fan",
+        "content": [
+          "Breeze Industrial Pedestal Fan has a 3-speed industrial motor powering three precision balanced metal fan blades, and with the 90° oscillating sweep and fixed head positioning, it provides cooling and optimum air circulation for large areas such as warehouses, factories, offices, industrial kitchens and more. The large pedestal base adds stability and safety.",
+          "<ul><li>Powder Coated, Rust Free body</li><li>Free-adjustable height, large air volume and low noise</li><li>Motor with a long service life</li><li>Three speeds, Oscillating angle adjustable, with two or three blades</li><li>Suitable for heat-stroke prevention and cooling-down temperature in mineral factories, workshop and warehouse etc, for ventilation and improving environment</li><li>20″, 24″, 26″, 30″ four different sizes</li><li>High Speed rpm : 1400</li><li>Power Consumption : 150watts, 220v/240v 50 Hz</li><li>Also available in 110v 50/60 Hz on request</li><li>Air volume: 7800-18000 m3/h</li></ul>"
+        ],
+        "images2": [
+          "pedestal_heavy_duty_fan",
+          "steel_motor_housing",
+          "tool_free_height_adjustment",
+          "ss_safety_grill_glip",
+          "pedestal_fan"
+        ]
+      },
+      {
+        "title": "DFP Series Powerful Industrial Wall Fan",
+        "content": [
+          "<ul><li>Optimized impeller structure with large air volume</li><li>Motor with long service life and low noise</li><li>Three speeds, oscillating angle adjustable two or three blades</li><li>Suitable for heat-stroke prevention and cooling-down in mineral factories, workshop and warehouse etc. for ventilation and improving environment</li><li>20″, 24″, 26″, 30″ four different sizes</li><li>High Speed rpm : 1400</li><li>Power Consumption : 150watts, 220v/240v 50 Hz</li><li>Air volume: 7800-18000 m3/h</li></ul>"
+        ],
+        "images2": [
+          "Industrial_Wall_Fan",
+          "heavy_duty_metal_body",
+          "steel_wire_guards"
+        ]
+      },
+      { "images1": ["oscillating_or_fixed_head", "metal_blades"] },
+      {
+        "title": "FQ Series Powerful Ventilating Fan",
+        "images1": ["powerful_ventilating_fan"],
+        "content": [
+          "<ul><li>CAD optimized design safe working and electricity saving, working continuously</li><li>Large air volume, low noise</li><li>Suitable for mineral factories ventilation</li><li>12″, 14″, 16″, 18″, 20″, 24″ total 6 models</li><li>High Speed rpm : 1400</li><li>Power Consumption :330watts, 220v/240v 50 Hz</li><li>Air volume: 2100-12000 m3/h</li></ul>"
+        ]
+      },
+      {
+        "title": "FA Series Rectangular Ventilating Fan",
+        "images1": ["rectangular_ventilating_fan"],
+        "content": [
+          "<ul><li>The motor adopts punching shell low-noise rolling bearing providing restoring over-heat protection The motor has a long service life</li><li>The structural parts adopt high-quality punching sheet steel</li><li>The steel is of high-quality, low weight It’s beautiful and dignified in appearance easy to install</li><li>CAD optimized design</li><li>Large air volume low noise and stable working</li><li>8″,10″,12″,14″,16″,20″,24″ total 7 models</li><li>Suitable for ventilation in factory residence, office hotel and entertainment places etc</li><li>High Speed rpm : 1400</li><li>Power Consumption :45watts, 220v/240v</li><li>Air volume 780-8700 m3/h</li></ul>"
+        ]
+      },
+      {
+        "title": "FG Series Low Noise Axial Duct FanFG Series Low Noise Axial Duct Fan",
+        "images1": ["axial_duct_fan", "duct_fan_axial"],
+        "content": [
+          "<ul><li>This product has a forward ternary wrenched wide impeller</li><li>With low noise large air volume high efficiency and stable pressure</li><li>We have adopted advanced streamlined process to conduct the spray coating, so the shell and impeller have a ever-lasting color soft and light</li><li>This product is suitable for the ventilation in industrial and mining enterprises civil buildings and roof ventilation</li><li>Air volume: 1600-30000 m3/h</li><li>Total pressure: 65-345 Pa</li></ul>"
+        ]
+      },
+      {
+        "title": "TA Series Ventitating Fan",
+        "images1": ["ventitating_fan", "fan_ventitating"],
+        "content": [
+          "<ul><li>The motor adopts punching shell and low-noise rolling bearing.</li><li>The motor has a long service life.</li><li>The structural parts adopt high-quality punching sheet steel</li><li>The steel is of high-quality and low weight It’s beautiful and dignified easy to install</li><li>CAD optimized design</li><li>Used in warehouse, workshop and entertainment places for ventilation</li><li>10″, 12″, 14″, 16″, 20″, 24″ total 6 models</li><li>Air volume: 840 – 8700 m3/h</li></ul>"
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "downloadFile": "Breeze-fan-Catalogue-Main.pdf",
     "customerReviews": []
@@ -4567,9 +4622,11 @@
         "^": "Together, Plexo’s IP55 and IP66 ranges provide a complete weatherproof solution. Additional functionality is also available with a selection of modular housings that accommodate Arteor modular devices."
       }
     ],
-    "detailDescription": [{
-      "images1": ["plexo_options3"]
-    }],
+    "detailDescription": [
+      {
+        "images1": ["plexo_options3"]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },

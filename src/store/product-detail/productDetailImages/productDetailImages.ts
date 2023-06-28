@@ -55,6 +55,22 @@ import pvc_zinc from "./pvc-zinc.jpg";
 import pvc_female_adaptor from "./pvc-female-adaptor.jpg";
 import cable_terminal_outdoor from "./cable-terminal-outdoor.jpg";
 import plexo_options3 from "./plexo-options3.jpg";
+import pedestal_heavy_duty_fan from "./pedestal-heavy-duty-fan.jpg";
+import steel_motor_housing from "./steel-motor-housing.jpg";
+import tool_free_height_adjustment from "./tool-free-height-adjustment.jpg";
+import ss_safety_grill_glip from "./ss-safety-grill-glip.jpg";
+import pedestal_fan from "./pedestal-fan.jpg";
+import Industrial_Wall_Fan from "./Industrial-Wall-Fan.png";
+import heavy_duty_metal_body from "./heavy-duty-metal-body.png";
+import steel_wire_guards from "./steel-wire-guards.png";
+import oscillating_or_fixed_head from "./oscillating-or-fixed-head.png";
+import metal_blades from "./metal-blades.png";
+import ventitating_fan from "./ventitating-fan.png";
+import fan_ventitating from "./fan-ventitating.png";
+import axial_duct_fan from "./axial-duct-fan.png";
+import duct_fan_axial from "./duct-fan-axial.png";
+import rectangular_ventilating_fan from "./rectangular-ventilating-fan.png";
+import powerful_ventilating_fan from "./powerful-ventilating-fan.png";
 
 export const productDetailImages: { [id: string]: string } = {
   pvc_conduit1: pvc_conduit1,
@@ -114,4 +130,20 @@ export const productDetailImages: { [id: string]: string } = {
   pvc_female_adaptor: pvc_female_adaptor,
   cable_terminal_outdoor: cable_terminal_outdoor,
   plexo_options3: plexo_options3,
+  pedestal_heavy_duty_fan: pedestal_heavy_duty_fan,
+  steel_motor_housing: steel_motor_housing,
+  tool_free_height_adjustment: tool_free_height_adjustment,
+  ss_safety_grill_glip: ss_safety_grill_glip,
+  pedestal_fan: pedestal_fan,
+  Industrial_Wall_Fan: Industrial_Wall_Fan,
+  heavy_duty_metal_body: heavy_duty_metal_body,
+  steel_wire_guards: steel_wire_guards,
+  oscillating_or_fixed_head: oscillating_or_fixed_head,
+  metal_blades: metal_blades,
+  ventitating_fan: ventitating_fan,
+  fan_ventitating: fan_ventitating,
+  axial_duct_fan: axial_duct_fan,
+  duct_fan_axial: duct_fan_axial,
+  rectangular_ventilating_fan: rectangular_ventilating_fan,
+  powerful_ventilating_fan: powerful_ventilating_fan,
 };
