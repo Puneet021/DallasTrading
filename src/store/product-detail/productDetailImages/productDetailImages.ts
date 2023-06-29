@@ -80,6 +80,8 @@ import rct350db_c from "./rct350db-c.jpg";
 import rct350w_38c from "./rct350w-38c.jpg";
 import rct172w_38c from "./rct172w-38c.jpg";
 import rct350w_17q from "./rct350w-17q.jpg";
+import feeder_pillars from "./feeder-pillars.jpg";
+import distribution_boards from "./distribution-boards.png";
 
 export const productDetailImages: { [id: string]: string } = {
   pvc_conduit1: pvc_conduit1,
@@ -164,4 +166,6 @@ export const productDetailImages: { [id: string]: string } = {
   rct350w_38c: rct350w_38c,
   rct172w_38c: rct172w_38c,
   rct350w_17q: rct350w_17q,
+  feeder_pillars: feeder_pillars,
+  distribution_boards: distribution_boards,
 };

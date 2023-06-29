@@ -15,6 +15,7 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Cables",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Application": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations, local distribution systems, industrial plants and commercial buildings.",
@@ -58,6 +59,7 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Cables",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Application": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground in power and switching stations, local distribution systems, industrial plants and commercial buildings.",
@@ -104,6 +106,7 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Cables",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "THW Product Description :": "",
@@ -442,6 +445,7 @@
     "detail": [],
     "company": ["Oxford Cavi"],
     "categoryName": "Cables",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Construction": {
@@ -481,6 +485,7 @@
     "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Size": "20 mm to 90 mm",
@@ -642,6 +647,7 @@
     ],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
+    "detailDescriptionAfterTable": [],
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [
@@ -726,6 +732,7 @@
     "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Size": "20 mm to 90 mm",
@@ -851,6 +858,7 @@
     ],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Design Features": "2 part armour lack, Knurled armor lack produces a low resistance earth clip.",
@@ -869,6 +877,7 @@
     "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Size": "20 mm to 90 mm S & L",
@@ -1010,6 +1019,7 @@
     ],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Design Features": "<ul><li>2 part Armour/Earth Lock, Knurled Armour Lock produces a low resistance earth clip</li><li>Also available in CIEL(cast integral earth lug) for orders add” C ” to prod. code.</li></ul>",
@@ -1028,6 +1038,7 @@
     "detail": [],
     "company": ["Elite"],
     "categoryName": "Industrial Cable Glands",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Size": "20 mm to 90 mm S & L",
@@ -1207,6 +1218,7 @@
     ],
     "company": ["Hex"],
     "categoryName": "Industrial Cable Glands",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Design Features": "<ul><li>2 part Armour/Earth Lock</li><li>Knurled Armour Lock produces a low resistance earth clip</li><li>Inner and outer displacement</li><li>Rated at IP 66 in conjunction with entry thread seal.</li></ul>"
@@ -1234,6 +1246,7 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Wires",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Application": "These cables are used for the purpose of lighting in residential and commercial building in surface mounted or embedded conduits. Suitable for voltages upto 1000 AC or upto 750 to to earth DC when used for fixed installation inside applicances, switchgear and controlgear.",
@@ -1677,6 +1690,7 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Wires",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Types Cu And Cr Pvc Insulated Cables Bs 6231": "",
@@ -2065,6 +2079,7 @@
     "detail": [],
     "company": ["Mesc"],
     "categoryName": "Wires",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Application": "These cables are used for the purpose of lighting in residential and commercial building in surface mounted or embedded conduits. Suitable for voltages upto 1000 AC or up to 750 to earth DC when used for fixed installation inside appliances,switchgear and controlgear",
@@ -2555,6 +2570,7 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "3M 90-A Joints for Street Lighting without Earth – Up to 1kV": "",
@@ -3072,6 +3088,7 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Specifications": {
@@ -3211,6 +3228,7 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
+    "detailDescriptionAfterTable": [],
     "description": [],
     "detailDescription": [
       {
@@ -3562,6 +3580,7 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
+    "detailDescriptionAfterTable": [],
     "description": [],
     "detailDescription": [
       {
@@ -3643,6 +3662,7 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
+    "detailDescriptionAfterTable": [],
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
@@ -3662,6 +3682,7 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
+    "detailDescriptionAfterTable": [],
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
@@ -3677,6 +3698,7 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Ties",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Specifications": {
@@ -3705,6 +3727,7 @@
     ],
     "company": ["PCE"],
     "categoryName": "Industrial Plugs & Sockets",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Manufactured by PCE in Austria.": "",
@@ -3762,6 +3785,7 @@
     ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "^": "Waterproof electrical connectors IP66/IP67 as an option",
@@ -3812,6 +3836,7 @@
     ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Main Advantages": "",
@@ -3902,6 +3927,7 @@
     ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
+    "detailDescriptionAfterTable": [],
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
@@ -3917,6 +3943,7 @@
     ],
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
+    "detailDescriptionAfterTable": [],
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
@@ -3933,6 +3960,7 @@
     ],
     "company": ["Legrand Swift"],
     "categoryName": "Cable Management System",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Product ranges": "",
@@ -3964,6 +3992,7 @@
     ],
     "company": ["Legrand Swift"],
     "categoryName": "Cable Management System",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Product ranges": "",
@@ -4020,6 +4049,7 @@
     ],
     "company": ["Barton"],
     "categoryName": "Flexible/Rigid Conduit & Accessories",
+    "detailDescriptionAfterTable": [],
     "description": [],
     "detailDescription": [
       {
@@ -4217,6 +4247,7 @@
     ],
     "company": ["Barton"],
     "categoryName": "Flexible/Rigid Conduit & Accessories",
+    "detailDescriptionAfterTable": [],
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
@@ -4231,6 +4262,7 @@
     "detail": [],
     "company": ["Decoduct"],
     "categoryName": "PVC Conduits",
+    "detailDescriptionAfterTable": [],
     "downloadFile": "Decoduct_Conduit-Systems.pdf",
     "description": [
       {
@@ -4387,6 +4419,7 @@
     ],
     "company": ["ABB"],
     "categoryName": "Switchgear Accessories",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "About the ABB Group": "",
@@ -4412,6 +4445,7 @@
     ],
     "company": ["Hager"],
     "categoryName": "Switchgear Accessories",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Switchgear Components": "",
@@ -4440,8 +4474,37 @@
       "Seimens"
     ],
     "categoryName": "Switchgear Assembly",
-    "description": [],
-    "detailDescription": [],
+    "detailDescriptionAfterTable": [],
+    "description": [
+      {
+        "LV Panels": "",
+        "^": [
+          "Suitable for all Power distribution application up to 6000 Amps/660 Volts/50 Hz, Designed for 50 kA 3 seconds, Tailor Made solutions (main Busbar at bottom or top), Designed with front or rear access and fully type tested."
+        ]
+      }
+    ],
+    "detailDescription": [
+      {
+        "title": "Feeder Pillars",
+        "images1": ["feeder_pillars"],
+        "DataAfterTable": [
+          "<ul><li>Suitable for all Power distribution application up to 1600 Amps/660 Volts/50 Hz, designed for outdoor Installations.</li><li>With Incomer MCCB,Outgoing as MC</li><li>Upto IP65</li><li>Sheet Steel,Single/Double walled Aluminium & GRP</li><li>Complying to IEC standards & Local authorities</li></ul>"
+        ]
+      },
+      {
+        "title": "Metering Panel",
+        "content": [
+          "Rating upto 1600 Amps provided with MCCB, ELCB, cut-out fuse as per customer requirement. Direct or CT operated kWh meter, Sheet Steel or GRP enclosure confirming to different IP protection class. All metering panel are provided with smash proof reading windows."
+        ]
+      },
+      {
+        "title": "Distributtion Board",
+        "images1": ["distribution_boards"],
+        "DataAfterTable": [
+          "<ul><li>Upto 250A with Incomer MCCB,Isolator & ELCB.</li><li>Outgoing as MCB & RCBO</li><li>Upto IP65</li><li>Sheet Steel</li></ul>"
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -4455,6 +4518,7 @@
     ],
     "company": ["Breeze"],
     "categoryName": "Industrial Fans",
+    "detailDescriptionAfterTable": [],
     "description": [],
     "detailDescription": [
       {
@@ -4869,6 +4933,7 @@
     ],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Perfectly Finished Installations… Every Time": "",
@@ -4889,6 +4954,7 @@
     "detail": [],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "^": "With Belanko, switches perform exactly the way you expect them to. Beyond performance, we give you a choice between large rocker and the conventional small one."
@@ -4906,6 +4972,7 @@
     "detail": [],
     "company": ["MK Logic Plus"],
     "categoryName": "Wiring Devices",
+    "detailDescriptionAfterTable": [],
     "description": [],
     "detailDescription": [],
     "productDetailTableData": [],
@@ -4923,6 +4990,7 @@
     "detail": [],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "^": "Let the plateful of new Mallia colours delight your visual senses. With our enhanced selection of classic matt white, contemporary silver, lustrous pearl, supple copper, muscular bronze, mysterious dark sliver, melodic brass, sexy matt black, there is a colour for every style."
@@ -4940,6 +5008,7 @@
     "detail": [],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Plexo IP 55 and IP 66 weatherproof wiring accessories": "",
@@ -4966,6 +5035,7 @@
     ],
     "company": ["Legrand Swift"],
     "categoryName": "Wiring Devices",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Styles and Finishes": "",
@@ -4993,6 +5063,7 @@
     ],
     "company": ["MK Logic Plus"],
     "categoryName": "Wiring Devices",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "Features & Benefits": "",
@@ -5026,6 +5097,7 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Specifications": {
@@ -5078,6 +5150,7 @@
     "company": ["3M"],
     "downloadFile": "Scotch-22-Heavy-Duty-Tape.pdf",
     "categoryName": "Scotch Tapes & Mastics",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Specifications": {
@@ -5139,6 +5212,7 @@
     "company": ["3M"],
     "downloadFile": "PCS-Phase-Identification-Tape.pdf",
     "categoryName": "Scotch Tapes & Mastics",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Specifications": {
@@ -5205,6 +5279,7 @@
     "company": ["3M"],
     "downloadFile": "PCS-Phase-Identification-Tape.pdf",
     "categoryName": "Scotch Tapes & Mastics",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Specifications": {
@@ -5271,6 +5346,7 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Specifications": {
@@ -5335,6 +5411,7 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Specifications": {
@@ -5403,6 +5480,7 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Specifications": {
@@ -5469,6 +5547,7 @@
     ],
     "company": ["3M"],
     "categoryName": "Scotch Tapes & Mastics",
+    "detailDescriptionAfterTable": [],
     "description": [
       {
         "*Specifications": {
