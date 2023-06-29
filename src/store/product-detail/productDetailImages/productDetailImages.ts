@@ -71,6 +71,15 @@ import axial_duct_fan from "./axial-duct-fan.png";
 import duct_fan_axial from "./duct-fan-axial.png";
 import rectangular_ventilating_fan from "./rectangular-ventilating-fan.png";
 import powerful_ventilating_fan from "./powerful-ventilating-fan.png";
+import stainless_steel_marking_tags from "./stainless-steel-marking-tags.jpg";
+import stainless_steel from "./stainless-steel.jpg";
+import rct_350c from "./rct-350c.jpg";
+import rct350h_c from "./rct350h-c.jpg";
+import rct_172c from "./rct-172c.jpg";
+import rct350db_c from "./rct350db-c.jpg";
+import rct350w_38c from "./rct350w-38c.jpg";
+import rct172w_38c from "./rct172w-38c.jpg";
+import rct350w_17q from "./rct350w-17q.jpg";
 
 export const productDetailImages: { [id: string]: string } = {
   pvc_conduit1: pvc_conduit1,
@@ -146,4 +155,13 @@ export const productDetailImages: { [id: string]: string } = {
   duct_fan_axial: duct_fan_axial,
   rectangular_ventilating_fan: rectangular_ventilating_fan,
   powerful_ventilating_fan: powerful_ventilating_fan,
+  stainless_steel_marking_tags: stainless_steel_marking_tags,
+  stainless_steel: stainless_steel,
+  rct_350c: rct_350c,
+  rct350h_c: rct350h_c,
+  rct_172c: rct_172c,
+  rct350db_c: rct350db_c,
+  rct350w_38c: rct350w_38c,
+  rct172w_38c: rct172w_38c,
+  rct350w_17q: rct350w_17q,
 };

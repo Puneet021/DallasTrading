@@ -4529,9 +4529,333 @@
     "detail": [],
     "company": ["Rayon"],
     "categoryName": "Laser Marking Machine",
-    "description": [],
+    "description": [
+      {
+        "Fiber series introduction": "",
+        "^": "fiber laser marking machine has perfect and exquisite appearance, with flexible and eco-friendly working method. It adopt the international advanced optical technique, ensures the perfect marking effect.",
+        "Applicable industries": "",
+        "^^": "Electrommunication, precision hardware, decorations, electrical appliances, auto parts, instruments, bath products, glasses and watches, and so on.",
+        "Applicable material": "",
+        "^^^": "mobile key, back-light button, molectron ( IC), metal pruducts and so on.",
+        "Fiber series feature": "",
+        "-": "working life (50000-10000 hours)",
+        "--": "maintenance-free",
+        "---": "convenient, flexible, eco-friendly",
+        "----": "low energy consumption, (0.35 kilowatt -hour/hour)",
+        "-----": "engraving precision of character (min 0.2mm)",
+        "------": "high speed",
+        "Warranty": "",
+        "^^^^": "2 years"
+      }
+    ],
     "detailDescription": [],
-    "productDetailTableData": [],
+    "detailDescriptionAfterTable": [
+      {
+        "title": "Technical Parameter",
+        "table": [
+          {
+            "Model": "Model",
+            "RY-150/180/240": "RY-150/180/240"
+          },
+          {
+            "Model": "Laser generator type",
+            "RY-150/180/240": "(IPG laser generator)(1064μm)"
+          },
+          {
+            "Model": "Cooling method",
+            "RY-150/180/240": "air cooling"
+          },
+          {
+            "Model": "Standard power",
+            "RY-150/180/240": "≤30W/≤20W/≤10W"
+          },
+          {
+            "Model": "Frequency",
+            "RY-150/180/240": "20-80KHZ"
+          },
+          {
+            "Model": "Scanning speed",
+            "RY-150/180/240": "9000mm/s"
+          },
+          {
+            "Model": "Scanning precision",
+            "RY-150/180/240": "±0.05mm"
+          },
+          {
+            "Model": "Reposition precision",
+            "RY-150/180/240": "±0.001mm"
+          },
+          {
+            "Model": "Processing area",
+            "RY-150/180/240": "100x100mm (optional for different area)"
+          },
+          {
+            "Model": "Min line width",
+            "RY-150/180/240": "0.01mm"
+          },
+          {
+            "Model": "Min character",
+            "RY-150/180/240": "0.15mm"
+          },
+          {
+            "Model": "General power",
+            "RY-150/180/240": "600w/800W"
+          },
+          {
+            "Model": "Power supply",
+            "RY-150/180/240": "1PH+1AC 220V 10A 50/60HZ"
+          },
+          {
+            "Model": "Dimension",
+            "RY-150/180/240": "900mm x 620mm x 1100mm"
+          },
+          {
+            "Model": "weight",
+            "RY-150/180/240": "about 80kgs"
+          },
+          {
+            "Model": "Environmental requirements",
+            "RY-150/180/240": "Temperature 20˚C – 30˚ C"
+          },
+          {
+            "Model": "Humidity 30%-80% (no condensation frost)",
+            "RY-150/180/240": ""
+          },
+          {
+            "Model": "System/compatible format",
+            "RY-150/180/240": "Windows XP"
+          },
+          {
+            "Model": "AI, PLT, DXF BMP, JPEG and so on",
+            "RY-150/180/240": ""
+          }
+        ],
+        "images2": ["stainless_steel_marking_tags"],
+        "DataAfterTable": [
+          "Provides permanent identification of pipes, conduit, valves, cables and equipment in harsh environments",
+          "Designed for use with Rayon Stainless Steel Cable Ties for fast installation at lowest installed cost",
+          "All marker plates/tags can be embossed or laser etched with Rayon Laser Marking Machine",
+          "Designated plates feature easy feed design with a raised slot to simplify cable tie installation and improve productivity"
+        ]
+      },
+      {
+        "title": "Material Data",
+        "content": [
+          "<strong>Material</strong>:  Stainless Steel Type SS316 (SS316)",
+          "<strong>Color</strong>:  Metal (ML)",
+          "<strong>Chem. Material Properties</strong>:  Corrosion resistant, weather resistant, antimagnetic. Outstanding chemical resistance to affressive to aggressive chemicals, e.g.: industrial vapours, seawater, salt spray in on-and offshore areas, inorganic and hydonchloric acid and halogen salts.",
+          "<strong>Operating Temperature</strong>:  -80 ˚C to + 538 ˚C"
+        ]
+      },
+      { "images2": ["rct_350c"], "DataAfterTable": ["RCT-350C"] },
+      { "images2": ["rct350h_c"], "DataAfterTable": ["RCT-350H-C"] },
+      { "images2": ["rct_172c"], "DataAfterTable": ["RCT-172C"] },
+      { "images2": ["rct350db_c"], "DataAfterTable": ["RCT350DB-C"] },
+      { "images2": ["rct350w_38c"], "DataAfterTable": ["RCT350W-38C"] },
+      { "images2": ["rct172w_38c"], "DataAfterTable": ["RCT172W_38C"] },
+      { "images2": ["rct350w_17q"], "DataAfterTable": ["RCT350W-17Q"] },
+      { "images2": ["stainless_steel"] },
+      {
+        "title": "Technical Parameter"
+      }
+    ],
+    "productDetailTableData": [
+      {
+        "partNumber": "RCT-350C",
+        "material": "304 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 3.5,
+        "lengthMM": 89,
+        "widthInch": 0.75,
+        "widthMM": 19,
+        "customMarking1": 23,
+        "customMarking2": 3,
+        "thicknessInch": 0.01,
+        "thicknessMM": 0.25,
+        "stdPkgQty": 100,
+        "stdCtnQty": 1000
+      },
+      {
+        "partNumber": "RCT-350C316",
+        "material": "316 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 3.5,
+        "lengthMM": 89,
+        "widthInch": 0.75,
+        "widthMM": 19,
+        "customMarking1": 23,
+        "customMarking2": 3,
+        "thicknessInch": 0.01,
+        "thicknessMM": 0.25,
+        "stdPkgQty": 100,
+        "stdCtnQty": 1000
+      },
+      {
+        "partNumber": "RCT350H-C",
+        "material": "304 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 3.5,
+        "lengthMM": 89,
+        "widthInch": 0.75,
+        "widthMM": 19,
+        "customMarking1": 20,
+        "customMarking2": 3,
+        "thicknessInch": 0.01,
+        "thicknessMM": 0.25,
+        "stdPkgQty": 100,
+        "stdCtnQty": 1000
+      },
+      {
+        "partNumber": "RCT350H-C316",
+        "material": "316 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 3.5,
+        "lengthMM": 89,
+        "widthInch": 0.75,
+        "widthMM": 19,
+        "customMarking1": 20,
+        "customMarking2": 3,
+        "thicknessInch": 0.01,
+        "thicknessMM": 0.25,
+        "stdPkgQty": 100,
+        "stdCtnQty": 1000
+      },
+      {
+        "partNumber": "RCT350DB-C",
+        "material": "304 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 3.5,
+        "lengthMM": 89,
+        "widthInch": 1.12,
+        "widthMM": 29,
+        "customMarking1": 20,
+        "customMarking2": 3,
+        "thicknessInch": 0.015,
+        "thicknessMM": 0.38,
+        "stdPkgQty": 100,
+        "stdCtnQty": 1000
+      },
+      {
+        "partNumber": "RCT350DB-C316",
+        "material": "316 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 3.5,
+        "lengthMM": 89,
+        "widthInch": 1.12,
+        "widthMM": 29,
+        "customMarking1": 20,
+        "customMarking2": 3,
+        "thicknessInch": 0.015,
+        "thicknessMM": 0.38,
+        "stdPkgQty": 100,
+        "stdCtnQty": 1000
+      },
+      {
+        "partNumber": "RCT350W-38C",
+        "material": "304 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 3.5,
+        "lengthMM": 89,
+        "widthInch": 0.38,
+        "widthMM": 10,
+        "customMarking1": 23,
+        "customMarking2": 1,
+        "thicknessInch": 0.01,
+        "thicknessMM": 0.25,
+        "stdPkgQty": 100,
+        "stdCtnQty": 1000
+      },
+      {
+        "partNumber": "RCT350W-38C316",
+        "material": "316 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 3.5,
+        "lengthMM": 89,
+        "widthInch": 0.38,
+        "widthMM": 10,
+        "customMarking1": 23,
+        "customMarking2": 1,
+        "thicknessInch": 0.01,
+        "thicknessMM": 0.25,
+        "stdPkgQty": 100,
+        "stdCtnQty": 1000
+      },
+      {
+        "partNumber": "RCT-172C",
+        "material": "304 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 1.72,
+        "lengthMM": 44,
+        "widthInch": 0.75,
+        "widthMM": 19,
+        "customMarking1": 8,
+        "customMarking2": 3,
+        "thicknessInch": 0.01,
+        "thicknessMM": 0.25,
+        "stdPkgQty": 100,
+        "stdCtnQty": 1000
+      },
+      {
+        "partNumber": "RCT-172C316",
+        "material": "316 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 1.72,
+        "lengthMM": 44,
+        "widthInch": 0.75,
+        "widthMM": 19,
+        "customMarking1": 8,
+        "customMarking2": 3,
+        "thicknessInch": 0.01,
+        "thicknessMM": 0.25,
+        "stdPkgQty": 100,
+        "stdCtnQty": 1000
+      },
+      {
+        "partNumber": "RCT172W-38C",
+        "material": "304 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 1.72,
+        "lengthMM": 44,
+        "widthInch": 0.38,
+        "widthMM": 10,
+        "customMarking1": 8,
+        "customMarking2": 1,
+        "thicknessInch": 0.01,
+        "thicknessMM": 0.25,
+        "stdPkgQty": 100,
+        "stdCtnQty": 1000
+      },
+      {
+        "partNumber": "RCT172W-38C316",
+        "material": "316 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 1.72,
+        "lengthMM": 44,
+        "widthInch": 0.38,
+        "widthMM": 10,
+        "customMarking1": 8,
+        "customMarking2": 1,
+        "thicknessInch": 0.01,
+        "thicknessMM": 0.25,
+        "stdPkgQty": 100,
+        "stdCtnQty": 1000
+      },
+      {
+        "partNumber": "RCT350W-17Q",
+        "material": "304 Stainless Steel",
+        "color": "Natural",
+        "lengthInch": 3.5,
+        "lengthMM": 89,
+        "widthInch": 1.73,
+        "widthMM": 44,
+        "customMarking1": 23,
+        "customMarking2": 6,
+        "thicknessInch": 0.015,
+        "thicknessMM": 0.38,
+        "stdPkgQty": 25,
+        "stdCtnQty": 250
+      }
+    ],
     "downloadFile": "RAYON-Brochure-Final.pdf",
     "customerReviews": []
   },

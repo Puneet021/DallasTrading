@@ -36,6 +36,7 @@ const initialState: {
     productDetailTableData: [],
     customerReviews: [],
     downloadFile: "",
+    detailDescriptionAfterTable: [],
     viewManufacturersCatalogue: "",
     downloadFiles: {},
   },

@@ -13,6 +13,7 @@ export interface IProductDetailData {
   categoryName: string;
   description: Array<any>;
   detailDescription: IDetailDescription[];
+  detailDescriptionAfterTable: IDetailDescription[];
   downloadFile: string;
   viewManufacturersCatalogue: string;
   downloadFiles: any;

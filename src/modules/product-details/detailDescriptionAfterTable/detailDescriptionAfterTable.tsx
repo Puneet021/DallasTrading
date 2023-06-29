@@ -1,12 +1,12 @@
 import { Component, Fragment, ReactNode } from "react";
-import styles from "./detailDescription.module.scss";
+import styles from "./detailDescriptionAfterTable.module.scss";
 import {
-  IDetailDescriptionProps,
-  IDetailDescriptionStates,
-} from "./detailDescription.constants";
+  IDetailDescriptionAfterTableProps,
+  IDetailDescriptionAfterTableStates,
+} from "./detailDescriptionAfterTable.constants";
 import { connect } from "react-redux";
 import { IStore } from "../../../utils/models/store.model";
-import { getProductDetailDescription } from "../../../store/product-detail/productDetailActions";
+import { getProductDetailDescriptionAfterTable } from "../../../store/product-detail/productDetailActions";
 import {
   TableContainer,
   Table,
@@ -16,9 +16,9 @@ import {
   TableBody,
 } from "@mui/material";
 
-class DetailDescription extends Component<
-  IDetailDescriptionProps,
-  IDetailDescriptionStates
+class DetailDescriptionAfterTable extends Component<
+  IDetailDescriptionAfterTableProps,
+  IDetailDescriptionAfterTableStates
 > {
   render(): ReactNode {
     const { detailDescriptionData } = this.props;
@@ -144,5 +144,5 @@ class DetailDescription extends Component<
 }
 
 export default connect((state: IStore) => ({
-  detailDescriptionData: getProductDetailDescription(state),
-}))(DetailDescription);
+  detailDescriptionData: getProductDetailDescriptionAfterTable(state),
+}))(DetailDescriptionAfterTable);

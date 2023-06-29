@@ -46,5 +46,12 @@ export const getProductDetailDescription = (state: IStore) =>
     images2: item?.images2?.map((img) => productDetailImages[img]),
   }));
 
+export const getProductDetailDescriptionAfterTable = (state: IStore) =>
+  state.productDetail.productDetailData.detailDescriptionAfterTable.map((item) => ({
+    ...item,
+    images1: item?.images1?.map((img) => productDetailImages[img]),
+    images2: item?.images2?.map((img) => productDetailImages[img]),
+  }));
+
 export const getProductDetailReviews = (state: IStore) =>
   state.productDetail.productDetailData.customerReviews;

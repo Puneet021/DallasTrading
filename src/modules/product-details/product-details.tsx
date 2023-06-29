@@ -19,6 +19,7 @@ import Reviews from "./reviews/reviews";
 import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 import CustomLoader from "../../components/common/loader/loader";
 import DetailDescription from "./detailDescription/detailDescription";
+import DetailDescriptionAfterTable from "./detailDescriptionAfterTable/detailDescriptionAfterTable";
 
 class ProductDetails extends Component<
   IProductDetailsProps,
@@ -51,6 +52,7 @@ class ProductDetails extends Component<
         ) : (
           <Fragment>
             <Details />
+            <DetailDescriptionAfterTable />
             <ProductDetailTable />
             <DetailDescription />
             <Reviews />
