@@ -73,6 +73,11 @@
       font-weight: 500;
       margin-left: -1.4em;
     }
+    .listImage {
+      object-fit: contain;
+      margin-left: -1.4em;
+      max-width: 100%;
+    }
     .descriptionData {
       color: $greyText;
       line-height: 1.7em;

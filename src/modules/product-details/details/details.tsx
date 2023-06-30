@@ -5,6 +5,7 @@ import { IStore } from "../../../utils/models/store.model";
 import { getProductDetails } from "../../../store/product-detail/productDetailActions";
 import { IDetailsProps, IDetailsStates } from "./details.constants";
 import CustomAccordian from "./accordian/accordian";
+import ceiling_rose_table from "./../../../images/ceiling_rose_table.png";
 
 class Details extends Component<IDetailsProps, IDetailsStates> {
   render(): ReactNode {
@@ -89,6 +90,14 @@ class Details extends Component<IDetailsProps, IDetailsStates> {
                             }}
                             dangerouslySetInnerHTML={{ __html: entry[1] }}
                           ></p>
+                        );
+                      if (entry[0].charAt(0) === "%")
+                        return (
+                          <img
+                            className={styles.listImage}
+                            src={ceiling_rose_table}
+                            alt="ceiling_rose_table"
+                          />
                         );
                       return (
                         <li key={j} className={styles.descriptionData}>

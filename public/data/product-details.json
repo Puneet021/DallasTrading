@@ -3662,10 +3662,125 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
-    "detailDescriptionAfterTable": [],
     "description": [],
     "detailDescription": [],
-    "productDetailTableData": [],
+    "detailDescriptionAfterTable": [
+      {
+        "content": [
+          "M-Seals Heat Shrinkable cable Terminations for MV PILC cables up to 36 kV, offer a quick and easy solution to terminate Paper Insulated (belted and screened) cables. The critical aspects of oil and moisture sealing in this system are achieved by the combined effect of special hot melt adhesive lined heat shrinkable components and special oil barrier heat shrink tubes. The other aspects of partial discharge and corona are successfully controlled by heat shrinkable stress control and anti-tracking heat shrink technology.",
+          "<br/>",
+          "There is no longer a need for lead wiping, compound filling, soldering or plumbing to make oil seals. The expanded components of the termination are internally coated with adhesive. When heated they shrink snugly around the cable diameter and seal it. Corrosion protection and sealing for three core cables is provided by installing a heat shrinkable adhesive lined semi-conducting breakout in the cable crutch. The system offers ease of installation with minimum skills required. All components required for the termination are included in a single kit, which has a prolonged storage life under normal storage conditions. A few sizes of the kits covers the entire range of cables, helping in reducing inventories. The heat shrinkable components are light in weight and are made of specially formulated cross-linked polymeric material with excellent tracking and erosion resistance characteristics. A proper creepage path is obtained within a short overall length of the termination. The kits have been designed to meet various international standards like IS, HD, IEEE, IEC and BS. Our state-of-the-art manufacturing facility, in-house testing laboratories and accreditation to the ISO 9001 quality assurance standard, guarantees the performance of our materials to suit customer requirements.",
+          "<br/>",
+          "M-Seal HS Terminations are available for single and multiple core cables for Indoor & Outdoor applications."
+        ],
+        "images2": ["heat_terminal_technical"],
+        "DataAfterTable": [
+          "<ul><li>Terminal Connector</li><li>Oil Barrier sleeve</li><li>Anti-Tracking Sleeve</li><li>Rain Shed</li><li>Stress Control Sleeve (Black layer)</li><li>Stress Control Mastic</li><li>Binding wire</li><li>Worm Drive Clamp</li><li>Copper Braid</li><li>Semi Conducting Breakout (with sealant layer)</li><li>Gland Sleeve (Adhesive Lined)</li></ul>"
+        ]
+      },
+      {
+        "title": "Number of Rain Sheds per phase",
+        "table": [
+          {
+            "Voltage": "Voltage",
+            "Indoor": "Indoor",
+            "Outdoor": "Outdoor"
+          },
+          {
+            "Voltage": "Upto 17.5kV",
+            "Indoor": "–",
+            "Outdoor": 2
+          },
+          {
+            "Voltage": "Upto 24kV",
+            "Indoor": "–",
+            "Outdoor": 3
+          },
+          {
+            "Voltage": "Upto 36kV",
+            "Indoor": 1,
+            "Outdoor": 4
+          }
+        ]
+      },
+      {
+        "title": "Minimum performance of M-SEAL Indoor and Outdoor Terminations for MULTI-CORE PILC cables upto 36kV"
+      }
+    ],
+    "productDetailTableData": [
+      {
+        "tests": "IAC High voltage test",
+        "parameters": "5 Minutes",
+        "testVoltage1": "15",
+        "testVoltage2": "30",
+        "testVoltage3": "45",
+        "indoor": "No breakdown or flashover",
+        "outdoor": "do"
+      },
+      {
+        "tests": "Impulse withstand test",
+        "parameters": "10 +VE & 10-VE",
+        "testVoltage1": "17",
+        "testVoltage2": "125",
+        "testVoltage3": "170",
+        "indoor": "No breakdown or flashover",
+        "outdoor": "do"
+      },
+      {
+        "tests": "",
+        "parameters": "1.2 Micro Second between",
+        "testVoltage1": "''",
+        "testVoltage2": "''",
+        "testVoltage3": "''",
+        "indoor": "''",
+        "outdoor": "''"
+      },
+      {
+        "tests": "",
+        "parameters": "conductor & screen grounded",
+        "testVoltage1": "''",
+        "testVoltage2": "''",
+        "testVoltage3": "''",
+        "indoor": "''",
+        "outdoor": "''"
+      },
+      {
+        "tests": "Load cycling test",
+        "parameters": "63 Cycles,5Hr Heating.",
+        "testVoltage1": "at 2.5Uo",
+        "testVoltage2": " ",
+        "testVoltage3": " ",
+        "indoor": "No breakdown or flashover",
+        "outdoor": "do"
+      },
+      {
+        "tests": "",
+        "parameters": "3Hr Cooling with Cond.Temp.",
+        "testVoltage1": "''",
+        "testVoltage2": "''",
+        "testVoltage3": "''",
+        "indoor": "''",
+        "outdoor": "''"
+      },
+      {
+        "tests": "",
+        "parameters": "as per cable specification",
+        "testVoltage1": "''",
+        "testVoltage2": "''",
+        "testVoltage3": "''",
+        "indoor": "''",
+        "outdoor": "''"
+      },
+      {
+        "tests": "DC withstand test",
+        "parameters": "5 Minutes",
+        "testVoltage1": "18",
+        "testVoltage2": "37.5",
+        "testVoltage3": "60",
+        "indoor": "No breakdown or flashover",
+        "outdoor": "do"
+      }
+    ],
     "downloadFile": "Heat-Shrink-Termination.pdf",
     "customerReviews": []
   },
@@ -3682,10 +3797,74 @@
     ],
     "company": ["3M"],
     "categoryName": "Cable Jointing Kit / Termination",
-    "detailDescriptionAfterTable": [],
-    "description": [],
+    "description": [
+      {
+        "Features": "",
+        "^": "3M™ Cold Shrink LC Series Joints use 3M™ Cold Shrink Technology, eliminating the need for resin, heat and special tools, making a quick, simple and reliable installation. The Cold Shrink Outer protection tube provides a reliable environmental seal, and is resistant to acid, alkalis, ozone, fungus, and UV light.",
+        "Kit Content": "",
+        "-": "Cold Shrink Pre Stretched Outer Tube",
+        "--": "Self Amalgamating Insulation Tape",
+        "---": "Armour/Earth connection components",
+        "----": "Full Installation Instructions",
+        "Shelf Life": "",
+        "^^": "3M™ Cold Shrink Tubes and Insulation tapes have a 5 year shelf life from date of manufacture when stored at the recommended temperature of 10-27°C at <75% Relative Humidity.",
+        "Material Properties": "",
+        "^^^": "Please refer to the individual technical data sheets for EPDM Rubber Cold Shrink Tubes for details of Electrical properties and other data."
+      }
+    ],
     "detailDescription": [],
-    "productDetailTableData": [],
+    "detailDescriptionAfterTable": [{ "title": "Product Selection" }],
+    "productDetailTableData": [
+      {
+        "kitReference": "LC1",
+        "twoCore1": "1.5-4",
+        "threeCore1": "1.5-4",
+        "fourCore1": "1.5-2.5",
+        "threeCore3": "N/A"
+      },
+      {
+        "kitReference": "LC2",
+        "twoCore1": "6-10",
+        "threeCore1": "6-10",
+        "fourCore1": "4-6",
+        "threeCore3": "N/A"
+      },
+      {
+        "kitReference": "LC3",
+        "twoCore1": "16-50",
+        "threeCore1": "16-25",
+        "fourCore1": "10-16",
+        "threeCore3": "N/A"
+      },
+      {
+        "kitReference": "LC4",
+        "twoCore1": "70-120",
+        "threeCore1": "35-70",
+        "fourCore1": "25-50",
+        "threeCore3": "16-50"
+      },
+      {
+        "kitReference": "LC5",
+        "twoCore1": "150-185",
+        "threeCore1": "95-150",
+        "fourCore1": "70-120",
+        "threeCore3": "70-150"
+      },
+      {
+        "kitReference": "LC6",
+        "twoCore1": "240-300",
+        "threeCore1": "185-240",
+        "fourCore1": "150-185",
+        "threeCore3": "185-240"
+      },
+      {
+        "kitReference": "LC7",
+        "twoCore1": "N/A",
+        "threeCore1": 300,
+        "fourCore1": "240-300",
+        "threeCore3": 300
+      }
+    ],
     "customerReviews": []
   },
   {
@@ -4352,7 +4531,135 @@
     "categoryName": "Flexible/Rigid Conduit & Accessories",
     "detailDescriptionAfterTable": [],
     "description": [],
-    "detailDescription": [],
+    "detailDescription": [
+      {
+        "title": "Conduit Steel",
+        "content": ["Heavy Gauge Conduit Welded – Screwed"],
+        "images1": ["conduit_steel"],
+        "DataAfterTable": [
+          "Manufactured in accordance with BS 31/BS 4568/BS EN61386 & BS EN50086 (l.E.C. 614) where applicable. Each 3.75 metre length screwed both ends and complete with one solid coupling.",
+          "<br/>",
+          "Above conduit is packed and shipped in lifts (also known as Master Bundles). Each lift comprising the stated number of individual bundles measuring approximately 45-50 centimetres in diameter and 3.75 metres long. The weight varies according to size and finish of conduit but approximate weights are shown above.",
+          "<strong>Please Note:</strong>",
+          "<ul><li>Pre-galvanised conduit does not meet the requirements of BS 4568 or BS EN 50086. It does not meet corrosion classifications defined in these standards.</li><li>Binding materials used to make up bundles of Conduit are not intended to be used when lifting this product which should be handled only with approved slings.</li></ul>"
+        ]
+      },
+      {
+        "table": [
+          {
+            "a": " ",
+            "External Diameter": "External Diameter",
+            "No. of Lengths per bundle": "No. of Lengths per bundle",
+            "No. of Bundles per Lift": "No. of Bundles per Lift",
+            "Metres per Lift": "Metres per Lift",
+            "Approx. Weight per Lift (Tonnes)": "Approx. Weight per Lift (Tonnes)"
+          },
+          {
+            "a": "BS 4568/BS EN 50086 Part 1 Class 4 finish. Hot Dipped galvansed inside & outside 3.75 metre lengths",
+            "External Diameter": "20mm",
+            "No. of Lengths per bundle": 8,
+            "No. of Bundles per Lift": 50,
+            "Metres per Lift": 1500,
+            "Approx. Weight per Lift (Tonnes)": 1.11
+          },
+          {
+            "a": "''",
+            "External Diameter": "25mm",
+            "No. of Lengths per bundle": 8,
+            "No. of Bundles per Lift": 40,
+            "Metres per Lift": 1200,
+            "Approx. Weight per Lift (Tonnes)": 1.13
+          },
+          {
+            "a": "''",
+            "External Diameter": "32mm",
+            "No. of Lengths per bundle": 4,
+            "No. of Bundles per Lift": 25,
+            "Metres per Lift": 375,
+            "Approx. Weight per Lift (Tonnes)": 0.46
+          },
+          {
+            "a": "BS 31 Class 4 finish Hot Dipped galvanised inside & outside 3.75 metre lengths",
+            "External Diameter": "1.5″",
+            "No. of Lengths per bundle": 4,
+            "No. of Bundles per Lift": 20,
+            "Metres per Lift": 300,
+            "Approx. Weight per Lift (Tonnes)": 0.49
+          },
+          {
+            "a": "''",
+            "External Diameter": "2″",
+            "No. of Lengths per bundle": 4,
+            "No. of Bundles per Lift": 20,
+            "Metres per Lift": 300,
+            "Approx. Weight per Lift (Tonnes)": 0.74
+          },
+          {
+            "a": "PRE-Galvanised inside & outside 3.75 metre lengths",
+            "External Diameter": "20mm",
+            "No. of Lengths per bundle": 8,
+            "No. of Bundles per Lift": 50,
+            "Metres per Lift": 1500,
+            "Approx. Weight per Lift (Tonnes)": 1.11
+          },
+          {
+            "a": "''",
+            "External Diameter": "25mm",
+            "No. of Lengths per bundle": 8,
+            "No. of Bundles per Lift": 40,
+            "Metres per Lift": 1200,
+            "Approx. Weight per Lift (Tonnes)": 1.13
+          },
+          {
+            "a": "BS 4568/BS EN 50086 Part 1 Class 2 finish Black enamelled inside & outside 3.75 metre lengths",
+            "External Diameter": "20mm",
+            "No. of Lengths per bundle": 8,
+            "No. of Bundles per Lift": 50,
+            "Metres per Lift": 1500,
+            "Approx. Weight per Lift (Tonnes)": 1.11
+          },
+          {
+            "a": "''",
+            "External Diameter": "25mm",
+            "No. of Lengths per bundle": 8,
+            "No. of Bundles per Lift": 40,
+            "Metres per Lift": 1200,
+            "Approx. Weight per Lift (Tonnes)": 1.13
+          },
+          {
+            "a": "''",
+            "External Diameter": "32mm",
+            "No. of Lengths per bundle": 4,
+            "No. of Bundles per Lift": 25,
+            "Metres per Lift": 375,
+            "Approx. Weight per Lift (Tonnes)": 0.46
+          },
+          {
+            "a": "BS 31 Class 2 finish Black enamelled inside & outside 3.75 metre lengths",
+            "External Diameter": "1.5″",
+            "No. of Lengths per bundle": 4,
+            "No. of Bundles per Lift": 20,
+            "Metres per Lift": 300,
+            "Approx. Weight per Lift (Tonnes)": 0.49
+          },
+          {
+            "a": "''",
+            "External Diameter": "2″",
+            "No. of Lengths per bundle": 4,
+            "No. of Bundles per Lift": 20,
+            "Metres per Lift": 300,
+            "Approx. Weight per Lift (Tonnes)": 0.74
+          }
+        ]
+      },
+      {
+        "title": "Boxes – Circular, Small",
+        "content": [
+          "60.3mm Internal diameter. 20mm Boxes – min 25mm deep, 25mm boxes – min 28mm deep. Tapped M4 at 50.8mm centres, with tapped hole in base for earthing screw. Supplied without covers or earthing screws unless ordered."
+        ],
+        "images2": ["terminal_box"]
+      }
+    ],
     "productDetailTableData": [],
     "downloadFile": "Barton-Catalogue-LBS.pdf",
     "customerReviews": []
@@ -5076,7 +5383,23 @@
     "company": ["MK Logic Plus"],
     "categoryName": "Wiring Devices",
     "detailDescriptionAfterTable": [],
-    "description": [],
+    "description": [
+      {
+        "%image": "ceiling_rose",
+        "1163WHI": "",
+        "^": "The ceiling roses are suitable for mounting over BS EN 61386-1:2008 circular conduit boxes",
+        "1161WHI": "",
+        "^^": "Incorporate tunnel type terminals, which accommodate 3 x 2.5mm2 cables and allow for off centre cable entries, transparent terminal block and equal length wire stripping.",
+        "^^^": "Suitable for fittings of up to 5kgs.",
+        "^^^^": "Heavier fittings must be installed using independent support eg. ceiling hook.",
+        "^^^^^": "<strong>DIAMETER</strong>",
+        "^^^^^^": "(Cover) 86mm",
+        "^^^^^^^": "<strong>DEPTH</strong>",
+        "^^^^^^^^": "(Cover) 34mm3",
+        "^^^^^^^^^": "BS 67:1987",
+        "^^^^^^^^^^": "The Ceiling Rose Halo gives a neat finish should the ceiling be damaged.​"
+      }
+    ],
     "detailDescription": [],
     "productDetailTableData": [],
     "downloadFiles": {
