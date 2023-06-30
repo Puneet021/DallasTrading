@@ -4,9 +4,9 @@ import {
   IAchievementCarousalProps,
   IAchievementCarousalStates,
 } from "./achievements-carousal.constants";
-import img1 from "./../../../images/display4.jpg";
-import img2 from "./../../../images/display2.jpg";
-import img3 from "./../../../images/display3.jpg";
+import img1 from "./../../../images/carousel1.webp";
+import img2 from "./../../../images/carousel2.jpg";
+import img3 from "./../../../images/carousel3.jpg";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import DisplaySlider from "./display-slider/display-slider";

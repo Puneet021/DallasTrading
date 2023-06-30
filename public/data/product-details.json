@@ -3928,8 +3928,72 @@
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
     "detailDescriptionAfterTable": [],
-    "description": [],
-    "detailDescription": [],
+    "description": [
+      {
+        "Main Advantages of High Current Connectors": "",
+        "-": "Electrical connections from 75 to 700 A",
+        "--": "Waterproof electrical sockets IP66/IP67",
+        "---": "Power outlets resistant to shocks",
+        "----": "GRP or metal casing."
+      }
+    ],
+    "detailDescription": [
+      {
+        "title": "Main Features",
+        "table": [
+          {
+            "a": " ",
+            "Maximum voltage": "Maximum voltage",
+            "Rated current": "Rated current",
+            "Auxiliary contacts (10 A / 400 V)": "Auxiliary contacts (10 A / 400 V)",
+            "Performance": "Performance",
+            "Shock resistance": "Shock resistance",
+            "Ambient temperature": "Ambient temperature",
+            "IP protection": "IP protection"
+          },
+          {
+            "a": "PFQ3",
+            "Maximum voltage": "690 V max",
+            "Rated current": "315 A",
+            "Auxiliary contacts (10 A / 400 V)": 6,
+            "Performance": "Metal casing",
+            "Shock resistance": "IK10",
+            "Ambient temperature": "-40°C to +60°C",
+            "IP protection": "IP66/IP67"
+          },
+          {
+            "a": "PFQ4",
+            "Maximum voltage": "690 V max",
+            "Rated current": "400 A",
+            "Auxiliary contacts (10 A / 400 V)": 6,
+            "Performance": "Metal casing",
+            "Shock resistance": "IK10",
+            "Ambient temperature": "-40°C to +60°C",
+            "IP protection": "IP66/IP67"
+          },
+          {
+            "a": "PFC4",
+            "Maximum voltage": "1000V max",
+            "Rated current": "500 A",
+            "Auxiliary contacts (10 A / 400 V)": 2,
+            "Performance": "Metal casing",
+            "Shock resistance": "IK10",
+            "Ambient temperature": "-40°C to +60°C",
+            "IP protection": "IP66/IP67"
+          },
+          {
+            "a": "PFC6",
+            "Maximum voltage": "1000V max",
+            "Rated current": "600 A",
+            "Auxiliary contacts (10 A / 400 V)": 2,
+            "Performance": "Metal casing",
+            "Shock resistance": "IK10",
+            "Ambient temperature": "-40°C to +60°C",
+            "IP protection": "IP66/IP67"
+          }
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },
@@ -3944,8 +4008,47 @@
     "company": ["Marechal"],
     "categoryName": "High Voltage Connectors",
     "detailDescriptionAfterTable": [],
-    "description": [],
-    "detailDescription": [],
+    "description": [
+      {
+        "^": "Waterproof electrical connectors IP66/IP67 as an option",
+        "Main Advantages of High Current Connectors": "",
+        "-": "Electrical connections from 75 to 700 A",
+        "--": "Waterproof electrical sockets IP66/IP67",
+        "---": "Power outlets resistant to shocks",
+        "----": "GRP or metal casing."
+      }
+    ],
+    "detailDescription": [
+      {
+        "title": "Main Features",
+        "table": [
+          {
+            "a": " ",
+            "Maximum voltage a.c.": "Maximum voltage a.c.",
+            "Rated current (depending on the wire ø)": "Rated current (depending on the wire ø)",
+            "Shock resistance": "Shock resistance",
+            "Ambient temperature": "Ambient temperature",
+            "Protection": "Protection"
+          },
+          {
+            "a": "CS1000",
+            "Maximum voltage a.c.": "1000 V",
+            "Rated current (depending on the wire ø)": "max 400 A",
+            "Shock resistance": "IK08",
+            "Ambient temperature": "-40°C +60°C",
+            "Protection": "IP66/IP67"
+          },
+          {
+            "a": "SP",
+            "Maximum voltage a.c.": "1000 V max",
+            "Rated current (depending on the wire ø)": "700 A",
+            "Shock resistance": "IK08",
+            "Ambient temperature": "-40°C +60°C",
+            "Protection": "IP66/IP67"
+          }
+        ]
+      }
+    ],
     "productDetailTableData": [],
     "customerReviews": []
   },
