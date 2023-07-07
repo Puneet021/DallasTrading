@@ -1,8 +1,8 @@
 import { Component, ReactNode } from "react";
 import styles from "./centificates.module.scss";
-import certificate_img1 from "./images/Dallas-trading-UAE.jpg";
-import certificate_img2 from "./images/Dallas-trading-Oman.jpg";
-import certificate_img3 from "./images/Dallas-trading-Qatar.jpg";
+import certificate_img1 from "./images/ISO Certificate - DUBAI 2023.jpg";
+import certificate_img2 from "./images/ISO - OMAN 2023.jpg";
+import certificate_img3 from "./images/ISO CERIFICATE - QATAR 2023.jpg";
 import {
   ICertificatesProps,
   ICertificatesStates,
@@ -29,36 +29,36 @@ class Certificates extends Component<ICertificatesProps, ICertificatesStates> {
           backShadowHeading={false}
         />
         <div className={styles.certificates}>
-          <div>
+          <div className={styles.certificateDiv}>
             <img
               className={styles.certificate}
               src={certificate_img1}
               alt="certificate_img1"
             />
             <p className={styles.pTag}>
-              ISO 9001:2008 <br />
+              ISO 9001:2015 <br />
               UAE
             </p>
           </div>
-          <div>
+          <div className={styles.certificateDiv}>
             <img
               className={styles.certificate}
               src={certificate_img2}
               alt="certificate_img2"
             />
             <p className={styles.pTag}>
-              ISO 9001:2008 <br />
+              ISO 9001:2015 <br />
               OMAN
             </p>
           </div>
-          <div>
+          <div className={styles.certificateDiv}>
             <img
               className={styles.certificate}
               src={certificate_img3}
               alt="certificate_img3"
             />
             <p className={styles.pTag}>
-              ISO 9001:2008 <br />
+              ISO 9001:2015 <br />
               QATAR
             </p>
           </div>
