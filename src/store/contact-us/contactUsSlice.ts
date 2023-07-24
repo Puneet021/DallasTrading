@@ -6,12 +6,12 @@ const initialState: { contactUsData: IContactUsData[]; loader: boolean } = {
   contactUsData: [
     {
       name: "Dubai",
-      address:
-        "10th Floor, Shoba Ivory 2, Business Bay - Dubai - United Arab Emirates",
-      mobileNo: "+971 4 363 5500",
+      address: "DUBAI INDUSTRIAL CITY, PHASE 1 , BLOCK J-08, P.O.BOX 2028",
+      mobileNo: "+971 4 3635500",
+      fax: "+971 4 4290088",
       email: "info@dallastrading.net",
       location:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.705946243937!2d55.26928987627525!3d25.17940497772232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6834914eab65%3A0x46526b1478fdeae0!2sSobha%20Ivory%201%20-%2032a%20Marasi%20Dr%20-%20Business%20Bay%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1685506013799!5m2!1sen!2sin",
+        "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3620.105210625898!2d55.06092531500273!3d24.860255984054014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDUxJzM2LjkiTiA1NcKwMDMnNDcuMiJF!5e0!3m2!1sen!2sae!4v1690217954086!5m2!1sen!2sae",
     },
     {
       name: "Qatar (Doha Office)",

@@ -37,7 +37,8 @@
       flex-wrap: wrap;
       .partnerImg {
         object-fit: contain;
-        aspect-ratio: 3/2;
+        width: 10rem;
+        mix-blend-mode: color-burn;
         transition: all ease 0.3s;
         &:hover {
           transform: scale(1.2);

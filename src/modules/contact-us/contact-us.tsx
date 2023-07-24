@@ -6,6 +6,7 @@ import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
 import { Select, MenuItem, TextField } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import FaxIcon from "@mui/icons-material/Fax";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import { connect } from "react-redux";
 import { IStore } from "../../utils/models/store.model";
@@ -97,6 +98,14 @@ class ContactUs extends Component<IContactUsProps, IContactUsStates> {
                       {contactUsData[this.state.selectVal - 1]?.mobileNo}
                     </p>
                   </div>
+                  {contactUsData[this.state.selectVal - 1]?.fax ? (
+                    <div className={styles.trow}>
+                      <FaxIcon className={styles.tdIcon} />
+                      <p className={styles.tdText}>
+                        {contactUsData[this.state.selectVal - 1]?.fax}
+                      </p>
+                    </div>
+                  ) : null}
                   <div className={styles.trow}>
                     <MailOutlineIcon className={styles.tdIcon} />
                     <p className={styles.tdText}>

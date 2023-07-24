@@ -6,7 +6,7 @@ import {
 } from "./career-opportunities.constants";
 import ShadowHeading from "../../components/common/headings/shadowHeading/shadowHeading";
 import BreadCrumb from "../../components/common/breadCrumb/breadCrumb";
-import dallas_group_po_box_img from "./images/dallas-group.png";
+import dallas_group_po_box_img from "./dallas_group_po_box.png";
 
 class CareerOpportunities extends Component<
   ICareerOpportunitiesProps,

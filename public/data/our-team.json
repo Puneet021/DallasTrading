@@ -16,14 +16,6 @@
     "bio": "Ibrahim Somji has been a first generation entrepreneur in the field of electrical products and a leading builder, having built certain very prestigious towers. He is known among the business community as an astute and straight forward man."
   },
   {
-    "id": 2,
-    "image": "sonu_s_thakur_img",
-    "altTextForImg": "sonu_s_thakur_img",
-    "name": "Sonu S Thakur",
-    "position": "Chief Executive Officer",
-    "bio": "Sonu S Thakur is a Chartered Accountant, Company Secretary and Certified Public accountant. He comes with more than two and half decades of experience. He had worked as Chief Financial Officer with Multinational companies and joined as CEO for Dallas Group in January 2015."
-  },
-  {
     "id": 3,
     "image": "amjad_ali_img",
     "altTextForImg": "amjad_ali_img",
@@ -32,35 +24,11 @@
     "bio": "Amjad Ali is a qualified Electrical engineer, and has been with Dallas since last twenty two years. Dallas customers call him a articulate engineer, as the technical suggestions imparted by him has benefited cost savings, and provided efficient and effective solutions."
   },
   {
-    "id": 4,
-    "image": "haresh_lalwani_img",
-    "altTextForImg": "haresh_lalwani_img",
-    "name": "Haresh Lalwani",
-    "position": "General Manager – Qatar",
-    "bio": "Haresh Lalwani is a graduate in accounts & law, and has been with Dallas since last twenty two years. Haresh has great business acumen and maintains fantastic relationship with both customers and suppliers through his upright approach."
-  },
-  {
     "id": 5,
     "image": "vijay_ahuja_img",
     "altTextForImg": "vijay_ahuja_img",
     "name": "Vijay Ahuja",
     "position": "General Manager – Qatar",
     "bio": "Haresh Lalwani is a graduate in accounts & law, and has been with Dallas since last twenty two years. Haresh has great business acumen and maintains fantastic relationship with both customers and suppliers through his upright approach."
-  },
-  {
-    "id": 6,
-    "image": "muralidharan_vk_img",
-    "altTextForImg": "muralidharan_vk_img",
-    "name": "Muralidharan VK",
-    "position": "General Manager – International Marketing",
-    "bio": "Muralidharan is in charge of exports and developing new product lines in other countries."
-  },
-  {
-    "id": 7,
-    "image": "anita_singh_img",
-    "altTextForImg": "anita_singh_img",
-    "name": "Anita Singh",
-    "position": "Group Accounts Manager",
-    "bio": "Anita is a finance professional, and is with Dallas for last ten years."
   }
 ]

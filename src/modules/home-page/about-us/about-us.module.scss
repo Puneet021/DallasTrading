@@ -4,14 +4,18 @@
   @include pageCommonCss();
   background-color: $primaryColor;
   padding-bottom: $lg;
+  padding-top: 1em;
   .aboutData {
     @include display-flex(row, center);
     color: $white;
+    margin-top: -2em;
     @include respond-to(tablet) {
       @include display-flex(column, flex-start, flex-start);
+      margin-top: 0;
     }
     @include respond-to(mobile) {
       @include display-flex(column, flex-start, flex-start);
+      margin-top: 0em;
     }
     .col1,
     .col2 {

@@ -7,36 +7,109 @@ import {
 import Aos from "aos";
 import "aos/dist/aos.css";
 import ShadowHeading from "../../../components/common/headings/shadowHeading/shadowHeading";
-import Partner1 from "./../../../images/partner1.svg";
-import Partner2 from "./../../../images/partner2.svg";
-import Partner3 from "./../../../images/partner3.svg";
-import Partner4 from "./../../../images/partner4.svg";
-import Partner5 from "./../../../images/partner5.svg";
-import Partner6 from "./../../../images/partner6.svg";
-import Partner7 from "./../../../images/partner7.svg";
-import Partner8 from "./../../../images/partner8.svg";
-import Partner9 from "./../../../images/partner9.svg";
-import Partner10 from "./../../../images/partner10.svg";
-import Partner11 from "./../../../images/partner11.svg";
+import Partner1 from "./../../../store/our-companies/ourCompaniesImages/pce.png";
+import Partner2 from "./../../../store/our-companies/ourCompaniesImages/3M.png";
+import Partner3 from "./../../../store/our-companies/ourCompaniesImages/raychem-logo.png";
+import Partner4 from "./../../../store/our-companies/ourCompaniesImages/barton.png";
+import Partner5 from "./../../../store/our-companies/ourCompaniesImages/oxford.png";
+import Partner6 from "./../../../store/our-companies/ourCompaniesImages/mk-logo.jpg";
+import Partner7 from "./../../../store/our-companies/ourCompaniesImages/legrand-logo.png";
+import Partner8 from "./../../../store/our-companies/ourCompaniesImages/hex.png";
+import Partner9 from "./../../../store/our-companies/ourCompaniesImages/breeze.png";
+import Partner10 from "./../../../store/our-companies/ourCompaniesImages/ashfield.jpg";
+import Partner11 from "./../../../store/our-companies/ourCompaniesImages/elite.svg";
+import Partner12 from "./../../../store/our-companies/ourCompaniesImages/MESC.jpg";
+import Partner13 from "./../../../store/our-companies/ourCompaniesImages/schneider-logo.png";
+import Partner14 from "./../../../store/our-companies/ourCompaniesImages/marechal_electric.jpg";
 
 class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
   partnersList = [
     [
-      { image: Partner1, altText: "partner_1", delay: 0 },
-      { image: Partner2, altText: "partner_2", delay: 100 },
-      { image: Partner3, altText: "partner_3", delay: 200 },
-      { image: Partner4, altText: "partner_4", delay: 300 },
+      { image: Partner1, altText: "partner_1", delay: 0, customWidth: "8rem" },
+      {
+        image: Partner2,
+        altText: "partner_2",
+        delay: 100,
+        customWidth: "8rem",
+      },
+      {
+        image: Partner3,
+        altText: "partner_3",
+        delay: 200,
+        customWidth: "10rem",
+      },
+      {
+        image: Partner4,
+        altText: "partner_4",
+        delay: 300,
+        customWidth: "10rem",
+      },
     ],
     [
-      { image: Partner5, altText: "partner_5", delay: 100 },
-      { image: Partner6, altText: "partner_6", delay: 200 },
-      { image: Partner7, altText: "partner_7", delay: 300 },
+      {
+        image: Partner5,
+        altText: "partner_5",
+        delay: 100,
+        customWidth: "10rem",
+      },
+      {
+        image: Partner6,
+        altText: "partner_6",
+        delay: 200,
+        customWidth: "6rem",
+      },
+      {
+        image: Partner7,
+        altText: "partner_7",
+        delay: 300,
+        customWidth: "10rem",
+      },
     ],
     [
-      { image: Partner8, altText: "partner_8", delay: 200 },
-      { image: Partner9, altText: "partner_9", delay: 300 },
-      { image: Partner10, altText: "partner_10", delay: 400 },
-      { image: Partner11, altText: "partner_11", delay: 500 },
+      {
+        image: Partner8,
+        altText: "partner_8",
+        delay: 200,
+        customWidth: "6rem",
+      },
+      {
+        image: Partner9,
+        altText: "partner_9",
+        delay: 300,
+        customWidth: "10rem",
+      },
+      {
+        image: Partner10,
+        altText: "partner_10",
+        delay: 400,
+        customWidth: "10rem",
+      },
+      {
+        image: Partner11,
+        altText: "partner_11",
+        delay: 500,
+        customWidth: "10rem",
+      },
+    ],
+    [
+      {
+        image: Partner12,
+        altText: "partner_12",
+        delay: 200,
+        customWidth: "10rem",
+      },
+      {
+        image: Partner13,
+        altText: "partner_13",
+        delay: 300,
+        customWidth: "10rem",
+      },
+      {
+        image: Partner14,
+        altText: "partner_14",
+        delay: 300,
+        customWidth: "10rem",
+      },
     ],
   ];
   componentDidMount(): void {
@@ -70,6 +143,7 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
                     >
                       <img
                         className={styles.partnerImg}
+                        style={{ width: item.customWidth }}
                         src={item.image}
                         alt={item.altText}
                       />

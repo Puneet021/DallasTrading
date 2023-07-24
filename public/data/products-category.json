@@ -12,16 +12,16 @@
     "info": "These cables are used for the purpose of lighting in residential and commercial building in surface mounted or embedded conduits."
   },
   {
-    "id": "cable_ties",
-    "image": "Cable_Ties",
-    "title": "Cable Ties",
-    "info": "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, come off or slacken."
-  },
-  {
     "id": "cable_jointing_kit",
     "image": "Jointing_Kit",
     "title": "Cable Jointing Kit/ Termination",
     "info": "3M™ Wire Pulling Lubricants are designed for specific applications such as cable pulling, moisture and corrosion protection, and preventing build up of glues, wax, inks, and paint."
+  },
+  {
+    "id": "cable_ties",
+    "image": "Cable_Ties",
+    "title": "Cable Ties",
+    "info": "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, come off or slacken."
   },
   {
     "id": "industrial_plugs_and_sockets",
