@@ -16,9 +16,9 @@ class HomePage extends Component<IHomePageProps, IHomePageStates> {
       <div className={styles.homePage}>
         <button className={styles.downloadBtn}>Download Brochure</button>
         <AchievementCarousal />
-        <div
+        {/* <div
           style={{ width: "100%", height: "40vh", backgroundColor: "#DCF0F7" }}
-        ></div>
+        ></div> */}
         <OurProducts />
         <AboutUs />
         <OurPartners />

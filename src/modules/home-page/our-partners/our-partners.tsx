@@ -23,6 +23,14 @@ import Partner13 from "./../../../store/our-companies/ourCompaniesImages/schneid
 import Partner14 from "./../../../store/our-companies/ourCompaniesImages/marechal_electric.jpg";
 
 class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
+  constructor(props: IOurPartnersProps) {
+    super(props);
+    this.state = {
+      isMobileWidth: window.innerWidth <= 640,
+      isDesktopWidth: window.innerWidth <= 1400,
+    };
+    this.handleResize = this.handleResize.bind(this);
+  }
   partnersList = [
     [
       { image: Partner1, altText: "partner_1", delay: 0, customWidth: "8rem" },
@@ -114,6 +122,16 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
   ];
   componentDidMount(): void {
     Aos.init();
+    window.addEventListener("resize", this.handleResize);
+  }
+  handleResize() {
+    this.setState({
+      isMobileWidth: window.innerWidth <= 640,
+      isDesktopWidth: window.innerWidth <= 1400,
+    });
+  }
+  componentWillUnmount(): void {
+    window.removeEventListener("resize", this.handleResize);
   }
   render(): ReactNode {
     return (
@@ -143,7 +161,13 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
                     >
                       <img
                         className={styles.partnerImg}
-                        style={{ width: item.customWidth }}
+                        style={{
+                          width: this.state.isMobileWidth
+                            ? ""
+                            : this.state.isDesktopWidth
+                            ? ""
+                            : item.customWidth,
+                        }}
                         src={item.image}
                         alt={item.altText}
                       />
