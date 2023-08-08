@@ -121,7 +121,7 @@ class Header extends Component<IHeaderProps, IHeaderStates> {
                 )}
               </div>
             )}
-            <button className={styles.callUsBtn}>
+            <button className={styles.callUsBtn} onClick={() => window.open("tel:+97143635500")}>
               {this.state.isMobileWidth ? (
                 <CallOutlinedIcon fontSize="small" />
               ) : (

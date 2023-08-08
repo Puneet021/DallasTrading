@@ -13,7 +13,7 @@ class Footer extends Component<IFooterProps, IFooterStates> {
       {
         icon: <LocationOnIcon />,
         infoText:
-          "Office No 1004, Sobha Ivory II, Business Bay P.O. Box 2028, Dubai",
+          "DUBAI INDUSTRIAL CITY, PHASE 1 , BLOCK J-08, P.O.BOX 2028",
       },
       {
         icon: <CallIcon />,
@@ -70,7 +70,7 @@ class Footer extends Component<IFooterProps, IFooterStates> {
           <div className={styles.locate}>
             <h3 className={styles.heading}>Locate Us</h3>
             <iframe
-              title="Office No 1004, Sobha Ivory II, Business Bay P.O. Box 2028, Dubai"
+              title="DUBAI INDUSTRIAL CITY, PHASE 1 , BLOCK J-08, P.O.BOX 2028"
               src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3620.105210625898!2d55.06092531500273!3d24.860255984054014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDUxJzM2LjkiTiA1NcKwMDMnNDcuMiJF!5e0!3m2!1sen!2sae!4v1690217954086!5m2!1sen!2sae"
               className={styles.gMap}
               allowFullScreen
