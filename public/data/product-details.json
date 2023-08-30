@@ -6018,5 +6018,58 @@
     "productDetailTableData": [],
     "downloadFile": "Scotchfil-Insulation-Putty.pdf",
     "customerReviews": []
+  },
+  {
+    "id": "GI_Switch_And_Socket_Boxes",
+    "image": "GI_Switch_And_Socket_Boxes",
+    "productName": "SWITCH AND SOCKET BOXES",
+    "Specification": [],
+    "detail": [
+      "Part Code: BC82RE2025/BC92RE2025",
+      "One Gang and Two Gang 35mm Deep Switch and Socket Boxes"
+    ],
+    "company": ["Barton"],
+    "categoryName": "GI Boxes",
+    "detailDescriptionAfterTable": [],
+    "description": [
+      {
+        "Material": "Pre-coated galvanised steel",
+        "Finish": "Galvanised",
+        "-": "Includes an Adjustable Lug to facilitate easy fitment of accessories into the box.",
+        "--": "Comes with a unique Regulation Brass Earth Terminal.",
+        "---": "Produced with a number and size of knockouts to allow cable entries for wiring purposes",
+        "----": "Manufactured in accordance with BS 4662 - 1.1mm thickness (nominal)"
+      }
+    ],
+    "detailDescription": [],
+    "productDetailTableData": [],
+    "downloadFile": "GI Switch & Socket Boxes Catalogue.pdf",
+    "customerReviews": []
+  },
+  {
+    "id": "TSJ_SC",
+    "image": "TSJ_SC",
+    "productName": "Resin-filled joints Type TSJ-SC",
+    "Specification": [],
+    "detail": [
+      "One Gang and To Gang 35mm Deep Switch and Socket Boxes"
+    ],
+    "company": ["Raychem"],
+    "categoryName": "Resin Jointing Kits",
+    "detailDescriptionAfterTable": [],
+    "description": [
+      {
+        "Material": "Pre-coated galvanised steel",
+        "Finish": "Galvanised",
+        "-": "Includes an Adjustable Lug to facilitate easy fitment of accessories into the box.",
+        "--": "Comes with a unique Regulation Brass Earth Terminal.",
+        "---": "Produced with a number and size of knockouts to allow cable entries for wiring purposes",
+        "----": "Manufactured in accordance with BS 4662 - 1.1mm thickness (nominal)"
+      }
+    ],
+    "detailDescription": [],
+    "productDetailTableData": [],
+    "downloadFile": "GI Switch & Socket Boxes Catalogue.pdf",
+    "customerReviews": []
   }
 ]

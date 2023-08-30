@@ -1,5 +1,29 @@
 [
   {
+    "id": "industrial_plugs_and_sockets",
+    "image": "Industrial_Plugs",
+    "title": "Industrial Plugs & Sockets",
+    "info": "Industrial Plugs & Sockets provide a connection to the electrical mains rated at higher voltages and currents than household Plugs & Sockets."
+  },
+  {
+    "id": "cable_jointing_kit",
+    "image": "Jointing_Kit",
+    "title": "Cable Jointing Kit/ Termination",
+    "info": "3M™ Wire Pulling Lubricants are designed for specific applications such as cable pulling, moisture and corrosion protection, and preventing build up of glues, wax, inks, and paint."
+  },
+  {
+    "id": "flexiblerigid_conduit_and_accessories",
+    "image": "FlexibleRigid_Conduit_And_Accessories",
+    "title": "Flexible/Rigid Conduit & Accessories",
+    "info": "Rigid metal conduit is a thick-walled threaded tubing, usually made of coated steel, stainless steel or aluminum. Galvanized rigid conduit is a tubing wall that is thick enough to allow it to be threaded."
+  },
+  {
+    "id": "Resin_Jointing_Kits",
+    "image": "Resin_Jointing_Kits",
+    "title": "Resin Jointing Kits",
+    "info": "Resin-filled joints Type TSJ-SC for armoured and unarmoured power and control cables up to 1kV"
+  },
+  {
     "id": "cables",
     "image": "Cables",
     "title": "Cables",
@@ -12,22 +36,10 @@
     "info": "These cables are used for the purpose of lighting in residential and commercial building in surface mounted or embedded conduits."
   },
   {
-    "id": "cable_jointing_kit",
-    "image": "Jointing_Kit",
-    "title": "Cable Jointing Kit/ Termination",
-    "info": "3M™ Wire Pulling Lubricants are designed for specific applications such as cable pulling, moisture and corrosion protection, and preventing build up of glues, wax, inks, and paint."
-  },
-  {
     "id": "cable_ties",
     "image": "Cable_Ties",
     "title": "Cable Ties",
     "info": "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, come off or slacken."
-  },
-  {
-    "id": "industrial_plugs_and_sockets",
-    "image": "Industrial_Plugs",
-    "title": "Industrial Plugs & Sockets",
-    "info": "Industrial Plugs & Sockets provide a connection to the electrical mains rated at higher voltages and currents than household Plugs & Sockets."
   },
   {
     "id": "high_voltage_connectors",
@@ -52,12 +64,6 @@
     "image": "Cable_Management_System",
     "title": "Cable Management System",
     "info": "Each system is supported by a fully integrated range of time saving fixings and fittings that make it quick and easy to install, both internally and externally."
-  },
-  {
-    "id": "flexiblerigid_conduit_and_accessories",
-    "image": "FlexibleRigid_Conduit_And_Accessories",
-    "title": "Flexible/Rigid Conduit & Accessories",
-    "info": "Rigid metal conduit is a thick-walled threaded tubing, usually made of coated steel, stainless steel or aluminum. Galvanized rigid conduit is a tubing wall that is thick enough to allow it to be threaded."
   },
   {
     "id": "pvc_conduits",
@@ -99,7 +105,7 @@
     "id": "scotch_tapes_and_mastics",
     "image": "Scotch_Tapes_And_Mastics",
     "title": "Scotch Tapes & Mastics",
-    "info": "Re-galvanised switch & socket boxes are available with or without brass earth terminals and with or without adjustable lug. The boxes are packed in standard tray type packing."
+    "info": "All Premium Tapes for industrial and factory used are available with wide range according to the various application"
   },
   {
     "id": "laser_marking_machine",

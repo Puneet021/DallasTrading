@@ -50,6 +50,8 @@ import Scotch_Super_88_All_Weather_Tape from "./88-all.jpg";
 import Scotch_T2228_Rubber_Mastic_Tape from "./scotch-t2228.jpg";
 import Scotch_Vinyl_Mastic_Tape from "./scotch-vinyl-mastic-tape.jpg";
 import Scotchfil_Insulation_Putty from "./scotchfil-insulation-putty.jpg";
+import GI_Switch_And_Socket_Boxes from "./switch-socket-box.jpg";
+import TSJ_SC from "./TSJ-SC.png";
 
 export const productsImages: { [id: string]: string } = {
   A1A2_Cable_Gland: A1A2_Cable_Gland,
@@ -106,4 +108,6 @@ export const productsImages: { [id: string]: string } = {
   Scotch_T2228_Rubber_Mastic_Tape: Scotch_T2228_Rubber_Mastic_Tape,
   Scotch_Vinyl_Mastic_Tape: Scotch_Vinyl_Mastic_Tape,
   Scotchfil_Insulation_Putty: Scotchfil_Insulation_Putty,
+  GI_Switch_And_Socket_Boxes: GI_Switch_And_Socket_Boxes,
+  TSJ_SC: TSJ_SC,
 };

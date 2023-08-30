@@ -36,6 +36,15 @@
     "company": "Oxford Cavi"
   },
   {
+    "id": "TSJ_SC",
+    "productCategoryId": "Resin_Jointing_Kits",
+    "productCategory": "Resin Jointing Kits",
+    "title": "Resin-filled joints Type TSJ-SC",
+    "info": "",
+    "image": "TSJ_SC",
+    "company": "Raychem"
+  },
+  {
     "id": "A1A2_Cable_Gland",
     "productCategoryId": "industrial_cable_glands",
     "productCategory": "Industrial Cable Glands",
@@ -322,6 +331,15 @@
     "info": "",
     "image": "Industrial_Fans",
     "company": "Breeze"
+  },
+  {
+    "id": "GI_Switch_And_Socket_Boxes",
+    "productCategoryId": "gi_boxes",
+    "productCategory": "GI Boxes",
+    "title": "SWITCH AND SOCKET BOXES",
+    "info": "",
+    "image": "GI_Switch_And_Socket_Boxes",
+    "company": "Barton"
   },
   {
     "id": "Laser_Marking_Machine",

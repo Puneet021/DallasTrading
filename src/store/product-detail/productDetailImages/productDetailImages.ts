@@ -85,6 +85,8 @@ import distribution_boards from "./distribution-boards.png";
 import heat_terminal_technical from "./heat-terminal-technical.jpg";
 import conduit_steel from "./conduit-steel.jpg";
 import terminal_box from "./terminal-box.jpg";
+import GI_Switch_And_Socket_Boxes from "./switch-socket-box.jpg";
+import TSJ_SC from "./TSJ_SC.png";
 
 export const productDetailImages: { [id: string]: string } = {
   pvc_conduit1: pvc_conduit1,
@@ -174,4 +176,6 @@ export const productDetailImages: { [id: string]: string } = {
   heat_terminal_technical: heat_terminal_technical,
   conduit_steel: conduit_steel,
   terminal_box: terminal_box,
+  GI_Switch_And_Socket_Boxes: GI_Switch_And_Socket_Boxes,
+  TSJ_SC: TSJ_SC,
 };

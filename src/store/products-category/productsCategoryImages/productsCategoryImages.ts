@@ -16,6 +16,7 @@ import Wiring_Devices from "./wire-accessories.jpg";
 import GI_Boxes from "./switch-socket-box.jpg";
 import Scotch_Tapes_And_Mastics from "./scotch-33-tape.jpg";
 import Laser_Marking_Machine from "./laser-printer-machine.png";
+import Resin_Jointing_Kits from "./TSJ-SC.png";
 
 export const productsCategoryImages: { [id: string]: string } = {
   Industrial_Fans: Industrial_Fans,
@@ -36,4 +37,5 @@ export const productsCategoryImages: { [id: string]: string } = {
   GI_Boxes: GI_Boxes,
   Scotch_Tapes_And_Mastics: Scotch_Tapes_And_Mastics,
   Laser_Marking_Machine: Laser_Marking_Machine,
+  Resin_Jointing_Kits: Resin_Jointing_Kits,
 };
