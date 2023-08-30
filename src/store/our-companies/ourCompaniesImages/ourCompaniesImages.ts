@@ -16,6 +16,7 @@ import Seimens from "./Siemens_logo.png";
 import Breeze from "./breeze.png";
 import MK_Logic_Plus from "./mk-logo.jpg";
 import Rayon from "./rayan.png";
+import Raychem from "./raychem-logo.png";
 
 export const ourCompaniesImages: { [id: string]: string } = {
   Hex: Hex,
@@ -36,4 +37,5 @@ export const ourCompaniesImages: { [id: string]: string } = {
   Breeze: Breeze,
   "MK Logic Plus": MK_Logic_Plus,
   Rayon: Rayon,
+  Raychem: Raychem,
 };

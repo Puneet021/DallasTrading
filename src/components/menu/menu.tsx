@@ -6,7 +6,7 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import { IMenuProps, IMenuStates } from "./menu.constants";
-import menu_img from "./../../images/menu_img.png";
+import menu_img from "./../../images/dallaswhitelogo.png";
 import withRouter from "../common/withRouterComponent/withRouter";
 import { connect } from "react-redux";
 import { IStore } from "../../utils/models/store.model";

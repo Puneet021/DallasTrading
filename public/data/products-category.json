@@ -24,28 +24,16 @@
     "info": "Resin-filled joints Type TSJ-SC for armoured and unarmoured power and control cables up to 1kV"
   },
   {
-    "id": "cables",
-    "image": "Cables",
-    "title": "Cables",
-    "info": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations, local distribution systems, industrial plants and commercial buildings."
+    "id": "gi_boxes",
+    "image": "GI_Boxes",
+    "title": "GI Boxes",
+    "info": "Re-galvanised switch & socket boxes are available with or without brass earth terminals and with or without adjustable lug. The boxes are packed in standard tray type packing."
   },
   {
-    "id": "wires",
-    "image": "Wires",
-    "title": "Wires",
-    "info": "These cables are used for the purpose of lighting in residential and commercial building in surface mounted or embedded conduits."
-  },
-  {
-    "id": "cable_ties",
-    "image": "Cable_Ties",
-    "title": "Cable Ties",
-    "info": "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, come off or slacken."
-  },
-  {
-    "id": "high_voltage_connectors",
-    "image": "High_Voltage_Connectors",
-    "title": "High Voltage Connectors",
-    "info": "High Voltage Connectors are designed for hazardous areas, with protection mode. They comply with the ATEX 94/9/CE Directive.  They are certified according to IECEx standards."
+    "id": "scotch_tapes_and_mastics",
+    "image": "Scotch_Tapes_And_Mastics",
+    "title": "Scotch Tapes & Mastics",
+    "info": "All Premium Tapes for industrial and factory used are available with wide range according to the various application"
   },
   {
     "id": "industrial_cable_glands",
@@ -60,10 +48,28 @@
     "info": "The unique design of the inspection hole, helps the conductor to insert fully. The stopper at the end of the insertion allows the conductor to place itself rightly inside the surface area of the crimp."
   },
   {
+    "id": "high_voltage_connectors",
+    "image": "High_Voltage_Connectors",
+    "title": "High Voltage Connectors",
+    "info": "High Voltage Connectors are designed for hazardous areas, with protection mode. They comply with the ATEX 94/9/CE Directive.  They are certified according to IECEx standards."
+  },
+  {
+    "id": "cables",
+    "image": "Cables",
+    "title": "Cables",
+    "info": "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations, local distribution systems, industrial plants and commercial buildings."
+  },
+  {
     "id": "cable_management_system",
     "image": "Cable_Management_System",
     "title": "Cable Management System",
     "info": "Each system is supported by a fully integrated range of time saving fixings and fittings that make it quick and easy to install, both internally and externally."
+  },
+  {
+    "id": "wires",
+    "image": "Wires",
+    "title": "Wires",
+    "info": "These cables are used for the purpose of lighting in residential and commercial building in surface mounted or embedded conduits."
   },
   {
     "id": "pvc_conduits",
@@ -72,16 +78,10 @@
     "info": "Decoduct conduits are manufactured from super high impact uPVC compound suitable to withstand harsh environments. Conduits can be bent with the use of a bending spring."
   },
   {
-    "id": "switchgear_accessories",
-    "image": "Switchgear_Accessories",
-    "title": "Switchgear Accessories",
-    "info": "Construction, Power distribution and Automation systems. In the hi-tech field of Industrial control and Automation, we are involved in Electrical & Electronic Controls, Automation and related areas."
-  },
-  {
-    "id": "switchgear_assembly",
-    "image": "Switchgear_Assembly",
-    "title": "Switchgear Assembly",
-    "info": "We have successfully supplied to challenging projects in reputable organizations like DEWA, ADDC, MEDC (DCRP) ,PDO, MOD, KAHRAMAA, QEWC & Refinery projects."
+    "id": "cable_ties",
+    "image": "Cable_Ties",
+    "title": "Cable Ties",
+    "info": "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, come off or slacken."
   },
   {
     "id": "industrial_fans",
@@ -96,16 +96,16 @@
     "info": "They are easy to install and available through our extensive distributor network. The range is backed by MK’s quality and reliability and provides the largest selection of wiring devices in any single range."
   },
   {
-    "id": "gi_boxes",
-    "image": "GI_Boxes",
-    "title": "GI Boxes",
-    "info": "Re-galvanised switch & socket boxes are available with or without brass earth terminals and with or without adjustable lug. The boxes are packed in standard tray type packing."
+    "id": "switchgear_assembly",
+    "image": "Switchgear_Assembly",
+    "title": "Switchgear Assembly",
+    "info": "We have successfully supplied to challenging projects in reputable organizations like DEWA, ADDC, MEDC (DCRP) ,PDO, MOD, KAHRAMAA, QEWC & Refinery projects."
   },
   {
-    "id": "scotch_tapes_and_mastics",
-    "image": "Scotch_Tapes_And_Mastics",
-    "title": "Scotch Tapes & Mastics",
-    "info": "All Premium Tapes for industrial and factory used are available with wide range according to the various application"
+    "id": "switchgear_accessories",
+    "image": "Switchgear_Accessories",
+    "title": "Switchgear Accessories",
+    "info": "Construction, Power distribution and Automation systems. In the hi-tech field of Industrial control and Automation, we are involved in Electrical & Electronic Controls, Automation and related areas."
   },
   {
     "id": "laser_marking_machine",

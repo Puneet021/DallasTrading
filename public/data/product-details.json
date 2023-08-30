@@ -6047,29 +6047,107 @@
     "customerReviews": []
   },
   {
-    "id": "TSJ_SC",
+    "id": "resin_filled",
     "image": "TSJ_SC",
     "productName": "Resin-filled joints Type TSJ-SC",
     "Specification": [],
     "detail": [
-      "One Gang and To Gang 35mm Deep Switch and Socket Boxes"
+      "Resin-filled joints Type TSJ-SC for armoured and unarmoured power and control cables up to 1kV"
     ],
     "company": ["Raychem"],
     "categoryName": "Resin Jointing Kits",
     "detailDescriptionAfterTable": [],
     "description": [
       {
-        "Material": "Pre-coated galvanised steel",
-        "Finish": "Galvanised",
-        "-": "Includes an Adjustable Lug to facilitate easy fitment of accessories into the box.",
-        "--": "Comes with a unique Regulation Brass Earth Terminal.",
-        "---": "Produced with a number and size of knockouts to allow cable entries for wiring purposes",
-        "----": "Manufactured in accordance with BS 4662 - 1.1mm thickness (nominal)"
+        "Features and benefits": "",
+        "-": "Range taking joint kits with few components for quick and simple installation",
+        "--": "Clear, robust, snap together joint shells for easy positioning and filling",
+        "---": "Joint insulation, sealing and mechanical protection provided by proven two-part filler materials supplied in convenient foil packs",
+        "----": "Immediately operational",
+        "-----": "High mechanical strength, watertight and with good resistance to UV, alkaline earths and chemical agents",
+        "------": "Core separator to ensure adequate clearance between connectors",
+        "-------": "Easy to follow pictorial installation instructions",
+        "--------": "Sealing tape and protective gloves included in the kit"
+      },
+      {
+        "Standards": "",
+        "-": "Performance tested to European standard EN 50393 (UK utility standard C81)"
       }
     ],
     "detailDescription": [],
-    "productDetailTableData": [],
-    "downloadFile": "GI Switch & Socket Boxes Catalogue.pdf",
+    "productDetailTableData": [
+      {
+        "description": "TSJ-SC1",
+        "pn": "BAH-038081518",
+        "tcpn": "BM0915-000",
+        "jointLength": "190",
+        "jointWidth": "36",
+        "cableEntryRange": "6-27",
+        "coreUnarmouredRange": "4 * 10",
+        "coreArmouredRange": "4 * 6"
+      },
+      {
+        "description": "TSJ-SC2",
+        "pn": "BAH-038081519",
+        "tcpn": "BM0916-000",
+        "jointLength": "270",
+        "jointWidth": "49",
+        "cableEntryRange": "16-37",
+        "coreUnarmouredRange": "4 * 25",
+        "coreArmouredRange": "4 * 16"
+      },
+      {
+        "description": "TSJ-SC3",
+        "pn": "BAH-038081520",
+        "tcpn": "BM0917-000",
+        "jointLength": "360",
+        "jointWidth": "75",
+        "cableEntryRange": "20-44",
+        "coreUnarmouredRange": "4 * 50",
+        "coreArmouredRange": "4 * 35"
+      },
+      {
+        "description": "TSJ-SC4",
+        "pn": "BAH-038081521",
+        "tcpn": "BM0918-000",
+        "jointLength": "430",
+        "jointWidth": "85",
+        "cableEntryRange": "26-52",
+        "coreUnarmouredRange": "4 * 95",
+        "coreArmouredRange": "4 * 70"
+      },
+      {
+        "description": "TSJ-SC5",
+        "pn": "BAH-038081522",
+        "tcpn": "BM0919-000",
+        "jointLength": "530",
+        "jointWidth": "110",
+        "cableEntryRange": "35-67",
+        "coreUnarmouredRange": "4 * 150",
+        "coreArmouredRange": "4 * 120"
+      },
+      {
+        "description": "TSJ-SC6",
+        "pn": "BAH-038081523",
+        "tcpn": "BM0920-000",
+        "jointLength": "670",
+        "jointWidth": "135",
+        "cableEntryRange": "49-67",
+        "coreUnarmouredRange": "4 * 240",
+        "coreArmouredRange": "4 * 240"
+      },
+      {
+        "description": "TSJ-SC7",
+        "pn": "BAH-038081524",
+        "tcpn": "BM0921-000",
+        "jointLength": "870",
+        "jointWidth": "160",
+        "cableEntryRange": "59-77",
+        "coreUnarmouredRange": "4 * 300",
+        "coreArmouredRange": "4 * 300"
+      }
+    ],
+    "downloadFile": "RAYCHEM RESIN TECHNICAL CATALOGUE.pdf",
     "customerReviews": []
   }
 ]

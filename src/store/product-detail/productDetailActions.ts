@@ -7,7 +7,7 @@ import { productDetailImages } from "./productDetailImages/productDetailImages";
 export const getProductDetailLoader = (state: IStore) =>
   state.productDetail.loader;
 
-export const getProductDetails = (state: IStore) => {
+export const getProductDetails = (state: IStore) => {    
   return {
     productId: state.productDetail.productDetailData.id,
     productName: state.productDetail.productDetailData.productName,
