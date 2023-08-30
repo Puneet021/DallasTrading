@@ -33,7 +33,8 @@
   .partners {
     width: 70%;
     .row {
-      @include display-flex(row, space-evenly, center);
+      @include display-flex(row, flex-start, center);
+      column-gap: 10%;
       flex-wrap: wrap;
       .partnerImg {
         object-fit: contain;
@@ -48,6 +49,7 @@
     }
     @include respond-to(desktop-lg) {
       .row {
+        column-gap: 7%;
         .partnerImg {
           height: 9rem;
           width: 7.8rem;
@@ -56,16 +58,18 @@
     }
     @include respond-to(desktop) {
       .row {
+        column-gap: 3%;
         .partnerImg {
-          height: 8rem;
-          width: 7rem;
+          height: 7rem;
+          width: 6rem;
         }
       }
     }
     @include respond-to(tablet) {
       width: 100%;
       .row {
-        justify-content: space-between;
+        justify-content: flex-start;
+        column-gap: 7%;
         .partnerImg {
           height: 8.5rem;
           width: 8rem;
@@ -75,7 +79,8 @@
     @include respond-to(mobile) {
       width: 100%;
       .row {
-        justify-content: space-between;
+        justify-content: flex-start;
+        column-gap: 10%;
         .partnerImg {
           // height: 5rem;
           width: 3rem;
@@ -84,6 +89,8 @@
     }
     @include respond-to(small-mobile) {
       .row {
+        justify-content: flex-start;
+        column-gap: 8%;
         .partnerImg {
           height: 4rem;
           width: 3rem;

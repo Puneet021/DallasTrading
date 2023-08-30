@@ -72,14 +72,14 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
         delay: 300,
         customWidth: "10rem",
       },
-    ],
-    [
       {
         image: Partner8,
         altText: "partner_8",
         delay: 200,
         customWidth: "6rem",
       },
+    ],
+    [
       {
         image: Partner9,
         altText: "partner_9",
@@ -98,14 +98,14 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
         delay: 500,
         customWidth: "10rem",
       },
-    ],
-    [
       {
         image: Partner12,
         altText: "partner_12",
         delay: 200,
         customWidth: "10rem",
       },
+    ],
+    [
       {
         image: Partner13,
         altText: "partner_13",
