@@ -6,10 +6,10 @@ import {
 } from "./our-products.constants";
 import ShadowHeading from "../../../components/common/headings/shadowHeading/shadowHeading";
 import StylishUpDownCard from "../../../components/common/cards/stylishUpDownCard/stylishUpDownCard";
-import industrial_plugs_and_sockets_img from "./../../../store/products-category/productsCategoryImages/industrial_plugs_and_sockets.jpg";
-import flexible_conduit_accessories_img from "./../../../store/products-category/productsCategoryImages/flexible-conduit-accessories.jpg";
-import cable_termination_kit_img from "./../../../store/products-category/productsCategoryImages/cable-termination-kit.jpg";
-import tsj_sc_img from "./../../../store/products/productsImages/TSJ-SC.png";
+import industrial_plugs_and_sockets_img from "./../../../images/industrial_plugs_and_sockets.png";
+import flexible_conduit_accessories_img from "./../../../images/flexible-conduit-accessories.png";
+import cable_termination_kit_img from "./../../../images/cable-termination-kit.png";
+import tsj_sc_img from "./../../../images/TSJ-SC.png";
 import withRouter from "../../../components/common/withRouterComponent/withRouter";
 
 class OurProducts extends Component<IOurProductsProps, IOurProductsStates> {
