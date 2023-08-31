@@ -6,10 +6,10 @@ import {
 } from "./our-products.constants";
 import ShadowHeading from "../../../components/common/headings/shadowHeading/shadowHeading";
 import StylishUpDownCard from "../../../components/common/cards/stylishUpDownCard/stylishUpDownCard";
-import fan_img from "./../../../images/fan.jpg";
-import cables_img from "./../../../images/cables.jpg";
-import pipes_img from "./../../../images/pipes.jpg";
-import wires_img from "./../../../images/wires.jpg";
+import industrial_plugs_and_sockets_img from "./../../../store/products-category/productsCategoryImages/industrial_plugs_and_sockets.jpg";
+import flexible_conduit_accessories_img from "./../../../store/products-category/productsCategoryImages/flexible-conduit-accessories.jpg";
+import cable_termination_kit_img from "./../../../store/products-category/productsCategoryImages/cable-termination-kit.jpg";
+import tsj_sc_img from "./../../../store/products/productsImages/TSJ-SC.png";
 import withRouter from "../../../components/common/withRouterComponent/withRouter";
 
 class OurProducts extends Component<IOurProductsProps, IOurProductsStates> {
@@ -38,36 +38,36 @@ class OurProducts extends Component<IOurProductsProps, IOurProductsStates> {
           <div className={styles.col1}>
             <StylishUpDownCard
               altText="card1"
-              image={fan_img}
-              handleClick={() => this.handleClickOnCard("industrial_fans")}
+              image={industrial_plugs_and_sockets_img}
+              handleClick={() => this.handleClickOnCard("industrial_plugs_and_sockets")}
               info={
-                "As a leading supplier of Industrial and Commercial Grade Air Circulators, BREEZE® is recognized throughout the industry for the superior quality and performance."
+                "Industrial Plugs & Sockets provide a connection to the electrical mains rated at higher voltages and currents than household Plugs & Sockets."
               }
             />
             <StylishUpDownCard
-              altText="card2"
-              image={cables_img}
-              handleClick={() => this.handleClickOnCard("cables")}
+              altText="card3"
+              image={cable_termination_kit_img}
+              handleClick={() => this.handleClickOnCard("cable_jointing_kit")}
               info={
-                "Can be used indoors or outdoors in cable ducts, cable trays, conduits or underground locations under mechanical stresses in power and switching stations."
+                "3M™ Wire Pulling Lubricants are designed for specific applications such as cable pulling, moisture and corrosion protection, and preventing build up of glues, wax, inks, and paint."
               }
             />
           </div>
           <div className={styles.col2}>
             <StylishUpDownCard
-              altText="card3"
-              image={pipes_img}
-              handleClick={() => this.handleClickOnCard("pvc_conduits")}
+              altText="card2"
+              image={flexible_conduit_accessories_img}
+              handleClick={() => this.handleClickOnCard("flexiblerigid_conduit_and_accessories")}
               info={
-                "Decoduct conduits are manufactured from super high impact uPVC compound suitable to withstand harsh environments. Conduits can be bent with the use of a bending spring."
+                "Rigid metal conduit is a thick-walled threaded tubing, usually made of coated steel, stainless steel or aluminum. Galvanized rigid conduit is a tubing wall that is thick enough to allow it to be threaded."
               }
             />
             <StylishUpDownCard
               altText="card2"
-              image={wires_img}
-              handleClick={() => this.handleClickOnCard("cable_ties")}
+              image={tsj_sc_img}
+              handleClick={() => this.handleClickOnCard("Resin_Jointing_Kits")}
               info={
-                "Cable Ties are manufactured with special additives imparting resistant to UV radiation. Provides a secure locking which will not slip, slacken."
+                "Resin-filled joints Type TSJ-SC for armoured and unarmoured power and control cables up to 1kV. For armoured cables additional accessories are required and have to be ordered separately."
               }
             />
           </div>
