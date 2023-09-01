@@ -5,5 +5,8 @@
   .projects {
     margin-top: $windowHeight * 0.06;
     @include display-flex(row, center, center);
+    .imageList {
+      width: 100%;
+    }
   }
 }

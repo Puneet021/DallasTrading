@@ -81,10 +81,9 @@ class OurProjects extends Component<IOurProjectsProps, IOurProjectsStates> {
         />
         <div className={styles.projects}>
           <ImageList
-            sx={{ width: "80%", height: 1000 }}
+            className={styles.imageList}
             variant="quilted"
             cols={4}
-            rowHeight={250}
           >
             {this.itemData.map((item) => (
               <ImageListItem
