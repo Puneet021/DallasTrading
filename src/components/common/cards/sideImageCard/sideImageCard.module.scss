@@ -12,6 +12,7 @@
   }
   .img {
     object-fit: contain;
+    width: 15rem;
     margin-right: 6rem;
     box-sizing: border-box;
     @include respond-to(small-mobile) {
