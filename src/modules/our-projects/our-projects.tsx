@@ -13,16 +13,7 @@ import Palm_Jumeirah from "./../../images/Palm Jumeirah.jpg";
 import The_Atlantis_Royal from "./../../images/The Atlantis Royal.jpg";
 import jumeirah_park_villas_project from "./../../images/jumeirah park villas-project.jpg";
 import jumeirah_park_villas_project1 from "./../../images/jumeirah park villas-project (5).jpg";
-import { ImageList, ImageListItem } from "@mui/material";
-
-function srcset(image: string, size: number, rows = 1, cols = 1) {
-  return {
-    src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
-    srcSet: `${image}?w=${size * cols}&h=${
-      size * rows
-    }&fit=crop&auto=format&dpr=2 2x`,
-  };
-}
+import { ImageList, ImageListItem, ImageListItemBar } from "@mui/material";
 
 class OurProjects extends Component<IOurProjectsProps, IOurProjectsStates> {
   componentDidMount(): void {
@@ -31,38 +22,38 @@ class OurProjects extends Component<IOurProjectsProps, IOurProjectsStates> {
   itemData = [
     {
       img: Al_Habtoor_city,
+      name: "Al Habtoor City",
       title: "Al_Habtoor_city",
-      rows: 2,
-      cols: 2,
     },
     {
-      img: The_Atlantis_Royal,
-      title: "The_Atlantis_Royal",
+      img: Dubai_Fountain_project,
+      name: "Dubai Fountain Project",
+      title: "Dubai_Fountain_project",
+    },
+    {
+      img: Future_museum,
+      name: "Future Museum",
+      title: "Future_museum",
+    },
+    {
+      img: jumeirah_park_villas_project,
+      name: "Jumeirah Park Villas Project",
+      title: "jumeirah_park_villas_project",
     },
     {
       img: jumeirah_park_villas_project1,
+      name: "Jumeirah Park Villas Project",
       title: "jumeirah_park_villas_project1",
     },
     {
       img: Palm_Jumeirah,
+      name: "Palm Jumeirah",
       title: "Palm_Jumeirah",
-      cols: 2,
     },
     {
-      img: jumeirah_park_villas_project,
-      title: "jumeirah_park_villas_project",
-      cols: 2,
-    },
-    {
-      img: Dubai_Fountain_project,
-      title: "Dubai_Fountain_project",
-      rows: 2,
-      cols: 2,
-    },
-    {
-      img: Future_museum,
-      title: "Future_museum",
-      cols: 2,
+      img: The_Atlantis_Royal,
+      name: "The Atlantis Royal",
+      title: "The_Atlantis_Royal",
     },
   ];
   render(): ReactNode {
@@ -80,21 +71,18 @@ class OurProjects extends Component<IOurProjectsProps, IOurProjectsStates> {
           backShadowHeading={false}
         />
         <div className={styles.projects}>
-          <ImageList
-            className={styles.imageList}
-            variant="quilted"
-            cols={4}
-          >
+          <ImageList className={styles.imageList} cols={1}>
             {this.itemData.map((item) => (
-              <ImageListItem
-                key={item.img}
-                cols={item.cols || 1}
-                rows={item.rows || 1}
-              >
+              <ImageListItem key={item.img} sx={{marginBottom: "1em"}}>
                 <img
-                  {...srcset(item.img, 250, item.rows, item.cols)}
+                  src={`${item.img}?w=248&fit=crop&auto=format`}
+                  srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
                   alt={item.title}
                   loading="lazy"
+                />
+                <ImageListItemBar
+                  title={item.name}
+                  position="below"
                 />
               </ImageListItem>
             ))}

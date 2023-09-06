@@ -4,9 +4,9 @@
   @include pageCommonCss;
   .projects {
     margin-top: $windowHeight * 0.06;
-    @include display-flex(row, center, center);
+    @include display-flex(row, flex-start, center);
     .imageList {
-      width: 100%;
+      width: 50%;
     }
   }
 }

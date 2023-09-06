@@ -11,6 +11,13 @@ import { getSearchValue } from "../../store/searchResults/searchResultsActions";
 import SearchPage from "../../modules/search-page/search-page";
 
 class Home extends Component<IHomeProps, IHomeStates> {
+  handleDownload() {
+    const fileUrl = "DALLAS CATALOGUE & COMPANY PROFILE.pdf";
+    const a = document.createElement("a");
+    a.href = fileUrl;
+    a.download = "DALLAS CATALOGUE & COMPANY PROFILE.pdf";
+    a.click();
+  }
   render(): ReactNode {
     return (
       <Fragment>
@@ -22,6 +29,12 @@ class Home extends Component<IHomeProps, IHomeStates> {
             {/* Main body of web app */}
             <div className={styles.homeBody}>
               <div className={styles.spaceHeader}></div>
+              <button
+                className={styles.downloadBtn}
+                onClick={this.handleDownload}
+              >
+                Download Brochure
+              </button>
               {/* All your modules goes here this section is dynamic (it change when path changes) */}
               {this.props.searchVal ? <SearchPage /> : <AppRoutes />}
             </div>
