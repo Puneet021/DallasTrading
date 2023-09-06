@@ -34,7 +34,7 @@ class CustomerReviews extends Component<
             >
               <h2 className={styles.reviewer}>{item.customerName}</h2>
               <div className={styles.rating}>
-                <h4 className={styles.email}>{item.emailId}</h4>
+                {/* <h4 className={styles.email}>{item.emailId}</h4> */}
                 <div className={styles.stars}>
                   {new Array(item.stars).fill(1).map((i, ind) => (
                     <StarRateIcon key={ind} className={styles.starIcon} />

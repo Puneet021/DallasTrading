@@ -65,18 +65,21 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
         altText: "partner_6",
         delay: 200,
         customWidth: "6rem",
+        marginLeft: "-0.8rem",
       },
       {
         image: Partner7,
         altText: "partner_7",
         delay: 300,
         customWidth: "10rem",
+        marginLeft: "1rem",
       },
       {
         image: Partner8,
         altText: "partner_8",
         delay: 200,
         customWidth: "6rem",
+        marginLeft: "0.8rem",
       },
     ],
     [
@@ -85,18 +88,21 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
         altText: "partner_9",
         delay: 300,
         customWidth: "10rem",
+        marginLeft: "-0.4rem",
       },
       {
         image: Partner10,
         altText: "partner_10",
         delay: 400,
         customWidth: "10rem",
+        marginLeft: "-1.4rem",
       },
       {
         image: Partner11,
         altText: "partner_11",
         delay: 500,
         customWidth: "10rem",
+        marginLeft: "-2rem",
       },
       {
         image: Partner12,
@@ -117,6 +123,7 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
         altText: "partner_14",
         delay: 300,
         customWidth: "10rem",
+        marginLeft: "-1rem",
       },
     ],
   ];
@@ -162,6 +169,7 @@ class OurPartners extends Component<IOurPartnersProps, IOurPartnersStates> {
                       <img
                         className={styles.partnerImg}
                         style={{
+                          marginLeft: item?.marginLeft ? item.marginLeft : "",
                           width: this.state.isMobileWidth
                             ? ""
                             : this.state.isDesktopWidth

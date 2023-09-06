@@ -6,6 +6,7 @@ export interface IwriteAReviewProps {
     IProductDetailReviewsData,
     "productDetail/addComment"
   >;
+  customerReviewsData: IProductDetailReviewsData[];
 }
 export interface IwriteAReviewStates {
   rating: string | number;

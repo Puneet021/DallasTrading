@@ -14,6 +14,8 @@ import {
 } from "@mui/material";
 import { connect } from "react-redux";
 import { addComment } from "../../../../store/product-detail/productDetailSlice";
+import { IStore } from "../../../../utils/models/store.model";
+import { getProductDetailReviews } from "../../../../store/product-detail/productDetailActions";
 
 class WriteAReview extends Component<IwriteAReviewProps, IwriteAReviewStates> {
   constructor(props: IwriteAReviewProps) {
@@ -43,9 +45,13 @@ class WriteAReview extends Component<IwriteAReviewProps, IwriteAReviewStates> {
     return (
       <div className={styles.writeAReviewContainer}>
         <h2 className={styles.heading2}>Write a Review</h2>
-        <h2 className={styles.heading3}>
-          Be the first to review “Industrial Plug & Socket”
-        </h2>
+        {this.props.customerReviewsData?.length ? (
+          ""
+        ) : (
+          <h2 className={styles.heading3}>
+            Be the first to review “Industrial Plug & Socket”
+          </h2>
+        )}
         <p className={styles.info}>
           Your email address will not be published. Required fields are marked*
         </p>
@@ -116,4 +122,9 @@ class WriteAReview extends Component<IwriteAReviewProps, IwriteAReviewStates> {
   }
 }
 
-export default connect(null, { addComment })(WriteAReview);
+export default connect(
+  (state: IStore) => ({
+    customerReviewsData: getProductDetailReviews(state),
+  }),
+  { addComment }
+)(WriteAReview);
