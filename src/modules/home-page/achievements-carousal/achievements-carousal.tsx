@@ -6,7 +6,7 @@ import {
 } from "./achievements-carousal.constants";
 import img1 from "./../../../images/carousel1.jpg";
 import img2 from "./../../../images/carousel2.webp";
-import img3 from "./../../../images/carousel3.jpeg";
+import img3 from "./../../../images/carousel3.jpg";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import DisplaySlider from "./display-slider/display-slider";
