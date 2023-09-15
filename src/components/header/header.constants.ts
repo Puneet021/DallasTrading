@@ -18,4 +18,5 @@ export interface IHeaderStates {
   isMobileWidth: boolean;
   openMenu: boolean;
   toggleSearch: boolean;
+  isCopied: boolean;
 }

@@ -58,7 +58,7 @@ class Footer extends Component<IFooterProps, IFooterStates> {
                   <tr key={ind} className={styles.row}>
                     <td className={styles.icon}>{contact.icon}</td>
                     <td className={styles.text}>
-                      <a className={styles.link} href="https://www.google.com">
+                      <a className={styles.link} href="https://linkedin.com/in/dallas-trading-co-llc-723306217">
                         {contact.infoText}
                       </a>
                     </td>

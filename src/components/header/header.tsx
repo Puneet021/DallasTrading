@@ -13,6 +13,8 @@ import { connect } from "react-redux";
 import { handleSearchValueChange } from "../../store/searchResults/searchResultsSlice";
 import { IStore } from "../../utils/models/store.model";
 import { getSearchValue } from "../../store/searchResults/searchResultsActions";
+import clipboardCopy from "clipboard-copy";
+import { Tooltip } from "@mui/material";
 
 class Header extends Component<IHeaderProps, IHeaderStates> {
   constructor(props: IHeaderProps) {
@@ -22,8 +24,10 @@ class Header extends Component<IHeaderProps, IHeaderStates> {
       isMobileWidth: window.innerWidth <= 576,
       openMenu: false,
       toggleSearch: false,
+      isCopied: false,
     };
     this.handleResize = this.handleResize.bind(this);
+    this.copyToClipboard = this.copyToClipboard.bind(this);
   }
   handleResize() {
     this.setState({
@@ -44,6 +48,18 @@ class Header extends Component<IHeaderProps, IHeaderStates> {
   }
   componentWillUnmount(): void {
     window.removeEventListener("resize", this.handleResize);
+  }
+  copyToClipboard() {
+    clipboardCopy("+97143635500")
+      .then(() => {
+        this.setState({ isCopied: true });
+        setTimeout(() => {
+          this.setState({ isCopied: false });
+        }, 3000);
+      })
+      .catch((error) => {
+        console.error("Failed to copy to clipboard:", error);
+      });
   }
   render(): ReactNode {
     return (
@@ -121,13 +137,31 @@ class Header extends Component<IHeaderProps, IHeaderStates> {
                 )}
               </div>
             )}
-            <button className={styles.callUsBtn} onClick={() => window.open("tel:+97143635500")}>
-              {this.state.isMobileWidth ? (
-                <CallOutlinedIcon fontSize="small" />
-              ) : (
-                "Call Us"
-              )}
-            </button>
+            <Tooltip
+              title={
+                <p style={{ fontSize: "0.8rem" }}>
+                  {this.state.isCopied
+                    ? "Copied"
+                    : "Copy to clipboard +97143635500"}
+                </p>
+              }
+              arrow
+            >
+              <button
+                className={styles.callUsBtn}
+                onClick={() =>
+                  this.state.isMobileWidth
+                    ? window.open("tel:+97143635500")
+                    : this.copyToClipboard()
+                }
+              >
+                {this.state.isMobileWidth ? (
+                  <CallOutlinedIcon fontSize="small" />
+                ) : (
+                  "Call Us"
+                )}
+              </button>
+            </Tooltip>
             {this.state.isMobileWidth ? (
               <MenuIcon
                 className={styles.menuIconMobile}
