@@ -15,7 +15,10 @@ import {
 import { connect } from "react-redux";
 import { addComment } from "../../../../store/product-detail/productDetailSlice";
 import { IStore } from "../../../../utils/models/store.model";
-import { getProductDetailReviews } from "../../../../store/product-detail/productDetailActions";
+import {
+  getProductDetailName,
+  getProductDetailReviews,
+} from "../../../../store/product-detail/productDetailActions";
 
 class WriteAReview extends Component<IwriteAReviewProps, IwriteAReviewStates> {
   constructor(props: IwriteAReviewProps) {
@@ -49,7 +52,7 @@ class WriteAReview extends Component<IwriteAReviewProps, IwriteAReviewStates> {
           ""
         ) : (
           <h2 className={styles.heading3}>
-            Be the first to review “Industrial Plug & Socket”
+            Be the first to review “{this.props.productName.productName}”
           </h2>
         )}
         <p className={styles.info}>
@@ -125,6 +128,7 @@ class WriteAReview extends Component<IwriteAReviewProps, IwriteAReviewStates> {
 export default connect(
   (state: IStore) => ({
     customerReviewsData: getProductDetailReviews(state),
+    productName: getProductDetailName(state),
   }),
   { addComment }
 )(WriteAReview);

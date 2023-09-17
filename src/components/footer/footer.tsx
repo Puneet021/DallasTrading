@@ -12,8 +12,7 @@ class Footer extends Component<IFooterProps, IFooterStates> {
     const contacts = [
       {
         icon: <LocationOnIcon />,
-        infoText:
-          "DUBAI INDUSTRIAL CITY, PHASE 1 , BLOCK J-08, P.O.BOX 2028",
+        infoText: "DUBAI INDUSTRIAL CITY, PHASE 1 , BLOCK J-08, P.O.BOX 2028",
       },
       {
         icon: <CallIcon />,
@@ -58,7 +57,10 @@ class Footer extends Component<IFooterProps, IFooterStates> {
                   <tr key={ind} className={styles.row}>
                     <td className={styles.icon}>{contact.icon}</td>
                     <td className={styles.text}>
-                      <a className={styles.link} href="https://linkedin.com/in/dallas-trading-co-llc-723306217">
+                      <a
+                        className={styles.link}
+                        href="https://linkedin.com/in/dallas-trading-co-llc-723306217"
+                      >
                         {contact.infoText}
                       </a>
                     </td>
@@ -80,11 +82,7 @@ class Footer extends Component<IFooterProps, IFooterStates> {
           </div>
         </div>
         <div className={styles.rights}>
-          © 2017 All Rights Reserved. Designed & Developed by{" "}
-          <a href="http://microbit-itsolutions.com/">
-            Microbit IT Solutions LLC
-          </a>
-          .
+          © 2023 All Rights Reserved. Designed & Developed by MVP.
         </div>
       </div>
     );

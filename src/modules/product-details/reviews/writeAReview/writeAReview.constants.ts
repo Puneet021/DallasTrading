@@ -7,6 +7,10 @@ export interface IwriteAReviewProps {
     "productDetail/addComment"
   >;
   customerReviewsData: IProductDetailReviewsData[];
+  productName: {
+    productName: string;
+    productCategoryName: string;
+  };
 }
 export interface IwriteAReviewStates {
   rating: string | number;
